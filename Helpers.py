@@ -54,10 +54,10 @@ class Helpers():
         if len(query) <= 1:
             return False
         
-        if IDENTIFIER_NO_ACCENTS:
+        if Config.IDENTIFIER_NO_ACCENTS:
             query = self.remove_accents(match)
 
-        if IDENTIFIER_TO_LOWER:
+        if Config.IDENTIFIER_TO_LOWER:
             query = query.lower()
         
         prefix_cache = {}
@@ -101,8 +101,10 @@ class Helpers():
 
             identifier = query[offset:-cl_len]
         
-        if IDENTIFIER_NO_SYMBOLS:
-            identifier = re.sub(r'[^\w ]', '', identifier) # remove symbols
+        if type(Config.IDENTIFIER_SANITIZE) == str:
+            identifier = re.sub(Config.IDENTIFIER_SANITIZE, '', identifier) # remove symbols
+
+        identifier = re.sub(r'\s+', ' ', identifier).strip()
 
         return identifier
 

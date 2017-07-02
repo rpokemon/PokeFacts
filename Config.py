@@ -50,8 +50,8 @@ RESPONDER_CHECK_MENTIONS_OTHER_SUBREDDITS = False
 # -----------------
 
 IDENTIFIER_TO_LOWER = True
-IDENTIFIER_NO_SYMBOLS = True
 IDENTIFIER_NO_ACCENTS = True
+IDENTIFIER_SANITIZE = r"[^A-Za-z0-9 ]"
 
 # RESPONSE CONFIG
 # ---------------
@@ -74,9 +74,9 @@ REPLY_SHOULD_DISTINGUISH = False # should distinguish comment?
 # you can change these
 MATCH_PAIR_PREFIXES         = ['{', '<']
 MATCH_PAIR_SUFFIXES         = ['}', '>']
-MATCH_PAIR_VALUE            = "[A-Za-z0-9\'\-\. ]+"
+MATCH_PAIR_VALUE            = r"[A-Za-z0-9\'\-\. ]+"
 MATCH_STANDALONE_PREFIXES   = ['!']
-MATCH_STANDALONE_VALUE      = "[A-Za-z0-9\'\-]+"
+MATCH_STANDALONE_VALUE      = r"[A-Za-z0-9\'\-]+"
 
 # DO NOT CHANGE ANYTHING BELOW THIS LINE
 # --------------------------------------

@@ -73,7 +73,7 @@ class CallResponse():
     
     # will compile the response for the bot to send given a list of call items
     def get_response(self, thing, items):
-        return Responder.respond(thing, items)
+        return Responder.getResponse(thing, items)
     
     # process the thing (comment, submission, or message)
     #  - responds if necessary
