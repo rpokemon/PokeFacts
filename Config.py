@@ -6,8 +6,9 @@
 # not including passwords and secrets - those are
 # in Secrets.py which is a gitignored file
 
-import Secrets
 import re
+import sys
+import Secrets
 
 # APPLICATION AUTH
 # ----------------

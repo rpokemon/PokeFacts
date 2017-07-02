@@ -36,7 +36,9 @@ class Helpers():
         # if already processed
         if thing.id in self.done:
             return False
-        else
+        else:
+            # None is a placeholder value, will be set later to the ID
+            # of the bot comment replied to it (if the bot was called)
             self.done[thing.id] = None
 
         return True
@@ -47,7 +49,6 @@ class Helpers():
     def isValidSubmission(self, submission):
         if not self.isValidThing(submission):
             return False
-        
         return submission.is_self # we only want self posts
 
     def validateIdentifier(self, query):
@@ -55,7 +56,7 @@ class Helpers():
             return False
         
         if Config.IDENTIFIER_NO_ACCENTS:
-            query = self.remove_accents(match)
+            query = self.remove_accents(query)
 
         if Config.IDENTIFIER_TO_LOWER:
             query = query.lower()
@@ -96,7 +97,7 @@ class Helpers():
             cl = Config.MATCH_PAIR_CLOSINGS[idx]
             cl_len = Config.MATCH_PAIR_CLOSINGS[idx]
 
-            if not substr_cache[-cl_len:] == cl:
+            if not prefix_cache[-cl_len:] == cl:
                 return False
 
             identifier = query[offset:-cl_len]
@@ -104,7 +105,7 @@ class Helpers():
         if type(Config.IDENTIFIER_SANITIZE) == str:
             identifier = re.sub(Config.IDENTIFIER_SANITIZE, '', identifier) # remove symbols
 
-        identifier = re.sub(r'\s+', ' ', identifier).strip()
+        identifier = re.sub(r'\s+', ' ', identifier).strip() # remove extraneous whitespace
 
         return identifier
 
@@ -125,22 +126,12 @@ class Helpers():
             except prawcore.exceptions.NotFound:
                 return False
 
-        x_parts = x.split('_')
-
-        if not len(x_parts) == 2:
-            return False
-
-        t_part = x_parts[0]
-
-        if not len(t_part) == 2 or not t_part[:1] == 't':
-            return False
-
         try:
-            ret = int(t_part[1:])
+            ret = int(x.split('_')[0][1:])
             if ret < 1 or ret > 8:
                 return False
             return ret
-        except ValueError:
+        except:
             return False
 
     def nounForType(self, type):
@@ -172,7 +163,7 @@ class Helpers():
     # is the given comment a top level comment?
     def isTopLevelComment(self, comment):
         try:
-            return typeof(comment.parent_id) == SUBMISSION
+            return self.typeof(comment.parent_id) == SUBMISSION
         except:
             return False
 
@@ -186,7 +177,7 @@ class Helpers():
         if not type(must_have_perms) == set:
             must_have_perms = set(must_have_perms)
 
-        for mod in subeddit.moderator():
+        for mod in subreddit.moderator():
             perms = set(mod.mod_permissions)
 
             if str(mod) == Config.USERNAME:

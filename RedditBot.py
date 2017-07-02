@@ -16,7 +16,7 @@
 # of 'get_calls' on the Responder, which'll return the response body back to
 # the 'process' function and the process function will reply.
 
-import time, requests, re, sys
+import time, re, sys
 import praw, prawcore
 from praw.models.util import stream_generator
 
@@ -38,7 +38,7 @@ class CallResponse():
         self.helpers    = Helpers.Helpers(self)
         self.subreddit  = self.r.subreddit('+'.join(Config.SUBREDDITS))
         self.modded     = self.r.subreddit('+'.join(
-                                sr for sr in test if self.helpers.isBotModeratorOf(sr, 'posts') ))
+                                sr for sr in Config.SUBREDDITS if self.helpers.isBotModeratorOf(sr, 'posts') ))
 
         self.logger.info('Initialized and ready to go on: ' + (', '.join(Config.SUBREDDITS)))
     
@@ -59,15 +59,15 @@ class CallResponse():
         seen  = []
 
         for match in re.findall(Config.MATCH_STRING, body):
-            identifier = self.helpers.validateIdentifier(query)
+            identifier = self.helpers.validateIdentifier(match)
             
             if identifier in seen:
                 continue
-            else
+            else:
                 seen.append(identifier)
 
             if not identifier == False:
-                self.logger.debug("Getting info for: %s"%query)
+                self.logger.debug("Getting info for: %s"%match)
                 items.append(DataPulls.getInfo(identifier))
         return items
     
@@ -80,12 +80,7 @@ class CallResponse():
     #  - edits previous response if already responded
     #  - this function does NOT check if the thing is from an approved
     #    subreddit, the 'action' function takes care of those checks
-    def process(thing):
-        if hasattr(thing, 'subject') and thing.subject == 'username mention' and hasattr(thing, 'id') \
-                and self.helpers.typeof(thing.fullname) == Helpers.COMMENT:
-            # if the given thing is a username mention, retrieve the comment
-            thing = self.r.comment(id=thing.id)
-
+    def process(self, thing):
         type  = self.helpers.typeof(thing)      # thing type
         noun  = self.nounForType(type)
         items = []                              # call items
@@ -108,7 +103,7 @@ class CallResponse():
             try:
                 # check if already there already exists a reply for this thing
                 if thing.id in self.done:
-                    reply_thing = self.done[thing.id]
+                    reply_thing = self.r.comment(id=self.done[thing.id])
                 
                 # compile reply
                 response_body = self.get_response(thing, items)
@@ -124,7 +119,7 @@ class CallResponse():
                     did_edit = True
                     self.logger.info("Edited reply to " + noun + " by %s, id - %s"%(str(thing.author), thing.fullname))
             except praw.exceptions.APIException:
-                self.logger.warning(noun + " was deleted, id - %s"%str(comment.fullname))
+                self.logger.warning(noun + " was deleted, id - %s"%str(thing.fullname))
         
         if reply_thing and not did_edit:
             if type == Helpers.SUBMISSION and Config.REPLY_SHOULD_STICKY:
@@ -132,7 +127,7 @@ class CallResponse():
             elif type == Helpers.COMMENT and Config.REPLY_SHOULD_DISTINGUISH:
                 reply_thing.mod.distinguish()
         
-        self.done[thing.id] = reply_thing
+        self.done[thing.id] = reply_thing.id
 
     # main loop action
     def action(self):
@@ -145,22 +140,20 @@ class CallResponse():
         
         # check self posts
         if Config.RESPONDER_CHECK_SUBMISSIONS:
-            for submission in subreddit.stream.submissions():
+            for submission in self.subreddit.stream.submissions():
                 if submission is None:
                     break
                 self.process(submission)
 
         # check user name mentions (for edited comments)
         if Config.RESPONDER_CHECK_MENTIONS:
-            for mention in reddit.inbox.mentions(limit=None):
-                if mention is None:
+            for comment in self.r.inbox.mentions(limit=None):
+                if comment is None:
                     break
                 
-                # skip if not a comment (just in case)
-                if not self.helpers.typeof(mention.fullname) == Helpers.COMMENT:
+                # skip if not actually a comment (just in case)
+                if not self.helpers.typeof(comment.fullname) == Helpers.COMMENT:
                     continue
-
-                comment = self.r.comment(id=mention.id)
 
                 # skip if not from config approved subreddit
                 if not Config.RESPONDER_CHECK_MENTIONS_OTHER_SUBREDDITS \
