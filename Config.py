@@ -13,7 +13,7 @@ import Secrets
 # APPLICATION AUTH
 # ----------------
 
-USERNAME        = "PokeFacts" # case sensitive!!!
+USERNAME        = "PokeFacts" # case matters!
 PASSWORD        = Secrets.PASSWORD
 APP_ID          = "9RiijpOogYO53A"
 APP_SECRET      = Secrets.APP_SECRET
@@ -29,7 +29,7 @@ USERAGENT       = DESCRIPTION + " v" + VERSION + " by " + DEVELOPERS
 # RESPONDER CONFIG
 # ----------------
 
-# list of subreddits the bot is allowed to operate on (case sensitive!!!)
+# list of subreddits the bot is allowed to operate on (case matters!)
 SUBREDDITS      = ["pokemon"]
 
 # should check comments?
