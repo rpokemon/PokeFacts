@@ -37,8 +37,8 @@ class CallResponse():
         self.startTime  = time.time()
         self.helpers    = Helpers.Helpers(self)
         self.subreddit  = self.r.subreddit('+'.join(Config.SUBREDDITS))
-        self.modded     = self.r.subreddit('+'.join(
-                                sr for sr in Config.SUBREDDITS if self.helpers.isBotModeratorOf(sr, 'posts') ))
+        self.srmodnames = (sr.lower() for sr in Config.SUBREDDITS if self.helpers.isBotModeratorOf(sr, 'posts'))
+        self.modded     = self.r.subreddit('+'.join(self.srmodnames))
 
         self.logger.info('Initialized and ready to go on: ' + (', '.join(Config.SUBREDDITS)))
     
@@ -123,7 +123,7 @@ class CallResponse():
             except praw.exceptions.APIException:
                 self.logger.warning(noun + " was deleted, id - %s"%str(thing.fullname))
         
-        if reply_thing and not did_edit:
+        if reply_thing and not did_edit and thing.subreddit.display_name.lower() in self.srmodnames:
             if type == Helpers.SUBMISSION and Config.REPLY_SHOULD_STICKY:
                 reply_thing.mod.distinguish(sticky=True)
             elif type == Helpers.COMMENT and Config.REPLY_SHOULD_DISTINGUISH:
