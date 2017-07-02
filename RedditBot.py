@@ -67,8 +67,10 @@ class CallResponse():
                 seen.append(identifier)
 
             if not identifier == False:
-                self.logger.debug("Getting info for: %s"%match)
-                items.append(DataPulls.getInfo(identifier))
+                info = DataPulls.getInfo(identifier)
+                if info:
+                    self.logger.debug("Got info for: %s"%match)
+                    items.append()
         return items
     
     # will compile the response for the bot to send given a list of call items
