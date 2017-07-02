@@ -24,7 +24,7 @@ APP_SECRET      = Secrets.APP_SECRET
 DEVELOPERS      = "/u/kwwxis"
 VERSION         = "1.0.0"
 DESCRIPTION     = "Responds to specific text in pokemon subreddits with a response"
-USERAGENT       = DESCRIPTION + " v" + VERSION + " by " + DEVELOPERS
+USERAGENT       = USERNAME + ":" + DESCRIPTION + " v" + VERSION + " by " + DEVELOPERS
 
 # RESPONDER CONFIG
 # ----------------
