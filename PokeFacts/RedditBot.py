@@ -16,13 +16,21 @@
 # of 'get_calls' on the Responder, which'll return the response body back to
 # the 'process' function and the process function will reply.
 
-import time, re, sys
-import praw, prawcore
+import time
+import re
+import sys
+import imp
+import psutil
+#import signal
+import praw
+import prawcore
+
 from praw.models.util import stream_generator
 
 from PokeFacts import Config
 from PokeFacts import DataPulls
 from PokeFacts import Helpers
+from PokeFacts import Management
 from PokeFacts import Responder
 
 from layer7_utilities import Logger
@@ -30,20 +38,65 @@ from layer7_utilities import Logger
 # Call the bot, get a response...
 class CallResponse():
     def __init__(self):
-        self.logger = Logger(Config.USERNAME, Config.VERSION)
+        self.scriptfile = os.path.abspath(__file__)
+        self.logger     = Logger(Config.USERNAME, Config.VERSION)
 
         self.login()
-        self.done       = {} # keys are thing ids
         self.startTime  = time.time()
         self.helpers    = Helpers.Helpers(self.r)
+        self.manage     = Management.Management(self)
+        self.data       = DataPulls.DataPulls(self)
+
+        self.clearDoneQueue()
+        self.reloadConfig(True)
+
+        self.logger.info('Initialized and ready to go on: ' + (', '.join(Config.SUBREDDITS)))
+
+    def clearDoneQueue(self):
+        self.done = {} # keys are thing ids
+
+    def reloadConfig(self, first_load=False):
+        if not first_load:
+            imp.reload(Config)
+
         self.subreddit  = self.r.subreddit('+'.join(Config.SUBREDDITS))
         self.srmodnames = (sr.lower() for sr in Config.SUBREDDITS if self.helpers.isBotModeratorOf(sr, 'posts'))
         self.modded     = self.r.subreddit('+'.join(self.srmodnames))
+        self.srNoTry    = [] # list of subreddit (IDs) to not operate in
 
         with open('data/response.txt', 'r') as template_file:
             self.response_template = template_file.read()
 
-        self.logger.info('Initialized and ready to go on: ' + (', '.join(Config.SUBREDDITS)))
+    def bot_shutdown():
+        sys.exit(0)
+
+    def bot_restart():
+        try:
+            p = psutil.Process(os.getpid())
+            for handler in p.get_open_files() + p.connections():
+                os.close(handler.fd)
+        except:
+            return False
+        
+        """
+        # detect if in nohup mode
+        if hasattr(signal, 'SIGHUP'):
+            if signal.getsignal(signal.SIGHUP) == signal.SIG_DFL:  # default action
+                is_nohup = False
+            else:
+                is_nohup = True
+        else:
+            is_nohup = False
+        """
+
+        # restart the current script
+        # path, arg0, arg1, ...
+        # in the first arg, we add the python executable to the path
+        # in the second arg, we run python as the command
+        # in the third arg, we specify the python file to run
+        # in the remaining args we pass the original arguments
+        # if the current script was originally run in nohup mode, that'll carry over
+        os.execl(sys.executable, sys.executable, self.scriptfile, *sys.argv[1:])
     
     # login to reddit
     def login(self):
@@ -71,7 +124,7 @@ class CallResponse():
                 seen.append(identifier)
 
             if not identifier == False:
-                info = DataPulls.getInfo(identifier)
+                info = self.data.getInfo(identifier)
                 if info:
                     self.logger.debug("Got info for: %s"%match)
                     items.append()
@@ -127,6 +180,9 @@ class CallResponse():
     #   true - if should continue
     #   false - if should break
     def process(self, thing, ignore_done = False):
+        if hasattr(thing, 'subreddit') and thing.subreddit.id in self.srNoTry:
+            return True
+            
         type        = self.helpers.typeof(thing)        # thing type (int)
         noun        = self.nounForType(type)            # thing type noun
         is_valid    = True                              # if the thing is valid for processing
@@ -146,7 +202,9 @@ class CallResponse():
         elif type == Helpers.MESSAGE:
             body      = thing.body
             subject   = thing.subject
-            is_valid  = self.helpers.isValidMessage(thing)
+            is_valid  = self.helpers.isValidMessage(thing) # return False
+            if thing.author.name in Config.OPERATORS:
+                self.manage.processOperatorCommand(thing.author.name, subject, body)
 
         if not is_valid:
             return True
@@ -164,30 +222,38 @@ class CallResponse():
                 else:
                     # reply without body first so that we can pass the thing id and permalink
                     # on to the response generator function
-                    reply_thing  = thing.reply("&nbsp;")
-                try:
-                    # compile reply
-                    response_body = self.get_response(thing, reply_thing, items)
-                    reply_thing.edit(response_body)
-                    self.logger.info("Replied to " + noun + " by %s, id - %s"%(str(thing.author), thing.fullname))
-                    
-                    # optionals
-                    if not did_edit and self.isModerator(thing.subreddit):
-                        if type == Helpers.SUBMISSION and Config.REPLY_SHOULD_STICKY:
-                            reply_thing.mod.distinguish(sticky=True)
-                        elif type == Helpers.COMMENT and Config.REPLY_SHOULD_DISTINGUISH:
-                            reply_thing.mod.distinguish()
-                except:
-                    # delete if something went wrong with generating the reply
-                    reply_thing.delete()
-                    reply_thing = None
+                    try:
+                        reply_thing = thing.reply("&nbsp;")
+                    except prawcore.exceptions.Forbidden:
+                        # we're banned from this subreddit, add to self.srNoTry
+                        # so we won't try again for this subbie
+                        self.srNoTry.append(thing.subreddit.id)
+                        reply_thing = None
+                if reply_thing:
+                    try:
+                        # compile reply
+                        response_body = self.get_response(thing, reply_thing, items)
+                        reply_thing.edit(response_body)
+                        self.logger.info("Replied to " + noun + " by %s, id - %s"%(str(thing.author), thing.fullname))
+                        
+                        # optionals
+                        if not did_edit and self.isModerator(thing.subreddit):
+                            if type == Helpers.SUBMISSION and Config.REPLY_SHOULD_STICKY:
+                                reply_thing.mod.distinguish(sticky=True)
+                            elif type == Helpers.COMMENT and Config.REPLY_SHOULD_DISTINGUISH:
+                                reply_thing.mod.distinguish()
+
+                        # add to done queue
+                        self.done[thing.id] = {
+                            "reply_id":  reply_thing.id,
+                            "last_process": time.time()
+                        }
+                    except:
+                        # delete if something went wrong with generating the reply
+                        reply_thing.delete()
+                        reply_thing = None
             except praw.exceptions.APIException:
                 self.logger.warning(noun + " was deleted, id - %s"%str(thing.fullname))
-        
-        self.done[thing.id] = {
-            "reply_id":  reply_thing.id,
-            "last_process": time.time()
-        }
 
         return True
 
@@ -225,6 +291,13 @@ class CallResponse():
                     break
                 if not self.process(edited_thing):
                     break
+                    
+        # check messages (for operator sent commands)
+        for message in self.r.inbox.unread(limit=10):
+            if message is None:
+                break
+            if not self.process(message):
+                break
 
 def main(redditbot):
     try:

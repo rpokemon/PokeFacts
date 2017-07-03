@@ -30,7 +30,7 @@ USERAGENT       = USERNAME + ":" + DESCRIPTION + " v" + VERSION + " by " + DEVEL
 # OPERATOR CONFIG
 # ---------------
 
-OPERATORS = ["kwwxis"]
+OPERATORS = ["kwwxis", "Haruka-sama", "bigslothonmyface", "technophonix1", "D0cR3d", "thirdegree"]
 
 # RESPONDER CONFIG
 # ----------------

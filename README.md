@@ -52,7 +52,7 @@ The moderators of /r/pokemon!
 
 ### Requirements to run
 
-Requires PRAW and Python 3. Using the latest versions is recommended.
+Requires PRAW, Python 3, and psutil. Using the latest versions is recommended.
 If you'd like to test it out for yourself, you'll need to configure the
 `PokeFacts/Config.py` and create a `PokeFacts/Secrets.py` file containing
 two variables: `PASSWORD` and `APP_SECRET` which are respectively the reddit

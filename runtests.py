@@ -3,6 +3,7 @@
 import os
 import subprocess
 import glob
+import sys
 
 python_files = []
 for filename in glob.iglob('PokeFacts/**/*.py', recursive=True):
