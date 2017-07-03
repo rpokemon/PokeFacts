@@ -27,6 +27,11 @@ VERSION         = "1.0.0"
 DESCRIPTION     = "Responds to specific text in pokemon subreddits with a response"
 USERAGENT       = USERNAME + ":" + DESCRIPTION + " v" + VERSION + " by " + DEVELOPERS
 
+# OPERATOR CONFIG
+# ---------------
+
+OPERATORS = ["kwwxis"]
+
 # RESPONDER CONFIG
 # ----------------
 
