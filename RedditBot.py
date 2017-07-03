@@ -33,12 +33,15 @@ class CallResponse():
         self.logger = Logger(Config.USERNAME, Config.VERSION)
 
         self.login()
-        self.done       = {} # thing id -> bot response comment (or None if not yet responded) map
+        self.done       = {} # keys are thing ids
         self.startTime  = time.time()
         self.helpers    = Helpers.Helpers(self)
         self.subreddit  = self.r.subreddit('+'.join(Config.SUBREDDITS))
         self.srmodnames = (sr.lower() for sr in Config.SUBREDDITS if self.helpers.isBotModeratorOf(sr, 'posts'))
         self.modded     = self.r.subreddit('+'.join(self.srmodnames))
+
+        with open('response.txt', 'r') as template_file:
+            self.response_template = template_file.read()
 
         self.logger.info('Initialized and ready to go on: ' + (', '.join(Config.SUBREDDITS)))
     
@@ -74,62 +77,118 @@ class CallResponse():
         return items
     
     # will compile the response for the bot to send given a list of call items
-    def get_response(self, thing, items):
-        return Responder.getResponse(thing, items)
+    def get_response(self, parent_thing, reply_thing, items):
+        response_body = ''
+
+        for item in items[:-1]:
+            response_body += Responder.getResponse(item)
+        else:
+            response_body += Responder.getResponse(items[-1], True)
+
+        return self.response_template.format(** {
+            'author':       parent_thing.author.name,
+            'subreddit':    parent_thing.subreddit.display_name,
+            'permalink':    self.helpers.getPermalink(parent_thing),
+            'botname':      Config.USERNAME,
+            'reply_id':     reply_thing.id,
+            'reply_utc':    reply_thing.created_utc,
+            'reply_link':   self.helpers.getPermalink(reply_thing),
+            'body':         response_body,
+        })
+
+    def should_break(self, thing):
+        seen = False
+        if thing.id in self.done:
+            last_process = self.done[thing.id]['last_process']
+            seen = True
+
+        if not seen:
+            return False
+        else:
+            # if the comment has been seen, only do not break if
+            # the comment's edit time after the last process time
+
+            if not hasattr(thing, 'edited'):
+                return True
+            elif thing.edited == False:
+                return True
+            elif thing.edited > last_process:
+                return False
+            else:
+                return True
     
     # process the thing (comment, submission, or message)
     #  - responds if necessary
     #  - edits previous response if already responded
     #  - this function does NOT check if the thing is from an approved
     #    subreddit, the 'action' function takes care of those checks
-    def process(self, thing):
-        type  = self.helpers.typeof(thing)      # thing type
-        noun  = self.nounForType(type)
-        items = []                              # call items
+    # Returns:
+    #   true - if should continue
+    #   false - if should break
+    def process(self, thing, ignore_done = False):
+        type        = self.helpers.typeof(thing)        # thing type (int)
+        noun        = self.nounForType(type)            # thing type noun
+        is_valid    = True                              # if the thing is valid for processing
+        subject     = None                              # thing subject (if applicable)
+        body        = None                              # thing body
+        items       = []                                # call items
+
+        if self.should_break(thing):
+            return False
 
         if type == Helpers.COMMENT:
-            if not self.helpers.isValidComment(thing):
-                return
-            items = self.get_calls(thing.body)
+            body      = thing.body
+            is_valid  = self.helpers.isValidComment(thing)
         elif type == Helpers.SUBMISSION:
-            if not self.helpers.isValidSubmission(thing):
-                return
-            items = self.get_calls(thing.selftext)
+            body      = thing.selftext
+            is_valid  = self.helpers.isValidSubmission(thing)
         elif type == Helpers.MESSAGE:
-            pass # ignore messages
+            body      = thing.body
+            subject   = thing.subject
+            is_valid  = self.helpers.isValidMessage(thing)
+
+        if not is_valid:
+            return True
         
-        reply_thing = None  # the comment created by the bot's reply
-        did_edit = False    # if the bot edited an existing comment rather than creating a new one
+        items           = self.get_calls(body)
+        reply_thing     = None                      # the comment created by the bot's reply
+        did_edit        = False                     # if the bot edited an existing comment
 
         if any(items):
             try:
                 # check if already there already exists a reply for this thing
                 if thing.id in self.done:
-                    reply_thing = self.r.comment(id=self.done[thing.id])
-                
-                # compile reply
-                response_body = self.get_response(thing, items)
-
-                if reply_thing is None:
-                    # create reply
-                    reply_thing = thing.reply(response_body)
-                    self.logger.info("Replied to " + noun + " by %s, id - %s"%(str(thing.author), thing.fullname))
-
+                    reply_thing  = self.r.comment(id=self.done[thing.id]["reply_id"])
+                    did_edit     = True
                 else:
-                    # edit existing reply if exists
+                    # reply without body first so that we can pass the thing id and permalink
+                    # on to the response generator function
+                    reply_thing  = thing.reply("")
+                try:
+                    # compile reply
+                    response_body = self.get_response(thing, reply_thing, items)
                     reply_thing.edit(response_body)
-                    did_edit = True
-                    self.logger.info("Edited reply to " + noun + " by %s, id - %s"%(str(thing.author), thing.fullname))
+                    self.logger.info("Replied to " + noun + " by %s, id - %s"%(str(thing.author), thing.fullname))
+                    
+                    # optionals
+                    if not did_edit and self.helpers.isBotCommentModerator(thing.subreddit):
+                        if type == Helpers.SUBMISSION and Config.REPLY_SHOULD_STICKY:
+                            reply_thing.mod.distinguish(sticky=True)
+                        elif type == Helpers.COMMENT and Config.REPLY_SHOULD_DISTINGUISH:
+                            reply_thing.mod.distinguish()
+                except:
+                    # delete if something went wrong with generating the reply
+                    reply_thing.delete()
+                    reply_thing = None
             except praw.exceptions.APIException:
                 self.logger.warning(noun + " was deleted, id - %s"%str(thing.fullname))
         
-        if reply_thing and not did_edit and thing.subreddit.display_name.lower() in self.srmodnames:
-            if type == Helpers.SUBMISSION and Config.REPLY_SHOULD_STICKY:
-                reply_thing.mod.distinguish(sticky=True)
-            elif type == Helpers.COMMENT and Config.REPLY_SHOULD_DISTINGUISH:
-                reply_thing.mod.distinguish()
-        
-        self.done[thing.id] = reply_thing.id
+        self.done[thing.id] = {
+            "reply_id":  reply_thing.id,
+            "last_process": time.time()
+        }
+
+        return True
 
     # main loop action
     def action(self):
@@ -138,31 +197,24 @@ class CallResponse():
             for comment in self.subreddit.stream.comments():
                 if comment is None:
                     break
-                self.process(comment)
+                if not self.process(comment):
+                    break
         
         # check self posts
         if Config.RESPONDER_CHECK_SUBMISSIONS:
             for submission in self.subreddit.stream.submissions():
                 if submission is None:
                     break
-                self.process(submission)
+                if not self.process(submission):
+                    break
 
         # check user name mentions (for edited comments)
         if Config.RESPONDER_CHECK_MENTIONS:
             for comment in self.r.inbox.mentions(limit=None):
                 if comment is None:
                     break
-                
-                # skip if not actually a comment (just in case)
-                if not self.helpers.typeof(comment.fullname) == Helpers.COMMENT:
-                    continue
-
-                # skip if not from config approved subreddit
-                if not Config.RESPONDER_CHECK_MENTIONS_OTHER_SUBREDDITS \
-                        and not comment.subreddit.display_name in Config.SUBREDDITS:
-                    continue
-
-                self.process(comment)
+                if not self.process(comment):
+                    break
 
         # check edited comments for modded subs
         if Config.RESPONDER_CHECK_EDITED:
@@ -170,7 +222,8 @@ class CallResponse():
             for edited_thing in editstream:
                 if edited_thing is None:
                     break
-                self.process(edited_thing)
+                if not self.process(edited_thing):
+                    break
 
 def main(redditbot):
     try:

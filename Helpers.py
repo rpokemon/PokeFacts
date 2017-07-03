@@ -5,10 +5,10 @@
 # helper functions and things
 
 import unicodedata
-import prawcore
+import praw, prawcore
+import re
 
 import Config
-import re
 
 COMMENT = 1
 ACCOUNT = 2
@@ -29,27 +29,31 @@ class Helpers():
         if thing.author.name == Config.USERNAME:
             return False
         
-        # if comment was created before the bot initialized
+        # if the thing was created before the bot initialized
         if thing.created_utc < self.startTime:
             return False
-
-        # if already processed
-        if thing.id in self.done:
-            return False
-        else:
-            # None is a placeholder value, will be set later to the ID
-            # of the bot comment replied to it (if the bot was called)
-            self.done[thing.id] = None
 
         return True
 
     def isValidComment(self, comment):
-        return self.isValidThing(comment)
+        if not self.isValidThing(comment):
+            return False
+        
+        is_foreign_comment = comment.subreddit.display_name in Config.SUBREDDITS
+        
+        # if a foreign comment, assume it was a mention from a foreign subreddit
+        if is_foreign_comment and not Config.RESPONDER_CHECK_MENTIONS_OTHER_SUBREDDITS:
+            return False
+
+        return True
 
     def isValidSubmission(self, submission):
         if not self.isValidThing(submission):
             return False
         return submission.is_self # we only want self posts
+
+    def isValidMessage(self, message):
+        return False
 
     def validateIdentifier(self, query):
         if len(query) <= 1:
@@ -167,6 +171,11 @@ class Helpers():
         except:
             return False
 
+    def isBotCommentModerator(self, subreddit):
+        if type(subreddit) == praw.models.reddit.subreddit.Subreddit:
+            subreddit = subreddit.display_name
+        return subreddit.lower() in self.main.srmodnames
+
     def isBotModeratorOf(self, subreddit, must_have_perms = []):
         if type(subreddit) == str:
             subreddit = self.main.r.subreddit(subreddit)
@@ -188,3 +197,14 @@ class Helpers():
                 return True
                 
         return False
+
+    # using permalink() as a function doesn't work on submissions
+    # using permalink as an attribute sometimes works and sometimes doesn't work with comments
+    def getPermalink(thing):
+        try:
+            return thing.permalink()
+        except:
+            try:
+                return thing.permalink
+            except:
+                return None
