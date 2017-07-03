@@ -18,17 +18,20 @@ class Management():
     def processOperatorCommand(self, operator, subject, body):
         self.main.logger.info('Got operator command from ' + str(operator) + ': ' + subject)
 
-        if subject == "ReloadData":
-            self.main.data.reload()
-        elif subject == "ReloadConfig":
-            self.main.reloadConfig()
+        opperator_commands = {
+            "ReloadData": self.bot_reloadData,
+            "ReloadConfig": self.bot_reloadConfig,
+            "ClearDoneQueue": self.bot_clearDoneQueue,
+            "BotShutdown": self.bot_shutdown,
+            "BotRestart": self.bot_restart,
+        }
+        try:
+            opperator_commands[subject]()
+        except KeyError:
+            return False            
 
-        elif subject == "ClearDoneQueue":
-            self.bot_clearDoneQueue()
-        elif subject == "BotShutdown":
-            self.bot_shutdown()
-        elif subject == "BotRestart":
-            self.bot_restart()
+    def bot_reloadData(self):
+        self.main.data.reload()  
 
     def bot_reloadConfig(self):
         self.main.reloadConfig()
@@ -66,7 +69,7 @@ class Management():
         # in the remaining args we pass the original arguments
         # if the current script was originally run in nohup mode, that'll carry over
         os.execl(sys.executable, sys.executable, self.main.scriptfile, *sys.argv[1:])
-        
+
     
     # does the bot mod with at least 'posts' perms?
     def bot_isModerator(self, subreddit):
