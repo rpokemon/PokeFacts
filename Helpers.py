@@ -21,8 +21,8 @@ PROMOCAMPAIGN = 8
 class Helpers():
 
     # main - CallResponse instance
-    def __init__(self, main):
-        self.main = main
+    def __init__(self, praw_reddit):
+        self.reddit = praw_reddit
 
     def isValidThing(self, thing):
         # the bot shouldn't reply to itself
@@ -158,7 +158,7 @@ class Helpers():
     # Is the bot the parent of the given comment?
     def isBotTheParent(self, comment):
         try:
-            parentComment = self.main.r.comment(id=comment.parent_id)
+            parentComment = self.reddit.comment(id=comment.parent_id)
 
             return parentComment.author.name == Config.USERNAME
         except:
@@ -171,14 +171,9 @@ class Helpers():
         except:
             return False
 
-    def isBotCommentModerator(self, subreddit):
-        if type(subreddit) == praw.models.reddit.subreddit.Subreddit:
-            subreddit = subreddit.display_name
-        return subreddit.lower() in self.main.srmodnames
-
     def isBotModeratorOf(self, subreddit, must_have_perms = []):
         if type(subreddit) == str:
-            subreddit = self.main.r.subreddit(subreddit)
+            subreddit = self.reddit.subreddit(subreddit)
         
         if type(must_have_perms) == str:
             must_have_perms = set([must_have_perms])

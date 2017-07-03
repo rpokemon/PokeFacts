@@ -35,7 +35,7 @@ class CallResponse():
         self.login()
         self.done       = {} # keys are thing ids
         self.startTime  = time.time()
-        self.helpers    = Helpers.Helpers(self)
+        self.helpers    = Helpers.Helpers(self.r)
         self.subreddit  = self.r.subreddit('+'.join(Config.SUBREDDITS))
         self.srmodnames = (sr.lower() for sr in Config.SUBREDDITS if self.helpers.isBotModeratorOf(sr, 'posts'))
         self.modded     = self.r.subreddit('+'.join(self.srmodnames))
@@ -54,6 +54,12 @@ class CallResponse():
                              password        = Config.PASSWORD)
                         
         self.logger.info('Connected to reddit account: {}'.format(self.r.user.me()))
+    
+    # does the bot mod with at least 'posts' perms?
+    def isModerator(self, subreddit):
+        if type(subreddit) == praw.models.reddit.subreddit.Subreddit:
+            subreddit = subreddit.display_name
+        return subreddit.lower() in self.srmodnames
 
     # get a list of call items in the given body
     # list will be empty if the bot was not called
@@ -171,7 +177,7 @@ class CallResponse():
                     self.logger.info("Replied to " + noun + " by %s, id - %s"%(str(thing.author), thing.fullname))
                     
                     # optionals
-                    if not did_edit and self.helpers.isBotCommentModerator(thing.subreddit):
+                    if not did_edit and self.isModerator(thing.subreddit):
                         if type == Helpers.SUBMISSION and Config.REPLY_SHOULD_STICKY:
                             reply_thing.mod.distinguish(sticky=True)
                         elif type == Helpers.COMMENT and Config.REPLY_SHOULD_DISTINGUISH:
