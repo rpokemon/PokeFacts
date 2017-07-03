@@ -20,4 +20,4 @@ def run_command(cmd):
 
 if any(python_files):
     run_command("pyflakes " + (" ".join(python_files)))
-run_command("pytest")
+run_command("pytest -v --full-trace")
