@@ -16,12 +16,11 @@
 # of 'get_calls' on the Responder, which'll return the response body back to
 # the 'process' function and the process function will reply.
 
-import time
+import os
 import re
 import sys
 import imp
-import psutil
-#import signal
+import time
 import praw
 import prawcore
 
@@ -38,23 +37,23 @@ from layer7_utilities import Logger
 # Call the bot, get a response...
 class CallResponse():
     def __init__(self):
+        self.startTime  = time.time()
         self.scriptfile = os.path.abspath(__file__)
         self.logger     = Logger(Config.USERNAME, Config.VERSION)
 
-        self.login()
-        self.startTime  = time.time()
+        self.r = Config.reddit()
+        self.logger.info('Connected to reddit account: {}'.format(self.r.user.me()))
+
         self.helpers    = Helpers.Helpers(self.r)
-        self.manage     = Management.Management(self)
+        self.mgmt       = Management.Management(self)
         self.data       = DataPulls.DataPulls(self)
-
-        self.clearDoneQueue()
+        self.done       = {}
+        
         self.reloadConfig(True)
-
         self.logger.info('Initialized and ready to go on: ' + (', '.join(Config.SUBREDDITS)))
-
-    def clearDoneQueue(self):
-        self.done = {} # keys are thing ids
-
+    
+    # Reload the configuration. If the Config.py file was modified, this
+    # function will make those changes go into effect
     def reloadConfig(self, first_load=False):
         if not first_load:
             imp.reload(Config)
@@ -66,48 +65,6 @@ class CallResponse():
 
         with open('data/response.txt', 'r') as template_file:
             self.response_template = template_file.read()
-
-    def bot_shutdown():
-        sys.exit(0)
-
-    def bot_restart():
-        try:
-            p = psutil.Process(os.getpid())
-            for handler in p.get_open_files() + p.connections():
-                os.close(handler.fd)
-        except:
-            return False
-        
-        """
-        # detect if in nohup mode
-        if hasattr(signal, 'SIGHUP'):
-            if signal.getsignal(signal.SIGHUP) == signal.SIG_DFL:  # default action
-                is_nohup = False
-            else:
-                is_nohup = True
-        else:
-            is_nohup = False
-        """
-
-        # restart the current script
-        # path, arg0, arg1, ...
-        # in the first arg, we add the python executable to the path
-        # in the second arg, we run python as the command
-        # in the third arg, we specify the python file to run
-        # in the remaining args we pass the original arguments
-        # if the current script was originally run in nohup mode, that'll carry over
-        os.execl(sys.executable, sys.executable, self.scriptfile, *sys.argv[1:])
-    
-    # login to reddit
-    def login(self):
-        self.r = Config.reddit()
-        self.logger.info('Connected to reddit account: {}'.format(self.r.user.me()))
-    
-    # does the bot mod with at least 'posts' perms?
-    def isModerator(self, subreddit):
-        if type(subreddit) == praw.models.reddit.subreddit.Subreddit:
-            subreddit = subreddit.display_name
-        return subreddit.lower() in self.srmodnames
 
     # get a list of call items in the given body
     # list will be empty if the bot was not called
@@ -149,7 +106,10 @@ class CallResponse():
             'reply_link':   self.helpers.getPermalink(reply_thing),
             'body':         response_body,
         })
-
+    
+    # called from 'process' method, returns True
+    # if should break out of the current stream after
+    # the current thing is processed
     def should_break(self, thing):
         seen = False
         if thing.id in self.done:
@@ -182,7 +142,7 @@ class CallResponse():
     def process(self, thing, ignore_done = False):
         if hasattr(thing, 'subreddit') and thing.subreddit.id in self.srNoTry:
             return True
-            
+
         type        = self.helpers.typeof(thing)        # thing type (int)
         noun        = self.nounForType(type)            # thing type noun
         is_valid    = True                              # if the thing is valid for processing
@@ -204,7 +164,7 @@ class CallResponse():
             subject   = thing.subject
             is_valid  = self.helpers.isValidMessage(thing) # return False
             if thing.author.name in Config.OPERATORS:
-                self.manage.processOperatorCommand(thing.author.name, subject, body)
+                self.mgmt.processOperatorCommand(thing.author.name, subject, body)
 
         if not is_valid:
             return True
@@ -237,7 +197,7 @@ class CallResponse():
                         self.logger.info("Replied to " + noun + " by %s, id - %s"%(str(thing.author), thing.fullname))
                         
                         # optionals
-                        if not did_edit and self.isModerator(thing.subreddit):
+                        if not did_edit and self.mgmt.bot_isModerator(thing.subreddit):
                             if type == Helpers.SUBMISSION and Config.REPLY_SHOULD_STICKY:
                                 reply_thing.mod.distinguish(sticky=True)
                             elif type == Helpers.COMMENT and Config.REPLY_SHOULD_DISTINGUISH:

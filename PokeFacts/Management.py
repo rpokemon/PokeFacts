@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+import os
+import sys
+import praw
+import psutil
+import signal
+
 from PokeFacts import Config
 
 class Management():
@@ -16,9 +22,54 @@ class Management():
             self.main.data.reload()
         elif subject == "ReloadConfig":
             self.main.reloadConfig()
+
         elif subject == "ClearDoneQueue":
-            self.main.clearDoneQueue()
+            self.bot_clearDoneQueue()
         elif subject == "BotShutdown":
-            self.main.bot_shutdown()
+            self.bot_shutdown()
         elif subject == "BotRestart":
-            self.main.bot_restart()
+            self.bot_restart()
+
+    def bot_reloadConfig(self):
+        self.main.reloadConfig()
+
+    def bot_clearDoneQueue(self):
+        self.main.done = {}
+
+    def bot_shutdown(self):
+        sys.exit(0)
+
+    def bot_isNohupMode(self):
+        if hasattr(signal, 'SIGHUP'):
+            if signal.getsignal(signal.SIGHUP) == signal.SIG_DFL:  # default action
+                is_nohup = False
+            else:
+                is_nohup = True
+        else:
+            is_nohup = False
+        return is_nohup
+
+    def bot_restart(self):
+        try:
+            # close open files/resources to prevent possible memory leaks
+            p = psutil.Process(os.getpid())
+            for handler in p.get_open_files() + p.connections():
+                os.close(handler.fd)
+        except:
+            return False
+
+        # restart the current script
+        # path, arg0, arg1, ...
+        # in the first arg, we add the python executable to the path
+        # in the second arg, we run python as the command
+        # in the third arg, we specify the python file to run
+        # in the remaining args we pass the original arguments
+        # if the current script was originally run in nohup mode, that'll carry over
+        os.execl(sys.executable, sys.executable, self.main.scriptfile, *sys.argv[1:])
+        
+    
+    # does the bot mod with at least 'posts' perms?
+    def bot_isModerator(self, subreddit):
+        if type(subreddit) == praw.models.reddit.subreddit.Subreddit:
+            subreddit = subreddit.display_name
+        return subreddit.lower() in self.main.srmodnames
