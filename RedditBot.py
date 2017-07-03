@@ -163,7 +163,7 @@ class CallResponse():
                 else:
                     # reply without body first so that we can pass the thing id and permalink
                     # on to the response generator function
-                    reply_thing  = thing.reply("")
+                    reply_thing  = thing.reply("&nbsp;")
                 try:
                     # compile reply
                     response_body = self.get_response(thing, reply_thing, items)
