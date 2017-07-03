@@ -40,19 +40,14 @@ class CallResponse():
         self.srmodnames = (sr.lower() for sr in Config.SUBREDDITS if self.helpers.isBotModeratorOf(sr, 'posts'))
         self.modded     = self.r.subreddit('+'.join(self.srmodnames))
 
-        with open('response.txt', 'r') as template_file:
+        with open('data/response.txt', 'r') as template_file:
             self.response_template = template_file.read()
 
         self.logger.info('Initialized and ready to go on: ' + (', '.join(Config.SUBREDDITS)))
     
     # login to reddit
     def login(self):
-        self.r = praw.Reddit(user_agent      = Config.USERAGENT,
-                             client_id       = Config.APP_ID,
-                             client_secret   = Config.APP_SECRET,
-                             username        = Config.USERNAME,
-                             password        = Config.PASSWORD)
-                        
+        self.r = Config.reddit()
         self.logger.info('Connected to reddit account: {}'.format(self.r.user.me()))
     
     # does the bot mod with at least 'posts' perms?

@@ -91,3 +91,13 @@ MATCH_STRING += MATCH_STANDALONE_VALUE
 if not type(SUBREDDITS) == list or len(SUBREDDITS) == 0 or "all" in SUBREDDITS:
     print("Invalid Configuration!")
     sys.exit(0)
+REDDIT = None
+def reddit():
+    global REDDIT
+    if REDDIT is None:
+        REDDIT = praw.Reddit(user_agent      = Config.USERAGENT,
+                             client_id       = Config.APP_ID,
+                             client_secret   = Config.APP_SECRET,
+                             username        = Config.USERNAME,
+                             password        = Config.PASSWORD)
+    return REDDIT
