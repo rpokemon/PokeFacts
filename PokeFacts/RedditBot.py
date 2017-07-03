@@ -20,10 +20,10 @@ import time, re, sys
 import praw, prawcore
 from praw.models.util import stream_generator
 
-import Config
-import DataPulls
-import Helpers
-import Responder
+from PokeFacts import Config
+from PokeFacts import DataPulls
+from PokeFacts import Helpers
+from PokeFacts import Responder
 
 from layer7_utilities import Logger
 

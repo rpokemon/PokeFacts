@@ -8,7 +8,7 @@ import unicodedata
 import praw, prawcore
 import re
 
-import Config
+from PokeFacts import Config
 
 COMMENT = 1
 ACCOUNT = 2
@@ -60,7 +60,7 @@ class Helpers():
             return False
         
         if Config.IDENTIFIER_NO_ACCENTS:
-            query = self.remove_accents(query)
+            query = self.removeAccents(query)
 
         if Config.IDENTIFIER_TO_LOWER:
             query = query.lower()
@@ -84,7 +84,7 @@ class Helpers():
             if idx == len(options):
                 return -1, 0
 
-            return idx, options[idx]
+            return idx, len(options[idx])
 
         idx, offset = find_prefix(Config.MATCH_PAIR_PREFIXES)
 
@@ -98,13 +98,13 @@ class Helpers():
 
             identifier = query[offset:]
         else:
-            cl = Config.MATCH_PAIR_CLOSINGS[idx]
-            cl_len = Config.MATCH_PAIR_CLOSINGS[idx]
+            suffix = Config.MATCH_PAIR_SUFFIXES[idx]
+            suffix_len = len(suffix)
 
-            if not prefix_cache[-cl_len:] == cl:
+            if not query[-suffix_len:] == suffix:
                 return False
 
-            identifier = query[offset:-cl_len]
+            identifier = query[offset:-suffix_len]
         
         if type(Config.IDENTIFIER_SANITIZE) == str:
             identifier = re.sub(Config.IDENTIFIER_SANITIZE, '', identifier) # remove symbols
@@ -115,7 +115,7 @@ class Helpers():
 
     # removes accents
     # e.g. "Flabébé" -> "Flabebe"
-    def remove_accents(self, s):
+    def removeAccents(self, s):
         return ''.join(c for c in unicodedata.normalize('NFD', s)
                         if unicodedata.category(c) != 'Mn')
 

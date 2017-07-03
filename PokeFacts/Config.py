@@ -8,7 +8,8 @@
 
 import re
 import sys
-import Secrets
+import praw
+from PokeFacts import Secrets
 
 # APPLICATION AUTH
 # ----------------
@@ -95,9 +96,9 @@ REDDIT = None
 def reddit():
     global REDDIT
     if REDDIT is None:
-        REDDIT = praw.Reddit(user_agent      = Config.USERAGENT,
-                             client_id       = Config.APP_ID,
-                             client_secret   = Config.APP_SECRET,
-                             username        = Config.USERNAME,
-                             password        = Config.PASSWORD)
+        REDDIT = praw.Reddit(user_agent      = USERAGENT,
+                             client_id       = APP_ID,
+                             client_secret   = APP_SECRET,
+                             username        = USERNAME,
+                             password        = PASSWORD)
     return REDDIT
