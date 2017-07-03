@@ -7,10 +7,10 @@ for filename in glob.iglob('PokeFacts/**/*.py', recursive=True):
     python_files.append(filename)
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-print(">>> Directory", script_dir)
+print("# Directory", script_dir)
 
 def run_command(cmd):
-    print(">>> Running:", cmd)
+    print("# Running:", cmd)
     subprocess.call(
         cmd,
         shell=True,
