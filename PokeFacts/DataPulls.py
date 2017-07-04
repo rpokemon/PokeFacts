@@ -11,10 +11,11 @@ class DataPulls():
 
     def __init__(self, main):
         self.main = main
+        self.reload()
 
     # reload - should reload the data to pull from
     def reload(self):
-        self.store = ItemStore('data/pokemon.json', '|~|')
+        self.store = ItemStore(self.main.scriptpath + '/data/pokemon.json', '|~|')
 
     # getInfo - returns information for the given identifier
     # the result of this function will be used as the elements
@@ -45,7 +46,7 @@ class ItemStore():
     def search(self, search_terms):
         if not any(search_terms):
             raise ValueError("search_terms must not be empty")
-        print(search_terms)
+
         if type(search_terms) == str:
             search_terms = [search_terms]
 
@@ -60,7 +61,7 @@ class ItemStore():
             return Item(hasValue = False)
         else:
             search_terms.pop(remove_index)
-        print(search_terms)
+            
         if not any(search_terms) and main_node['item'] is not None:
             return main_node['item']
         

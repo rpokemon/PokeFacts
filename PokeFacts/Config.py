@@ -9,7 +9,11 @@
 import re
 import sys
 import praw
-from PokeFacts import Secrets
+
+try:
+    from PokeFacts import Secrets
+except ImportError:
+    import Secrets
 
 # APPLICATION AUTH
 # ----------------

@@ -2,7 +2,7 @@
 
 ---
 
-{PokemonName}, <PokemonName>, or !PokemonName | 
+{{PokemonName}}, <PokemonName>, or !PokemonName | 
 [FAQ](/r/pokemon/wiki/pokefacts) |
 [Mistake?](https://www.reddit.com/message/compose?to=%2Fr%2Fpokemonmods&subject=[ISSUE]%20PokeFacts&message={reply_link}) |
 [Source Code](https://github.com/rpokemon/PokeFacts) |
