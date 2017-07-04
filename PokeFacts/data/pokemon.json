@@ -4599,8 +4599,8 @@
         ],
         "abilities": [
             "Swift Swim",
-            "Sniper",
-            "Damp"
+            "Water Veil",
+            "Lightning Rod"
         ]
     },
     "seaking": {
@@ -4660,9 +4660,9 @@
             "Water"
         ],
         "abilities": [
-            "Swift Swim",
-            "Water Veil",
-            "Lightning Rod"
+            "Illuminate",
+            "Natural Cure",
+            "Analytic"
         ]
     },
     "starmie": {
@@ -4722,9 +4722,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Illuminate",
-            "Natural Cure",
-            "Analytic"
+            "Soundproof",
+            "Filter",
+            "Technician"
         ]
     },
     "scyther": {
@@ -4755,9 +4755,9 @@
             "Flying"
         ],
         "abilities": [
-            "Soundproof",
-            "Filter",
-            "Technician"
+            "Swarm",
+            "Technician",
+            "Steadfast"
         ]
     },
     "jynx": {
@@ -4786,9 +4786,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Swarm",
-            "Technician",
-            "Steadfast"
+            "Oblivious",
+            "Forewarn",
+            "Dry Skin"
         ]
     },
     "electabuzz": {
@@ -4816,9 +4816,9 @@
             "Electric"
         ],
         "abilities": [
-            "Oblivious",
-            "Forewarn",
-            "Dry Skin"
+            "Static",
+            null,
+            "Vital Spirit"
         ]
     },
     "magmar": {
@@ -4846,7 +4846,7 @@
             "Fire"
         ],
         "abilities": [
-            "Static",
+            "Flame Body",
             null,
             "Vital Spirit"
         ]
@@ -4876,9 +4876,9 @@
             "Bug"
         ],
         "abilities": [
-            "Flame Body",
-            null,
-            "Vital Spirit"
+            "Hyper Cutter",
+            "Mold Breaker",
+            "Moxie"
         ]
     },
     "pinsir|~|mega|~|m": {
@@ -4906,9 +4906,9 @@
             "Bug"
         ],
         "abilities": [
-            "Hyper Cutter",
-            "Mold Breaker",
-            "Moxie"
+            "Aerilate",
+            null,
+            null
         ]
     },
     "tauros": {
@@ -4936,9 +4936,9 @@
             "Normal"
         ],
         "abilities": [
-            "Aerilate",
-            null,
-            null
+            "Intimidate",
+            "Anger Point",
+            "Sheer Force"
         ]
     },
     "magikarp": {
@@ -4968,9 +4968,9 @@
             "Water"
         ],
         "abilities": [
-            "Intimidate",
-            "Anger Point",
-            "Sheer Force"
+            "Swift Swim",
+            null,
+            "Rattled"
         ]
     },
     "gyarados": {
@@ -4999,9 +4999,9 @@
             "Flying"
         ],
         "abilities": [
-            "Swift Swim",
+            "Intimidate",
             null,
-            "Rattled"
+            "Moxie"
         ]
     },
     "gyarados|~|mega|~|m": {
@@ -5030,9 +5030,9 @@
             "Flying"
         ],
         "abilities": [
-            "Intimidate",
+            "Mold Breaker",
             null,
-            "Moxie"
+            null
         ]
     },
     "lapras": {
@@ -5061,9 +5061,9 @@
             "Ice"
         ],
         "abilities": [
-            "Mold Breaker",
-            null,
-            null
+            "Water Absorb",
+            "Shell Armor",
+            "Hydration"
         ]
     },
     "ditto": {
@@ -5091,9 +5091,9 @@
             "Normal"
         ],
         "abilities": [
-            "Water Absorb",
-            "Shell Armor",
-            "Hydration"
+            "Limber",
+            null,
+            "Imposter"
         ]
     },
     "eevee": {
@@ -5129,9 +5129,9 @@
             "Normal"
         ],
         "abilities": [
-            "Limber",
-            null,
-            "Imposter"
+            "Run Away",
+            "Adaptability",
+            "Anticipation"
         ]
     },
     "vaporeon": {
@@ -5159,9 +5159,9 @@
             "Water"
         ],
         "abilities": [
-            "Run Away",
-            "Adaptability",
-            "Anticipation"
+            "Water Absorb",
+            null,
+            "Hydration"
         ]
     },
     "jolteon": {
@@ -5189,9 +5189,9 @@
             "Electric"
         ],
         "abilities": [
-            "Water Absorb",
+            "Volt Absorb",
             null,
-            "Hydration"
+            "Quick Feet"
         ]
     },
     "flareon": {
@@ -5219,9 +5219,9 @@
             "Fire"
         ],
         "abilities": [
-            "Volt Absorb",
+            "Flash Fire",
             null,
-            "Quick Feet"
+            "Guts"
         ]
     },
     "porygon": {
@@ -5251,9 +5251,9 @@
             "Normal"
         ],
         "abilities": [
-            "Flash Fire",
-            null,
-            "Guts"
+            "Trace",
+            "Download",
+            "Analytic"
         ]
     },
     "omanyte": {
@@ -5284,9 +5284,9 @@
             "Water"
         ],
         "abilities": [
-            "Trace",
-            "Download",
-            "Analytic"
+            "Swift Swim",
+            "Shell Armor",
+            "Weak Armor"
         ]
     },
     "omastar": {
@@ -5315,9 +5315,9 @@
             "Water"
         ],
         "abilities": [
-            "Trace",
-            "Download",
-            "Analytic"
+            "Swift Swim",
+            "Shell Armor",
+            "Weak Armor"
         ]
     },
     "kabuto": {
@@ -5349,7 +5349,7 @@
         ],
         "abilities": [
             "Swift Swim",
-            "Shell Armor",
+            "Battle Armor",
             "Weak Armor"
         ]
     },
@@ -5380,7 +5380,7 @@
         ],
         "abilities": [
             "Swift Swim",
-            "Shell Armor",
+            "Battle Armor",
             "Weak Armor"
         ]
     },
@@ -5410,9 +5410,9 @@
             "Flying"
         ],
         "abilities": [
-            "Swift Swim",
-            "Battle Armor",
-            "Weak Armor"
+            "Rock Head",
+            "Pressure",
+            "Unnerve"
         ]
     },
     "aerodactyl|~|mega|~|m": {
@@ -5441,9 +5441,9 @@
             "Flying"
         ],
         "abilities": [
-            "Swift Swim",
-            "Battle Armor",
-            "Weak Armor"
+            "Tough Claws",
+            null,
+            null
         ]
     },
     "snorlax": {
@@ -5471,9 +5471,9 @@
             "Normal"
         ],
         "abilities": [
-            "Rock Head",
-            "Pressure",
-            "Unnerve"
+            "Immunity",
+            "Thick Fat",
+            "Gluttony"
         ]
     },
     "articuno": {
@@ -5502,9 +5502,9 @@
             "Flying"
         ],
         "abilities": [
-            "Tough Claws",
+            "Pressure",
             null,
-            null
+            "Snow Cloak"
         ]
     },
     "zapdos": {
@@ -5533,9 +5533,9 @@
             "Flying"
         ],
         "abilities": [
-            "Immunity",
-            "Thick Fat",
-            "Gluttony"
+            "Pressure",
+            null,
+            "Static"
         ]
     },
     "moltres": {
@@ -5566,7 +5566,7 @@
         "abilities": [
             "Pressure",
             null,
-            "Snow Cloak"
+            "Flame Body"
         ]
     },
     "dratini": {
@@ -5596,9 +5596,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Pressure",
+            "Shed Skin",
             null,
-            "Static"
+            "Marvel Scale"
         ]
     },
     "dragonair": {
@@ -5628,9 +5628,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Pressure",
+            "Shed Skin",
             null,
-            "Flame Body"
+            "Marvel Scale"
         ]
     },
     "dragonite": {
@@ -5659,9 +5659,9 @@
             "Flying"
         ],
         "abilities": [
-            "Shed Skin",
+            "Inner Focus",
             null,
-            "Marvel Scale"
+            "Multiscale"
         ]
     },
     "mewtwo": {
@@ -5689,9 +5689,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Shed Skin",
+            "Pressure",
             null,
-            "Marvel Scale"
+            "Unnerve"
         ]
     },
     "mewtwo|~|x|~|mega|~|m": {
@@ -5719,9 +5719,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Inner Focus",
+            "Steadfast",
             null,
-            "Multiscale"
+            null
         ]
     },
     "mewtwo|~|y|~|mega|~|m": {
@@ -5749,9 +5749,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Pressure",
+            "Insomnia",
             null,
-            "Unnerve"
+            null
         ]
     },
     "mew": {
@@ -5779,7 +5779,7 @@
             "Psychic"
         ],
         "abilities": [
-            "Steadfast",
+            "Synchronize",
             null,
             null
         ]
@@ -5811,9 +5811,9 @@
             "Grass"
         ],
         "abilities": [
-            "Insomnia",
+            "Overgrow",
             null,
-            null
+            "Leaf Guard"
         ]
     },
     "bayleef": {
@@ -5843,9 +5843,9 @@
             "Grass"
         ],
         "abilities": [
-            "Synchronize",
+            "Overgrow",
             null,
-            null
+            "Leaf Guard"
         ]
     },
     "meganium": {
@@ -5905,9 +5905,9 @@
             "Fire"
         ],
         "abilities": [
-            "Overgrow",
+            "Blaze",
             null,
-            "Leaf Guard"
+            "Flash Fire"
         ]
     },
     "quilava": {
@@ -5937,9 +5937,9 @@
             "Fire"
         ],
         "abilities": [
-            "Overgrow",
+            "Blaze",
             null,
-            "Leaf Guard"
+            "Flash Fire"
         ]
     },
     "typhlosion": {
@@ -5999,9 +5999,9 @@
             "Water"
         ],
         "abilities": [
-            "Blaze",
+            "Torrent",
             null,
-            "Flash Fire"
+            "Sheer Force"
         ]
     },
     "croconaw": {
@@ -6031,9 +6031,9 @@
             "Water"
         ],
         "abilities": [
-            "Blaze",
+            "Torrent",
             null,
-            "Flash Fire"
+            "Sheer Force"
         ]
     },
     "feraligatr": {
@@ -6093,9 +6093,9 @@
             "Normal"
         ],
         "abilities": [
-            "Torrent",
-            null,
-            "Sheer Force"
+            "Run Away",
+            "Keen Eye",
+            "Frisk"
         ]
     },
     "furret": {
@@ -6123,9 +6123,9 @@
             "Normal"
         ],
         "abilities": [
-            "Torrent",
-            null,
-            "Sheer Force"
+            "Run Away",
+            "Keen Eye",
+            "Frisk"
         ]
     },
     "hoothoot": {
@@ -6156,9 +6156,9 @@
             "Flying"
         ],
         "abilities": [
-            "Run Away",
+            "Insomnia",
             "Keen Eye",
-            "Frisk"
+            "Tinted Lens"
         ]
     },
     "noctowl": {
@@ -6187,9 +6187,9 @@
             "Flying"
         ],
         "abilities": [
-            "Run Away",
+            "Insomnia",
             "Keen Eye",
-            "Frisk"
+            "Tinted Lens"
         ]
     },
     "ledyba": {
@@ -6220,9 +6220,9 @@
             "Flying"
         ],
         "abilities": [
-            "Insomnia",
-            "Keen Eye",
-            "Tinted Lens"
+            "Swarm",
+            "Early Bird",
+            "Rattled"
         ]
     },
     "ledian": {
@@ -6251,9 +6251,9 @@
             "Flying"
         ],
         "abilities": [
-            "Insomnia",
-            "Keen Eye",
-            "Tinted Lens"
+            "Swarm",
+            "Early Bird",
+            "Iron Fist"
         ]
     },
     "spinarak": {
@@ -6285,8 +6285,8 @@
         ],
         "abilities": [
             "Swarm",
-            "Early Bird",
-            "Rattled"
+            "Insomnia",
+            "Sniper"
         ]
     },
     "ariados": {
@@ -6316,8 +6316,8 @@
         ],
         "abilities": [
             "Swarm",
-            "Early Bird",
-            "Iron Fist"
+            "Insomnia",
+            "Sniper"
         ]
     },
     "crobat": {
@@ -6346,9 +6346,9 @@
             "Flying"
         ],
         "abilities": [
-            "Swarm",
-            "Insomnia",
-            "Sniper"
+            "Inner Focus",
+            null,
+            "Infiltrator"
         ]
     },
     "chinchou": {
@@ -6379,9 +6379,9 @@
             "Electric"
         ],
         "abilities": [
-            "Swarm",
-            "Insomnia",
-            "Sniper"
+            "Volt Absorb",
+            "Illuminate",
+            "Water Absorb"
         ]
     },
     "lanturn": {
@@ -6410,9 +6410,9 @@
             "Electric"
         ],
         "abilities": [
-            "Inner Focus",
-            null,
-            "Infiltrator"
+            "Volt Absorb",
+            "Illuminate",
+            "Water Absorb"
         ]
     },
     "pichu": {
@@ -6443,9 +6443,9 @@
             "Electric"
         ],
         "abilities": [
-            "Volt Absorb",
-            "Illuminate",
-            "Water Absorb"
+            "Static",
+            null,
+            "Lightning Rod"
         ]
     },
     "cleffa": {
@@ -6476,9 +6476,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Volt Absorb",
-            "Illuminate",
-            "Water Absorb"
+            "Cute Charm",
+            "Magic Guard",
+            "Friend Guard"
         ]
     },
     "igglybuff": {
@@ -6510,9 +6510,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Static",
-            null,
-            "Lightning Rod"
+            "Cute Charm",
+            "Competitive",
+            "Friend Guard"
         ]
     },
     "togepi": {
@@ -6542,9 +6542,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Cute Charm",
-            "Magic Guard",
-            "Friend Guard"
+            "Hustle",
+            "Serene Grace",
+            "Super Luck"
         ]
     },
     "togetic": {
@@ -6575,9 +6575,9 @@
             "Flying"
         ],
         "abilities": [
-            "Cute Charm",
-            "Competitive",
-            "Friend Guard"
+            "Hustle",
+            "Serene Grace",
+            "Super Luck"
         ]
     },
     "natu": {
@@ -6608,9 +6608,9 @@
             "Flying"
         ],
         "abilities": [
-            "Hustle",
-            "Serene Grace",
-            "Super Luck"
+            "Synchronize",
+            "Early Bird",
+            "Magic Bounce"
         ]
     },
     "xatu": {
@@ -6639,9 +6639,9 @@
             "Flying"
         ],
         "abilities": [
-            "Hustle",
-            "Serene Grace",
-            "Super Luck"
+            "Synchronize",
+            "Early Bird",
+            "Magic Bounce"
         ]
     },
     "mareep": {
@@ -6671,9 +6671,9 @@
             "Electric"
         ],
         "abilities": [
-            "Synchronize",
-            "Early Bird",
-            "Magic Bounce"
+            "Static",
+            null,
+            "Plus"
         ]
     },
     "flaaffy": {
@@ -6703,9 +6703,9 @@
             "Electric"
         ],
         "abilities": [
-            "Synchronize",
-            "Early Bird",
-            "Magic Bounce"
+            "Static",
+            null,
+            "Plus"
         ]
     },
     "ampharos": {
@@ -6763,9 +6763,9 @@
             "Electric"
         ],
         "abilities": [
-            "Static",
+            "Mold Breaker",
             null,
-            "Plus"
+            null
         ]
     },
     "bellossom": {
@@ -6793,9 +6793,9 @@
             "Grass"
         ],
         "abilities": [
-            "Static",
+            "Chlorophyll",
             null,
-            "Plus"
+            "Healer"
         ]
     },
     "marill": {
@@ -6824,9 +6824,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Mold Breaker",
-            null,
-            null
+            "Thick Fat",
+            "Huge Power",
+            "Sap Sipper"
         ]
     },
     "azumarill": {
@@ -6855,9 +6855,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Chlorophyll",
-            null,
-            "Healer"
+            "Thick Fat",
+            "Huge Power",
+            "Sap Sipper"
         ]
     },
     "sudowoodo": {
@@ -6885,9 +6885,9 @@
             "Rock"
         ],
         "abilities": [
-            "Thick Fat",
-            "Huge Power",
-            "Sap Sipper"
+            "Sturdy",
+            "Rock Head",
+            "Rattled"
         ]
     },
     "politoed": {
@@ -6915,9 +6915,9 @@
             "Water"
         ],
         "abilities": [
-            "Thick Fat",
-            "Huge Power",
-            "Sap Sipper"
+            "Water Absorb",
+            "Damp",
+            "Drizzle"
         ]
     },
     "hoppip": {
@@ -6948,9 +6948,9 @@
             "Flying"
         ],
         "abilities": [
-            "Sturdy",
-            "Rock Head",
-            "Rattled"
+            "Chlorophyll",
+            "Leaf Guard",
+            "Infiltrator"
         ]
     },
     "skiploom": {
@@ -6981,9 +6981,9 @@
             "Flying"
         ],
         "abilities": [
-            "Water Absorb",
-            "Damp",
-            "Drizzle"
+            "Chlorophyll",
+            "Leaf Guard",
+            "Infiltrator"
         ]
     },
     "jumpluff": {
@@ -7044,9 +7044,9 @@
             "Normal"
         ],
         "abilities": [
-            "Chlorophyll",
-            "Leaf Guard",
-            "Infiltrator"
+            "Run Away",
+            "Pickup",
+            "Skill Link"
         ]
     },
     "sunkern": {
@@ -7077,8 +7077,8 @@
         ],
         "abilities": [
             "Chlorophyll",
-            "Leaf Guard",
-            "Infiltrator"
+            "Solar Power",
+            "Early Bird"
         ]
     },
     "sunflora": {
@@ -7106,9 +7106,9 @@
             "Grass"
         ],
         "abilities": [
-            "Run Away",
-            "Pickup",
-            "Skill Link"
+            "Chlorophyll",
+            "Solar Power",
+            "Early Bird"
         ]
     },
     "yanma": {
@@ -7139,9 +7139,9 @@
             "Flying"
         ],
         "abilities": [
-            "Chlorophyll",
-            "Solar Power",
-            "Early Bird"
+            "Speed Boost",
+            "Compound Eyes",
+            "Frisk"
         ]
     },
     "wooper": {
@@ -7172,9 +7172,9 @@
             "Ground"
         ],
         "abilities": [
-            "Chlorophyll",
-            "Solar Power",
-            "Early Bird"
+            "Damp",
+            "Water Absorb",
+            "Unaware"
         ]
     },
     "quagsire": {
@@ -7203,9 +7203,9 @@
             "Ground"
         ],
         "abilities": [
-            "Speed Boost",
-            "Compound Eyes",
-            "Frisk"
+            "Damp",
+            "Water Absorb",
+            "Unaware"
         ]
     },
     "espeon": {
@@ -7233,9 +7233,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Damp",
-            "Water Absorb",
-            "Unaware"
+            "Synchronize",
+            null,
+            "Magic Bounce"
         ]
     },
     "umbreon": {
@@ -7263,9 +7263,9 @@
             "Dark"
         ],
         "abilities": [
-            "Damp",
-            "Water Absorb",
-            "Unaware"
+            "Synchronize",
+            null,
+            "Inner Focus"
         ]
     },
     "murkrow": {
@@ -7296,9 +7296,9 @@
             "Flying"
         ],
         "abilities": [
-            "Synchronize",
-            null,
-            "Magic Bounce"
+            "Insomnia",
+            "Super Luck",
+            "Prankster"
         ]
     },
     "slowking": {
@@ -7327,9 +7327,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Synchronize",
-            null,
-            "Inner Focus"
+            "Oblivious",
+            "Own Tempo",
+            "Regenerator"
         ]
     },
     "misdreavus": {
@@ -7359,9 +7359,9 @@
             "Ghost"
         ],
         "abilities": [
-            "Insomnia",
-            "Super Luck",
-            "Prankster"
+            "Levitate",
+            null,
+            null
         ]
     },
     "unown": {
@@ -7389,9 +7389,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Oblivious",
-            "Own Tempo",
-            "Regenerator"
+            "Levitate",
+            null,
+            null
         ]
     },
     "wobbuffet": {
@@ -7419,9 +7419,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Levitate",
+            "Shadow Tag",
             null,
-            null
+            "Telepathy"
         ]
     },
     "girafarig": {
@@ -7450,9 +7450,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Levitate",
-            null,
-            null
+            "Inner Focus",
+            "Early Bird",
+            "Sap Sipper"
         ]
     },
     "pineco": {
@@ -7482,9 +7482,9 @@
             "Bug"
         ],
         "abilities": [
-            "Shadow Tag",
+            "Sturdy",
             null,
-            "Telepathy"
+            "Overcoat"
         ]
     },
     "forretress": {
@@ -7513,9 +7513,9 @@
             "Steel"
         ],
         "abilities": [
-            "Inner Focus",
-            "Early Bird",
-            "Sap Sipper"
+            "Sturdy",
+            null,
+            "Overcoat"
         ]
     },
     "dunsparce": {
@@ -7543,9 +7543,9 @@
             "Normal"
         ],
         "abilities": [
-            "Sturdy",
-            null,
-            "Overcoat"
+            "Serene Grace",
+            "Run Away",
+            "Rattled"
         ]
     },
     "gligar": {
@@ -7576,9 +7576,9 @@
             "Flying"
         ],
         "abilities": [
-            "Sturdy",
-            null,
-            "Overcoat"
+            "Hyper Cutter",
+            "Sand Veil",
+            "Immunity"
         ]
     },
     "steelix": {
@@ -7607,9 +7607,9 @@
             "Ground"
         ],
         "abilities": [
-            "Serene Grace",
-            "Run Away",
-            "Rattled"
+            "Rock Head",
+            "Sturdy",
+            "Sheer Force"
         ]
     },
     "steelix|~|mega|~|m": {
@@ -7638,9 +7638,9 @@
             "Ground"
         ],
         "abilities": [
-            "Hyper Cutter",
-            "Sand Veil",
-            "Immunity"
+            "Sand Force",
+            null,
+            null
         ]
     },
     "snubbull": {
@@ -7670,9 +7670,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Rock Head",
-            "Sturdy",
-            "Sheer Force"
+            "Intimidate",
+            "Run Away",
+            "Rattled"
         ]
     },
     "granbull": {
@@ -7700,9 +7700,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Sand Force",
-            null,
-            null
+            "Intimidate",
+            "Quick Feet",
+            "Rattled"
         ]
     },
     "qwilfish": {
@@ -7731,9 +7731,9 @@
             "Poison"
         ],
         "abilities": [
-            "Intimidate",
-            "Run Away",
-            "Rattled"
+            "Poison Point",
+            "Swift Swim",
+            "Intimidate"
         ]
     },
     "scizor": {
@@ -7762,9 +7762,9 @@
             "Steel"
         ],
         "abilities": [
-            "Intimidate",
-            "Quick Feet",
-            "Rattled"
+            "Swarm",
+            "Technician",
+            "Light Metal"
         ]
     },
     "scizor|~|mega|~|m": {
@@ -7793,9 +7793,9 @@
             "Steel"
         ],
         "abilities": [
-            "Poison Point",
-            "Swift Swim",
-            "Intimidate"
+            "Technician",
+            null,
+            null
         ]
     },
     "shuckle": {
@@ -7824,9 +7824,9 @@
             "Rock"
         ],
         "abilities": [
-            "Swarm",
-            "Technician",
-            "Light Metal"
+            "Sturdy",
+            "Gluttony",
+            "Contrary"
         ]
     },
     "heracross": {
@@ -7855,9 +7855,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Technician",
-            null,
-            null
+            "Swarm",
+            "Guts",
+            "Moxie"
         ]
     },
     "heracross|~|mega|~|m": {
@@ -7886,9 +7886,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Sturdy",
-            "Gluttony",
-            "Contrary"
+            "Skill Link",
+            null,
+            null
         ]
     },
     "sneasel": {
@@ -7919,9 +7919,9 @@
             "Ice"
         ],
         "abilities": [
-            "Swarm",
-            "Guts",
-            "Moxie"
+            "Inner Focus",
+            "Keen Eye",
+            "Pickpocket"
         ]
     },
     "teddiursa": {
@@ -7951,9 +7951,9 @@
             "Normal"
         ],
         "abilities": [
-            "Skill Link",
-            null,
-            null
+            "Pickup",
+            "Quick Feet",
+            "Honey Gather"
         ]
     },
     "ursaring": {
@@ -7981,9 +7981,9 @@
             "Normal"
         ],
         "abilities": [
-            "Inner Focus",
-            "Keen Eye",
-            "Pickpocket"
+            "Guts",
+            "Quick Feet",
+            "Unnerve"
         ]
     },
     "slugma": {
@@ -8013,9 +8013,9 @@
             "Fire"
         ],
         "abilities": [
-            "Pickup",
-            "Quick Feet",
-            "Honey Gather"
+            "Magma Armor",
+            "Flame Body",
+            "Weak Armor"
         ]
     },
     "magcargo": {
@@ -8044,9 +8044,9 @@
             "Rock"
         ],
         "abilities": [
-            "Guts",
-            "Quick Feet",
-            "Unnerve"
+            "Magma Armor",
+            "Flame Body",
+            "Weak Armor"
         ]
     },
     "swinub": {
@@ -8077,9 +8077,9 @@
             "Ground"
         ],
         "abilities": [
-            "Magma Armor",
-            "Flame Body",
-            "Weak Armor"
+            "Oblivious",
+            "Snow Cloak",
+            "Thick Fat"
         ]
     },
     "piloswine": {
@@ -8110,9 +8110,9 @@
             "Ground"
         ],
         "abilities": [
-            "Magma Armor",
-            "Flame Body",
-            "Weak Armor"
+            "Oblivious",
+            "Snow Cloak",
+            "Thick Fat"
         ]
     },
     "corsola": {
@@ -8141,9 +8141,9 @@
             "Rock"
         ],
         "abilities": [
-            "Oblivious",
-            "Snow Cloak",
-            "Thick Fat"
+            "Hustle",
+            "Natural Cure",
+            "Regenerator"
         ]
     },
     "remoraid": {
@@ -8173,9 +8173,9 @@
             "Water"
         ],
         "abilities": [
-            "Oblivious",
-            "Snow Cloak",
-            "Thick Fat"
+            "Hustle",
+            "Sniper",
+            "Moody"
         ]
     },
     "octillery": {
@@ -8203,9 +8203,9 @@
             "Water"
         ],
         "abilities": [
-            "Hustle",
-            "Natural Cure",
-            "Regenerator"
+            "Suction Cups",
+            "Sniper",
+            "Moody"
         ]
     },
     "delibird": {
@@ -8234,9 +8234,9 @@
             "Flying"
         ],
         "abilities": [
+            "Vital Spirit",
             "Hustle",
-            "Sniper",
-            "Moody"
+            "Insomnia"
         ]
     },
     "mantine": {
@@ -8265,9 +8265,9 @@
             "Flying"
         ],
         "abilities": [
-            "Suction Cups",
-            "Sniper",
-            "Moody"
+            "Swift Swim",
+            "Water Absorb",
+            "Water Veil"
         ]
     },
     "skarmory": {
@@ -8296,9 +8296,9 @@
             "Flying"
         ],
         "abilities": [
-            "Vital Spirit",
-            "Hustle",
-            "Insomnia"
+            "Keen Eye",
+            "Sturdy",
+            "Weak Armor"
         ]
     },
     "houndour": {
@@ -8329,9 +8329,9 @@
             "Fire"
         ],
         "abilities": [
-            "Swift Swim",
-            "Water Absorb",
-            "Water Veil"
+            "Early Bird",
+            "Flash Fire",
+            "Unnerve"
         ]
     },
     "houndoom": {
@@ -8360,9 +8360,9 @@
             "Fire"
         ],
         "abilities": [
-            "Keen Eye",
-            "Sturdy",
-            "Weak Armor"
+            "Early Bird",
+            "Flash Fire",
+            "Unnerve"
         ]
     },
     "houndoom|~|mega|~|m": {
@@ -8391,9 +8391,9 @@
             "Fire"
         ],
         "abilities": [
-            "Early Bird",
-            "Flash Fire",
-            "Unnerve"
+            "Solar Power",
+            null,
+            null
         ]
     },
     "kingdra": {
@@ -8422,9 +8422,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Early Bird",
-            "Flash Fire",
-            "Unnerve"
+            "Swift Swim",
+            "Sniper",
+            "Damp"
         ]
     },
     "phanpy": {
@@ -8454,9 +8454,9 @@
             "Ground"
         ],
         "abilities": [
-            "Solar Power",
+            "Pickup",
             null,
-            null
+            "Sand Veil"
         ]
     },
     "donphan": {
@@ -8484,7 +8484,7 @@
             "Ground"
         ],
         "abilities": [
-            "Pickup",
+            "Sturdy",
             null,
             "Sand Veil"
         ]
@@ -8516,9 +8516,9 @@
             "Normal"
         ],
         "abilities": [
-            "Sturdy",
-            null,
-            "Sand Veil"
+            "Trace",
+            "Download",
+            "Analytic"
         ]
     },
     "stantler": {
@@ -15319,9 +15319,9 @@
             "Water"
         ],
         "abilities": [
-            "Flower Gift",
-            null,
-            null
+            "Sticky Hold",
+            "Storm Drain",
+            "Sand Force"
         ]
     },
     "gastrodon": {
@@ -15380,9 +15380,9 @@
             "Normal"
         ],
         "abilities": [
-            "Sticky Hold",
-            "Storm Drain",
-            "Sand Force"
+            "Technician",
+            "Pickup",
+            "Skill Link"
         ]
     },
     "drifloon": {
@@ -15413,9 +15413,9 @@
             "Flying"
         ],
         "abilities": [
-            "Technician",
-            "Pickup",
-            "Skill Link"
+            "Aftermath",
+            "Unburden",
+            "Flare Boost"
         ]
     },
     "drifblim": {
@@ -15476,9 +15476,9 @@
             "Normal"
         ],
         "abilities": [
-            "Aftermath",
-            "Unburden",
-            "Flare Boost"
+            "Run Away",
+            "Klutz",
+            "Limber"
         ]
     },
     "lopunny": {
@@ -15506,7 +15506,7 @@
             "Normal"
         ],
         "abilities": [
-            "Run Away",
+            "Cute Charm",
             "Klutz",
             "Limber"
         ]
@@ -15536,9 +15536,9 @@
             "Normal"
         ],
         "abilities": [
-            "Cute Charm",
-            "Klutz",
-            "Limber"
+            "Scrappy",
+            null,
+            null
         ]
     },
     "mismagius": {
@@ -15566,7 +15566,7 @@
             "Ghost"
         ],
         "abilities": [
-            "Scrappy",
+            "Levitate",
             null,
             null
         ]
@@ -15597,9 +15597,9 @@
             "Flying"
         ],
         "abilities": [
-            "Levitate",
-            null,
-            null
+            "Insomnia",
+            "Super Luck",
+            "Moxie"
         ]
     },
     "glameow": {
@@ -15629,9 +15629,9 @@
             "Normal"
         ],
         "abilities": [
-            "Insomnia",
-            "Super Luck",
-            "Moxie"
+            "Limber",
+            "Own Tempo",
+            "Keen Eye"
         ]
     },
     "purugly": {
@@ -15659,9 +15659,9 @@
             "Normal"
         ],
         "abilities": [
-            "Limber",
+            "Thick Fat",
             "Own Tempo",
-            "Keen Eye"
+            "Defiant"
         ]
     },
     "chingling": {
@@ -15691,9 +15691,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Thick Fat",
-            "Own Tempo",
-            "Defiant"
+            "Levitate",
+            null,
+            null
         ]
     },
     "stunky": {
@@ -15724,9 +15724,9 @@
             "Dark"
         ],
         "abilities": [
-            "Levitate",
-            null,
-            null
+            "Stench",
+            "Aftermath",
+            "Keen Eye"
         ]
     },
     "skuntank": {
@@ -15788,9 +15788,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Stench",
-            "Aftermath",
-            "Keen Eye"
+            "Levitate",
+            "Heatproof",
+            "Heavy Metal"
         ]
     },
     "bronzong": {
@@ -15851,9 +15851,9 @@
             "Rock"
         ],
         "abilities": [
-            "Levitate",
-            "Heatproof",
-            "Heavy Metal"
+            "Sturdy",
+            "Rock Head",
+            "Rattled"
         ]
     },
     "mime jr.": {
@@ -15884,9 +15884,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Sturdy",
-            "Rock Head",
-            "Rattled"
+            "Soundproof",
+            "Filter",
+            "Technician"
         ]
     },
     "happiny": {
@@ -15917,9 +15917,9 @@
             "Normal"
         ],
         "abilities": [
-            "Soundproof",
-            "Filter",
-            "Technician"
+            "Natural Cure",
+            "Serene Grace",
+            "Friend Guard"
         ]
     },
     "chatot": {
@@ -15948,9 +15948,9 @@
             "Flying"
         ],
         "abilities": [
-            "Natural Cure",
-            "Serene Grace",
-            "Friend Guard"
+            "Keen Eye",
+            "Tangled Feet",
+            "Big Pecks"
         ]
     },
     "spiritomb": {
@@ -15979,9 +15979,9 @@
             "Dark"
         ],
         "abilities": [
-            "Keen Eye",
-            "Tangled Feet",
-            "Big Pecks"
+            "Pressure",
+            null,
+            "Infiltrator"
         ]
     },
     "gible": {
@@ -16012,9 +16012,9 @@
             "Ground"
         ],
         "abilities": [
-            "Pressure",
+            "Sand Veil",
             null,
-            "Infiltrator"
+            "Rough Skin"
         ]
     },
     "gabite": {
@@ -16107,9 +16107,9 @@
             "Ground"
         ],
         "abilities": [
-            "Sand Veil",
+            "Sand Force",
             null,
-            "Rough Skin"
+            null
         ]
     },
     "munchlax": {
@@ -16139,9 +16139,9 @@
             "Normal"
         ],
         "abilities": [
-            "Sand Force",
-            null,
-            null
+            "Pickup",
+            "Thick Fat",
+            "Gluttony"
         ]
     },
     "riolu": {
@@ -16171,9 +16171,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Pickup",
-            "Thick Fat",
-            "Gluttony"
+            "Steadfast",
+            "Inner Focus",
+            "Prankster"
         ]
     },
     "lucario": {
@@ -16204,7 +16204,7 @@
         "abilities": [
             "Steadfast",
             "Inner Focus",
-            "Prankster"
+            "Justified"
         ]
     },
     "lucario|~|mega|~|m": {
@@ -16233,9 +16233,9 @@
             "Steel"
         ],
         "abilities": [
-            "Steadfast",
-            "Inner Focus",
-            "Justified"
+            "Adaptability",
+            null,
+            null
         ]
     },
     "hippopotas": {
@@ -16265,9 +16265,9 @@
             "Ground"
         ],
         "abilities": [
-            "Adaptability",
+            "Sand Stream",
             null,
-            null
+            "Sand Force"
         ]
     },
     "hippowdon": {
@@ -16328,9 +16328,9 @@
             "Bug"
         ],
         "abilities": [
-            "Sand Stream",
-            null,
-            "Sand Force"
+            "Battle Armor",
+            "Sniper",
+            "Keen Eye"
         ]
     },
     "drapion": {
@@ -16392,9 +16392,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Battle Armor",
-            "Sniper",
-            "Keen Eye"
+            "Anticipation",
+            "Dry Skin",
+            "Poison Touch"
         ]
     },
     "toxicroak": {
@@ -16453,9 +16453,9 @@
             "Grass"
         ],
         "abilities": [
-            "Anticipation",
-            "Dry Skin",
-            "Poison Touch"
+            "Levitate",
+            null,
+            null
         ]
     },
     "finneon": {
@@ -16485,9 +16485,9 @@
             "Water"
         ],
         "abilities": [
-            "Levitate",
-            null,
-            null
+            "Swift Swim",
+            "Storm Drain",
+            "Water Veil"
         ]
     },
     "lumineon": {
@@ -16549,7 +16549,7 @@
         ],
         "abilities": [
             "Swift Swim",
-            "Storm Drain",
+            "Water Absorb",
             "Water Veil"
         ]
     },
@@ -16581,9 +16581,9 @@
             "Ice"
         ],
         "abilities": [
-            "Swift Swim",
-            "Water Absorb",
-            "Water Veil"
+            "Snow Warning",
+            null,
+            "Soundproof"
         ]
     },
     "abomasnow": {
@@ -16645,7 +16645,7 @@
         "abilities": [
             "Snow Warning",
             null,
-            "Soundproof"
+            null
         ]
     },
     "weavile": {
@@ -16674,9 +16674,9 @@
             "Ice"
         ],
         "abilities": [
-            "Snow Warning",
+            "Pressure",
             null,
-            null
+            "Pickpocket"
         ]
     },
     "magnezone": {
@@ -16705,9 +16705,9 @@
             "Steel"
         ],
         "abilities": [
-            "Pressure",
-            null,
-            "Pickpocket"
+            "Magnet Pull",
+            "Sturdy",
+            "Analytic"
         ]
     },
     "lickilicky": {
@@ -16735,9 +16735,9 @@
             "Normal"
         ],
         "abilities": [
-            "Magnet Pull",
-            "Sturdy",
-            "Analytic"
+            "Own Tempo",
+            "Oblivious",
+            "Cloud Nine"
         ]
     },
     "rhyperior": {
@@ -16766,9 +16766,9 @@
             "Rock"
         ],
         "abilities": [
-            "Own Tempo",
-            "Oblivious",
-            "Cloud Nine"
+            "Lightning Rod",
+            "Solid Rock",
+            "Reckless"
         ]
     },
     "tangrowth": {
@@ -16796,9 +16796,9 @@
             "Grass"
         ],
         "abilities": [
-            "Lightning Rod",
-            "Solid Rock",
-            "Reckless"
+            "Chlorophyll",
+            "Leaf Guard",
+            "Regenerator"
         ]
     },
     "electivire": {
@@ -16826,9 +16826,9 @@
             "Electric"
         ],
         "abilities": [
-            "Chlorophyll",
-            "Leaf Guard",
-            "Regenerator"
+            "Motor Drive",
+            null,
+            "Vital Spirit"
         ]
     },
     "magmortar": {
@@ -16856,7 +16856,7 @@
             "Fire"
         ],
         "abilities": [
-            "Motor Drive",
+            "Flame Body",
             null,
             "Vital Spirit"
         ]
@@ -16887,9 +16887,9 @@
             "Flying"
         ],
         "abilities": [
-            "Flame Body",
-            null,
-            "Vital Spirit"
+            "Hustle",
+            "Serene Grace",
+            "Super Luck"
         ]
     },
     "yanmega": {
@@ -16918,9 +16918,9 @@
             "Flying"
         ],
         "abilities": [
-            "Hustle",
-            "Serene Grace",
-            "Super Luck"
+            "Speed Boost",
+            "Tinted Lens",
+            "Frisk"
         ]
     },
     "leafeon": {
@@ -16948,9 +16948,9 @@
             "Grass"
         ],
         "abilities": [
-            "Speed Boost",
-            "Tinted Lens",
-            "Frisk"
+            "Leaf Guard",
+            null,
+            "Chlorophyll"
         ]
     },
     "glaceon": {
@@ -16978,9 +16978,9 @@
             "Ice"
         ],
         "abilities": [
-            "Leaf Guard",
+            "Snow Cloak",
             null,
-            "Chlorophyll"
+            "Ice Body"
         ]
     },
     "gliscor": {
@@ -17009,9 +17009,9 @@
             "Flying"
         ],
         "abilities": [
-            "Snow Cloak",
-            null,
-            "Ice Body"
+            "Hyper Cutter",
+            "Sand Veil",
+            "Poison Heal"
         ]
     },
     "mamoswine": {
@@ -17040,9 +17040,9 @@
             "Ground"
         ],
         "abilities": [
-            "Hyper Cutter",
-            "Sand Veil",
-            "Poison Heal"
+            "Oblivious",
+            "Snow Cloak",
+            "Thick Fat"
         ]
     },
     "porygon-z": {
@@ -17070,9 +17070,9 @@
             "Normal"
         ],
         "abilities": [
-            "Oblivious",
-            "Snow Cloak",
-            "Thick Fat"
+            "Adaptability",
+            "Download",
+            "Analytic"
         ]
     },
     "gallade": {
@@ -17101,9 +17101,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Adaptability",
-            "Download",
-            "Analytic"
+            "Steadfast",
+            null,
+            "Justified"
         ]
     },
     "gallade|~|mega|~|m": {
@@ -17132,9 +17132,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Steadfast",
+            "Inner Focus",
             null,
-            "Justified"
+            null
         ]
     },
     "probopass": {
@@ -17163,9 +17163,9 @@
             "Steel"
         ],
         "abilities": [
-            "Inner Focus",
-            null,
-            null
+            "Sturdy",
+            "Magnet Pull",
+            "Sand Force"
         ]
     },
     "dusknoir": {
@@ -17193,9 +17193,9 @@
             "Ghost"
         ],
         "abilities": [
-            "Sturdy",
-            "Magnet Pull",
-            "Sand Force"
+            "Pressure",
+            null,
+            "Frisk"
         ]
     },
     "froslass": {
@@ -17224,9 +17224,9 @@
             "Ghost"
         ],
         "abilities": [
-            "Pressure",
+            "Snow Cloak",
             null,
-            "Frisk"
+            "Cursed Body"
         ]
     },
     "rotom": {
@@ -17255,9 +17255,9 @@
             "Ghost"
         ],
         "abilities": [
-            "Snow Cloak",
+            "Levitate",
             null,
-            "Cursed Body"
+            null
         ]
     },
     "rotom|~|heat": {
@@ -17531,9 +17531,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Levitate",
+            "Pressure",
             null,
-            null
+            "Telepathy"
         ]
     },
     "palkia": {
@@ -17593,9 +17593,9 @@
             "Steel"
         ],
         "abilities": [
-            "Pressure",
+            "Flash Fire",
             null,
-            "Telepathy"
+            "Flame Body"
         ]
     },
     "regigigas": {
@@ -17623,9 +17623,9 @@
             "Normal"
         ],
         "abilities": [
-            "Flash Fire",
+            "Slow Start",
             null,
-            "Flame Body"
+            null
         ]
     },
     "giratina|~|altered": {
@@ -17654,9 +17654,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Slow Start",
+            "Pressure",
             null,
-            null
+            "Telepathy"
         ]
     },
     "giratina|~|origin": {
@@ -17685,9 +17685,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Pressure",
+            "Levitate",
             null,
-            "Telepathy"
+            null
         ]
     },
     "cresselia": {
@@ -17747,7 +17747,7 @@
             "Water"
         ],
         "abilities": [
-            "Levitate",
+            "Hydration",
             null,
             null
         ]
@@ -17807,7 +17807,7 @@
             "Dark"
         ],
         "abilities": [
-            "Hydration",
+            "Bad Dreams",
             null,
             null
         ]
@@ -17838,7 +17838,7 @@
             "Flying"
         ],
         "abilities": [
-            "Bad Dreams",
+            "Natural Cure",
             null,
             null
         ]
@@ -17869,7 +17869,7 @@
             "Flying"
         ],
         "abilities": [
-            "Natural Cure",
+            "Serene Grace",
             null,
             null
         ]
@@ -17899,7 +17899,7 @@
             "Normal"
         ],
         "abilities": [
-            "Serene Grace",
+            "Multitype",
             null,
             null
         ]
@@ -17930,7 +17930,7 @@
             "Fire"
         ],
         "abilities": [
-            "Multitype",
+            "Victory Star",
             null,
             null
         ]
@@ -17962,9 +17962,9 @@
             "Grass"
         ],
         "abilities": [
-            "Victory Star",
+            "Overgrow",
             null,
-            null
+            "Contrary"
         ]
     },
     "servine": {
@@ -18056,9 +18056,9 @@
             "Fire"
         ],
         "abilities": [
-            "Overgrow",
+            "Blaze",
             null,
-            "Contrary"
+            "Thick Fat"
         ]
     },
     "pignite": {
@@ -18122,7 +18122,7 @@
         "abilities": [
             "Blaze",
             null,
-            "Thick Fat"
+            "Reckless"
         ]
     },
     "oshawott": {
@@ -18152,9 +18152,9 @@
             "Water"
         ],
         "abilities": [
-            "Blaze",
+            "Torrent",
             null,
-            "Reckless"
+            "Shell Armor"
         ]
     },
     "dewott": {
@@ -18246,9 +18246,9 @@
             "Normal"
         ],
         "abilities": [
-            "Torrent",
-            null,
-            "Shell Armor"
+            "Run Away",
+            "Keen Eye",
+            "Analytic"
         ]
     },
     "watchog": {
@@ -18276,7 +18276,7 @@
             "Normal"
         ],
         "abilities": [
-            "Run Away",
+            "Illuminate",
             "Keen Eye",
             "Analytic"
         ]
@@ -18308,9 +18308,9 @@
             "Normal"
         ],
         "abilities": [
-            "Illuminate",
-            "Keen Eye",
-            "Analytic"
+            "Vital Spirit",
+            "Pickup",
+            "Run Away"
         ]
     },
     "herdier": {
@@ -18340,9 +18340,9 @@
             "Normal"
         ],
         "abilities": [
-            "Vital Spirit",
-            "Pickup",
-            "Run Away"
+            "Intimidate",
+            "Sand Rush",
+            "Scrappy"
         ]
     },
     "stoutland": {
@@ -18402,9 +18402,9 @@
             "Dark"
         ],
         "abilities": [
-            "Intimidate",
-            "Sand Rush",
-            "Scrappy"
+            "Limber",
+            "Unburden",
+            "Prankster"
         ]
     },
     "liepard": {
@@ -18464,9 +18464,9 @@
             "Grass"
         ],
         "abilities": [
-            "Limber",
-            "Unburden",
-            "Prankster"
+            "Gluttony",
+            null,
+            "Overgrow"
         ]
     },
     "simisage": {
@@ -18528,7 +18528,7 @@
         "abilities": [
             "Gluttony",
             null,
-            "Overgrow"
+            "Blaze"
         ]
     },
     "simisear": {
@@ -18590,7 +18590,7 @@
         "abilities": [
             "Gluttony",
             null,
-            "Blaze"
+            "Torrent"
         ]
     },
     "simipour": {
@@ -18650,9 +18650,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Gluttony",
-            null,
-            "Torrent"
+            "Forewarn",
+            "Synchronize",
+            "Telepathy"
         ]
     },
     "musharna": {
@@ -18713,9 +18713,9 @@
             "Flying"
         ],
         "abilities": [
-            "Forewarn",
-            "Synchronize",
-            "Telepathy"
+            "Big Pecks",
+            "Super Luck",
+            "Rivalry"
         ]
     },
     "tranquill": {
@@ -18809,9 +18809,9 @@
             "Electric"
         ],
         "abilities": [
-            "Big Pecks",
-            "Super Luck",
-            "Rivalry"
+            "Lightning Rod",
+            "Motor Drive",
+            "Sap Sipper"
         ]
     },
     "zebstrika": {
@@ -18871,9 +18871,9 @@
             "Rock"
         ],
         "abilities": [
-            "Lightning Rod",
-            "Motor Drive",
-            "Sap Sipper"
+            "Sturdy",
+            "Weak Armor",
+            "Sand Force"
         ]
     },
     "boldore": {
@@ -18934,7 +18934,7 @@
         ],
         "abilities": [
             "Sturdy",
-            "Weak Armor",
+            "Sand Stream",
             "Sand Force"
         ]
     },
@@ -18966,9 +18966,9 @@
             "Flying"
         ],
         "abilities": [
-            "Sturdy",
-            "Sand Stream",
-            "Sand Force"
+            "Unaware",
+            "Klutz",
+            "Simple"
         ]
     },
     "swoobat": {
@@ -19029,9 +19029,9 @@
             "Ground"
         ],
         "abilities": [
-            "Unaware",
-            "Klutz",
-            "Simple"
+            "Sand Rush",
+            "Sand Force",
+            "Mold Breaker"
         ]
     },
     "excadrill": {
@@ -19090,9 +19090,9 @@
             "Normal"
         ],
         "abilities": [
-            "Sand Rush",
-            "Sand Force",
-            "Mold Breaker"
+            "Healer",
+            "Regenerator",
+            "Klutz"
         ]
     },
     "audino|~|mega|~|m": {
@@ -19121,8 +19121,8 @@
         ],
         "abilities": [
             "Healer",
-            "Regenerator",
-            "Klutz"
+            null,
+            null
         ]
     },
     "timburr": {
@@ -19152,9 +19152,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Healer",
-            null,
-            null
+            "Guts",
+            "Sheer Force",
+            "Iron Fist"
         ]
     },
     "gurdurr": {
@@ -19246,9 +19246,9 @@
             "Water"
         ],
         "abilities": [
-            "Guts",
-            "Sheer Force",
-            "Iron Fist"
+            "Swift Swim",
+            "Hydration",
+            "Water Absorb"
         ]
     },
     "palpitoad": {
@@ -19311,7 +19311,7 @@
         ],
         "abilities": [
             "Swift Swim",
-            "Hydration",
+            "Poison Touch",
             "Water Absorb"
         ]
     },
@@ -19340,9 +19340,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Swift Swim",
-            "Poison Touch",
-            "Water Absorb"
+            "Guts",
+            "Inner Focus",
+            "Mold Breaker"
         ]
     },
     "sawk": {
@@ -19370,7 +19370,7 @@
             "Fighting"
         ],
         "abilities": [
-            "Guts",
+            "Sturdy",
             "Inner Focus",
             "Mold Breaker"
         ]
@@ -19403,9 +19403,9 @@
             "Grass"
         ],
         "abilities": [
-            "Sturdy",
-            "Inner Focus",
-            "Mold Breaker"
+            "Swarm",
+            "Chlorophyll",
+            "Overcoat"
         ]
     },
     "swadloon": {
@@ -19436,7 +19436,7 @@
             "Grass"
         ],
         "abilities": [
-            "Swarm",
+            "Leaf Guard",
             "Chlorophyll",
             "Overcoat"
         ]
@@ -19467,7 +19467,7 @@
             "Grass"
         ],
         "abilities": [
-            "Leaf Guard",
+            "Swarm",
             "Chlorophyll",
             "Overcoat"
         ]
@@ -19500,9 +19500,9 @@
             "Poison"
         ],
         "abilities": [
+            "Poison Point",
             "Swarm",
-            "Chlorophyll",
-            "Overcoat"
+            "Speed Boost"
         ]
     },
     "whirlipede": {
@@ -19597,9 +19597,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Poison Point",
-            "Swarm",
-            "Speed Boost"
+            "Prankster",
+            "Infiltrator",
+            "Chlorophyll"
         ]
     },
     "whimsicott": {
@@ -19660,9 +19660,9 @@
             "Grass"
         ],
         "abilities": [
-            "Prankster",
-            "Infiltrator",
-            "Chlorophyll"
+            "Chlorophyll",
+            "Own Tempo",
+            "Leaf Guard"
         ]
     },
     "lilligant": {
@@ -19695,7 +19695,7 @@
             "Leaf Guard"
         ]
     },
-    "basculin": {
+    "basculin|~|red-striped|~|red": {
         "dex_no": 550,
         "classification": "Hostile Pok\u00e9mon",
         "dex_entry": [
@@ -19720,9 +19720,39 @@
             "Water"
         ],
         "abilities": [
-            "Chlorophyll",
-            "Own Tempo",
-            "Leaf Guard"
+            "Reckless",
+            "Adaptability",
+            "Mold Breaker"
+        ]
+    },
+    "basculin|~|blue-striped|~|blue": {
+        "dex_no": 550,
+        "classification": "Hostile Pok\u00e9mon",
+        "dex_entry": [
+            "Red- and blue-striped Basculin are very violent and always fighting. They are also remarkably tasty.",
+            "Red and blue Basculin usually do not get along, but sometimes members of one school mingle with the other's school."
+        ],
+        "name": {
+            "english": "Basculin",
+            "japanese": "Bassrao",
+            "kana": "\u30d0\u30b9\u30e9\u30aa"
+        },
+        "evolutions": [],
+        "base_stats": [
+            70,
+            92,
+            65,
+            80,
+            55,
+            98
+        ],
+        "types": [
+            "Water"
+        ],
+        "abilities": [
+            "Rock Head",
+            "Adaptability",
+            "Mold Breaker"
         ]
     },
     "sandile": {
@@ -19753,9 +19783,9 @@
             "Dark"
         ],
         "abilities": [
-            "Reckless",
-            "Adaptability",
-            "Mold Breaker"
+            "Intimidate",
+            "Moxie",
+            "Anger Point"
         ]
     },
     "krokorok": {
@@ -19786,9 +19816,9 @@
             "Dark"
         ],
         "abilities": [
-            "Rock Head",
-            "Adaptability",
-            "Mold Breaker"
+            "Intimidate",
+            "Moxie",
+            "Anger Point"
         ]
     },
     "krookodile": {
@@ -19849,9 +19879,9 @@
             "Fire"
         ],
         "abilities": [
-            "Intimidate",
-            "Moxie",
-            "Anger Point"
+            "Hustle",
+            null,
+            "Inner Focus"
         ]
     },
     "darmanitan": {
@@ -19879,9 +19909,9 @@
             "Fire"
         ],
         "abilities": [
-            "Intimidate",
-            "Moxie",
-            "Anger Point"
+            "Sheer Force",
+            null,
+            "Zen Mode"
         ]
     },
     "darmanitan|~|zen|~|mode": {
@@ -19909,9 +19939,9 @@
             "Fire"
         ],
         "abilities": [
-            "Hustle",
+            "Zen Mode",
             null,
-            "Inner Focus"
+            null
         ]
     },
     "maractus": {
@@ -19939,9 +19969,9 @@
             "Grass"
         ],
         "abilities": [
-            "Sheer Force",
-            null,
-            "Zen Mode"
+            "Water Absorb",
+            "Chlorophyll",
+            "Storm Drain"
         ]
     },
     "dwebble": {
@@ -19972,9 +20002,9 @@
             "Rock"
         ],
         "abilities": [
-            "Zen Mode",
-            null,
-            null
+            "Sturdy",
+            "Shell Armor",
+            "Weak Armor"
         ]
     },
     "crustle": {
@@ -20003,9 +20033,9 @@
             "Rock"
         ],
         "abilities": [
-            "Water Absorb",
-            "Chlorophyll",
-            "Storm Drain"
+            "Sturdy",
+            "Shell Armor",
+            "Weak Armor"
         ]
     },
     "scraggy": {
@@ -20036,9 +20066,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Sturdy",
-            "Shell Armor",
-            "Weak Armor"
+            "Shed Skin",
+            "Moxie",
+            "Intimidate"
         ]
     },
     "scrafty": {
@@ -20067,9 +20097,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Sturdy",
-            "Shell Armor",
-            "Weak Armor"
+            "Shed Skin",
+            "Moxie",
+            "Intimidate"
         ]
     },
     "sigilyph": {
@@ -20098,9 +20128,9 @@
             "Flying"
         ],
         "abilities": [
-            "Shed Skin",
-            "Moxie",
-            "Intimidate"
+            "Wonder Skin",
+            "Magic Guard",
+            "Tinted Lens"
         ]
     },
     "yamask": {
@@ -20130,9 +20160,9 @@
             "Ghost"
         ],
         "abilities": [
-            "Shed Skin",
-            "Moxie",
-            "Intimidate"
+            "Mummy",
+            null,
+            null
         ]
     },
     "cofagrigus": {
@@ -20160,9 +20190,9 @@
             "Ghost"
         ],
         "abilities": [
-            "Wonder Skin",
-            "Magic Guard",
-            "Tinted Lens"
+            "Mummy",
+            null,
+            null
         ]
     },
     "tirtouga": {
@@ -20193,9 +20223,9 @@
             "Rock"
         ],
         "abilities": [
-            "Mummy",
-            null,
-            null
+            "Solid Rock",
+            "Sturdy",
+            "Swift Swim"
         ]
     },
     "carracosta": {
@@ -20224,9 +20254,9 @@
             "Rock"
         ],
         "abilities": [
-            "Mummy",
-            null,
-            null
+            "Solid Rock",
+            "Sturdy",
+            "Swift Swim"
         ]
     },
     "archen": {
@@ -20257,9 +20287,9 @@
             "Flying"
         ],
         "abilities": [
-            "Solid Rock",
-            "Sturdy",
-            "Swift Swim"
+            "Defeatist",
+            null,
+            null
         ]
     },
     "archeops": {
@@ -20288,9 +20318,9 @@
             "Flying"
         ],
         "abilities": [
-            "Solid Rock",
-            "Sturdy",
-            "Swift Swim"
+            "Defeatist",
+            null,
+            null
         ]
     },
     "trubbish": {
@@ -20320,9 +20350,9 @@
             "Poison"
         ],
         "abilities": [
-            "Defeatist",
-            null,
-            null
+            "Stench",
+            "Sticky Hold",
+            "Aftermath"
         ]
     },
     "garbodor": {
@@ -20350,9 +20380,9 @@
             "Poison"
         ],
         "abilities": [
-            "Defeatist",
-            null,
-            null
+            "Stench",
+            "Weak Armor",
+            "Aftermath"
         ]
     },
     "zorua": {
@@ -20382,9 +20412,9 @@
             "Dark"
         ],
         "abilities": [
-            "Stench",
-            "Sticky Hold",
-            "Aftermath"
+            "Illusion",
+            null,
+            null
         ]
     },
     "zoroark": {
@@ -20412,9 +20442,9 @@
             "Dark"
         ],
         "abilities": [
-            "Stench",
-            "Weak Armor",
-            "Aftermath"
+            "Illusion",
+            null,
+            null
         ]
     },
     "minccino": {
@@ -20444,9 +20474,9 @@
             "Normal"
         ],
         "abilities": [
-            "Illusion",
-            null,
-            null
+            "Cute Charm",
+            "Technician",
+            "Skill Link"
         ]
     },
     "cinccino": {
@@ -20474,9 +20504,9 @@
             "Normal"
         ],
         "abilities": [
-            "Illusion",
-            null,
-            null
+            "Cute Charm",
+            "Technician",
+            "Skill Link"
         ]
     },
     "gothita": {
@@ -20506,9 +20536,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Cute Charm",
-            "Technician",
-            "Skill Link"
+            "Frisk",
+            "Competitive",
+            "Shadow Tag"
         ]
     },
     "gothorita": {
@@ -20538,9 +20568,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Cute Charm",
-            "Technician",
-            "Skill Link"
+            "Frisk",
+            "Competitive",
+            "Shadow Tag"
         ]
     },
     "gothitelle": {
@@ -20600,9 +20630,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Frisk",
-            "Competitive",
-            "Shadow Tag"
+            "Overcoat",
+            "Magic Guard",
+            "Regenerator"
         ]
     },
     "duosion": {
@@ -20632,9 +20662,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Frisk",
-            "Competitive",
-            "Shadow Tag"
+            "Overcoat",
+            "Magic Guard",
+            "Regenerator"
         ]
     },
     "reuniclus": {
@@ -20695,9 +20725,9 @@
             "Flying"
         ],
         "abilities": [
-            "Overcoat",
-            "Magic Guard",
-            "Regenerator"
+            "Keen Eye",
+            "Big Pecks",
+            "Hydration"
         ]
     },
     "swanna": {
@@ -20726,9 +20756,9 @@
             "Flying"
         ],
         "abilities": [
-            "Overcoat",
-            "Magic Guard",
-            "Regenerator"
+            "Keen Eye",
+            "Big Pecks",
+            "Hydration"
         ]
     },
     "vanillite": {
@@ -20758,9 +20788,9 @@
             "Ice"
         ],
         "abilities": [
-            "Keen Eye",
-            "Big Pecks",
-            "Hydration"
+            "Ice Body",
+            "Snow Cloak",
+            "Weak Armor"
         ]
     },
     "vanillish": {
@@ -20790,9 +20820,9 @@
             "Ice"
         ],
         "abilities": [
-            "Keen Eye",
-            "Big Pecks",
-            "Hydration"
+            "Ice Body",
+            "Snow Cloak",
+            "Weak Armor"
         ]
     },
     "vanilluxe": {
@@ -20821,7 +20851,7 @@
         ],
         "abilities": [
             "Ice Body",
-            "Snow Cloak",
+            "Snow Warning",
             "Weak Armor"
         ]
     },
@@ -20853,9 +20883,9 @@
             "Grass"
         ],
         "abilities": [
-            "Ice Body",
-            "Snow Cloak",
-            "Weak Armor"
+            "Chlorophyll",
+            "Sap Sipper",
+            "Serene Grace"
         ]
     },
     "sawsbuck": {
@@ -20884,9 +20914,9 @@
             "Grass"
         ],
         "abilities": [
-            "Ice Body",
-            "Snow Warning",
-            "Weak Armor"
+            "Chlorophyll",
+            "Sap Sipper",
+            "Serene Grace"
         ]
     },
     "emolga": {
@@ -20915,9 +20945,9 @@
             "Flying"
         ],
         "abilities": [
-            "Chlorophyll",
-            "Sap Sipper",
-            "Serene Grace"
+            "Static",
+            null,
+            "Motor Drive"
         ]
     },
     "karrablast": {
@@ -20947,9 +20977,9 @@
             "Bug"
         ],
         "abilities": [
-            "Chlorophyll",
-            "Sap Sipper",
-            "Serene Grace"
+            "Swarm",
+            "Shed Skin",
+            "No Guard"
         ]
     },
     "escavalier": {
@@ -20978,9 +21008,9 @@
             "Steel"
         ],
         "abilities": [
-            "Chlorophyll",
-            "Sap Sipper",
-            "Serene Grace"
+            "Swarm",
+            "Shell Armor",
+            "Overcoat"
         ]
     },
     "foongus": {
@@ -21011,9 +21041,9 @@
             "Poison"
         ],
         "abilities": [
-            "Chlorophyll",
-            "Sap Sipper",
-            "Serene Grace"
+            "Effect Spore",
+            null,
+            "Regenerator"
         ]
     },
     "amoonguss": {
@@ -21042,9 +21072,9 @@
             "Poison"
         ],
         "abilities": [
-            "Chlorophyll",
-            "Sap Sipper",
-            "Serene Grace"
+            "Effect Spore",
+            null,
+            "Regenerator"
         ]
     },
     "frillish": {
@@ -21075,9 +21105,9 @@
             "Ghost"
         ],
         "abilities": [
-            "Chlorophyll",
-            "Sap Sipper",
-            "Serene Grace"
+            "Water Absorb",
+            "Cursed Body",
+            "Damp"
         ]
     },
     "jellicent": {
@@ -21106,9 +21136,9 @@
             "Ghost"
         ],
         "abilities": [
-            "Chlorophyll",
-            "Sap Sipper",
-            "Serene Grace"
+            "Water Absorb",
+            "Cursed Body",
+            "Damp"
         ]
     },
     "alomomola": {
@@ -21136,9 +21166,9 @@
             "Water"
         ],
         "abilities": [
-            "Chlorophyll",
-            "Sap Sipper",
-            "Serene Grace"
+            "Healer",
+            "Hydration",
+            "Regenerator"
         ]
     },
     "joltik": {
@@ -21169,9 +21199,9 @@
             "Electric"
         ],
         "abilities": [
-            "Static",
-            null,
-            "Motor Drive"
+            "Compound Eyes",
+            "Unnerve",
+            "Swarm"
         ]
     },
     "galvantula": {
@@ -21200,9 +21230,9 @@
             "Electric"
         ],
         "abilities": [
-            "Swarm",
-            "Shed Skin",
-            "No Guard"
+            "Compound Eyes",
+            "Unnerve",
+            "Swarm"
         ]
     },
     "ferroseed": {
@@ -21233,9 +21263,9 @@
             "Steel"
         ],
         "abilities": [
-            "Swarm",
-            "Shell Armor",
-            "Overcoat"
+            "Iron Barbs",
+            null,
+            null
         ]
     },
     "ferrothorn": {
@@ -21264,9 +21294,9 @@
             "Steel"
         ],
         "abilities": [
-            "Effect Spore",
+            "Iron Barbs",
             null,
-            "Regenerator"
+            "Anticipation"
         ]
     },
     "klink": {
@@ -21296,9 +21326,9 @@
             "Steel"
         ],
         "abilities": [
-            "Effect Spore",
-            null,
-            "Regenerator"
+            "Plus",
+            "Minus",
+            "Clear Body"
         ]
     },
     "klang": {
@@ -21328,9 +21358,9 @@
             "Steel"
         ],
         "abilities": [
-            "Water Absorb",
-            "Cursed Body",
-            "Damp"
+            "Plus",
+            "Minus",
+            "Clear Body"
         ]
     },
     "klinklang": {
@@ -21358,9 +21388,9 @@
             "Steel"
         ],
         "abilities": [
-            "Water Absorb",
-            "Cursed Body",
-            "Damp"
+            "Plus",
+            "Minus",
+            "Clear Body"
         ]
     },
     "tynamo": {
@@ -21390,9 +21420,9 @@
             "Electric"
         ],
         "abilities": [
-            "Healer",
-            "Hydration",
-            "Regenerator"
+            "Levitate",
+            null,
+            null
         ]
     },
     "eelektrik": {
@@ -21422,9 +21452,9 @@
             "Electric"
         ],
         "abilities": [
-            "Compound Eyes",
-            "Unnerve",
-            "Swarm"
+            "Levitate",
+            null,
+            null
         ]
     },
     "eelektross": {
@@ -21452,9 +21482,9 @@
             "Electric"
         ],
         "abilities": [
-            "Compound Eyes",
-            "Unnerve",
-            "Swarm"
+            "Levitate",
+            null,
+            null
         ]
     },
     "elgyem": {
@@ -21484,9 +21514,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Iron Barbs",
-            null,
-            null
+            "Telepathy",
+            "Synchronize",
+            "Analytic"
         ]
     },
     "beheeyem": {
@@ -21514,9 +21544,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Iron Barbs",
-            null,
-            "Anticipation"
+            "Telepathy",
+            "Synchronize",
+            "Analytic"
         ]
     },
     "litwick": {
@@ -21547,9 +21577,9 @@
             "Fire"
         ],
         "abilities": [
-            "Plus",
-            "Minus",
-            "Clear Body"
+            "Flash Fire",
+            "Flame Body",
+            "Infiltrator"
         ]
     },
     "lampent": {
@@ -21580,9 +21610,9 @@
             "Fire"
         ],
         "abilities": [
-            "Plus",
-            "Minus",
-            "Clear Body"
+            "Flash Fire",
+            "Flame Body",
+            "Infiltrator"
         ]
     },
     "chandelure": {
@@ -21611,9 +21641,9 @@
             "Fire"
         ],
         "abilities": [
-            "Plus",
-            "Minus",
-            "Clear Body"
+            "Flash Fire",
+            "Flame Body",
+            "Infiltrator"
         ]
     },
     "axew": {
@@ -21643,9 +21673,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Levitate",
-            null,
-            null
+            "Rivalry",
+            "Mold Breaker",
+            "Unnerve"
         ]
     },
     "fraxure": {
@@ -21675,9 +21705,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Levitate",
-            null,
-            null
+            "Rivalry",
+            "Mold Breaker",
+            "Unnerve"
         ]
     },
     "haxorus": {
@@ -21705,9 +21735,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Levitate",
-            null,
-            null
+            "Rivalry",
+            "Mold Breaker",
+            "Unnerve"
         ]
     },
     "cubchoo": {
@@ -21737,9 +21767,9 @@
             "Ice"
         ],
         "abilities": [
-            "Telepathy",
-            "Synchronize",
-            "Analytic"
+            "Snow Cloak",
+            "Slush Rush",
+            "Rattled"
         ]
     },
     "beartic": {
@@ -21767,9 +21797,9 @@
             "Ice"
         ],
         "abilities": [
-            "Telepathy",
-            "Synchronize",
-            "Analytic"
+            "Snow Cloak",
+            "Slush Rush",
+            "Swift Swim"
         ]
     },
     "cryogonal": {
@@ -21797,9 +21827,9 @@
             "Ice"
         ],
         "abilities": [
-            "Flash Fire",
-            "Flame Body",
-            "Infiltrator"
+            "Levitate",
+            null,
+            null
         ]
     },
     "shelmet": {
@@ -21829,9 +21859,9 @@
             "Bug"
         ],
         "abilities": [
-            "Flash Fire",
-            "Flame Body",
-            "Infiltrator"
+            "Hydration",
+            "Shell Armor",
+            "Overcoat"
         ]
     },
     "accelgor": {
@@ -21859,9 +21889,9 @@
             "Bug"
         ],
         "abilities": [
-            "Flash Fire",
-            "Flame Body",
-            "Infiltrator"
+            "Hydration",
+            "Sticky Hold",
+            "Unburden"
         ]
     },
     "stunfisk": {
@@ -21890,9 +21920,9 @@
             "Electric"
         ],
         "abilities": [
-            "Rivalry",
-            "Mold Breaker",
-            "Unnerve"
+            "Static",
+            "Limber",
+            "Sand Veil"
         ]
     },
     "mienfoo": {
@@ -21922,9 +21952,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Rivalry",
-            "Mold Breaker",
-            "Unnerve"
+            "Inner Focus",
+            "Regenerator",
+            "Reckless"
         ]
     },
     "mienshao": {
@@ -21952,9 +21982,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Rivalry",
-            "Mold Breaker",
-            "Unnerve"
+            "Inner Focus",
+            "Regenerator",
+            "Reckless"
         ]
     },
     "druddigon": {
@@ -21982,9 +22012,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Snow Cloak",
-            "Slush Rush",
-            "Rattled"
+            "Rough Skin",
+            "Sheer Force",
+            "Mold Breaker"
         ]
     },
     "golett": {
@@ -22015,9 +22045,9 @@
             "Ghost"
         ],
         "abilities": [
-            "Snow Cloak",
-            "Slush Rush",
-            "Swift Swim"
+            "Iron Fist",
+            "Klutz",
+            "No Guard"
         ]
     },
     "golurk": {
@@ -22046,9 +22076,9 @@
             "Ghost"
         ],
         "abilities": [
-            "Levitate",
-            null,
-            null
+            "Iron Fist",
+            "Klutz",
+            "No Guard"
         ]
     },
     "pawniard": {
@@ -22079,9 +22109,9 @@
             "Steel"
         ],
         "abilities": [
-            "Hydration",
-            "Shell Armor",
-            "Overcoat"
+            "Defiant",
+            "Inner Focus",
+            "Pressure"
         ]
     },
     "bisharp": {
@@ -22110,9 +22140,9 @@
             "Steel"
         ],
         "abilities": [
-            "Hydration",
-            "Sticky Hold",
-            "Unburden"
+            "Defiant",
+            "Inner Focus",
+            "Pressure"
         ]
     },
     "bouffalant": {
@@ -22140,9 +22170,9 @@
             "Normal"
         ],
         "abilities": [
-            "Static",
-            "Limber",
-            "Sand Veil"
+            "Reckless",
+            "Sap Sipper",
+            "Soundproof"
         ]
     },
     "rufflet": {
@@ -22173,9 +22203,9 @@
             "Flying"
         ],
         "abilities": [
-            "Inner Focus",
-            "Regenerator",
-            "Reckless"
+            "Keen Eye",
+            "Sheer Force",
+            "Hustle"
         ]
     },
     "braviary": {
@@ -22204,9 +22234,9 @@
             "Flying"
         ],
         "abilities": [
-            "Inner Focus",
-            "Regenerator",
-            "Reckless"
+            "Keen Eye",
+            "Sheer Force",
+            "Defiant"
         ]
     },
     "vullaby": {
@@ -22237,9 +22267,9 @@
             "Flying"
         ],
         "abilities": [
-            "Rough Skin",
-            "Sheer Force",
-            "Mold Breaker"
+            "Big Pecks",
+            "Overcoat",
+            "Weak Armor"
         ]
     },
     "mandibuzz": {
@@ -22268,9 +22298,9 @@
             "Flying"
         ],
         "abilities": [
-            "Iron Fist",
-            "Klutz",
-            "No Guard"
+            "Big Pecks",
+            "Overcoat",
+            "Weak Armor"
         ]
     },
     "heatmor": {
@@ -22298,9 +22328,9 @@
             "Fire"
         ],
         "abilities": [
-            "Iron Fist",
-            "Klutz",
-            "No Guard"
+            "Gluttony",
+            "Flash Fire",
+            "White Smoke"
         ]
     },
     "durant": {
@@ -22329,9 +22359,9 @@
             "Steel"
         ],
         "abilities": [
-            "Defiant",
-            "Inner Focus",
-            "Pressure"
+            "Swarm",
+            "Hustle",
+            "Truant"
         ]
     },
     "deino": {
@@ -22362,9 +22392,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Defiant",
-            "Inner Focus",
-            "Pressure"
+            "Hustle",
+            null,
+            null
         ]
     },
     "zweilous": {
@@ -22395,9 +22425,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Reckless",
-            "Sap Sipper",
-            "Soundproof"
+            "Hustle",
+            null,
+            null
         ]
     },
     "hydreigon": {
@@ -22426,9 +22456,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Keen Eye",
-            "Sheer Force",
-            "Hustle"
+            "Levitate",
+            null,
+            null
         ]
     },
     "larvesta": {
@@ -22459,9 +22489,9 @@
             "Fire"
         ],
         "abilities": [
-            "Keen Eye",
-            "Sheer Force",
-            "Defiant"
+            "Flame Body",
+            null,
+            "Swarm"
         ]
     },
     "volcarona": {
@@ -22490,9 +22520,9 @@
             "Fire"
         ],
         "abilities": [
-            "Big Pecks",
-            "Overcoat",
-            "Weak Armor"
+            "Flame Body",
+            null,
+            "Swarm"
         ]
     },
     "cobalion": {
@@ -22521,9 +22551,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Big Pecks",
-            "Overcoat",
-            "Weak Armor"
+            "Justified",
+            null,
+            null
         ]
     },
     "terrakion": {
@@ -22552,9 +22582,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Gluttony",
-            "Flash Fire",
-            "White Smoke"
+            "Justified",
+            null,
+            null
         ]
     },
     "virizion": {
@@ -22583,9 +22613,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Swarm",
-            "Hustle",
-            "Truant"
+            "Justified",
+            null,
+            null
         ]
     },
     "tornadus|~|incarnate": {
@@ -22613,9 +22643,9 @@
             "Flying"
         ],
         "abilities": [
-            "Hustle",
+            "Prankster",
             null,
-            null
+            "Defiant"
         ]
     },
     "tornadus|~|therian|~|t": {
@@ -22643,7 +22673,7 @@
             "Flying"
         ],
         "abilities": [
-            "Hustle",
+            "Regenerator",
             null,
             null
         ]
@@ -22674,9 +22704,9 @@
             "Flying"
         ],
         "abilities": [
-            "Levitate",
+            "Prankster",
             null,
-            null
+            "Defiant"
         ]
     },
     "thundurus|~|therian|~|t": {
@@ -22705,9 +22735,9 @@
             "Flying"
         ],
         "abilities": [
-            "Flame Body",
+            "Volt Absorb",
             null,
-            "Swarm"
+            null
         ]
     },
     "reshiram": {
@@ -22736,9 +22766,9 @@
             "Fire"
         ],
         "abilities": [
-            "Flame Body",
+            "Turboblaze",
             null,
-            "Swarm"
+            null
         ]
     },
     "zekrom": {
@@ -22767,7 +22797,7 @@
             "Electric"
         ],
         "abilities": [
-            "Justified",
+            "Teravolt",
             null,
             null
         ]
@@ -22798,9 +22828,9 @@
             "Flying"
         ],
         "abilities": [
-            "Justified",
+            "Sand Force",
             null,
-            null
+            "Sheer Force"
         ]
     },
     "landorus|~|therian|~|t": {
@@ -22829,7 +22859,7 @@
             "Flying"
         ],
         "abilities": [
-            "Justified",
+            "Intimidate",
             null,
             null
         ]
@@ -22860,9 +22890,9 @@
             "Ice"
         ],
         "abilities": [
-            "Prankster",
+            "Pressure",
             null,
-            "Defiant"
+            null
         ]
     },
     "kyurem|~|black": {
@@ -22891,7 +22921,7 @@
             "Ice"
         ],
         "abilities": [
-            "Regenerator",
+            "Teravolt",
             null,
             null
         ]
@@ -22922,9 +22952,9 @@
             "Ice"
         ],
         "abilities": [
-            "Prankster",
+            "Turboblaze",
             null,
-            "Defiant"
+            null
         ]
     },
     "keldeo": {
@@ -22953,7 +22983,7 @@
             "Fighting"
         ],
         "abilities": [
-            "Volt Absorb",
+            "Justified",
             null,
             null
         ]
@@ -22984,7 +23014,7 @@
             "Psychic"
         ],
         "abilities": [
-            "Turboblaze",
+            "Serene Grace",
             null,
             null
         ]
@@ -23015,7 +23045,7 @@
             "Fighting"
         ],
         "abilities": [
-            "Teravolt",
+            "Serene Grace",
             null,
             null
         ]
@@ -23046,9 +23076,9 @@
             "Steel"
         ],
         "abilities": [
-            "Sand Force",
+            "Download",
             null,
-            "Sheer Force"
+            null
         ]
     },
     "chespin": {
@@ -23078,9 +23108,9 @@
             "Grass"
         ],
         "abilities": [
-            "Intimidate",
+            "Overgrow",
             null,
-            null
+            "Bulletproof"
         ]
     },
     "quilladin": {
@@ -23110,9 +23140,9 @@
             "Grass"
         ],
         "abilities": [
-            "Pressure",
+            "Overgrow",
             null,
-            null
+            "Bulletproof"
         ]
     },
     "chesnaught": {
@@ -23141,9 +23171,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Teravolt",
+            "Overgrow",
             null,
-            null
+            "Bulletproof"
         ]
     },
     "fennekin": {
@@ -23173,9 +23203,9 @@
             "Fire"
         ],
         "abilities": [
-            "Turboblaze",
+            "Blaze",
             null,
-            null
+            "Magician"
         ]
     },
     "braixen": {
@@ -23205,9 +23235,9 @@
             "Fire"
         ],
         "abilities": [
-            "Justified",
+            "Blaze",
             null,
-            null
+            "Magician"
         ]
     },
     "delphox": {
@@ -23236,9 +23266,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Serene Grace",
+            "Blaze",
             null,
-            null
+            "Magician"
         ]
     },
     "froakie": {
@@ -23268,9 +23298,9 @@
             "Water"
         ],
         "abilities": [
-            "Serene Grace",
+            "Torrent",
             null,
-            null
+            "Protean"
         ]
     },
     "frogadier": {
@@ -23300,9 +23330,9 @@
             "Water"
         ],
         "abilities": [
-            "Download",
+            "Torrent",
             null,
-            null
+            "Protean"
         ]
     },
     "greninja": {
@@ -23331,9 +23361,9 @@
             "Dark"
         ],
         "abilities": [
-            "Overgrow",
+            "Torrent",
             null,
-            "Bulletproof"
+            "Protean"
         ]
     },
     "greninja|~|ash|~|ash-greninja|~|a": {
@@ -23362,9 +23392,9 @@
             "Dark"
         ],
         "abilities": [
-            "Overgrow",
+            "Battle Bond",
             null,
-            "Bulletproof"
+            null
         ]
     },
     "bunnelby": {
@@ -23394,9 +23424,9 @@
             "Normal"
         ],
         "abilities": [
-            "Overgrow",
-            null,
-            "Bulletproof"
+            "Pickup",
+            "Cheek Pouch",
+            "Huge Power"
         ]
     },
     "diggersby": {
@@ -23425,9 +23455,9 @@
             "Ground"
         ],
         "abilities": [
-            "Blaze",
-            null,
-            "Magician"
+            "Pickup",
+            "Cheek Pouch",
+            "Huge Power"
         ]
     },
     "fletchling": {
@@ -23458,9 +23488,9 @@
             "Flying"
         ],
         "abilities": [
-            "Blaze",
+            "Big Pecks",
             null,
-            "Magician"
+            "Gale Wings"
         ]
     },
     "fletchinder": {
@@ -23491,9 +23521,9 @@
             "Flying"
         ],
         "abilities": [
-            "Blaze",
+            "Flame Body",
             null,
-            "Magician"
+            "Gale Wings"
         ]
     },
     "talonflame": {
@@ -23522,9 +23552,9 @@
             "Flying"
         ],
         "abilities": [
-            "Torrent",
+            "Flame Body",
             null,
-            "Protean"
+            " Gale Wings"
         ]
     },
     "scatterbug": {
@@ -23554,9 +23584,9 @@
             "Bug"
         ],
         "abilities": [
-            "Torrent",
-            null,
-            "Protean"
+            "Shield Dust",
+            "Compound Eyes",
+            "Friend Guard"
         ]
     },
     "spewpa": {
@@ -23586,9 +23616,9 @@
             "Bug"
         ],
         "abilities": [
-            "Torrent",
+            "Shed Skin",
             null,
-            "Protean"
+            "Friend Guard"
         ]
     },
     "vivillon": {
@@ -23617,9 +23647,9 @@
             "Flying"
         ],
         "abilities": [
-            "Battle Bond",
-            null,
-            null
+            "Shield Dust",
+            "Compound Eyes",
+            "Friend Guard"
         ]
     },
     "litleo": {
@@ -23650,9 +23680,9 @@
             "Normal"
         ],
         "abilities": [
-            "Pickup",
-            "Cheek Pouch",
-            "Huge Power"
+            "Rivalry",
+            "Unnerve",
+            "Moxie"
         ]
     },
     "pyroar": {
@@ -23681,9 +23711,9 @@
             "Normal"
         ],
         "abilities": [
-            "Pickup",
-            "Cheek Pouch",
-            "Huge Power"
+            "Rivalry",
+            "Unnerve",
+            "Moxie"
         ]
     },
     "flabebe": {
@@ -23713,9 +23743,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Big Pecks",
+            "Flower Veil",
             null,
-            "Gale Wings"
+            "Symbiosis"
         ]
     },
     "floette": {
@@ -23745,9 +23775,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Flame Body",
+            "Flower Veil",
             null,
-            "Gale Wings"
+            "Symbiosis"
         ]
     },
     "floette|~|eternal": {
@@ -23777,9 +23807,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Flame Body",
+            "Flower Veil",
             null,
-            " Gale Wings"
+            null
         ]
     },
     "florges": {
@@ -23807,9 +23837,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Shield Dust",
-            "Compound Eyes",
-            "Friend Guard"
+            "Flower Veil",
+            null,
+            "Symbiosis"
         ]
     },
     "skiddo": {
@@ -23839,9 +23869,9 @@
             "Grass"
         ],
         "abilities": [
-            "Shed Skin",
+            "Sap Sipper",
             null,
-            "Friend Guard"
+            "Grass Pelt"
         ]
     },
     "gogoat": {
@@ -23869,9 +23899,9 @@
             "Grass"
         ],
         "abilities": [
-            "Shield Dust",
-            "Compound Eyes",
-            "Friend Guard"
+            "Sap Sipper",
+            null,
+            "Grass Pelt"
         ]
     },
     "pancham": {
@@ -23901,9 +23931,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Rivalry",
-            "Unnerve",
-            "Moxie"
+            "Iron Fist",
+            "Mold Breaker",
+            "Scrappy"
         ]
     },
     "pangoro": {
@@ -23932,9 +23962,9 @@
             "Dark"
         ],
         "abilities": [
-            "Rivalry",
-            "Unnerve",
-            "Moxie"
+            "Iron Fist",
+            "Mold Breaker",
+            "Scrappy"
         ]
     },
     "furfrou": {
@@ -23962,9 +23992,9 @@
             "Normal"
         ],
         "abilities": [
-            "Flower Veil",
+            "Fur Coat",
             null,
-            "Symbiosis"
+            null
         ]
     },
     "espurr": {
@@ -23994,9 +24024,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Flower Veil",
-            null,
-            "Symbiosis"
+            "Keen Eye",
+            "Infiltrator",
+            "Own Tempo"
         ]
     },
     "meowstic|~|male|~|m": {
@@ -24024,9 +24054,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Flower Veil",
-            null,
-            null
+            "Keen Eye",
+            "Infiltrator",
+            "Prankster"
         ]
     },
     "meowstic|~|female|~|f": {
@@ -24054,9 +24084,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Flower Veil",
-            null,
-            "Symbiosis"
+            "Keen Eye",
+            "Infiltrator",
+            "Competitive"
         ]
     },
     "honedge": {
@@ -24087,9 +24117,9 @@
             "Ghost"
         ],
         "abilities": [
-            "Sap Sipper",
+            "No Guard",
             null,
-            "Grass Pelt"
+            null
         ]
     },
     "doublade": {
@@ -24120,9 +24150,9 @@
             "Ghost"
         ],
         "abilities": [
-            "Sap Sipper",
+            "No Guard",
             null,
-            "Grass Pelt"
+            null
         ]
     },
     "aegislash|~|shield": {
@@ -24151,9 +24181,9 @@
             "Ghost"
         ],
         "abilities": [
-            "Iron Fist",
-            "Mold Breaker",
-            "Scrappy"
+            "Stance Change",
+            null,
+            null
         ]
     },
     "aegislash|~|blade": {
@@ -24182,9 +24212,9 @@
             "Ghost"
         ],
         "abilities": [
-            "Iron Fist",
-            "Mold Breaker",
-            "Scrappy"
+            "Stance Change",
+            null,
+            null
         ]
     },
     "spritzee": {
@@ -24214,9 +24244,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Fur Coat",
+            "Healer",
             null,
-            null
+            "Aroma Veil"
         ]
     },
     "aromatisse": {
@@ -24244,9 +24274,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Keen Eye",
-            "Infiltrator",
-            "Own Tempo"
+            "Healer",
+            null,
+            "Aroma Veil"
         ]
     },
     "swirlix": {
@@ -24276,9 +24306,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Keen Eye",
-            "Infiltrator",
-            "Prankster"
+            "Sweet Veil",
+            null,
+            "Unburden"
         ]
     },
     "slurpuff": {
@@ -24306,9 +24336,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Keen Eye",
-            "Infiltrator",
-            "Competitive"
+            "Sweet Veil",
+            null,
+            "Unburden"
         ]
     },
     "inkay": {
@@ -24339,9 +24369,9 @@
             "Psychic"
         ],
         "abilities": [
-            "No Guard",
-            null,
-            null
+            "Contrary",
+            "Suction Cups",
+            "Infiltrator"
         ]
     },
     "malamar": {
@@ -24370,9 +24400,9 @@
             "Psychic"
         ],
         "abilities": [
-            "No Guard",
-            null,
-            null
+            "Contrary",
+            "Suction Cups",
+            "Infiltrator"
         ]
     },
     "binacle": {
@@ -24403,9 +24433,9 @@
             "Water"
         ],
         "abilities": [
-            "Stance Change",
-            null,
-            null
+            "Sniper",
+            "Tough Claws",
+            "Pickpocket"
         ]
     },
     "barbaracle": {
@@ -24434,9 +24464,9 @@
             "Water"
         ],
         "abilities": [
-            "Stance Change",
-            null,
-            null
+            "Sniper",
+            "Tough Claws",
+            "Pickpocket"
         ]
     },
     "skrelp": {
@@ -24467,9 +24497,9 @@
             "Water"
         ],
         "abilities": [
-            "Healer",
-            null,
-            "Aroma Veil"
+            "Poison Point",
+            "Poison Touch",
+            "Adaptability"
         ]
     },
     "dragalge": {
@@ -24498,9 +24528,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Healer",
-            null,
-            "Aroma Veil"
+            "Poison Point",
+            "Poison Touch",
+            "Adaptability"
         ]
     },
     "clauncher": {
@@ -24530,9 +24560,9 @@
             "Water"
         ],
         "abilities": [
-            "Sweet Veil",
+            "Mega Launcher",
             null,
-            "Unburden"
+            null
         ]
     },
     "clawitzer": {
@@ -24560,9 +24590,9 @@
             "Water"
         ],
         "abilities": [
-            "Sweet Veil",
+            "Mega Launcher",
             null,
-            "Unburden"
+            null
         ]
     },
     "helioptile": {
@@ -24593,9 +24623,9 @@
             "Normal"
         ],
         "abilities": [
-            "Contrary",
-            "Suction Cups",
-            "Infiltrator"
+            "Dry Skin",
+            "Sand Veil",
+            "Solar Power"
         ]
     },
     "heliolisk": {
@@ -24624,9 +24654,9 @@
             "Normal"
         ],
         "abilities": [
-            "Contrary",
-            "Suction Cups",
-            "Infiltrator"
+            "Dry Skin",
+            "Sand Veil",
+            "Solar Power"
         ]
     },
     "tyrunt": {
@@ -24657,9 +24687,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Sniper",
-            "Tough Claws",
-            "Pickpocket"
+            "Strong Jaw",
+            null,
+            "Sturdy"
         ]
     },
     "tyrantrum": {
@@ -24688,9 +24718,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Sniper",
-            "Tough Claws",
-            "Pickpocket"
+            "Strong Jaw",
+            null,
+            "Rock Head"
         ]
     },
     "amaura": {
@@ -24721,9 +24751,9 @@
             "Ice"
         ],
         "abilities": [
-            "Poison Point",
-            "Poison Touch",
-            "Adaptability"
+            "Refrigerate",
+            null,
+            "Snow Warning"
         ]
     },
     "aurorus": {
@@ -24752,9 +24782,9 @@
             "Ice"
         ],
         "abilities": [
-            "Poison Point",
-            "Poison Touch",
-            "Adaptability"
+            "Refrigerate",
+            null,
+            "Snow Warning"
         ]
     },
     "sylveon": {
@@ -24782,9 +24812,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Mega Launcher",
+            "Cute Charm",
             null,
-            null
+            "Pixilate"
         ]
     },
     "hawlucha": {
@@ -24813,9 +24843,9 @@
             "Flying"
         ],
         "abilities": [
-            "Mega Launcher",
-            null,
-            null
+            "Limber",
+            "Unburden",
+            "Mold Breaker"
         ]
     },
     "dedenne": {
@@ -24844,9 +24874,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Dry Skin",
-            "Sand Veil",
-            "Solar Power"
+            "Cheek Pouch",
+            "Pickup",
+            "Plus"
         ]
     },
     "carbink": {
@@ -24875,9 +24905,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Dry Skin",
-            "Sand Veil",
-            "Solar Power"
+            "Clear Body",
+            null,
+            "Sturdy"
         ]
     },
     "goomy": {
@@ -24907,9 +24937,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Strong Jaw",
-            null,
-            "Sturdy"
+            "Sap Sipper",
+            "Hydration",
+            "Gooey"
         ]
     },
     "sliggoo": {
@@ -24939,9 +24969,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Strong Jaw",
-            null,
-            "Rock Head"
+            "Sap Sipper",
+            "Hydration",
+            "Gooey"
         ]
     },
     "goodra": {
@@ -24969,9 +24999,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Refrigerate",
-            null,
-            "Snow Warning"
+            "Sap Sipper",
+            "Hydration",
+            "Gooey"
         ]
     },
     "klefki": {
@@ -25000,9 +25030,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Refrigerate",
+            "Prankster",
             null,
-            "Snow Warning"
+            "Magician"
         ]
     },
     "phantump": {
@@ -25033,9 +25063,9 @@
             "Grass"
         ],
         "abilities": [
-            "Cute Charm",
-            null,
-            "Pixilate"
+            "Natural Cure",
+            "Frisk",
+            "Harvest"
         ]
     },
     "trevenant": {
@@ -25064,9 +25094,9 @@
             "Grass"
         ],
         "abilities": [
-            "Limber",
-            "Unburden",
-            "Mold Breaker"
+            "Natural Cure",
+            "Frisk",
+            "Harvest"
         ]
     },
     "pumpkaboo|~|small": {
@@ -25095,9 +25125,9 @@
             "Grass"
         ],
         "abilities": [
-            "Cheek Pouch",
             "Pickup",
-            "Plus"
+            "Frisk",
+            "Insomnia"
         ]
     },
     "pumpkaboo|~|average": {
@@ -25126,9 +25156,9 @@
             "Grass"
         ],
         "abilities": [
-            "Clear Body",
-            null,
-            "Sturdy"
+            "Pickup",
+            "Frisk",
+            "Insomnia"
         ]
     },
     "pumpkaboo|~|large": {
@@ -25157,9 +25187,9 @@
             "Grass"
         ],
         "abilities": [
-            "Sap Sipper",
-            "Hydration",
-            "Gooey"
+            "Pickup",
+            "Frisk",
+            "Insomnia"
         ]
     },
     "pumpkaboo|~|super": {
@@ -25190,9 +25220,9 @@
             "Grass"
         ],
         "abilities": [
-            "Sap Sipper",
-            "Hydration",
-            "Gooey"
+            "Pickup",
+            "Frisk",
+            "Insomnia"
         ]
     },
     "gourgeist|~|small": {
@@ -25221,9 +25251,9 @@
             "Grass"
         ],
         "abilities": [
-            "Sap Sipper",
-            "Hydration",
-            "Gooey"
+            "Pickup",
+            "Frisk",
+            "Insomnia"
         ]
     },
     "gourgeist|~|average": {
@@ -25252,9 +25282,9 @@
             "Grass"
         ],
         "abilities": [
-            "Prankster",
-            null,
-            "Magician"
+            "Pickup",
+            "Frisk",
+            "Insomnia"
         ]
     },
     "gourgeist|~|large": {
@@ -25283,9 +25313,9 @@
             "Grass"
         ],
         "abilities": [
-            "Natural Cure",
+            "Pickup",
             "Frisk",
-            "Harvest"
+            "Insomnia"
         ]
     },
     "gourgeist|~|super": {
@@ -25314,9 +25344,9 @@
             "Grass"
         ],
         "abilities": [
-            "Natural Cure",
+            "Pickup",
             "Frisk",
-            "Harvest"
+            "Insomnia"
         ]
     },
     "bergmite": {
@@ -25346,9 +25376,9 @@
             "Ice"
         ],
         "abilities": [
-            "Pickup",
-            "Frisk",
-            "Insomnia"
+            "Own Tempo",
+            "Ice Body",
+            "Sturdy"
         ]
     },
     "avalugg": {
@@ -25376,9 +25406,9 @@
             "Ice"
         ],
         "abilities": [
-            "Pickup",
-            "Frisk",
-            "Insomnia"
+            "Own Tempo",
+            "Ice Body",
+            "Sturdy"
         ]
     },
     "noibat": {
@@ -25409,9 +25439,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Own Tempo",
-            "Ice Body",
-            "Sturdy"
+            "Frisk",
+            "Infiltrator",
+            "Telepathy"
         ]
     },
     "noivern": {
@@ -25440,9 +25470,9 @@
             "Dragon"
         ],
         "abilities": [
-            "Own Tempo",
-            "Ice Body",
-            "Sturdy"
+            "Frisk",
+            "Infiltrator",
+            "Telepathy"
         ]
     },
     "xerneas": {
@@ -25470,9 +25500,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Frisk",
-            "Infiltrator",
-            "Telepathy"
+            "Fairy Aura",
+            null,
+            null
         ]
     },
     "yveltal": {
@@ -25501,9 +25531,9 @@
             "Flying"
         ],
         "abilities": [
-            "Frisk",
-            "Infiltrator",
-            "Telepathy"
+            "Dark Aura",
+            null,
+            null
         ]
     },
     "zygarde|~|50%|~|50|~|normal": {
@@ -25532,8 +25562,8 @@
             "Ground"
         ],
         "abilities": [
-            "Fairy Aura",
-            null,
+            "Aura Break",
+            "Power Construct",
             null
         ]
     },
@@ -25563,8 +25593,8 @@
             "Ground"
         ],
         "abilities": [
-            "Dark Aura",
-            null,
+            "Aura Break",
+            "Power Construct",
             null
         ]
     },
@@ -25594,8 +25624,8 @@
             "Ground"
         ],
         "abilities": [
-            "Aura Break",
             "Power Construct",
+            null,
             null
         ]
     },
@@ -25625,8 +25655,8 @@
             "Fairy"
         ],
         "abilities": [
-            "Aura Break",
-            "Power Construct",
+            "Clear Body",
+            null,
             null
         ]
     },
@@ -25656,7 +25686,7 @@
             "Fairy"
         ],
         "abilities": [
-            "Power Construct",
+            "Magic Bounce",
             null,
             null
         ]
@@ -25687,7 +25717,7 @@
             "Dark"
         ],
         "abilities": [
-            "Clear Body",
+            "Magician",
             null,
             null
         ]
@@ -25718,7 +25748,7 @@
             "Dark"
         ],
         "abilities": [
-            "Magic Bounce",
+            "Magician",
             null,
             null
         ]
@@ -25749,7 +25779,7 @@
             "Water"
         ],
         "abilities": [
-            "Magician",
+            "Water Absorb",
             null,
             null
         ]
@@ -25782,9 +25812,9 @@
             "Flying"
         ],
         "abilities": [
-            "Magician",
+            "Overgrow",
             null,
-            null
+            "Long Reach"
         ]
     },
     "dartrix": {
@@ -25815,9 +25845,9 @@
             "Flying"
         ],
         "abilities": [
-            "Water Absorb",
+            "Overgrow",
             null,
-            null
+            "Long Reach"
         ]
     },
     "decidueye": {
@@ -25878,9 +25908,9 @@
             "Fire"
         ],
         "abilities": [
-            "Overgrow",
+            "Blaze",
             null,
-            "Long Reach"
+            "Intimidate"
         ]
     },
     "torracat": {
@@ -25910,9 +25940,9 @@
             "Fire"
         ],
         "abilities": [
-            "Overgrow",
+            "Blaze",
             null,
-            "Long Reach"
+            "Intimidate"
         ]
     },
     "incineroar": {
@@ -25973,9 +26003,9 @@
             "Water"
         ],
         "abilities": [
-            "Blaze",
+            "Torrent",
             null,
-            "Intimidate"
+            "Liquid Voice"
         ]
     },
     "brionne": {
@@ -26005,9 +26035,9 @@
             "Water"
         ],
         "abilities": [
-            "Blaze",
+            "Torrent",
             null,
-            "Intimidate"
+            "Liquid Voice"
         ]
     },
     "primarina": {
@@ -26069,9 +26099,9 @@
             "Flying"
         ],
         "abilities": [
-            "Torrent",
-            null,
-            "Liquid Voice"
+            "Keen Eye",
+            "Skill Link",
+            "Pickup"
         ]
     },
     "trumbeak": {
@@ -26102,9 +26132,9 @@
             "Flying"
         ],
         "abilities": [
-            "Torrent",
-            null,
-            "Liquid Voice"
+            "Keen Eye",
+            "Skill Link",
+            "Pickup"
         ]
     },
     "toucannon": {
@@ -26135,7 +26165,7 @@
         "abilities": [
             "Keen Eye",
             "Skill Link",
-            "Pickup"
+            "Sheer Force"
         ]
     },
     "yungoos": {
@@ -26165,9 +26195,9 @@
             "Normal"
         ],
         "abilities": [
-            "Keen Eye",
-            "Skill Link",
-            "Pickup"
+            "Stakeout",
+            "Strong Jaw",
+            "Adaptability"
         ]
     },
     "gumshoos": {
@@ -26195,9 +26225,9 @@
             "Normal"
         ],
         "abilities": [
-            "Keen Eye",
-            "Skill Link",
-            "Sheer Force"
+            "Stakeout",
+            "Strong Jaw",
+            "Adaptability"
         ]
     },
     "grubbin": {
@@ -26227,9 +26257,9 @@
             "Bug"
         ],
         "abilities": [
-            "Stakeout",
-            "Strong Jaw",
-            "Adaptability"
+            "Swarm",
+            null,
+            null
         ]
     },
     "charjabug": {
@@ -26260,9 +26290,9 @@
             "Electric"
         ],
         "abilities": [
-            "Stakeout",
-            "Strong Jaw",
-            "Adaptability"
+            "Battery",
+            null,
+            null
         ]
     },
     "vikavolt": {
@@ -26291,7 +26321,7 @@
             "Electric"
         ],
         "abilities": [
-            "Swarm",
+            "Levitate",
             null,
             null
         ]
@@ -26323,9 +26353,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Battery",
-            null,
-            null
+            "Hyper Cutter",
+            "Iron Fist",
+            "Anger Point"
         ]
     },
     "crabominable": {
@@ -26354,9 +26384,9 @@
             "Ice"
         ],
         "abilities": [
-            "Levitate",
-            null,
-            null
+            "Hyper Cutter",
+            "Iron Fist",
+            "Anger Point"
         ]
     },
     "oricorio": {
@@ -26385,9 +26415,9 @@
             "Flying"
         ],
         "abilities": [
-            "Hyper Cutter",
-            "Iron Fist",
-            "Anger Point"
+            "Dancer",
+            null,
+            null
         ]
     },
     "cutiefly": {
@@ -26418,9 +26448,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Hyper Cutter",
-            "Iron Fist",
-            "Anger Point"
+            "Honey Gather",
+            "Shield Dust",
+            "Sweet Veil"
         ]
     },
     "ribombee": {
@@ -26449,9 +26479,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Dancer",
-            null,
-            null
+            "Honey Gather",
+            "Shield Dust",
+            "Sweet Veil"
         ]
     },
     "rockruff": {
@@ -26481,9 +26511,9 @@
             "Rock"
         ],
         "abilities": [
-            "Honey Gather",
-            "Shield Dust",
-            "Sweet Veil"
+            "Keen Eye",
+            "Vital Spirit",
+            "Steadfast"
         ]
     },
     "lycanroc|~|midday|~|day|~|sun": {
@@ -26511,9 +26541,9 @@
             "Rock"
         ],
         "abilities": [
-            "Honey Gather",
-            "Shield Dust",
-            "Sweet Veil"
+            "Keen Eye",
+            "Sand Rush",
+            "Steadfast"
         ]
     },
     "lycanroc|~|midnight|~|night|~|moon": {
@@ -26543,7 +26573,7 @@
         "abilities": [
             "Keen Eye",
             "Vital Spirit",
-            "Steadfast"
+            "No Guard"
         ]
     },
     "wishiwashi|~|solo": {
@@ -26571,9 +26601,9 @@
             "Water"
         ],
         "abilities": [
-            "Keen Eye",
-            "Sand Rush",
-            "Steadfast"
+            "Schooling",
+            null,
+            null
         ]
     },
     "wishiwashi|~|school": {
@@ -26601,9 +26631,9 @@
             "Water"
         ],
         "abilities": [
-            "Keen Eye",
-            "Vital Spirit",
-            "No Guard"
+            "Schooling",
+            null,
+            null
         ]
     },
     "mareanie": {
@@ -26634,9 +26664,9 @@
             "Water"
         ],
         "abilities": [
-            "Schooling",
-            null,
-            null
+            "Merciless",
+            "Limber",
+            "Regenerator"
         ]
     },
     "toxapex": {
@@ -26697,9 +26727,9 @@
             "Ground"
         ],
         "abilities": [
-            "Merciless",
-            "Limber",
-            "Regenerator"
+            "Own Tempo",
+            "Stamina",
+            "Inner Focus"
         ]
     },
     "mudsdale": {
@@ -26760,9 +26790,9 @@
             "Bug"
         ],
         "abilities": [
-            "Own Tempo",
-            "Stamina",
-            "Inner Focus"
+            "Water Bubble",
+            null,
+            "Water Absorb"
         ]
     },
     "araquanid": {
@@ -26823,9 +26853,9 @@
             "Grass"
         ],
         "abilities": [
-            "Water Bubble",
+            "Leaf Guard",
             null,
-            "Water Absorb"
+            "Contrary"
         ]
     },
     "lurantis": {
@@ -26886,9 +26916,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Leaf Guard",
-            null,
-            "Contrary"
+            "Illuminate",
+            "Effect Spore",
+            "Rain Dish"
         ]
     },
     "shiinotic": {
@@ -26950,9 +26980,9 @@
             "Fire"
         ],
         "abilities": [
-            "Illuminate",
-            "Effect Spore",
-            "Rain Dish"
+            "Corrosion",
+            null,
+            "Oblivious"
         ]
     },
     "salazzle": {
@@ -27014,9 +27044,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Corrosion",
-            null,
-            "Oblivious"
+            "Fluffy",
+            "Klutz",
+            "Cute Charm"
         ]
     },
     "bewear": {
@@ -27047,7 +27077,7 @@
         "abilities": [
             "Fluffy",
             "Klutz",
-            "Cute Charm"
+            "Unnerve"
         ]
     },
     "bounsweet": {
@@ -27077,9 +27107,9 @@
             "Grass"
         ],
         "abilities": [
-            "Fluffy",
-            "Klutz",
-            "Unnerve"
+            "Leaf Guard",
+            "Oblivious",
+            "Sweet Veil"
         ]
     },
     "steenee": {
@@ -27140,7 +27170,7 @@
         ],
         "abilities": [
             "Leaf Guard",
-            "Oblivious",
+            "Queenly Majesty",
             "Sweet Veil"
         ]
     },
@@ -27169,9 +27199,9 @@
             "Fairy"
         ],
         "abilities": [
-            "Leaf Guard",
-            "Queenly Majesty",
-            "Sweet Veil"
+            "Flower Veil",
+            "Triage",
+            "Natural Cure"
         ]
     },
     "oranguru": {
@@ -27200,9 +27230,9 @@
             "Psychic"
         ],
         "abilities": [
-            "Flower Veil",
-            "Triage",
-            "Natural Cure"
+            "Inner Focus",
+            "Telepathy",
+            "Symbiosis"
         ]
     },
     "passimian": {
@@ -27230,9 +27260,9 @@
             "Fighting"
         ],
         "abilities": [
-            "Inner Focus",
-            "Telepathy",
-            "Symbiosis"
+            "Receiver",
+            null,
+            "Defiant"
         ]
     },
     "wimpod": {
@@ -27263,9 +27293,9 @@
             "Water"
         ],
         "abilities": [
-            "Receiver",
+            "Wimp Out",
             null,
-            "Defiant"
+            null
         ]
     },
     "golisopod": {
@@ -27294,7 +27324,7 @@
             "Water"
         ],
         "abilities": [
-            "Wimp Out",
+            "Emergency Exit",
             null,
             null
         ]
@@ -27327,9 +27357,9 @@
             "Ground"
         ],
         "abilities": [
-            "Emergency Exit",
+            "Water Compaction",
             null,
-            null
+            "Sand Veil"
         ]
     },
     "palossand": {
@@ -27388,9 +27418,9 @@
             "Water"
         ],
         "abilities": [
-            "Water Compaction",
+            "Innards Out",
             null,
-            "Sand Veil"
+            "Unaware"
         ]
     },
     "type: null": {
@@ -27420,9 +27450,9 @@
             "Normal"
         ],
         "abilities": [
-            "Innards Out",
+            "Battle Armor",
             null,
-            "Unaware"
+            null
         ]
     },
     "silvally": {
@@ -27450,7 +27480,7 @@
             "Normal"
         ],
         "abilities": [
-            "Battle Armor",
+            "RKS System",
             null,
             null
         ]
@@ -27481,7 +27511,7 @@
             "Flying"
         ],
         "abilities": [
-            "RKS System",
+            "Shields Down",
             null,
             null
         ]
