@@ -86,10 +86,12 @@ class CallResponse():
         
         self.match_p    = re.compile(Config.MATCH_STRING)
         self.subreddit  = self.r.subreddit('+'.join(Config.SUBREDDITS))
-        self.srmodnames = (sr.lower() for sr in Config.SUBREDDITS if self.helpers.isBotModeratorOf(sr, 'posts'))
+        self.srmodnames = list(sr.lower() for sr in Config.SUBREDDITS if self.helpers.isBotModeratorOf(sr, 'posts'))
         self.srNoTry    = [] # list of subreddit (IDs) to not operate in
 
         if any(self.srmodnames):
+            print(self.srmodnames)
+            print('+'.join(self.srmodnames))
             self.modded = self.r.subreddit('+'.join(self.srmodnames))
         else:
             self.modded = None
@@ -149,7 +151,7 @@ class CallResponse():
     def should_break(self, thing):
         # if the thing was created before the bot initialized
         if thing.created_utc < self.startTime:
-            return False
+            return True
 
         seen = False
         if thing.id in self.done:
@@ -180,7 +182,7 @@ class CallResponse():
     #   true - if should continue
     #   false - if should break
     def process(self, thing, ignore_done = False):
-        if hasattr(thing, 'subreddit') and thing.subreddit.id in self.srNoTry:
+        if hasattr(thing, 'subreddit') and not thing.subreddit is None and thing.subreddit.id in self.srNoTry:
             return True
 
         type        = self.helpers.typeof(thing)        # thing type (int)
@@ -237,7 +239,7 @@ class CallResponse():
                         # compile reply
                         response_body = self.get_response(thing, reply_thing, items)
                         reply_thing.edit(response_body)
-                        self.logger.info("  Replied to " + noun + " by %s, id - %s"%(str(thing.author), thing.fullname))
+                        self.logger.info("> Replied to " + noun + " by %s, id - %s"%(str(thing.author), thing.fullname))
                         
                         # optionals
                         if not did_edit and self.mgmt.bot_isModerator(thing.subreddit):
@@ -255,13 +257,13 @@ class CallResponse():
                         # delete if something went wrong with generating the reply
                         reply_thing.delete()
                         reply_thing = None
-                        self.logger.warning("  [1] Was unable to reply to: " + thing.fullname)
+                        self.logger.warning("> [1] Was unable to reply to: " + thing.fullname)
                         print(traceback.format_exception(None, e, e.__traceback__),
                                 file=sys.stderr, flush=True)
                 else:
-                    self.logger.warning("  [2] Was unable to reply to: " + thing.fullname)
+                    self.logger.warning("> [2] Was unable to reply to: " + thing.fullname)
             except praw.exceptions.APIException:
-                self.logger.warning("  " + noun + " was deleted, id - %s"%str(thing.fullname))
+                self.logger.warning("> " + noun + " was deleted, id - %s"%str(thing.fullname))
 
         return True
 
@@ -271,7 +273,7 @@ class CallResponse():
 
         # check comments
         if Config.RESPONDER_CHECK_COMMENTS:
-            self.logger.debug('- Checking new comments')
+            self.logger.debug('-----[ Checking new comments ]-----')
             for comment in self.subreddit.comments(limit=200):
                 if comment is None:
                     break
@@ -280,7 +282,7 @@ class CallResponse():
         
         # check self posts
         if Config.RESPONDER_CHECK_SUBMISSIONS:
-            self.logger.debug('- Checking new submissions')
+            self.logger.debug('-----[ Checking new submissions ]-----')
             for submission in self.subreddit.new(limit=100):
                 if submission is None:
                     break
@@ -289,7 +291,7 @@ class CallResponse():
 
         # check user name mentions (for edited comments)
         if Config.RESPONDER_CHECK_MENTIONS:
-            self.logger.debug('- Checking mentions')
+            self.logger.debug('-----[ Checking mentions ]-----')
             for comment in self.r.inbox.mentions(limit=None):
                 if comment is None:
                     break
@@ -298,7 +300,7 @@ class CallResponse():
 
         # check edited comments for modded subs
         if Config.RESPONDER_CHECK_EDITED and not self.modded is None:
-            self.logger.debug('- Checking edited comments')
+            self.logger.debug('-----[ Checking edited comments ]-----')
             for edited_thing in self.modded.mod.edited(limit=100):
                 if edited_thing is None:
                     break
@@ -307,7 +309,7 @@ class CallResponse():
                     
         # check messages (for operator sent commands)
         for message in self.r.inbox.unread(limit=10):
-            self.logger.debug('- Checking unread inbox')
+            self.logger.debug('-----[ Checking unread inbox ]-----')
             if message is None:
                 break
             if not self.process(message):

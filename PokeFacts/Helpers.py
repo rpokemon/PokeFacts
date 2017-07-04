@@ -173,7 +173,7 @@ class Helpers():
     def isBotModeratorOf(self, subreddit, must_have_perms = []):
         if type(subreddit) == str:
             subreddit = self.reddit.subreddit(subreddit)
-        
+            
         if type(must_have_perms) == str:
             must_have_perms = set([must_have_perms])
 
@@ -187,8 +187,8 @@ class Helpers():
                 if len(must_have_perms) == 0 or "all" in perms:
                     return True
                 if must_have_perms.issubset(perms):
-                    return False
-                return True
+                    return True
+                return False
                 
         return False
 
