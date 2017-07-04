@@ -104,7 +104,7 @@
             "After a rainy day, the flower on its back smells  stronger. The scent attracts other Pok\u00e9mon."
         ],
         "name": {
-            "english": "Venusaur",
+            "english": "Mega Venusaur",
             "japanese": "Fushigibana",
             "kana": "\u30d5\u30b7\u30ae\u30d0\u30ca"
         },
@@ -230,7 +230,7 @@
             "Its wings can carry this Pok\u00e9mon close to an altitude of 4,600 feet. It blows out fire at very high temperatures."
         ],
         "name": {
-            "english": "Charizard",
+            "english": "Mega Charizard X",
             "japanese": "Lizardon",
             "kana": "\u30ea\u30b6\u30fc\u30c9\u30f3"
         },
@@ -261,7 +261,7 @@
             "Its wings can carry this Pok\u00e9mon close to an altitude of 4,600 feet. It blows out fire at very high temperatures."
         ],
         "name": {
-            "english": "Charizard",
+            "english": "Mega Charizard Y",
             "japanese": "Lizardon",
             "kana": "\u30ea\u30b6\u30fc\u30c9\u30f3"
         },
@@ -386,7 +386,7 @@
             "The pressurized water jets on this brutal Pok\u00e9mon's shell are used for high-speed tackles."
         ],
         "name": {
-            "english": "Blastoise",
+            "english": "Mega Blastoise",
             "japanese": "Kamex",
             "kana": "\u30ab\u30e1\u30c3\u30af\u30b9"
         },
@@ -608,7 +608,7 @@
             "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear."
         ],
         "name": {
-            "english": "Beedrill",
+            "english": "Mega Beedrill",
             "japanese": "Spear",
             "kana": "\u30b9\u30d4\u30a2\u30fc"
         },
@@ -736,7 +736,7 @@
             "It spreads its gorgeous wings widely to intimidate enemies. It races through the skies at Mach-2 speed."
         ],
         "name": {
-            "english": "Pidgeot",
+            "english": "Mega Pidgeot",
             "japanese": "Pidgeott",
             "kana": "\u30d4\u30b8\u30e7\u30c3\u30c8"
         },
@@ -798,7 +798,7 @@
             "Its fangs are long and very sharp. They grow continuously, so it gnaws on hard things to whittle them down. "
         ],
         "name": {
-            "english": "Rattata",
+            "english": "Alolan Rattata",
             "japanese": "Koratta",
             "kana": "\u30b3\u30e9\u30c3\u30bf"
         },
@@ -862,7 +862,7 @@
             "The webs on its hind legs enable it to cross rivers. It searches wide areas for food"
         ],
         "name": {
-            "english": "Raticate",
+            "english": "Alolan Raticate",
             "japanese": "Ratta",
             "kana": "\u30e9\u30c3\u30bf"
         },
@@ -1080,7 +1080,7 @@
             "It can loose 100,000-volt bursts of electricity, instantly downing foes several times its size."
         ],
         "name": {
-            "english": "Raichu",
+            "english": "Alolan Raichu",
             "japanese": "Raichu",
             "kana": "\u30e9\u30a4\u30c1\u30e5\u30a6"
         },
@@ -1142,7 +1142,7 @@
             "Disliking water, it lives in deep burrows in arid areas. It can roll itself instantly into a ball."
         ],
         "name": {
-            "english": "Sandshrew",
+            "english": "Alolan Sandshrew",
             "japanese": "Sand",
             "kana": "\u30b5\u30f3\u30c9"
         },
@@ -1206,7 +1206,7 @@
             "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape."
         ],
         "name": {
-            "english": "Sandslash",
+            "english": "Alolan Sandslash",
             "japanese": "Sandpan",
             "kana": "\u30b5\u30f3\u30c9\u30d1\u30f3"
         },
@@ -1517,7 +1517,7 @@
             "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
         ],
         "name": {
-            "english": "Vulpix",
+            "english": "Alolan Vulpix",
             "japanese": "Rokon",
             "kana": "\u30ed\u30b3\u30f3"
         },
@@ -1580,7 +1580,7 @@
             "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse."
         ],
         "name": {
-            "english": "Ninetales",
+            "english": "Alolan Ninetales",
             "japanese": "Kyukon",
             "kana": "\u30ad\u30e5\u30a6\u30b3\u30f3"
         },
@@ -1996,7 +1996,7 @@
             "Its skin is very thin. If it is exposed to light, its blood heats up, causing it to grow weak."
         ],
         "name": {
-            "english": "Diglett",
+            "english": "Alolan Diglett",
             "japanese": "Digda",
             "kana": "\u30c7\u30a3\u30b0\u30c0"
         },
@@ -2060,7 +2060,7 @@
             "Extremely powerful, they can dig through even the hardest ground to a depth of over 60 miles."
         ],
         "name": {
-            "english": "Dugtrio",
+            "english": "Alolan Dugtrio",
             "japanese": "Dugtrio",
             "kana": "\u30c0\u30b0\u30c8\u30ea\u30aa"
         },
@@ -2121,7 +2121,7 @@
             "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change. "
         ],
         "name": {
-            "english": "Meowth",
+            "english": "Alolan Meowth",
             "japanese": "Nyarth",
             "kana": "\u30cb\u30e3\u30fc\u30b9"
         },
@@ -2183,7 +2183,7 @@
             "Its lithe muscles allow it to walk without making a sound. It attacks in an instant. "
         ],
         "name": {
-            "english": "Persian",
+            "english": "Alolan Persian",
             "japanese": "Persian",
             "kana": "\u30da\u30eb\u30b7\u30a2\u30f3"
         },
@@ -2589,7 +2589,7 @@
             "Its brain can outperform a supercomputer. Its IQ (intelligence quotient) is said to be around 5,000."
         ],
         "name": {
-            "english": "Alakazam",
+            "english": "Mega Alakazam",
             "japanese": "Foodin",
             "kana": "\u30d5\u30fc\u30c7\u30a3\u30f3"
         },
@@ -2907,7 +2907,7 @@
             "It is impossible to distinguish from rocks. It slams against others in contests of hardness."
         ],
         "name": {
-            "english": "Geodude",
+            "english": "Alolan Geodude",
             "japanese": "Ishitsubute",
             "kana": "\u30a4\u30b7\u30c4\u30d6\u30c6"
         },
@@ -2971,7 +2971,7 @@
             "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction."
         ],
         "name": {
-            "english": "Graveler",
+            "english": "Alolan Graveler",
             "japanese": "Goroun",
             "kana": "\u30b4\u30ed\u30fc\u30f3"
         },
@@ -3035,7 +3035,7 @@
             "Even dynamite can't harm its hard, boulder-like body. It sheds its hide just once a year."
         ],
         "name": {
-            "english": "Golem",
+            "english": "Alolan Golem",
             "japanese": "Gorounya",
             "kana": "\u30b4\u30ed\u30fc\u30cb\u30e3"
         },
@@ -3193,7 +3193,7 @@
             "When a Slowpoke went hunting in the sea, its tail was bitten by a Shellder. That made it evolve into Slowbro."
         ],
         "name": {
-            "english": "Slowbro",
+            "english": "Mega Slowbro",
             "japanese": "Yadoran",
             "kana": "\u30e4\u30c9\u30e9\u30f3"
         },
@@ -3479,7 +3479,7 @@
             "Appears in flithy areas. It thrives by sucking up polluted sludge that is pumped out of factories. "
         ],
         "name": {
-            "english": "Grimer",
+            "english": "Alolan Grimer",
             "japanese": "Betbeter",
             "kana": "\u30d9\u30c8\u30d9\u30bf\u30fc"
         },
@@ -3543,7 +3543,7 @@
             "A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact. "
         ],
         "name": {
-            "english": "Muk",
+            "english": "Alolan Muk",
             "japanese": "Betbeton",
             "kana": "\u30d9\u30c8\u30d9\u30c8\u30f3"
         },
@@ -3734,7 +3734,7 @@
             "Hiding in people's shadows at night, it absorbs their heat. The chill it causes makes the victims shake."
         ],
         "name": {
-            "english": "Gengar",
+            "english": "Mega Gengar",
             "japanese": "Gangar",
             "kana": "\u30b2\u30f3\u30ac\u30fc"
         },
@@ -4048,7 +4048,7 @@
             "It is called \"The Walking Jungle.\" If a head grows  too big, it falls off and becomes an Exeggcute. "
         ],
         "name": {
-            "english": "Exeggutor",
+            "english": "Alolan Exeggutor",
             "japanese": "Nassy",
             "kana": "\u30ca\u30c3\u30b7\u30fc"
         },
@@ -4142,7 +4142,7 @@
             "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets."
         ],
         "name": {
-            "english": "Marowak",
+            "english": "Alolan Marowak",
             "japanese": "GaraGara",
             "kana": "\u30ac\u30e9\u30ac\u30e9"
         },
@@ -4485,7 +4485,7 @@
             "If it is safe, the young gets out of the belly pouch to play. The adult keeps a close eye on the youngster."
         ],
         "name": {
-            "english": "Kangaskhan",
+            "english": "Mega Kangaskhan",
             "japanese": "Garura",
             "kana": "\u30ac\u30eb\u30fc\u30e9"
         },
@@ -4889,7 +4889,7 @@
             "It swings its long pincer horns wildly to attack.  During cold periods, it hides deep in forests. "
         ],
         "name": {
-            "english": "Pinsir",
+            "english": "Mega Pinsir",
             "japanese": "Kailios",
             "kana": "\u30ab\u30a4\u30ed\u30b9"
         },
@@ -5012,7 +5012,7 @@
             "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage."
         ],
         "name": {
-            "english": "Gyarados",
+            "english": "Mega Gyarados",
             "japanese": "Gyarados",
             "kana": "\u30ae\u30e3\u30e9\u30c9\u30b9"
         },
@@ -5423,7 +5423,7 @@
             "This vicious Pok\u00e9mon is said to have flown in ancient skies while shrieking high-pitched cries."
         ],
         "name": {
-            "english": "Aerodactyl",
+            "english": "Mega Aerodactyl",
             "japanese": "Ptera",
             "kana": "\u30d7\u30c6\u30e9"
         },
@@ -5702,7 +5702,7 @@
             "A Pok\u00e9mon created by recombining Mew's genes. It's said to have the most savage heart among Pok\u00e9mon."
         ],
         "name": {
-            "english": "Mewtwo",
+            "english": "Mega Mewtwo X",
             "japanese": "Mewtwo",
             "kana": "\u30df\u30e5\u30a6\u30c4\u30fc"
         },
@@ -5732,7 +5732,7 @@
             "A Pok\u00e9mon created by recombining Mew's genes. It's said to have the most savage heart among Pok\u00e9mon."
         ],
         "name": {
-            "english": "Mewtwo",
+            "english": "Mega Mewtwo Y",
             "japanese": "Mewtwo",
             "kana": "\u30df\u30e5\u30a6\u30c4\u30fc"
         },
@@ -6746,7 +6746,7 @@
             "The tail's tip shines brightly and can be seen from  far away. It acts as a beacon for lost people."
         ],
         "name": {
-            "english": "Ampharos",
+            "english": "Mega Ampharos",
             "japanese": "Denryu",
             "kana": "\u30c7\u30f3\u30ea\u30e5\u30a6"
         },
@@ -7620,7 +7620,7 @@
             "It chews its way through boulders with its sturdy jaws. Its eyes can see in the darkness underground."
         ],
         "name": {
-            "english": "Steelix",
+            "english": "Mega Steelix",
             "japanese": "Haganeiru",
             "kana": "\u30cf\u30ac\u30cd\u30fc\u30eb"
         },
@@ -7775,7 +7775,7 @@
             "It has a steel-hard body. It intimidates foes by upraising its eye-patterned pincers. "
         ],
         "name": {
-            "english": "Scizor",
+            "english": "Mega Scizor",
             "japanese": "Hassam",
             "kana": "\u30cf\u30c3\u30b5\u30e0"
         },
@@ -7868,7 +7868,7 @@
             "With its Herculean powers, it can easily throw around an object that is 100 times its own weight."
         ],
         "name": {
-            "english": "Heracross",
+            "english": "Mega Heracross",
             "japanese": "Heracros",
             "kana": "\u30d8\u30e9\u30af\u30ed\u30b9"
         },
@@ -8373,7 +8373,7 @@
             "The flames it breathes when angry contain toxins.  If they cause a burn, it will hurt forever."
         ],
         "name": {
-            "english": "Houndoom",
+            "english": "Mega Houndoom",
             "japanese": "Hellgar",
             "kana": "\u30d8\u30eb\u30ac\u30fc"
         },
@@ -8999,7 +8999,7 @@
             "If it rampages, it knocks down mountains and buries  rivers. Maps must be redrawn afterward. "
         ],
         "name": {
-            "english": "Tyranitar",
+            "english": "Mega Tyranitar",
             "japanese": "Bangiras",
             "kana": "\u30d0\u30f3\u30ae\u30e9\u30b9"
         },
@@ -9217,7 +9217,7 @@
             "It agilely leaps about the jungle and uses the sharp leaves on its arms to strike its prey. "
         ],
         "name": {
-            "english": "Sceptile",
+            "english": "Mega Sceptile",
             "japanese": "Jukain",
             "kana": "\u30b8\u30e5\u30ab\u30a4\u30f3"
         },
@@ -9343,7 +9343,7 @@
             "When facing a tough foe, it looses flames from its wrists. Its powerful legs it jump clear over buildings."
         ],
         "name": {
-            "english": "Blaziken",
+            "english": "Mega Blaziken",
             "japanese": "Bursyamo",
             "kana": "\u30d0\u30b7\u30e3\u30fc\u30e2"
         },
@@ -9470,7 +9470,7 @@
             "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms. "
         ],
         "name": {
-            "english": "Swampert",
+            "english": "Mega Swampert",
             "japanese": "Rugaji",
             "kana": "\u30e9\u30b0\u30e9\u30fc\u30b8"
         },
@@ -10201,7 +10201,7 @@
             "It has the power to predict the future. Its power peaks when it is protecting its Trainer."
         ],
         "name": {
-            "english": "Gardevoir",
+            "english": "Mega Gardevoir",
             "japanese": "Sirnight",
             "kana": "\u30b5\u30fc\u30ca\u30a4\u30c8"
         },
@@ -10864,7 +10864,7 @@
             "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself."
         ],
         "name": {
-            "english": "Sableye",
+            "english": "Mega Sableye",
             "japanese": "Yamirami",
             "kana": "\u30e4\u30df\u30e9\u30df"
         },
@@ -10926,7 +10926,7 @@
             "Attached to its head is a huge set of jaws formed by horns. It can chew through iron beams."
         ],
         "name": {
-            "english": "Mawile",
+            "english": "Mega Mawile",
             "japanese": "Kucheat",
             "kana": "\u30af\u30c1\u30fc\u30c8"
         },
@@ -11054,7 +11054,7 @@
             "While seeking iron for food, it digs tunnels by  breaking through bedrock with its steel horns."
         ],
         "name": {
-            "english": "Aggron",
+            "english": "Mega Aggron",
             "japanese": "Bossgodora",
             "kana": "\u30dc\u30b9\u30b4\u30c9\u30e9"
         },
@@ -11149,7 +11149,7 @@
             "Through yoga training, it gained the psychic power to predict its foe's next move."
         ],
         "name": {
-            "english": "Medicham",
+            "english": "Mega Medicham",
             "japanese": "Charem",
             "kana": "\u30c1\u30e3\u30fc\u30ec\u30e0"
         },
@@ -11242,7 +11242,7 @@
             "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts."
         ],
         "name": {
-            "english": "Manectric",
+            "english": "Mega Manectric",
             "japanese": "Livolt",
             "kana": "\u30e9\u30a4\u30dc\u30eb\u30c8"
         },
@@ -11551,7 +11551,7 @@
             "It can swim at speeds of 75 mph by jetting seawater through its body. It is the bandit of the sea."
         ],
         "name": {
-            "english": "Sharpedo",
+            "english": "Mega Sharpedo",
             "japanese": "Samehada",
             "kana": "\u30b5\u30e1\u30cf\u30c0\u30fc"
         },
@@ -11708,7 +11708,7 @@
             "If angered, the humps on its back erupt in a shower of molten lava. It lives in the craters of volcanoes."
         ],
         "name": {
-            "english": "Camerupt",
+            "english": "Mega Camerupt",
             "japanese": "Bakuuda",
             "kana": "\u30d0\u30af\u30fc\u30c0"
         },
@@ -12084,7 +12084,7 @@
             "On sunny days, it flies freely through the sky and  blends into the clouds. It sings in a  beautiful soprano."
         ],
         "name": {
-            "english": "Altaria",
+            "english": "Mega Altaria",
             "japanese": "Tyltalis",
             "kana": "\u30c1\u30eb\u30bf\u30ea\u30b9"
         },
@@ -12740,7 +12740,7 @@
             "Strong feelings of hatred turned a puppet into a Pok\u00e9mon. If it opens its mouth, its cursed energy escapes."
         ],
         "name": {
-            "english": "Banette",
+            "english": "Mega Banette",
             "japanese": "Juppeta",
             "kana": "\u30b8\u30e5\u30da\u30c3\u30bf"
         },
@@ -12925,7 +12925,7 @@
             "It appears when it senses an impending natural disaster. As a result, it was mistaken as a doom bringer."
         ],
         "name": {
-            "english": "Absol",
+            "english": "Mega Absol",
             "japanese": "Absol",
             "kana": "\u30a2\u30d6\u30bd\u30eb"
         },
@@ -13050,7 +13050,7 @@
             "It can instantly freeze moisture in the atmosphere. It uses this power to freeze its foes. "
         ],
         "name": {
-            "english": "Glalie",
+            "english": "Mega Glalie",
             "japanese": "Onigoori",
             "kana": "\u30aa\u30cb\u30b4\u30fc\u30ea"
         },
@@ -13426,7 +13426,7 @@
             "It's uncontrollable if enraged. It flies around spouting flames and scorching fields and mountains."
         ],
         "name": {
-            "english": "Salamence",
+            "english": "Mega Salamence",
             "japanese": "Boomanda",
             "kana": "\u30dc\u30fc\u30de\u30f3\u30c0"
         },
@@ -13554,7 +13554,7 @@
             "Metang combined to form it. With four brains, it has the intelligence of a supercomputer. "
         ],
         "name": {
-            "english": "Metagross",
+            "english": "Mega Metagross",
             "japanese": "Metagoros",
             "kana": "\u30e1\u30bf\u30b0\u30ed\u30b9"
         },
@@ -13706,7 +13706,7 @@
             "Its body is covered with a down that can refract light in such a way that it becomes invisible. "
         ],
         "name": {
-            "english": "Latias",
+            "english": "Mega Latias",
             "japanese": "Latias",
             "kana": "\u30e9\u30c6\u30a3\u30a2\u30b9"
         },
@@ -13768,7 +13768,7 @@
             "It understands human speech and is highly intelligent. It is a tender Pok\u00e9mon that dislikes fighting. "
         ],
         "name": {
-            "english": "Latios",
+            "english": "Mega Latios",
             "japanese": "Latios",
             "kana": "\u30e9\u30c6\u30a3\u30aa\u30b9"
         },
@@ -13829,7 +13829,7 @@
             "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench. "
         ],
         "name": {
-            "english": "Kyogre",
+            "english": "Primal Kyogre",
             "japanese": "Kyogre",
             "kana": "\u30ab\u30a4\u30aa\u30fc\u30ac"
         },
@@ -13889,7 +13889,7 @@
             "It had been asleep in underground magma ever since it fiercely fought Kyogre long ago. "
         ],
         "name": {
-            "english": "Groudon",
+            "english": "Primal Groudon",
             "japanese": "Groudon",
             "kana": "\u30b0\u30e9\u30fc\u30c9\u30f3"
         },
@@ -13950,7 +13950,7 @@
             "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it. "
         ],
         "name": {
-            "english": "Rayquaza",
+            "english": "Mega Rayquaza",
             "japanese": "Rayquaza",
             "kana": "\u30ec\u30c3\u30af\u30a6\u30b6"
         },
@@ -14042,7 +14042,7 @@
             "DNA from a space virus mutated and became a Pok\u00e9mon. It appears where auroras are seen. "
         ],
         "name": {
-            "english": "Deoxys",
+            "english": "Deoxys Attack",
             "japanese": "Deokishisu",
             "kana": "\u30c7\u30aa\u30ad\u30b7\u30b9"
         },
@@ -14072,7 +14072,7 @@
             "DNA from a space virus mutated and became a Pok\u00e9mon. It appears where auroras are seen. "
         ],
         "name": {
-            "english": "Deoxys",
+            "english": "Deoxys Defense",
             "japanese": "Deokishisu",
             "kana": "\u30c7\u30aa\u30ad\u30b7\u30b9"
         },
@@ -14102,7 +14102,7 @@
             "DNA from a space virus mutated and became a Pok\u00e9mon. It appears where auroras are seen. "
         ],
         "name": {
-            "english": "Deoxys",
+            "english": "Deoxys Speed",
             "japanese": "Deokishisu",
             "kana": "\u30c7\u30aa\u30ad\u30b7\u30b9"
         },
@@ -14930,7 +14930,7 @@
             "kana": "\u30df\u30ce\u30e0\u30c3\u30c1"
         },
         "evolutions": [
-            "wormadam|~|plant",
+            "wormadam",
             "mothim"
         ],
         "base_stats": [
@@ -14958,7 +14958,7 @@
             "When Burmy evolved, its cloak became a part of this Pok\u00e9mon's body. The cloak is never shed."
         ],
         "name": {
-            "english": "Wormadam",
+            "english": "Wormadam Plant Coat",
             "japanese": "Minomadamu",
             "kana": "\u30df\u30ce\u30de\u30c0\u30e0"
         },
@@ -14989,7 +14989,7 @@
             "When Burmy evolved, its cloak became a part of this Pok\u00e9mon's body. The cloak is never shed."
         ],
         "name": {
-            "english": "Wormadam",
+            "english": "Wormadam Sandy Coat",
             "japanese": "Minomadamu",
             "kana": "\u30df\u30ce\u30de\u30c0\u30e0"
         },
@@ -15020,7 +15020,7 @@
             "When Burmy evolved, its cloak became a part of this Pok\u00e9mon's body. The cloak is never shed."
         ],
         "name": {
-            "english": "Wormadam",
+            "english": "Wormadam Trash Coat",
             "japanese": "Minomadamu",
             "kana": "\u30df\u30ce\u30de\u30c0\u30e0"
         },
@@ -15519,7 +15519,7 @@
             "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs. "
         ],
         "name": {
-            "english": "Lopunny",
+            "english": "Mega Lopunny",
             "japanese": "Mimiroppu",
             "kana": "\u30df\u30df\u30ed\u30c3\u30d7"
         },
@@ -16089,7 +16089,7 @@
             "It flies at speeds equals to a jet fighter plane. It never allows its prey to escape. "
         ],
         "name": {
-            "english": "Garchomp",
+            "english": "Mega Garchomp",
             "japanese": "Gaburias",
             "kana": "\u30ac\u30d6\u30ea\u30a2\u30b9"
         },
@@ -16215,7 +16215,7 @@
             "By reading the auras of all things, it can tell how others are feeling from over half a mile away."
         ],
         "name": {
-            "english": "Lucario",
+            "english": "Mega Lucario",
             "japanese": "Lucario",
             "kana": "\u30eb\u30ab\u30ea\u30aa"
         },
@@ -16625,7 +16625,7 @@
             "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards."
         ],
         "name": {
-            "english": "Abomasnow",
+            "english": "Mega Abomasnow",
             "japanese": "Yukinooh",
             "kana": "\u30e6\u30ad\u30ce\u30aa\u30fc"
         },
@@ -17114,7 +17114,7 @@
             "A master of courtesy and swordsmanship, it fights using extending swords on its elbows. "
         ],
         "name": {
-            "english": "Gallade",
+            "english": "Mega Gallade",
             "japanese": "Erureido",
             "kana": "\u30a8\u30eb\u30ec\u30a4\u30c9"
         },
@@ -17268,7 +17268,7 @@
             "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc."
         ],
         "name": {
-            "english": "Rotom",
+            "english": "Rotom Heat",
             "japanese": "Rotomu",
             "kana": "\u30ed\u30c8\u30e0"
         },
@@ -17299,7 +17299,7 @@
             "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc."
         ],
         "name": {
-            "english": "Rotom",
+            "english": "Rotom Wash",
             "japanese": "Rotomu",
             "kana": "\u30ed\u30c8\u30e0"
         },
@@ -17330,7 +17330,7 @@
             "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc."
         ],
         "name": {
-            "english": "Rotom",
+            "english": "Rotom Frost",
             "japanese": "Rotomu",
             "kana": "\u30ed\u30c8\u30e0"
         },
@@ -17361,7 +17361,7 @@
             "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc."
         ],
         "name": {
-            "english": "Rotom",
+            "english": "Rotom Fan",
             "japanese": "Rotomu",
             "kana": "\u30ed\u30c8\u30e0"
         },
@@ -17392,7 +17392,7 @@
             "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc."
         ],
         "name": {
-            "english": "Rotom",
+            "english": "Rotom Mow",
             "japanese": "Rotomu",
             "kana": "\u30ed\u30c8\u30e0"
         },
@@ -17636,7 +17636,7 @@
             "It was banished for its violence. It silently gazed upon the old world from the Distortion World. "
         ],
         "name": {
-            "english": "Giratina",
+            "english": "Giratina Altered",
             "japanese": "Giratina",
             "kana": "\u30ae\u30e9\u30c6\u30a3\u30ca"
         },
@@ -17667,7 +17667,7 @@
             "It was banished for its violence. It silently gazed upon the old world from the Distortion World. "
         ],
         "name": {
-            "english": "Giratina",
+            "english": "Giratina Origin",
             "japanese": "Giratina",
             "kana": "\u30ae\u30e9\u30c6\u30a3\u30ca"
         },
@@ -17851,7 +17851,7 @@
             "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers. "
         ],
         "name": {
-            "english": "Shaymin",
+            "english": "Shaymin Sky Forme",
             "japanese": "Sheimi",
             "kana": "\u30b7\u30a7\u30a4\u30df"
         },
@@ -19103,7 +19103,7 @@
             "It touches others with the feelers on its ears, using the sound of their heartbeats to tell how they are feeling."
         ],
         "name": {
-            "english": "Audino",
+            "english": "Mega Audino",
             "japanese": "Tabunne",
             "kana": "\u30bf\u30d6\u30f3\u30cd"
         },
@@ -19703,7 +19703,7 @@
             "Red and blue Basculin usually do not get along, but sometimes members of one school mingle with the other's school."
         ],
         "name": {
-            "english": "Basculin",
+            "english": "Red-Striped Basculin",
             "japanese": "Bassrao",
             "kana": "\u30d0\u30b9\u30e9\u30aa"
         },
@@ -19733,7 +19733,7 @@
             "Red and blue Basculin usually do not get along, but sometimes members of one school mingle with the other's school."
         ],
         "name": {
-            "english": "Basculin",
+            "english": "Blue-Striped Basculin",
             "japanese": "Bassrao",
             "kana": "\u30d0\u30b9\u30e9\u30aa"
         },
@@ -19922,7 +19922,7 @@
             "Its internal fire burns at 2,500\u00b0 F, making enough power that it can destroy a dump truck with one punch."
         ],
         "name": {
-            "english": "Darmanitan",
+            "english": "Zen Mode Darmanitan",
             "japanese": "Hihidaruma",
             "kana": "\u30d2\u30d2\u30c0\u30eb\u30de"
         },
@@ -22656,7 +22656,7 @@
             "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away."
         ],
         "name": {
-            "english": "Tornadus",
+            "english": "Tornadus Therian",
             "japanese": "Tornelos",
             "kana": "\u30c8\u30eb\u30cd\u30ed\u30b9"
         },
@@ -22717,7 +22717,7 @@
             "As it flies around, it shoots lightning all over the place and causes forest fires. It is therefore disliked."
         ],
         "name": {
-            "english": "Thundurus",
+            "english": "Thundurus Therian",
             "japanese": "Voltolos",
             "kana": "\u30dc\u30eb\u30c8\u30ed\u30b9"
         },
@@ -22841,7 +22841,7 @@
             "From the forces of lightning and wind, it creates energy to give nutrients to the soil and make the land abundant."
         ],
         "name": {
-            "english": "Landorus",
+            "english": "Landorus Therian",
             "japanese": "Landlos",
             "kana": "\u30e9\u30f3\u30c9\u30ed\u30b9"
         },
@@ -22903,7 +22903,7 @@
             "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out."
         ],
         "name": {
-            "english": "Kyurem",
+            "english": "Black Kyurem",
             "japanese": "Kyurem",
             "kana": "\u30ad\u30e5\u30ec\u30e0"
         },
@@ -22934,7 +22934,7 @@
             "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out."
         ],
         "name": {
-            "english": "Kyurem",
+            "english": "White Kyurem",
             "japanese": "Kyurem",
             "kana": "\u30ad\u30e5\u30ec\u30e0"
         },
@@ -23374,7 +23374,7 @@
             "It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water."
         ],
         "name": {
-            "english": "Greninja",
+            "english": "Ash Greninja",
             "japanese": "Gekkouga",
             "kana": "\u30b2\u30c3\u30b3\u30a6\u30ac"
         },
@@ -23788,7 +23788,7 @@
             "When the flowers of a well-tended flower bed bloom, it appears and celebrates with an elegant dance."
         ],
         "name": {
-            "english": "Floette",
+            "english": "Eternal Floette",
             "japanese": "Floette",
             "kana": "\u30d5\u30e9\u30a8\u30c3\u30c6"
         },
@@ -24037,7 +24037,7 @@
             "The eyeball patterns on the interior of its ears emit psychic energy. It keeps the patterns tightly covered because that power is too immense."
         ],
         "name": {
-            "english": "Meowstic",
+            "english": "Meowstic-Male",
             "japanese": "Nyaonix",
             "kana": "\u30cb\u30e3\u30aa\u30cb\u30af\u30b9"
         },
@@ -24067,7 +24067,7 @@
             "The eyeball patterns on the interior of its ears emit psychic energy. It keeps the patterns tightly covered because that power is too immense."
         ],
         "name": {
-            "english": "Meowstic",
+            "english": "Meowstic-Female",
             "japanese": "Nyaonix",
             "kana": "\u30cb\u30e3\u30aa\u30cb\u30af\u30b9"
         },
@@ -24163,7 +24163,7 @@
             "Apparently, it can detect innate qualities of leadership. According to legend, whoever it recognizes is destined to become king."
         ],
         "name": {
-            "english": "Aegislash",
+            "english": "Aegislash Shield",
             "japanese": "Gillgard",
             "kana": "\u30ae\u30eb\u30ac\u30eb\u30c9"
         },
@@ -24194,7 +24194,7 @@
             "Apparently, it can detect innate qualities of leadership. According to legend, whoever it recognizes is destined to become king."
         ],
         "name": {
-            "english": "Aegislash",
+            "english": "Aegislash Blade",
             "japanese": "Gillgard",
             "kana": "\u30ae\u30eb\u30ac\u30eb\u30c9"
         },
@@ -25107,7 +25107,7 @@
             "It is said to carry wandering spirits to the place where they belong so they can move on."
         ],
         "name": {
-            "english": "Pumpkaboo",
+            "english": "Pumpkaboo Small",
             "japanese": "Bakeccha",
             "kana": "\u30d0\u30b1\u30c3\u30c1\u30e3"
         },
@@ -25138,7 +25138,7 @@
             "It is said to carry wandering spirits to the place where they belong so they can move on."
         ],
         "name": {
-            "english": "Pumpkaboo",
+            "english": "Pumpkaboo Average",
             "japanese": "Bakeccha",
             "kana": "\u30d0\u30b1\u30c3\u30c1\u30e3"
         },
@@ -25169,7 +25169,7 @@
             "It is said to carry wandering spirits to the place where they belong so they can move on."
         ],
         "name": {
-            "english": "Pumpkaboo",
+            "english": "Pumpkaboo Large",
             "japanese": "Bakeccha",
             "kana": "\u30d0\u30b1\u30c3\u30c1\u30e3"
         },
@@ -25200,7 +25200,7 @@
             "It is said to carry wandering spirits to the place where they belong so they can move on."
         ],
         "name": {
-            "english": "Pumpkaboo",
+            "english": "Pumpkaboo Super",
             "japanese": "Bakeccha",
             "kana": "\u30d0\u30b1\u30c3\u30c1\u30e3"
         },
@@ -25233,7 +25233,7 @@
             "It enwraps its prey in its hairlike arms. It sings joyfully as it observes the suffering of its prey."
         ],
         "name": {
-            "english": "Gourgeist",
+            "english": "Gourgeist Small",
             "japanese": "Pumpjin",
             "kana": "\u30d1\u30f3\u30d7\u30b8\u30f3"
         },
@@ -25264,7 +25264,7 @@
             "It enwraps its prey in its hairlike arms. It sings joyfully as it observes the suffering of its prey."
         ],
         "name": {
-            "english": "Gourgeist",
+            "english": "Gourgeist Average",
             "japanese": "Pumpjin",
             "kana": "\u30d1\u30f3\u30d7\u30b8\u30f3"
         },
@@ -25295,7 +25295,7 @@
             "It enwraps its prey in its hairlike arms. It sings joyfully as it observes the suffering of its prey."
         ],
         "name": {
-            "english": "Gourgeist",
+            "english": "Gourgeist Large",
             "japanese": "Pumpjin",
             "kana": "\u30d1\u30f3\u30d7\u30b8\u30f3"
         },
@@ -25326,7 +25326,7 @@
             "It enwraps its prey in its hairlike arms. It sings joyfully as it observes the suffering of its prey."
         ],
         "name": {
-            "english": "Gourgeist",
+            "english": "Gourgeist Super",
             "japanese": "Pumpjin",
             "kana": "\u30d1\u30f3\u30d7\u30b8\u30f3"
         },
@@ -25575,7 +25575,7 @@
             "It's hypothesized that it's monitoring those who destroy the ecosystem from deep in the cave where it lives."
         ],
         "name": {
-            "english": "Zygarde",
+            "english": "Zygarde 10%",
             "japanese": "Zygarde",
             "kana": "\u30b8\u30ac\u30eb\u30c7"
         },
@@ -25606,7 +25606,7 @@
             "It's hypothesized that it's monitoring those who destroy the ecosystem from deep in the cave where it lives."
         ],
         "name": {
-            "english": "Zygarde",
+            "english": "Zygarde Complete",
             "japanese": "Zygarde",
             "kana": "\u30b8\u30ac\u30eb\u30c7"
         },
@@ -25668,7 +25668,7 @@
             "It can instantly create many diamonds by compressing the carbon in the air between its hands."
         ],
         "name": {
-            "english": "Diancie",
+            "english": "Mega Diancie",
             "japanese": "Diancie",
             "kana": "\u30c7\u30a3\u30a2\u30f3\u30b7\u30fc"
         },
@@ -25699,7 +25699,7 @@
             "This troublemaker sends anything and everything to faraway places using its loop, which can warp space"
         ],
         "name": {
-            "english": "Hoopa",
+            "english": "Hoopa Confined",
             "japanese": "Hoopa",
             "kana": "\u30d5\u30fc\u30d1"
         },
@@ -25730,7 +25730,7 @@
             "This troublemaker sends anything and everything to faraway places using its loop, which can warp space"
         ],
         "name": {
-            "english": "Hoopa",
+            "english": "Hoopa Unbound",
             "japanese": "Hoopa",
             "kana": "\u30d5\u30fc\u30d1"
         },
@@ -26497,7 +26497,7 @@
             "kana": "\u30a4\u30ef\u30f3\u30b3"
         },
         "evolutions": [
-            "lycanroc|~|midday|~|day|~|sun"
+            "lycanroc"
         ],
         "base_stats": [
             45,
@@ -26524,7 +26524,7 @@
             "When properly raised from a young age, it will become a trustworthy partner that will absolutely never betray its Trainer."
         ],
         "name": {
-            "english": "Lycanroc",
+            "english": "Lycanroc Midday",
             "japanese": "Lugarugan",
             "kana": "\u30eb\u30ac\u30eb\u30ac\u30f3"
         },
@@ -26554,7 +26554,7 @@
             "When properly raised from a young age, it will become a trustworthy partner that will absolutely never betray its Trainer."
         ],
         "name": {
-            "english": "Lycanroc",
+            "english": "Lycanroc Midnight",
             "japanese": "Lugarugan",
             "kana": "\u30eb\u30ac\u30eb\u30ac\u30f3"
         },
@@ -26614,7 +26614,7 @@
             "It\u00e2\u20ac\u2122s awfully weak and notably tasty, so everyone is always out to get it. As it happens, anyone trying to bully it receives a painful lesson."
         ],
         "name": {
-            "english": "Wishiwashi",
+            "english": "Wishiwashi School",
             "japanese": "Yowashi",
             "kana": "\u30e8\u30ef\u30b7"
         },
@@ -27493,7 +27493,7 @@
             "Strong impacts can knock it out of its shell. This Pok\u00c3\u00a9mon was born from mutated nanoparticles."
         ],
         "name": {
-            "english": "Minior",
+            "english": "Minior Meteor",
             "japanese": "Meteno",
             "kana": "\u30e1\u30c6\u30ce"
         },
@@ -27524,7 +27524,7 @@
             "Strong impacts can knock it out of its shell. This Pok\u00c3\u00a9mon was born from mutated nanoparticles."
         ],
         "name": {
-            "english": "Minior",
+            "english": "Minior Core",
             "japanese": "Meteno",
             "kana": "\u30e1\u30c6\u30ce"
         },
