@@ -129,7 +129,7 @@
             null,
             null
         ],
-        "basename": "venusaur|~|mega|~|m"
+        "basename": "venusaur"
     },
     "charmander": {
         "dex_no": 4,
@@ -259,7 +259,7 @@
             null,
             null
         ],
-        "basename": "charizard|~|x|~|mega|~|m"
+        "basename": "charizard"
     },
     "charizard|~|y|~|mega|~|m": {
         "dex_no": 6,
@@ -291,7 +291,7 @@
             null,
             null
         ],
-        "basename": "charizard|~|y|~|mega|~|m"
+        "basename": "charizard"
     },
     "squirtle": {
         "dex_no": 7,
@@ -419,7 +419,7 @@
             null,
             null
         ],
-        "basename": "blastoise|~|mega|~|m"
+        "basename": "blastoise"
     },
     "caterpie": {
         "dex_no": 10,
@@ -649,7 +649,7 @@
             null,
             null
         ],
-        "basename": "beedrill|~|mega|~|m"
+        "basename": "beedrill"
     },
     "pidgey": {
         "dex_no": 16,
@@ -781,7 +781,7 @@
             null,
             null
         ],
-        "basename": "pidgeot|~|mega|~|m"
+        "basename": "pidgeot"
     },
     "rattata": {
         "dex_no": 19,
@@ -847,7 +847,7 @@
             "Hustle",
             "Thick Fat"
         ],
-        "basename": "rattata|~|alola|~|alolan|~|a"
+        "basename": "rattata"
     },
     "raticate": {
         "dex_no": 20,
@@ -911,7 +911,7 @@
             "Hustle",
             "Thick Fat"
         ],
-        "basename": "raticate|~|alola|~|alolan|~|a"
+        "basename": "raticate"
     },
     "spearow": {
         "dex_no": 21,
@@ -1136,7 +1136,7 @@
             null,
             null
         ],
-        "basename": "raichu|~|alola|~|alolan|~|a"
+        "basename": "raichu"
     },
     "sandshrew": {
         "dex_no": 27,
@@ -1202,7 +1202,7 @@
             null,
             "Slush Rush"
         ],
-        "basename": "sandshrew|~|alola|~|alolan|~|a"
+        "basename": "sandshrew"
     },
     "sandslash": {
         "dex_no": 28,
@@ -1266,7 +1266,7 @@
             null,
             "Slush Rush"
         ],
-        "basename": "sandslash|~|alola|~|alolan|~|a"
+        "basename": "sandslash"
     },
     "nidoran|~|female|~|f": {
         "dex_no": 29,
@@ -1299,7 +1299,7 @@
             "Rivalry",
             "Hustle"
         ],
-        "basename": "nidoran|~|female|~|f"
+        "basename": "nidoran"
     },
     "nidorina": {
         "dex_no": 30,
@@ -1397,7 +1397,7 @@
             "Rivalry",
             "Hustle"
         ],
-        "basename": "nidoran|~|male|~|m"
+        "basename": "nidoran"
     },
     "nidorino": {
         "dex_no": 33,
@@ -1588,7 +1588,7 @@
             null,
             "Snow Warning"
         ],
-        "basename": "vulpix|~|alola|~|alolan|~|a"
+        "basename": "vulpix"
     },
     "ninetales": {
         "dex_no": 38,
@@ -1652,7 +1652,7 @@
             null,
             "Snow Warning"
         ],
-        "basename": "ninetales|~|alola|~|alolan|~|a"
+        "basename": "ninetales"
     },
     "jigglypuff": {
         "dex_no": 39,
@@ -2083,7 +2083,7 @@
             "Tangling Hair",
             "Sand Force"
         ],
-        "basename": "diglett|~|alola|~|alolan|~|a"
+        "basename": "diglett"
     },
     "dugtrio": {
         "dex_no": 51,
@@ -2147,7 +2147,7 @@
             "Tangling Hair",
             "Sand Force"
         ],
-        "basename": "dugtrio|~|alola|~|alolan|~|a"
+        "basename": "dugtrio"
     },
     "meowth": {
         "dex_no": 52,
@@ -2211,7 +2211,7 @@
             "Technician",
             "Rattled"
         ],
-        "basename": "meowth|~|alola|~|alolan|~|a"
+        "basename": "meowth"
     },
     "persian": {
         "dex_no": 53,
@@ -2273,7 +2273,7 @@
             "Technician",
             "Rattled"
         ],
-        "basename": "persian|~|alola|~|alolan|~|a"
+        "basename": "persian"
     },
     "psyduck": {
         "dex_no": 54,
@@ -2692,7 +2692,7 @@
             null,
             null
         ],
-        "basename": "alakazam|~|mega|~|m"
+        "basename": "alakazam"
     },
     "machop": {
         "dex_no": 66,
@@ -3023,7 +3023,7 @@
             "Sturdy",
             "Galvanize"
         ],
-        "basename": "geodude|~|alola|~|alolan|~|a"
+        "basename": "geodude"
     },
     "graveler": {
         "dex_no": 75,
@@ -3089,7 +3089,7 @@
             "Sturdy",
             "Galvanize"
         ],
-        "basename": "graveler|~|alola|~|alolan|~|a"
+        "basename": "graveler"
     },
     "golem": {
         "dex_no": 76,
@@ -3153,7 +3153,7 @@
             "Sturdy",
             "Galvanize"
         ],
-        "basename": "golem|~|alola|~|alolan|~|a"
+        "basename": "golem"
     },
     "ponyta": {
         "dex_no": 77,
@@ -3316,7 +3316,7 @@
             null,
             null
         ],
-        "basename": "slowbro|~|mega|~|m"
+        "basename": "slowbro"
     },
     "magnemite": {
         "dex_no": 81,
@@ -3613,7 +3613,7 @@
             "Gluttony",
             "Power of Alchemy"
         ],
-        "basename": "grimer|~|alola|~|alolan|~|a"
+        "basename": "grimer"
     },
     "muk": {
         "dex_no": 89,
@@ -3677,7 +3677,7 @@
             "Gluttony",
             "Power of Alchemy"
         ],
-        "basename": "muk|~|alola|~|alolan|~|a"
+        "basename": "muk"
     },
     "shellder": {
         "dex_no": 90,
@@ -3874,7 +3874,7 @@
             null,
             null
         ],
-        "basename": "gengar|~|mega|~|m"
+        "basename": "gengar"
     },
     "onix": {
         "dex_no": 95,
@@ -4198,7 +4198,7 @@
             null,
             "Harvest"
         ],
-        "basename": "exeggutor|~|alola|~|alolan|~|a"
+        "basename": "exeggutor"
     },
     "cubone": {
         "dex_no": 104,
@@ -4295,7 +4295,7 @@
             "Lightning Rod",
             "Rock Head"
         ],
-        "basename": "marowak|~|alola|~|alolan|~|a"
+        "basename": "marowak"
     },
     "hitmonlee": {
         "dex_no": 106,
@@ -4648,7 +4648,7 @@
             null,
             null
         ],
-        "basename": "kangaskhan|~|mega|~|m"
+        "basename": "kangaskhan"
     },
     "horsea": {
         "dex_no": 116,
@@ -5065,7 +5065,7 @@
             null,
             null
         ],
-        "basename": "pinsir|~|mega|~|m"
+        "basename": "pinsir"
     },
     "tauros": {
         "dex_no": 128,
@@ -5193,7 +5193,7 @@
             null,
             null
         ],
-        "basename": "gyarados|~|mega|~|m"
+        "basename": "gyarados"
     },
     "lapras": {
         "dex_no": 131,
@@ -5617,7 +5617,7 @@
             null,
             null
         ],
-        "basename": "aerodactyl|~|mega|~|m"
+        "basename": "aerodactyl"
     },
     "snorlax": {
         "dex_no": 143,
@@ -5904,7 +5904,7 @@
             null,
             null
         ],
-        "basename": "mewtwo|~|x|~|mega|~|m"
+        "basename": "mewtwo"
     },
     "mewtwo|~|y|~|mega|~|m": {
         "dex_no": 150,
@@ -5935,7 +5935,7 @@
             null,
             null
         ],
-        "basename": "mewtwo|~|y|~|mega|~|m"
+        "basename": "mewtwo"
     },
     "mew": {
         "dex_no": 151,
@@ -6981,7 +6981,7 @@
             null,
             null
         ],
-        "basename": "ampharos|~|mega|~|m"
+        "basename": "ampharos"
     },
     "bellossom": {
         "dex_no": 182,
@@ -7884,7 +7884,7 @@
             null,
             null
         ],
-        "basename": "steelix|~|mega|~|m"
+        "basename": "steelix"
     },
     "snubbull": {
         "dex_no": 209,
@@ -8044,7 +8044,7 @@
             null,
             null
         ],
-        "basename": "scizor|~|mega|~|m"
+        "basename": "scizor"
     },
     "shuckle": {
         "dex_no": 213,
@@ -8140,7 +8140,7 @@
             null,
             null
         ],
-        "basename": "heracross|~|mega|~|m"
+        "basename": "heracross"
     },
     "sneasel": {
         "dex_no": 215,
@@ -8661,7 +8661,7 @@
             null,
             null
         ],
-        "basename": "houndoom|~|mega|~|m"
+        "basename": "houndoom"
     },
     "kingdra": {
         "dex_no": 230,
@@ -9307,7 +9307,7 @@
             null,
             null
         ],
-        "basename": "tyranitar|~|mega|~|m"
+        "basename": "tyranitar"
     },
     "lugia": {
         "dex_no": 249,
@@ -9531,7 +9531,7 @@
             null,
             null
         ],
-        "basename": "sceptile|~|mega|~|m"
+        "basename": "sceptile"
     },
     "torchic": {
         "dex_no": 255,
@@ -9662,7 +9662,7 @@
             null,
             null
         ],
-        "basename": "blaziken|~|mega|~|m"
+        "basename": "blaziken"
     },
     "mudkip": {
         "dex_no": 258,
@@ -9793,7 +9793,7 @@
             null,
             null
         ],
-        "basename": "swampert|~|mega|~|m"
+        "basename": "swampert"
     },
     "poochyena": {
         "dex_no": 261,
@@ -10547,7 +10547,7 @@
             null,
             null
         ],
-        "basename": "gardevoir|~|mega|~|m"
+        "basename": "gardevoir"
     },
     "surskit": {
         "dex_no": 283,
@@ -11231,7 +11231,7 @@
             null,
             null
         ],
-        "basename": "sableye|~|mega|~|m"
+        "basename": "sableye"
     },
     "mawile": {
         "dex_no": 303,
@@ -11295,7 +11295,7 @@
             null,
             null
         ],
-        "basename": "mawile|~|mega|~|m"
+        "basename": "mawile"
     },
     "aron": {
         "dex_no": 304,
@@ -11427,7 +11427,7 @@
             null,
             null
         ],
-        "basename": "aggron|~|mega|~|m"
+        "basename": "aggron"
     },
     "meditite": {
         "dex_no": 307,
@@ -11525,7 +11525,7 @@
             null,
             null
         ],
-        "basename": "medicham|~|mega|~|m"
+        "basename": "medicham"
     },
     "electrike": {
         "dex_no": 309,
@@ -11620,7 +11620,7 @@
             null,
             null
         ],
-        "basename": "manectric|~|mega|~|m"
+        "basename": "manectric"
     },
     "plusle": {
         "dex_no": 311,
@@ -11940,7 +11940,7 @@
             null,
             null
         ],
-        "basename": "sharpedo|~|mega|~|m"
+        "basename": "sharpedo"
     },
     "wailmer": {
         "dex_no": 320,
@@ -12102,7 +12102,7 @@
             null,
             null
         ],
-        "basename": "camerupt|~|mega|~|m"
+        "basename": "camerupt"
     },
     "torkoal": {
         "dex_no": 324,
@@ -12490,7 +12490,7 @@
             null,
             null
         ],
-        "basename": "altaria|~|mega|~|m"
+        "basename": "altaria"
     },
     "zangoose": {
         "dex_no": 335,
@@ -13166,7 +13166,7 @@
             null,
             null
         ],
-        "basename": "banette|~|mega|~|m"
+        "basename": "banette"
     },
     "duskull": {
         "dex_no": 355,
@@ -13357,7 +13357,7 @@
             null,
             null
         ],
-        "basename": "absol|~|mega|~|m"
+        "basename": "absol"
     },
     "wynaut": {
         "dex_no": 360,
@@ -13486,7 +13486,7 @@
             null,
             null
         ],
-        "basename": "glalie|~|mega|~|m"
+        "basename": "glalie"
     },
     "spheal": {
         "dex_no": 363,
@@ -13875,7 +13875,7 @@
             null,
             null
         ],
-        "basename": "salamence|~|mega|~|m"
+        "basename": "salamence"
     },
     "beldum": {
         "dex_no": 374,
@@ -14007,7 +14007,7 @@
             null,
             null
         ],
-        "basename": "metagross|~|mega|~|m"
+        "basename": "metagross"
     },
     "regirock": {
         "dex_no": 377,
@@ -14164,7 +14164,7 @@
             null,
             null
         ],
-        "basename": "latias|~|mega|~|m"
+        "basename": "latias"
     },
     "latios": {
         "dex_no": 381,
@@ -14228,7 +14228,7 @@
             null,
             null
         ],
-        "basename": "latios|~|mega|~|m"
+        "basename": "latios"
     },
     "kyogre": {
         "dex_no": 382,
@@ -14290,7 +14290,7 @@
             null,
             null
         ],
-        "basename": "kyogre|~|primal|~|mega|~|m"
+        "basename": "kyogre"
     },
     "groudon": {
         "dex_no": 383,
@@ -14352,7 +14352,7 @@
             null,
             null
         ],
-        "basename": "groudon|~|primal|~|mega|~|m"
+        "basename": "groudon"
     },
     "rayquaza": {
         "dex_no": 384,
@@ -14416,7 +14416,7 @@
             null,
             null
         ],
-        "basename": "rayquaza|~|mega|~|m"
+        "basename": "rayquaza"
     },
     "jirachi": {
         "dex_no": 385,
@@ -14479,7 +14479,7 @@
             null,
             null
         ],
-        "basename": "deoxys|~|normal"
+        "basename": "deoxys"
     },
     "deoxys|~|attack|~|atk": {
         "dex_no": 386,
@@ -14510,7 +14510,7 @@
             null,
             null
         ],
-        "basename": "deoxys|~|attack|~|atk"
+        "basename": "deoxys"
     },
     "deoxys|~|defense|~|def": {
         "dex_no": 386,
@@ -14541,7 +14541,7 @@
             null,
             null
         ],
-        "basename": "deoxys|~|defense|~|def"
+        "basename": "deoxys"
     },
     "deoxys|~|speed|~|spe|~|spd": {
         "dex_no": 386,
@@ -14572,7 +14572,7 @@
             null,
             null
         ],
-        "basename": "deoxys|~|speed|~|spe|~|spd"
+        "basename": "deoxys"
     },
     "turtwig": {
         "dex_no": 387,
@@ -15456,7 +15456,7 @@
             null,
             "Overcoat"
         ],
-        "basename": "wormadam|~|plant"
+        "basename": "wormadam"
     },
     "wormadam|~|sandy": {
         "dex_no": 413,
@@ -15488,7 +15488,7 @@
             null,
             "Overcoat"
         ],
-        "basename": "wormadam|~|sandy"
+        "basename": "wormadam"
     },
     "wormadam|~|trash": {
         "dex_no": 413,
@@ -15520,7 +15520,7 @@
             null,
             "Overcoat"
         ],
-        "basename": "wormadam|~|trash"
+        "basename": "wormadam"
     },
     "mothim": {
         "dex_no": 414,
@@ -16034,7 +16034,7 @@
             null,
             null
         ],
-        "basename": "lopunny|~|mega|~|m"
+        "basename": "lopunny"
     },
     "mismagius": {
         "dex_no": 429,
@@ -16623,7 +16623,7 @@
             null,
             null
         ],
-        "basename": "garchomp|~|mega|~|m"
+        "basename": "garchomp"
     },
     "munchlax": {
         "dex_no": 446,
@@ -16753,7 +16753,7 @@
             null,
             null
         ],
-        "basename": "lucario|~|mega|~|m"
+        "basename": "lucario"
     },
     "hippopotas": {
         "dex_no": 449,
@@ -17176,7 +17176,7 @@
             null,
             null
         ],
-        "basename": "abomasnow|~|mega|~|m"
+        "basename": "abomasnow"
     },
     "weavile": {
         "dex_no": 461,
@@ -17681,7 +17681,7 @@
             null,
             null
         ],
-        "basename": "gallade|~|mega|~|m"
+        "basename": "gallade"
     },
     "probopass": {
         "dex_no": 476,
@@ -17840,7 +17840,7 @@
             null,
             null
         ],
-        "basename": "rotom|~|heat"
+        "basename": "rotom"
     },
     "rotom|~|wash": {
         "dex_no": 479,
@@ -17872,7 +17872,7 @@
             null,
             null
         ],
-        "basename": "rotom|~|wash"
+        "basename": "rotom"
     },
     "rotom|~|frost": {
         "dex_no": 479,
@@ -17904,7 +17904,7 @@
             null,
             null
         ],
-        "basename": "rotom|~|frost"
+        "basename": "rotom"
     },
     "rotom|~|fan": {
         "dex_no": 479,
@@ -17936,7 +17936,7 @@
             null,
             null
         ],
-        "basename": "rotom|~|fan"
+        "basename": "rotom"
     },
     "rotom|~|mow": {
         "dex_no": 479,
@@ -17968,7 +17968,7 @@
             null,
             null
         ],
-        "basename": "rotom|~|mow"
+        "basename": "rotom"
     },
     "uxie": {
         "dex_no": 480,
@@ -18220,7 +18220,7 @@
             null,
             "Telepathy"
         ],
-        "basename": "giratina|~|altered"
+        "basename": "giratina"
     },
     "giratina|~|origin": {
         "dex_no": 487,
@@ -18252,7 +18252,7 @@
             null,
             null
         ],
-        "basename": "giratina|~|origin"
+        "basename": "giratina"
     },
     "cresselia": {
         "dex_no": 488,
@@ -18410,7 +18410,7 @@
             null,
             null
         ],
-        "basename": "shaymin|~|land"
+        "basename": "shaymin"
     },
     "shaymin|~|sky": {
         "dex_no": 492,
@@ -18442,7 +18442,7 @@
             null,
             null
         ],
-        "basename": "shaymin|~|sky"
+        "basename": "shaymin"
     },
     "arceus": {
         "dex_no": 493,
@@ -19733,7 +19733,7 @@
             null,
             null
         ],
-        "basename": "audino|~|mega|~|m"
+        "basename": "audino"
     },
     "timburr": {
         "dex_no": 532,
@@ -20352,7 +20352,7 @@
             "Adaptability",
             "Mold Breaker"
         ],
-        "basename": "basculin|~|red-striped|~|red"
+        "basename": "basculin"
     },
     "basculin|~|blue-striped|~|blue": {
         "dex_no": 550,
@@ -20383,7 +20383,7 @@
             "Adaptability",
             "Mold Breaker"
         ],
-        "basename": "basculin|~|blue-striped|~|blue"
+        "basename": "basculin"
     },
     "sandile": {
         "dex_no": 551,
@@ -20578,7 +20578,7 @@
             null,
             null
         ],
-        "basename": "darmanitan|~|zen|~|mode"
+        "basename": "darmanitan"
     },
     "maractus": {
         "dex_no": 556,
@@ -23368,7 +23368,7 @@
             null,
             "Defiant"
         ],
-        "basename": "tornadus|~|incarnate"
+        "basename": "tornadus"
     },
     "tornadus|~|therian|~|t": {
         "dex_no": 641,
@@ -23399,7 +23399,7 @@
             null,
             null
         ],
-        "basename": "tornadus|~|therian|~|t"
+        "basename": "tornadus"
     },
     "thundurus|~|incarnate": {
         "dex_no": 642,
@@ -23431,7 +23431,7 @@
             null,
             "Defiant"
         ],
-        "basename": "thundurus|~|incarnate"
+        "basename": "thundurus"
     },
     "thundurus|~|therian|~|t": {
         "dex_no": 642,
@@ -23463,7 +23463,7 @@
             null,
             null
         ],
-        "basename": "thundurus|~|therian|~|t"
+        "basename": "thundurus"
     },
     "reshiram": {
         "dex_no": 643,
@@ -23559,7 +23559,7 @@
             null,
             "Sheer Force"
         ],
-        "basename": "landorus|~|incarnate"
+        "basename": "landorus"
     },
     "landorus|~|therian|~|t": {
         "dex_no": 645,
@@ -23591,7 +23591,7 @@
             null,
             null
         ],
-        "basename": "landorus|~|therian|~|t"
+        "basename": "landorus"
     },
     "kyurem": {
         "dex_no": 646,
@@ -23655,7 +23655,7 @@
             null,
             null
         ],
-        "basename": "kyurem|~|black"
+        "basename": "kyurem"
     },
     "kyurem|~|white": {
         "dex_no": 646,
@@ -23687,7 +23687,7 @@
             null,
             null
         ],
-        "basename": "kyurem|~|white"
+        "basename": "kyurem"
     },
     "keldeo": {
         "dex_no": 647,
@@ -23751,7 +23751,7 @@
             null,
             null
         ],
-        "basename": "meloetta|~|aria"
+        "basename": "meloetta"
     },
     "meloetta|~|pirouette": {
         "dex_no": 648,
@@ -23783,7 +23783,7 @@
             null,
             null
         ],
-        "basename": "meloetta|~|pirouette"
+        "basename": "meloetta"
     },
     "genesect": {
         "dex_no": 649,
@@ -24141,7 +24141,7 @@
             null,
             null
         ],
-        "basename": "greninja|~|ash|~|ash-greninja|~|a"
+        "basename": "greninja"
     },
     "bunnelby": {
         "dex_no": 659,
@@ -24569,7 +24569,7 @@
             null,
             null
         ],
-        "basename": "floette|~|eternal"
+        "basename": "floette"
     },
     "florges": {
         "dex_no": 671,
@@ -24824,7 +24824,7 @@
             "Infiltrator",
             "Prankster"
         ],
-        "basename": "meowstic|~|male|~|m"
+        "basename": "meowstic"
     },
     "meowstic|~|female|~|f": {
         "dex_no": 678,
@@ -24855,7 +24855,7 @@
             "Infiltrator",
             "Competitive"
         ],
-        "basename": "meowstic|~|female|~|f"
+        "basename": "meowstic"
     },
     "honedge": {
         "dex_no": 679,
@@ -24955,7 +24955,7 @@
             null,
             null
         ],
-        "basename": "aegislash|~|shield"
+        "basename": "aegislash"
     },
     "aegislash|~|blade": {
         "dex_no": 681,
@@ -24987,7 +24987,7 @@
             null,
             null
         ],
-        "basename": "aegislash|~|blade"
+        "basename": "aegislash"
     },
     "spritzee": {
         "dex_no": 682,
@@ -25929,7 +25929,7 @@
             "Frisk",
             "Insomnia"
         ],
-        "basename": "pumpkaboo|~|small"
+        "basename": "pumpkaboo"
     },
     "pumpkaboo|~|average": {
         "dex_no": 710,
@@ -25961,7 +25961,7 @@
             "Frisk",
             "Insomnia"
         ],
-        "basename": "pumpkaboo|~|average"
+        "basename": "pumpkaboo"
     },
     "pumpkaboo|~|large": {
         "dex_no": 710,
@@ -25993,7 +25993,7 @@
             "Frisk",
             "Insomnia"
         ],
-        "basename": "pumpkaboo|~|large"
+        "basename": "pumpkaboo"
     },
     "pumpkaboo|~|super": {
         "dex_no": 710,
@@ -26027,7 +26027,7 @@
             "Frisk",
             "Insomnia"
         ],
-        "basename": "pumpkaboo|~|super"
+        "basename": "pumpkaboo"
     },
     "gourgeist|~|small": {
         "dex_no": 711,
@@ -26059,7 +26059,7 @@
             "Frisk",
             "Insomnia"
         ],
-        "basename": "gourgeist|~|small"
+        "basename": "gourgeist"
     },
     "gourgeist|~|average": {
         "dex_no": 711,
@@ -26091,7 +26091,7 @@
             "Frisk",
             "Insomnia"
         ],
-        "basename": "gourgeist|~|average"
+        "basename": "gourgeist"
     },
     "gourgeist|~|large": {
         "dex_no": 711,
@@ -26123,7 +26123,7 @@
             "Frisk",
             "Insomnia"
         ],
-        "basename": "gourgeist|~|large"
+        "basename": "gourgeist"
     },
     "gourgeist|~|super": {
         "dex_no": 711,
@@ -26155,7 +26155,7 @@
             "Frisk",
             "Insomnia"
         ],
-        "basename": "gourgeist|~|super"
+        "basename": "gourgeist"
     },
     "bergmite": {
         "dex_no": 712,
@@ -26380,7 +26380,7 @@
             "Power Construct",
             null
         ],
-        "basename": "zygarde|~|50%|~|50|~|normal"
+        "basename": "zygarde"
     },
     "zygarde|~|10%|~|10|~|dog": {
         "dex_no": 718,
@@ -26412,7 +26412,7 @@
             "Power Construct",
             null
         ],
-        "basename": "zygarde|~|10%|~|10|~|dog"
+        "basename": "zygarde"
     },
     "zygarde|~|complete|~|100%|~|100": {
         "dex_no": 718,
@@ -26444,7 +26444,7 @@
             null,
             null
         ],
-        "basename": "zygarde|~|complete|~|100%|~|100"
+        "basename": "zygarde"
     },
     "diancie": {
         "dex_no": 719,
@@ -26508,7 +26508,7 @@
             null,
             null
         ],
-        "basename": "diancie|~|mega|~|m"
+        "basename": "diancie"
     },
     "hoopa|~|confined": {
         "dex_no": 720,
@@ -26540,7 +26540,7 @@
             null,
             null
         ],
-        "basename": "hoopa|~|confined"
+        "basename": "hoopa"
     },
     "hoopa|~|unbound": {
         "dex_no": 720,
@@ -26572,7 +26572,7 @@
             null,
             null
         ],
-        "basename": "hoopa|~|unbound"
+        "basename": "hoopa"
     },
     "volcanion": {
         "dex_no": 721,
@@ -27390,7 +27390,7 @@
             "Sand Rush",
             "Steadfast"
         ],
-        "basename": "lycanroc|~|midday|~|day|~|sun"
+        "basename": "lycanroc"
     },
     "lycanroc|~|midnight|~|night|~|moon": {
         "dex_no": 745,
@@ -27421,7 +27421,7 @@
             "Vital Spirit",
             "No Guard"
         ],
-        "basename": "lycanroc|~|midnight|~|night|~|moon"
+        "basename": "lycanroc"
     },
     "wishiwashi|~|solo": {
         "dex_no": 746,
@@ -27452,7 +27452,7 @@
             null,
             null
         ],
-        "basename": "wishiwashi|~|solo"
+        "basename": "wishiwashi"
     },
     "wishiwashi|~|school": {
         "dex_no": 746,
@@ -27483,7 +27483,7 @@
             null,
             null
         ],
-        "basename": "wishiwashi|~|school"
+        "basename": "wishiwashi"
     },
     "mareanie": {
         "dex_no": 747,
@@ -28391,7 +28391,7 @@
             null,
             null
         ],
-        "basename": "minior|~|meteor"
+        "basename": "minior"
     },
     "minior|~|core": {
         "dex_no": 774,
@@ -28423,7 +28423,7 @@
             null,
             null
         ],
-        "basename": "minior|~|core"
+        "basename": "minior"
     },
     "komala": {
         "dex_no": 775,
