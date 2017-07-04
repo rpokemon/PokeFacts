@@ -19,10 +19,10 @@
 import os
 import re
 import sys
-import imp
 import time
 import praw
 import prawcore
+import importlib
 
 from praw.models.util import stream_generator
 
@@ -32,7 +32,25 @@ from PokeFacts import Helpers
 from PokeFacts import Management
 from PokeFacts import Responder
 
-from layer7_utilities import Logger
+try:
+    from layer7_utilities import Logger
+except ImportError:
+    class Logger():
+        def __init__(self, botname, botversion):
+            self.botname = botname
+            self.botversion = botversion
+        def info(self, msg):
+            print(self.botname + " v"+self.botversion+" [INFO] : " + msg)
+        def debug(self, msg):
+            print(self.botname + " v"+self.botversion+" [DEBUG] : " + msg)
+        def warning(self, msg):
+            print(self.botname + " v"+self.botversion+" [WARNING] : " + msg)
+        def exception(self, msg):
+            print(self.botname + " v"+self.botversion+" [EXCEPTION] : " + msg)
+        def critical(self, msg):
+            print(self.botname + " v"+self.botversion+" [CRITICAL] : " + msg)
+        def error(self, msg):
+            print(self.botname + " v"+self.botversion+" [ERROR] : " + msg)
 
 # Call the bot, get a response...
 class CallResponse():
@@ -56,7 +74,7 @@ class CallResponse():
     # function will make those changes go into effect
     def reloadConfig(self, first_load=False):
         if not first_load:
-            imp.reload(Config)
+            importlib.reload(Config)
 
         self.subreddit  = self.r.subreddit('+'.join(Config.SUBREDDITS))
         self.srmodnames = (sr.lower() for sr in Config.SUBREDDITS if self.helpers.isBotModeratorOf(sr, 'posts'))
@@ -82,7 +100,7 @@ class CallResponse():
 
             if not identifier == False:
                 info = self.data.getInfo(identifier)
-                if info:
+                if not info is None:
                     self.logger.debug("Got info for: %s"%match)
                     items.append()
         return items
@@ -162,9 +180,11 @@ class CallResponse():
         elif type == Helpers.MESSAGE:
             body      = thing.body
             subject   = thing.subject
-            is_valid  = self.helpers.isValidMessage(thing) # return False
+            is_valid  = self.helpers.isValidMessage(thing) # returns False
             if thing.author.name in Config.OPERATORS:
-                self.mgmt.processOperatorCommand(thing.author.name, subject, body)
+                response = self.mgmt.processOperatorCommand(thing.author.name, subject, body)
+                if type(response) == str:
+                    thing.reply(response)
 
         if not is_valid:
             return True

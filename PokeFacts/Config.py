@@ -22,7 +22,7 @@ APP_SECRET      = Secrets.APP_SECRET
 # APPLICATION META INFO
 # ---------------------
 
-DEVELOPERS      = "/u/kwwxis"
+DEVELOPERS      = "/u/kwwxis, /u/Haruka-sama"
 VERSION         = "1.0.0"
 DESCRIPTION     = "Responds to specific text in pokemon subreddits with a response"
 USERAGENT       = USERNAME + ":" + DESCRIPTION + " v" + VERSION + " by " + DEVELOPERS
@@ -36,7 +36,7 @@ OPERATORS = ["kwwxis", "Haruka-sama", "bigslothonmyface", "technophonix1", "D0cR
 # ----------------
 
 # list of subreddits the bot is allowed to operate on (case matters!)
-SUBREDDITS      = ["pokemon"]
+SUBREDDITS      = ["pokemontest"]
 
 # should check comments?
 RESPONDER_CHECK_COMMENTS = True

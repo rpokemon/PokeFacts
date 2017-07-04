@@ -1,0 +1,14 @@
+{
+    "bulbasaur": {
+        "placeholder": 1
+    },
+    "ivysaur": {
+        "placeholder": 2
+    },
+    "venusaur": {
+        "placeholder": 3
+    },
+    "venusaur|~|mega|~|m": {
+        "placeholder": 4
+    }
+}

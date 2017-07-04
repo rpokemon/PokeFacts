@@ -18,26 +18,38 @@ class Management():
     def processOperatorCommand(self, operator, subject, body):
         self.main.logger.info('Got operator command from ' + str(operator) + ': ' + subject)
 
-        opperator_commands = {
-            "ReloadData": self.bot_reloadData,
-            "ReloadConfig": self.bot_reloadConfig,
-            "ClearDoneQueue": self.bot_clearDoneQueue,
-            "BotShutdown": self.bot_shutdown,
-            "BotRestart": self.bot_restart,
+        operator_commands = {
+            "ReloadData":       self.bot_reloadData,
+            "ReloadConfig":     self.bot_reloadConfig,
+            "ClearDoneQueue":   self.bot_clearDoneQueue,
+            "BotShutdown":      self.bot_shutdown,
+            "BotRestart":       self.bot_restart,
         }
         try:
-            opperator_commands[subject]()
+            if operator_commands[subject]():
+                return "Command execution succesful."
+            else:
+                return "Command execution failed."
         except KeyError:
             return False            
 
     def bot_reloadData(self):
-        self.main.data.reload()  
+        try:
+            self.main.data.reload()
+            return True
+        except IOError:
+            return False
 
     def bot_reloadConfig(self):
-        self.main.reloadConfig()
+        try:
+            self.main.reloadConfig()
+            return True
+        except IOError:
+            return False
 
     def bot_clearDoneQueue(self):
         self.main.done = {}
+        return True
 
     def bot_shutdown(self):
         sys.exit(0)
@@ -68,8 +80,11 @@ class Management():
         # in the third arg, we specify the python file to run
         # in the remaining args we pass the original arguments
         # if the current script was originally run in nohup mode, that'll carry over
-        os.execl(sys.executable, sys.executable, self.main.scriptfile, *sys.argv[1:])
-
+        try:
+            os.execl(sys.executable, sys.executable, self.main.scriptfile, *sys.argv[1:])
+            return True
+        except OSError:
+            return False
     
     # does the bot mod with at least 'posts' perms?
     def bot_isModerator(self, subreddit):
