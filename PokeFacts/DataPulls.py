@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import json
+from PokeFacts.Config import DATA_FILES
 
 # DataPulls.py
 # ~~~~~~~~~~~~
@@ -15,7 +16,7 @@ class DataPulls():
 
     # reload - should reload the data to pull from
     def reload(self):
-        self.store = ItemStore(self.main.scriptpath + '/data/pokemon.json', '|~|')
+        self.store = ItemStore(self.main.scriptpath + [self.main.scriptpath + file for file in DATA_FILES], '|~|')
 
     # getInfo - returns information for the given identifier
     # the result of this function will be used as the elements
@@ -35,11 +36,14 @@ class DataPulls():
     
 
 class ItemStore():
-    def __init__(self, json_file, kwsep=None):
+    def __init__(self, json_files, kwsep=None):
         self.root  = self.__node(None, None,children={})
         self.kwsep = kwsep
-        with open(json_file) as data_file:    
-            self.raw_data = json.load(data_file)
+        self.raw_data = {}
+
+        for json_file in json_files:
+            with open(json_file) as data_file:    
+                self.raw_data.update(json.load(data_file))
 
         self.__build()
     

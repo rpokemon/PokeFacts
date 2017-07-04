@@ -64,6 +64,11 @@ IDENTIFIER_TO_LOWER = True
 IDENTIFIER_NO_ACCENTS = True
 IDENTIFIER_SANITIZE = r"[^A-Za-z0-9 ]"
 
+# DATA CONFIG
+# ---------------
+
+DATA_FILES      = ['/data/pokemon.json', '/data/abilities.json'] # list of json files for responder to search with
+
 # RESPONSE CONFIG
 # ---------------
 
