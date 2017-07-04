@@ -30,7 +30,8 @@
             "Overgrow",
             null,
             "Chlorophyll"
-        ]
+        ],
+        "basename": "bulbasaur"
     },
     "ivysaur": {
         "dex_no": 2,
@@ -63,7 +64,8 @@
             "Overgrow",
             null,
             "Chlorophyll"
-        ]
+        ],
+        "basename": "ivysaur"
     },
     "venusaur": {
         "dex_no": 3,
@@ -94,7 +96,8 @@
             "Overgrow",
             null,
             "Chlorophyll"
-        ]
+        ],
+        "basename": "venusaur"
     },
     "venusaur|~|mega|~|m": {
         "dex_no": 3,
@@ -125,7 +128,8 @@
             "Thick Fat",
             null,
             null
-        ]
+        ],
+        "basename": "venusaur|~|mega|~|m"
     },
     "charmander": {
         "dex_no": 4,
@@ -157,7 +161,8 @@
             "Blaze",
             null,
             "Solar Power"
-        ]
+        ],
+        "basename": "charmander"
     },
     "charmeleon": {
         "dex_no": 5,
@@ -189,7 +194,8 @@
             "Blaze",
             null,
             "Solar Power"
-        ]
+        ],
+        "basename": "charmeleon"
     },
     "charizard": {
         "dex_no": 6,
@@ -220,7 +226,8 @@
             "Blaze",
             null,
             "Solar Power"
-        ]
+        ],
+        "basename": "charizard"
     },
     "charizard|~|x|~|mega|~|m": {
         "dex_no": 6,
@@ -251,7 +258,8 @@
             "Tough Claws",
             null,
             null
-        ]
+        ],
+        "basename": "charizard|~|x|~|mega|~|m"
     },
     "charizard|~|y|~|mega|~|m": {
         "dex_no": 6,
@@ -282,7 +290,8 @@
             "Drought",
             null,
             null
-        ]
+        ],
+        "basename": "charizard|~|y|~|mega|~|m"
     },
     "squirtle": {
         "dex_no": 7,
@@ -314,7 +323,8 @@
             "Torrent",
             null,
             "Rain Dish"
-        ]
+        ],
+        "basename": "squirtle"
     },
     "wartortle": {
         "dex_no": 8,
@@ -346,7 +356,8 @@
             "Torrent",
             null,
             "Rain Dish"
-        ]
+        ],
+        "basename": "wartortle"
     },
     "blastoise": {
         "dex_no": 9,
@@ -376,7 +387,8 @@
             "Torrent",
             null,
             "Rain Dish"
-        ]
+        ],
+        "basename": "blastoise"
     },
     "blastoise|~|mega|~|m": {
         "dex_no": 9,
@@ -406,7 +418,8 @@
             "Mega Launcher",
             null,
             null
-        ]
+        ],
+        "basename": "blastoise|~|mega|~|m"
     },
     "caterpie": {
         "dex_no": 10,
@@ -438,7 +451,8 @@
             "Shield Dust",
             null,
             "Run Away"
-        ]
+        ],
+        "basename": "caterpie"
     },
     "metapod": {
         "dex_no": 11,
@@ -470,7 +484,8 @@
             "Shed Skin",
             null,
             null
-        ]
+        ],
+        "basename": "metapod"
     },
     "butterfree": {
         "dex_no": 12,
@@ -501,7 +516,8 @@
             "Compound Eyes",
             null,
             "Tinted Lens"
-        ]
+        ],
+        "basename": "butterfree"
     },
     "weedle": {
         "dex_no": 13,
@@ -534,7 +550,8 @@
             "Shield Dust",
             null,
             "Run Away"
-        ]
+        ],
+        "basename": "weedle"
     },
     "kakuna": {
         "dex_no": 14,
@@ -567,7 +584,8 @@
             "Shed Skin",
             null,
             null
-        ]
+        ],
+        "basename": "kakuna"
     },
     "beedrill": {
         "dex_no": 15,
@@ -598,7 +616,8 @@
             "Swarm",
             null,
             "Sniper"
-        ]
+        ],
+        "basename": "beedrill"
     },
     "beedrill|~|mega|~|m": {
         "dex_no": 15,
@@ -629,7 +648,8 @@
             "Adaptability",
             null,
             null
-        ]
+        ],
+        "basename": "beedrill|~|mega|~|m"
     },
     "pidgey": {
         "dex_no": 16,
@@ -662,7 +682,8 @@
             "Keen Eye",
             "Tangled Feet",
             "Big Pecks"
-        ]
+        ],
+        "basename": "pidgey"
     },
     "pidgeotto": {
         "dex_no": 17,
@@ -695,7 +716,8 @@
             "Keen Eye",
             "Tangled Feet",
             "Big Pecks"
-        ]
+        ],
+        "basename": "pidgeotto"
     },
     "pidgeot": {
         "dex_no": 18,
@@ -726,7 +748,8 @@
             "Keen Eye",
             "Tangled Feet",
             "Big Pecks"
-        ]
+        ],
+        "basename": "pidgeot"
     },
     "pidgeot|~|mega|~|m": {
         "dex_no": 18,
@@ -757,7 +780,8 @@
             "No Guard",
             null,
             null
-        ]
+        ],
+        "basename": "pidgeot|~|mega|~|m"
     },
     "rattata": {
         "dex_no": 19,
@@ -788,7 +812,8 @@
             "Run Away",
             "Guts",
             "Hustle"
-        ]
+        ],
+        "basename": "rattata"
     },
     "rattata|~|alola|~|alolan|~|a": {
         "dex_no": 19,
@@ -821,7 +846,8 @@
             "Gluttony",
             "Hustle",
             "Thick Fat"
-        ]
+        ],
+        "basename": "rattata|~|alola|~|alolan|~|a"
     },
     "raticate": {
         "dex_no": 20,
@@ -852,7 +878,8 @@
             "Run Away",
             "Guts",
             "Hustle"
-        ]
+        ],
+        "basename": "raticate"
     },
     "raticate|~|alola|~|alolan|~|a": {
         "dex_no": 20,
@@ -883,7 +910,8 @@
             "Gluttony",
             "Hustle",
             "Thick Fat"
-        ]
+        ],
+        "basename": "raticate|~|alola|~|alolan|~|a"
     },
     "spearow": {
         "dex_no": 21,
@@ -916,7 +944,8 @@
             "Keen Eye",
             null,
             "Sniper"
-        ]
+        ],
+        "basename": "spearow"
     },
     "fearow": {
         "dex_no": 22,
@@ -947,7 +976,8 @@
             "Keen Eye",
             null,
             "Sniper"
-        ]
+        ],
+        "basename": "fearow"
     },
     "ekans": {
         "dex_no": 23,
@@ -979,7 +1009,8 @@
             "Intimidate",
             "Shed Skin",
             "Unnerve"
-        ]
+        ],
+        "basename": "ekans"
     },
     "arbok": {
         "dex_no": 24,
@@ -1009,7 +1040,8 @@
             "Intimidate",
             "Shed Skin",
             "Unnerve"
-        ]
+        ],
+        "basename": "arbok"
     },
     "pikachu": {
         "dex_no": 25,
@@ -1039,7 +1071,8 @@
             "Static",
             null,
             "Lightning Rod"
-        ]
+        ],
+        "basename": "pikachu"
     },
     "raichu": {
         "dex_no": 26,
@@ -1070,7 +1103,8 @@
             "Static",
             null,
             "Lightning Rod"
-        ]
+        ],
+        "basename": "raichu"
     },
     "raichu|~|alola|~|alolan|~|a": {
         "dex_no": 26,
@@ -1101,7 +1135,8 @@
             "Surge Surfer",
             null,
             null
-        ]
+        ],
+        "basename": "raichu|~|alola|~|alolan|~|a"
     },
     "sandshrew": {
         "dex_no": 27,
@@ -1132,7 +1167,8 @@
             "Sand Veil",
             null,
             "Sand Rush"
-        ]
+        ],
+        "basename": "sandshrew"
     },
     "sandshrew|~|alola|~|alolan|~|a": {
         "dex_no": 27,
@@ -1165,7 +1201,8 @@
             "Snow Cloak",
             null,
             "Slush Rush"
-        ]
+        ],
+        "basename": "sandshrew|~|alola|~|alolan|~|a"
     },
     "sandslash": {
         "dex_no": 28,
@@ -1196,7 +1233,8 @@
             "Sand Veil",
             null,
             "Sand Rush"
-        ]
+        ],
+        "basename": "sandslash"
     },
     "sandslash|~|alola|~|alolan|~|a": {
         "dex_no": 28,
@@ -1227,7 +1265,8 @@
             "Snow Cloak",
             null,
             "Slush Rush"
-        ]
+        ],
+        "basename": "sandslash|~|alola|~|alolan|~|a"
     },
     "nidoran|~|female|~|f": {
         "dex_no": 29,
@@ -1259,7 +1298,8 @@
             "Poison Point",
             "Rivalry",
             "Hustle"
-        ]
+        ],
+        "basename": "nidoran|~|female|~|f"
     },
     "nidorina": {
         "dex_no": 30,
@@ -1291,7 +1331,8 @@
             "Poison Point",
             "Rivalry",
             "Hustle"
-        ]
+        ],
+        "basename": "nidorina"
     },
     "nidoqueen": {
         "dex_no": 31,
@@ -1322,7 +1363,8 @@
             "Poison Point",
             "Rivalry",
             "Sheer Force"
-        ]
+        ],
+        "basename": "nidoqueen"
     },
     "nidoran|~|male|~|m": {
         "dex_no": 32,
@@ -1354,7 +1396,8 @@
             "Poison Point",
             "Rivalry",
             "Hustle"
-        ]
+        ],
+        "basename": "nidoran|~|male|~|m"
     },
     "nidorino": {
         "dex_no": 33,
@@ -1386,7 +1429,8 @@
             "Poison Point",
             "Rivalry",
             "Hustle"
-        ]
+        ],
+        "basename": "nidorino"
     },
     "nidoking": {
         "dex_no": 34,
@@ -1417,7 +1461,8 @@
             "Poison Point",
             "Rivalry",
             "Sheer Force"
-        ]
+        ],
+        "basename": "nidoking"
     },
     "clefairy": {
         "dex_no": 35,
@@ -1447,7 +1492,8 @@
             "Cute Charm",
             "Magic Guard",
             "Friend Guard"
-        ]
+        ],
+        "basename": "clefairy"
     },
     "clefable": {
         "dex_no": 36,
@@ -1477,7 +1523,8 @@
             "Cute Charm",
             "Magic Guard",
             "Unaware"
-        ]
+        ],
+        "basename": "clefable"
     },
     "vulpix": {
         "dex_no": 37,
@@ -1507,7 +1554,8 @@
             "Flash Fire",
             null,
             "Drought"
-        ]
+        ],
+        "basename": "vulpix"
     },
     "vulpix|~|alola|~|alolan|~|a": {
         "dex_no": 37,
@@ -1539,7 +1587,8 @@
             "Snow Cloak",
             null,
             "Snow Warning"
-        ]
+        ],
+        "basename": "vulpix|~|alola|~|alolan|~|a"
     },
     "ninetales": {
         "dex_no": 38,
@@ -1570,7 +1619,8 @@
             "Flash Fire",
             null,
             "Drought"
-        ]
+        ],
+        "basename": "ninetales"
     },
     "ninetales|~|alola|~|alolan|~|a": {
         "dex_no": 38,
@@ -1601,7 +1651,8 @@
             "Snow Cloak",
             null,
             "Snow Warning"
-        ]
+        ],
+        "basename": "ninetales|~|alola|~|alolan|~|a"
     },
     "jigglypuff": {
         "dex_no": 39,
@@ -1632,7 +1683,8 @@
             "Cute Charm",
             "Competitive",
             "Friend Guard"
-        ]
+        ],
+        "basename": "jigglypuff"
     },
     "wigglytuff": {
         "dex_no": 40,
@@ -1663,7 +1715,8 @@
             "Cute Charm",
             "Competitive",
             "Frisk"
-        ]
+        ],
+        "basename": "wigglytuff"
     },
     "zubat": {
         "dex_no": 41,
@@ -1696,7 +1749,8 @@
             "Inner Focus",
             null,
             "Infiltrator"
-        ]
+        ],
+        "basename": "zubat"
     },
     "golbat": {
         "dex_no": 42,
@@ -1729,7 +1783,8 @@
             "Inner Focus",
             null,
             "Infiltrator"
-        ]
+        ],
+        "basename": "golbat"
     },
     "oddish": {
         "dex_no": 43,
@@ -1762,7 +1817,8 @@
             "Chlorophyll",
             null,
             "Run Away"
-        ]
+        ],
+        "basename": "oddish"
     },
     "gloom": {
         "dex_no": 44,
@@ -1796,7 +1852,8 @@
             "Chlorophyll",
             null,
             "Stench"
-        ]
+        ],
+        "basename": "gloom"
     },
     "vileplume": {
         "dex_no": 45,
@@ -1827,7 +1884,8 @@
             "Chlorophyll",
             null,
             "Effect Spore"
-        ]
+        ],
+        "basename": "vileplume"
     },
     "paras": {
         "dex_no": 46,
@@ -1860,7 +1918,8 @@
             "Effect Spore",
             "Dry Skin",
             "Damp"
-        ]
+        ],
+        "basename": "paras"
     },
     "parasect": {
         "dex_no": 47,
@@ -1891,7 +1950,8 @@
             "Effect Spore",
             "Dry Skin",
             "Damp"
-        ]
+        ],
+        "basename": "parasect"
     },
     "venonat": {
         "dex_no": 48,
@@ -1924,7 +1984,8 @@
             "Compound Eyes",
             "Tinted Lens",
             "Run Away"
-        ]
+        ],
+        "basename": "venonat"
     },
     "venomoth": {
         "dex_no": 49,
@@ -1955,7 +2016,8 @@
             "Shield Dust",
             "Tinted Lens",
             "Wonder Skin"
-        ]
+        ],
+        "basename": "venomoth"
     },
     "diglett": {
         "dex_no": 50,
@@ -1986,7 +2048,8 @@
             "Sand Veil",
             "Arena Trap",
             "Sand Force"
-        ]
+        ],
+        "basename": "diglett"
     },
     "diglett|~|alola|~|alolan|~|a": {
         "dex_no": 50,
@@ -2019,7 +2082,8 @@
             "Sand Veil",
             "Tangling Hair",
             "Sand Force"
-        ]
+        ],
+        "basename": "diglett|~|alola|~|alolan|~|a"
     },
     "dugtrio": {
         "dex_no": 51,
@@ -2050,7 +2114,8 @@
             "Sand Veil",
             "Arena Trap",
             "Sand Force"
-        ]
+        ],
+        "basename": "dugtrio"
     },
     "dugtrio|~|alola|~|alolan|~|a": {
         "dex_no": 51,
@@ -2081,7 +2146,8 @@
             "Sand Veil",
             "Tangling Hair",
             "Sand Force"
-        ]
+        ],
+        "basename": "dugtrio|~|alola|~|alolan|~|a"
     },
     "meowth": {
         "dex_no": 52,
@@ -2111,7 +2177,8 @@
             "Pickup",
             "Technician",
             "Unnerve"
-        ]
+        ],
+        "basename": "meowth"
     },
     "meowth|~|alola|~|alolan|~|a": {
         "dex_no": 52,
@@ -2143,7 +2210,8 @@
             "Pickup",
             "Technician",
             "Rattled"
-        ]
+        ],
+        "basename": "meowth|~|alola|~|alolan|~|a"
     },
     "persian": {
         "dex_no": 53,
@@ -2173,7 +2241,8 @@
             "Limber",
             "Technician",
             "Unnerve"
-        ]
+        ],
+        "basename": "persian"
     },
     "persian|~|alola|~|alolan|~|a": {
         "dex_no": 53,
@@ -2203,7 +2272,8 @@
             "Fur Coat",
             "Technician",
             "Rattled"
-        ]
+        ],
+        "basename": "persian|~|alola|~|alolan|~|a"
     },
     "psyduck": {
         "dex_no": 54,
@@ -2235,7 +2305,8 @@
             "Damp",
             "Cloud Nine",
             "Swift Swim"
-        ]
+        ],
+        "basename": "psyduck"
     },
     "golduck": {
         "dex_no": 55,
@@ -2265,7 +2336,8 @@
             "Damp",
             "Cloud Nine",
             "Swift Swim"
-        ]
+        ],
+        "basename": "golduck"
     },
     "mankey": {
         "dex_no": 56,
@@ -2297,7 +2369,8 @@
             "Vital Spirit",
             "Anger Point",
             "Defiant"
-        ]
+        ],
+        "basename": "mankey"
     },
     "primeape": {
         "dex_no": 57,
@@ -2327,7 +2400,8 @@
             "Vital Spirit",
             "Anger Point",
             "Defiant"
-        ]
+        ],
+        "basename": "primeape"
     },
     "growlithe": {
         "dex_no": 58,
@@ -2359,7 +2433,8 @@
             "Intimidate",
             "Flash Fire",
             "Justified"
-        ]
+        ],
+        "basename": "growlithe"
     },
     "arcanine": {
         "dex_no": 59,
@@ -2389,7 +2464,8 @@
             "Intimidate",
             "Flash Fire",
             "Justified"
-        ]
+        ],
+        "basename": "arcanine"
     },
     "poliwag": {
         "dex_no": 60,
@@ -2421,7 +2497,8 @@
             "Water Absorb",
             "Damp",
             "Swift Swim"
-        ]
+        ],
+        "basename": "poliwag"
     },
     "poliwhirl": {
         "dex_no": 61,
@@ -2454,7 +2531,8 @@
             "Water Absorb",
             "Damp",
             "Swift Swim"
-        ]
+        ],
+        "basename": "poliwhirl"
     },
     "poliwrath": {
         "dex_no": 62,
@@ -2485,7 +2563,8 @@
             "Water Absorb",
             "Damp",
             "Swift Swim"
-        ]
+        ],
+        "basename": "poliwrath"
     },
     "abra": {
         "dex_no": 63,
@@ -2517,7 +2596,8 @@
             "Synchronize",
             "Inner Focus",
             "Magic Guard"
-        ]
+        ],
+        "basename": "abra"
     },
     "kadabra": {
         "dex_no": 64,
@@ -2549,7 +2629,8 @@
             "Synchronize",
             "Inner Focus",
             "Magic Guard"
-        ]
+        ],
+        "basename": "kadabra"
     },
     "alakazam": {
         "dex_no": 65,
@@ -2579,7 +2660,8 @@
             "Synchronize",
             "Inner Focus",
             "Magic Guard"
-        ]
+        ],
+        "basename": "alakazam"
     },
     "alakazam|~|mega|~|m": {
         "dex_no": 65,
@@ -2609,7 +2691,8 @@
             "Trace",
             null,
             null
-        ]
+        ],
+        "basename": "alakazam|~|mega|~|m"
     },
     "machop": {
         "dex_no": 66,
@@ -2641,7 +2724,8 @@
             "Guts",
             "No Guard",
             "Steadfast"
-        ]
+        ],
+        "basename": "machop"
     },
     "machoke": {
         "dex_no": 67,
@@ -2673,7 +2757,8 @@
             "Guts",
             "No Guard",
             "Steadfast"
-        ]
+        ],
+        "basename": "machoke"
     },
     "machamp": {
         "dex_no": 68,
@@ -2703,7 +2788,8 @@
             "Guts",
             "No Guard",
             "Steadfast"
-        ]
+        ],
+        "basename": "machamp"
     },
     "bellsprout": {
         "dex_no": 69,
@@ -2736,7 +2822,8 @@
             "Chlorophyll",
             null,
             "Gluttony"
-        ]
+        ],
+        "basename": "bellsprout"
     },
     "weepinbell": {
         "dex_no": 70,
@@ -2769,7 +2856,8 @@
             "Chlorophyll",
             null,
             "Gluttony"
-        ]
+        ],
+        "basename": "weepinbell"
     },
     "victreebel": {
         "dex_no": 71,
@@ -2800,7 +2888,8 @@
             "Chlorophyll",
             null,
             "Gluttony"
-        ]
+        ],
+        "basename": "victreebel"
     },
     "tentacool": {
         "dex_no": 72,
@@ -2833,7 +2922,8 @@
             "Clear Body",
             "Liquid Ooze",
             "Rain Dish"
-        ]
+        ],
+        "basename": "tentacool"
     },
     "tentacruel": {
         "dex_no": 73,
@@ -2864,7 +2954,8 @@
             "Clear Body",
             "Liquid Ooze",
             "Rain Dish"
-        ]
+        ],
+        "basename": "tentacruel"
     },
     "geodude": {
         "dex_no": 74,
@@ -2897,7 +2988,8 @@
             "Rock Head",
             "Sturdy",
             "Sand Veil"
-        ]
+        ],
+        "basename": "geodude"
     },
     "geodude|~|alola|~|alolan|~|a": {
         "dex_no": 74,
@@ -2930,7 +3022,8 @@
             "Magnet Pull",
             "Sturdy",
             "Galvanize"
-        ]
+        ],
+        "basename": "geodude|~|alola|~|alolan|~|a"
     },
     "graveler": {
         "dex_no": 75,
@@ -2961,7 +3054,8 @@
             "Rock Head",
             "Sturdy",
             "Sand Veil"
-        ]
+        ],
+        "basename": "graveler"
     },
     "graveler|~|alola|~|alolan|~|a": {
         "dex_no": 75,
@@ -2994,7 +3088,8 @@
             "Magnet Pull",
             "Sturdy",
             "Galvanize"
-        ]
+        ],
+        "basename": "graveler|~|alola|~|alolan|~|a"
     },
     "golem": {
         "dex_no": 76,
@@ -3025,7 +3120,8 @@
             "Rock Head",
             "Sturdy",
             "Sand Veil"
-        ]
+        ],
+        "basename": "golem"
     },
     "golem|~|alola|~|alolan|~|a": {
         "dex_no": 76,
@@ -3056,7 +3152,8 @@
             "Magnet Pull",
             "Sturdy",
             "Galvanize"
-        ]
+        ],
+        "basename": "golem|~|alola|~|alolan|~|a"
     },
     "ponyta": {
         "dex_no": 77,
@@ -3088,7 +3185,8 @@
             "Run Away",
             "Flash Fire",
             "Flame Body"
-        ]
+        ],
+        "basename": "ponyta"
     },
     "rapidash": {
         "dex_no": 78,
@@ -3118,7 +3216,8 @@
             "Run Away",
             "Flash Fire",
             "Flame Body"
-        ]
+        ],
+        "basename": "rapidash"
     },
     "slowpoke": {
         "dex_no": 79,
@@ -3152,7 +3251,8 @@
             "Oblivious",
             "Own Tempo",
             "Regenerator"
-        ]
+        ],
+        "basename": "slowpoke"
     },
     "slowbro": {
         "dex_no": 80,
@@ -3183,7 +3283,8 @@
             "Oblivious",
             "Own Tempo",
             "Regenerator"
-        ]
+        ],
+        "basename": "slowbro"
     },
     "slowbro|~|mega|~|m": {
         "dex_no": 80,
@@ -3214,7 +3315,8 @@
             "Shell Armor",
             null,
             null
-        ]
+        ],
+        "basename": "slowbro|~|mega|~|m"
     },
     "magnemite": {
         "dex_no": 81,
@@ -3247,7 +3349,8 @@
             "Magnet Pull",
             "Sturdy",
             "Analytic"
-        ]
+        ],
+        "basename": "magnemite"
     },
     "magneton": {
         "dex_no": 82,
@@ -3280,7 +3383,8 @@
             "Magnet Pull",
             "Sturdy",
             "Analytic"
-        ]
+        ],
+        "basename": "magneton"
     },
     "farfetch'd": {
         "dex_no": 83,
@@ -3311,7 +3415,8 @@
             "Keen Eye",
             "Inner Focus",
             "Defiant"
-        ]
+        ],
+        "basename": "farfetch'd"
     },
     "doduo": {
         "dex_no": 84,
@@ -3344,7 +3449,8 @@
             "Run Away",
             "Early Bird",
             "Tangled Feet"
-        ]
+        ],
+        "basename": "doduo"
     },
     "dodrio": {
         "dex_no": 85,
@@ -3375,7 +3481,8 @@
             "Run Away",
             "Early Bird",
             "Tangled Feet"
-        ]
+        ],
+        "basename": "dodrio"
     },
     "seel": {
         "dex_no": 86,
@@ -3407,7 +3514,8 @@
             "Thick Fat",
             "Hydration",
             "Ice Body"
-        ]
+        ],
+        "basename": "seel"
     },
     "dewgong": {
         "dex_no": 87,
@@ -3438,7 +3546,8 @@
             "Thick Fat",
             "Hydration",
             "Ice Body"
-        ]
+        ],
+        "basename": "dewgong"
     },
     "grimer": {
         "dex_no": 88,
@@ -3469,7 +3578,8 @@
             "Stench",
             "Sticky Hold",
             "Poison Touch"
-        ]
+        ],
+        "basename": "grimer"
     },
     "grimer|~|alola|~|alolan|~|a": {
         "dex_no": 88,
@@ -3502,7 +3612,8 @@
             "Poison Touch",
             "Gluttony",
             "Power of Alchemy"
-        ]
+        ],
+        "basename": "grimer|~|alola|~|alolan|~|a"
     },
     "muk": {
         "dex_no": 89,
@@ -3533,7 +3644,8 @@
             "Stench",
             "Sticky Hold",
             "Poison Touch"
-        ]
+        ],
+        "basename": "muk"
     },
     "muk|~|alola|~|alolan|~|a": {
         "dex_no": 89,
@@ -3564,7 +3676,8 @@
             "Poison Touch",
             "Gluttony",
             "Power of Alchemy"
-        ]
+        ],
+        "basename": "muk|~|alola|~|alolan|~|a"
     },
     "shellder": {
         "dex_no": 90,
@@ -3596,7 +3709,8 @@
             "Shell Armor",
             "Skill Link",
             "Overcoat"
-        ]
+        ],
+        "basename": "shellder"
     },
     "cloyster": {
         "dex_no": 91,
@@ -3627,7 +3741,8 @@
             "Shell Armor",
             "Skill Link",
             "Overcoat"
-        ]
+        ],
+        "basename": "cloyster"
     },
     "gastly": {
         "dex_no": 92,
@@ -3660,7 +3775,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "gastly"
     },
     "haunter": {
         "dex_no": 93,
@@ -3693,7 +3809,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "haunter"
     },
     "gengar": {
         "dex_no": 94,
@@ -3724,7 +3841,8 @@
             "Cursed Body",
             null,
             null
-        ]
+        ],
+        "basename": "gengar"
     },
     "gengar|~|mega|~|m": {
         "dex_no": 94,
@@ -3755,7 +3873,8 @@
             "Shadow Tag",
             null,
             null
-        ]
+        ],
+        "basename": "gengar|~|mega|~|m"
     },
     "onix": {
         "dex_no": 95,
@@ -3788,7 +3907,8 @@
             "Rock Head",
             "Sturdy",
             "Weak Armor"
-        ]
+        ],
+        "basename": "onix"
     },
     "drowzee": {
         "dex_no": 96,
@@ -3820,7 +3940,8 @@
             "Insomnia",
             "Forewarn",
             "Inner Focus"
-        ]
+        ],
+        "basename": "drowzee"
     },
     "hypno": {
         "dex_no": 97,
@@ -3850,7 +3971,8 @@
             "Insomnia",
             "Forewarn",
             "Inner Focus"
-        ]
+        ],
+        "basename": "hypno"
     },
     "krabby": {
         "dex_no": 98,
@@ -3882,7 +4004,8 @@
             "Hyper Cutter",
             "Shell Armor",
             "Sheer Force"
-        ]
+        ],
+        "basename": "krabby"
     },
     "kingler": {
         "dex_no": 99,
@@ -3912,7 +4035,8 @@
             "Hyper Cutter",
             "Shell Armor",
             "Sheer Force"
-        ]
+        ],
+        "basename": "kingler"
     },
     "voltorb": {
         "dex_no": 100,
@@ -3944,7 +4068,8 @@
             "Soundproof",
             "Static",
             "Aftermath"
-        ]
+        ],
+        "basename": "voltorb"
     },
     "electrode": {
         "dex_no": 101,
@@ -3974,7 +4099,8 @@
             "Soundproof",
             "Static",
             "Aftermath"
-        ]
+        ],
+        "basename": "electrode"
     },
     "exeggcute": {
         "dex_no": 102,
@@ -4007,7 +4133,8 @@
             "Chlorophyll",
             null,
             "Harvest"
-        ]
+        ],
+        "basename": "exeggcute"
     },
     "exeggutor": {
         "dex_no": 103,
@@ -4038,7 +4165,8 @@
             "Chlorophyll",
             null,
             "Harvest"
-        ]
+        ],
+        "basename": "exeggutor"
     },
     "exeggutor|~|alola|~|alolan|~|a": {
         "dex_no": 103,
@@ -4069,7 +4197,8 @@
             "Frisk",
             null,
             "Harvest"
-        ]
+        ],
+        "basename": "exeggutor|~|alola|~|alolan|~|a"
     },
     "cubone": {
         "dex_no": 104,
@@ -4101,7 +4230,8 @@
             "Rock Head",
             "Lightning Rod",
             "Battle Armor"
-        ]
+        ],
+        "basename": "cubone"
     },
     "marowak": {
         "dex_no": 105,
@@ -4132,7 +4262,8 @@
             "Rock Head",
             "Lightning Rod",
             "Battle Armor"
-        ]
+        ],
+        "basename": "marowak"
     },
     "marowak|~|alola|~|alolan|~|a": {
         "dex_no": 105,
@@ -4163,7 +4294,8 @@
             "Cursed Body",
             "Lightning Rod",
             "Rock Head"
-        ]
+        ],
+        "basename": "marowak|~|alola|~|alolan|~|a"
     },
     "hitmonlee": {
         "dex_no": 106,
@@ -4193,7 +4325,8 @@
             "Limber",
             "Reckless",
             "Unburden"
-        ]
+        ],
+        "basename": "hitmonlee"
     },
     "hitmonchan": {
         "dex_no": 107,
@@ -4223,7 +4356,8 @@
             "Keen Eye",
             "Iron Fist",
             "Inner Focus"
-        ]
+        ],
+        "basename": "hitmonchan"
     },
     "lickitung": {
         "dex_no": 108,
@@ -4255,7 +4389,8 @@
             "Own Tempo",
             "Oblivious",
             "Cloud Nine"
-        ]
+        ],
+        "basename": "lickitung"
     },
     "koffing": {
         "dex_no": 109,
@@ -4287,7 +4422,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "koffing"
     },
     "weezing": {
         "dex_no": 110,
@@ -4317,7 +4453,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "weezing"
     },
     "rhyhorn": {
         "dex_no": 111,
@@ -4350,7 +4487,8 @@
             "Lightning Rod",
             "Rock Head",
             "Reckless"
-        ]
+        ],
+        "basename": "rhyhorn"
     },
     "rhydon": {
         "dex_no": 112,
@@ -4383,7 +4521,8 @@
             "Lightning Rod",
             "Rock Head",
             "Reckless"
-        ]
+        ],
+        "basename": "rhydon"
     },
     "chansey": {
         "dex_no": 113,
@@ -4413,7 +4552,8 @@
             "Natural Cure",
             "Serene Grace",
             "Healer"
-        ]
+        ],
+        "basename": "chansey"
     },
     "tangela": {
         "dex_no": 114,
@@ -4445,7 +4585,8 @@
             "Chlorophyll",
             "Leaf Guard",
             "Regenerator"
-        ]
+        ],
+        "basename": "tangela"
     },
     "kangaskhan": {
         "dex_no": 115,
@@ -4475,7 +4616,8 @@
             "Early Bird",
             "Scrappy",
             "Inner Focus"
-        ]
+        ],
+        "basename": "kangaskhan"
     },
     "kangaskhan|~|mega|~|m": {
         "dex_no": 115,
@@ -4505,7 +4647,8 @@
             "Parental Bond",
             null,
             null
-        ]
+        ],
+        "basename": "kangaskhan|~|mega|~|m"
     },
     "horsea": {
         "dex_no": 116,
@@ -4537,7 +4680,8 @@
             "Swift Swim",
             "Sniper",
             "Damp"
-        ]
+        ],
+        "basename": "horsea"
     },
     "seadra": {
         "dex_no": 117,
@@ -4569,7 +4713,8 @@
             "Poison Point",
             "Sniper",
             "Damp"
-        ]
+        ],
+        "basename": "seadra"
     },
     "goldeen": {
         "dex_no": 118,
@@ -4601,7 +4746,8 @@
             "Swift Swim",
             "Water Veil",
             "Lightning Rod"
-        ]
+        ],
+        "basename": "goldeen"
     },
     "seaking": {
         "dex_no": 119,
@@ -4631,7 +4777,8 @@
             "Swift Swim",
             "Water Veil",
             "Lightning Rod"
-        ]
+        ],
+        "basename": "seaking"
     },
     "staryu": {
         "dex_no": 120,
@@ -4663,7 +4810,8 @@
             "Illuminate",
             "Natural Cure",
             "Analytic"
-        ]
+        ],
+        "basename": "staryu"
     },
     "starmie": {
         "dex_no": 121,
@@ -4694,7 +4842,8 @@
             "Illuminate",
             "Natural Cure",
             "Analytic"
-        ]
+        ],
+        "basename": "starmie"
     },
     "mr. mime": {
         "dex_no": 122,
@@ -4725,7 +4874,8 @@
             "Soundproof",
             "Filter",
             "Technician"
-        ]
+        ],
+        "basename": "mr. mime"
     },
     "scyther": {
         "dex_no": 123,
@@ -4758,7 +4908,8 @@
             "Swarm",
             "Technician",
             "Steadfast"
-        ]
+        ],
+        "basename": "scyther"
     },
     "jynx": {
         "dex_no": 124,
@@ -4789,7 +4940,8 @@
             "Oblivious",
             "Forewarn",
             "Dry Skin"
-        ]
+        ],
+        "basename": "jynx"
     },
     "electabuzz": {
         "dex_no": 125,
@@ -4819,7 +4971,8 @@
             "Static",
             null,
             "Vital Spirit"
-        ]
+        ],
+        "basename": "electabuzz"
     },
     "magmar": {
         "dex_no": 126,
@@ -4849,7 +5002,8 @@
             "Flame Body",
             null,
             "Vital Spirit"
-        ]
+        ],
+        "basename": "magmar"
     },
     "pinsir": {
         "dex_no": 127,
@@ -4879,7 +5033,8 @@
             "Hyper Cutter",
             "Mold Breaker",
             "Moxie"
-        ]
+        ],
+        "basename": "pinsir"
     },
     "pinsir|~|mega|~|m": {
         "dex_no": 127,
@@ -4909,7 +5064,8 @@
             "Aerilate",
             null,
             null
-        ]
+        ],
+        "basename": "pinsir|~|mega|~|m"
     },
     "tauros": {
         "dex_no": 128,
@@ -4939,7 +5095,8 @@
             "Intimidate",
             "Anger Point",
             "Sheer Force"
-        ]
+        ],
+        "basename": "tauros"
     },
     "magikarp": {
         "dex_no": 129,
@@ -4971,7 +5128,8 @@
             "Swift Swim",
             null,
             "Rattled"
-        ]
+        ],
+        "basename": "magikarp"
     },
     "gyarados": {
         "dex_no": 130,
@@ -5002,7 +5160,8 @@
             "Intimidate",
             null,
             "Moxie"
-        ]
+        ],
+        "basename": "gyarados"
     },
     "gyarados|~|mega|~|m": {
         "dex_no": 130,
@@ -5033,7 +5192,8 @@
             "Mold Breaker",
             null,
             null
-        ]
+        ],
+        "basename": "gyarados|~|mega|~|m"
     },
     "lapras": {
         "dex_no": 131,
@@ -5064,7 +5224,8 @@
             "Water Absorb",
             "Shell Armor",
             "Hydration"
-        ]
+        ],
+        "basename": "lapras"
     },
     "ditto": {
         "dex_no": 132,
@@ -5094,7 +5255,8 @@
             "Limber",
             null,
             "Imposter"
-        ]
+        ],
+        "basename": "ditto"
     },
     "eevee": {
         "dex_no": 133,
@@ -5132,7 +5294,8 @@
             "Run Away",
             "Adaptability",
             "Anticipation"
-        ]
+        ],
+        "basename": "eevee"
     },
     "vaporeon": {
         "dex_no": 134,
@@ -5162,7 +5325,8 @@
             "Water Absorb",
             null,
             "Hydration"
-        ]
+        ],
+        "basename": "vaporeon"
     },
     "jolteon": {
         "dex_no": 135,
@@ -5192,7 +5356,8 @@
             "Volt Absorb",
             null,
             "Quick Feet"
-        ]
+        ],
+        "basename": "jolteon"
     },
     "flareon": {
         "dex_no": 136,
@@ -5222,7 +5387,8 @@
             "Flash Fire",
             null,
             "Guts"
-        ]
+        ],
+        "basename": "flareon"
     },
     "porygon": {
         "dex_no": 137,
@@ -5254,7 +5420,8 @@
             "Trace",
             "Download",
             "Analytic"
-        ]
+        ],
+        "basename": "porygon"
     },
     "omanyte": {
         "dex_no": 138,
@@ -5287,7 +5454,8 @@
             "Swift Swim",
             "Shell Armor",
             "Weak Armor"
-        ]
+        ],
+        "basename": "omanyte"
     },
     "omastar": {
         "dex_no": 139,
@@ -5318,7 +5486,8 @@
             "Swift Swim",
             "Shell Armor",
             "Weak Armor"
-        ]
+        ],
+        "basename": "omastar"
     },
     "kabuto": {
         "dex_no": 140,
@@ -5351,7 +5520,8 @@
             "Swift Swim",
             "Battle Armor",
             "Weak Armor"
-        ]
+        ],
+        "basename": "kabuto"
     },
     "kabutops": {
         "dex_no": 141,
@@ -5382,7 +5552,8 @@
             "Swift Swim",
             "Battle Armor",
             "Weak Armor"
-        ]
+        ],
+        "basename": "kabutops"
     },
     "aerodactyl": {
         "dex_no": 142,
@@ -5413,7 +5584,8 @@
             "Rock Head",
             "Pressure",
             "Unnerve"
-        ]
+        ],
+        "basename": "aerodactyl"
     },
     "aerodactyl|~|mega|~|m": {
         "dex_no": 142,
@@ -5444,7 +5616,8 @@
             "Tough Claws",
             null,
             null
-        ]
+        ],
+        "basename": "aerodactyl|~|mega|~|m"
     },
     "snorlax": {
         "dex_no": 143,
@@ -5474,7 +5647,8 @@
             "Immunity",
             "Thick Fat",
             "Gluttony"
-        ]
+        ],
+        "basename": "snorlax"
     },
     "articuno": {
         "dex_no": 144,
@@ -5505,7 +5679,8 @@
             "Pressure",
             null,
             "Snow Cloak"
-        ]
+        ],
+        "basename": "articuno"
     },
     "zapdos": {
         "dex_no": 145,
@@ -5536,7 +5711,8 @@
             "Pressure",
             null,
             "Static"
-        ]
+        ],
+        "basename": "zapdos"
     },
     "moltres": {
         "dex_no": 146,
@@ -5567,7 +5743,8 @@
             "Pressure",
             null,
             "Flame Body"
-        ]
+        ],
+        "basename": "moltres"
     },
     "dratini": {
         "dex_no": 147,
@@ -5599,7 +5776,8 @@
             "Shed Skin",
             null,
             "Marvel Scale"
-        ]
+        ],
+        "basename": "dratini"
     },
     "dragonair": {
         "dex_no": 148,
@@ -5631,7 +5809,8 @@
             "Shed Skin",
             null,
             "Marvel Scale"
-        ]
+        ],
+        "basename": "dragonair"
     },
     "dragonite": {
         "dex_no": 149,
@@ -5662,7 +5841,8 @@
             "Inner Focus",
             null,
             "Multiscale"
-        ]
+        ],
+        "basename": "dragonite"
     },
     "mewtwo": {
         "dex_no": 150,
@@ -5692,7 +5872,8 @@
             "Pressure",
             null,
             "Unnerve"
-        ]
+        ],
+        "basename": "mewtwo"
     },
     "mewtwo|~|x|~|mega|~|m": {
         "dex_no": 150,
@@ -5722,7 +5903,8 @@
             "Steadfast",
             null,
             null
-        ]
+        ],
+        "basename": "mewtwo|~|x|~|mega|~|m"
     },
     "mewtwo|~|y|~|mega|~|m": {
         "dex_no": 150,
@@ -5752,7 +5934,8 @@
             "Insomnia",
             null,
             null
-        ]
+        ],
+        "basename": "mewtwo|~|y|~|mega|~|m"
     },
     "mew": {
         "dex_no": 151,
@@ -5782,7 +5965,8 @@
             "Synchronize",
             null,
             null
-        ]
+        ],
+        "basename": "mew"
     },
     "chikorita": {
         "dex_no": 152,
@@ -5814,7 +5998,8 @@
             "Overgrow",
             null,
             "Leaf Guard"
-        ]
+        ],
+        "basename": "chikorita"
     },
     "bayleef": {
         "dex_no": 153,
@@ -5846,7 +6031,8 @@
             "Overgrow",
             null,
             "Leaf Guard"
-        ]
+        ],
+        "basename": "bayleef"
     },
     "meganium": {
         "dex_no": 154,
@@ -5876,7 +6062,8 @@
             "Overgrow",
             null,
             "Leaf Guard"
-        ]
+        ],
+        "basename": "meganium"
     },
     "cyndaquil": {
         "dex_no": 155,
@@ -5908,7 +6095,8 @@
             "Blaze",
             null,
             "Flash Fire"
-        ]
+        ],
+        "basename": "cyndaquil"
     },
     "quilava": {
         "dex_no": 156,
@@ -5940,7 +6128,8 @@
             "Blaze",
             null,
             "Flash Fire"
-        ]
+        ],
+        "basename": "quilava"
     },
     "typhlosion": {
         "dex_no": 157,
@@ -5970,7 +6159,8 @@
             "Blaze",
             null,
             "Flash Fire"
-        ]
+        ],
+        "basename": "typhlosion"
     },
     "totodile": {
         "dex_no": 158,
@@ -6002,7 +6192,8 @@
             "Torrent",
             null,
             "Sheer Force"
-        ]
+        ],
+        "basename": "totodile"
     },
     "croconaw": {
         "dex_no": 159,
@@ -6034,7 +6225,8 @@
             "Torrent",
             null,
             "Sheer Force"
-        ]
+        ],
+        "basename": "croconaw"
     },
     "feraligatr": {
         "dex_no": 160,
@@ -6064,7 +6256,8 @@
             "Torrent",
             null,
             "Sheer Force"
-        ]
+        ],
+        "basename": "feraligatr"
     },
     "sentret": {
         "dex_no": 161,
@@ -6096,7 +6289,8 @@
             "Run Away",
             "Keen Eye",
             "Frisk"
-        ]
+        ],
+        "basename": "sentret"
     },
     "furret": {
         "dex_no": 162,
@@ -6126,7 +6320,8 @@
             "Run Away",
             "Keen Eye",
             "Frisk"
-        ]
+        ],
+        "basename": "furret"
     },
     "hoothoot": {
         "dex_no": 163,
@@ -6159,7 +6354,8 @@
             "Insomnia",
             "Keen Eye",
             "Tinted Lens"
-        ]
+        ],
+        "basename": "hoothoot"
     },
     "noctowl": {
         "dex_no": 164,
@@ -6190,7 +6386,8 @@
             "Insomnia",
             "Keen Eye",
             "Tinted Lens"
-        ]
+        ],
+        "basename": "noctowl"
     },
     "ledyba": {
         "dex_no": 165,
@@ -6223,7 +6420,8 @@
             "Swarm",
             "Early Bird",
             "Rattled"
-        ]
+        ],
+        "basename": "ledyba"
     },
     "ledian": {
         "dex_no": 166,
@@ -6254,7 +6452,8 @@
             "Swarm",
             "Early Bird",
             "Iron Fist"
-        ]
+        ],
+        "basename": "ledian"
     },
     "spinarak": {
         "dex_no": 167,
@@ -6287,7 +6486,8 @@
             "Swarm",
             "Insomnia",
             "Sniper"
-        ]
+        ],
+        "basename": "spinarak"
     },
     "ariados": {
         "dex_no": 168,
@@ -6318,7 +6518,8 @@
             "Swarm",
             "Insomnia",
             "Sniper"
-        ]
+        ],
+        "basename": "ariados"
     },
     "crobat": {
         "dex_no": 169,
@@ -6349,7 +6550,8 @@
             "Inner Focus",
             null,
             "Infiltrator"
-        ]
+        ],
+        "basename": "crobat"
     },
     "chinchou": {
         "dex_no": 170,
@@ -6382,7 +6584,8 @@
             "Volt Absorb",
             "Illuminate",
             "Water Absorb"
-        ]
+        ],
+        "basename": "chinchou"
     },
     "lanturn": {
         "dex_no": 171,
@@ -6413,7 +6616,8 @@
             "Volt Absorb",
             "Illuminate",
             "Water Absorb"
-        ]
+        ],
+        "basename": "lanturn"
     },
     "pichu": {
         "dex_no": 172,
@@ -6446,7 +6650,8 @@
             "Static",
             null,
             "Lightning Rod"
-        ]
+        ],
+        "basename": "pichu"
     },
     "cleffa": {
         "dex_no": 173,
@@ -6479,7 +6684,8 @@
             "Cute Charm",
             "Magic Guard",
             "Friend Guard"
-        ]
+        ],
+        "basename": "cleffa"
     },
     "igglybuff": {
         "dex_no": 174,
@@ -6513,7 +6719,8 @@
             "Cute Charm",
             "Competitive",
             "Friend Guard"
-        ]
+        ],
+        "basename": "igglybuff"
     },
     "togepi": {
         "dex_no": 175,
@@ -6545,7 +6752,8 @@
             "Hustle",
             "Serene Grace",
             "Super Luck"
-        ]
+        ],
+        "basename": "togepi"
     },
     "togetic": {
         "dex_no": 176,
@@ -6578,7 +6786,8 @@
             "Hustle",
             "Serene Grace",
             "Super Luck"
-        ]
+        ],
+        "basename": "togetic"
     },
     "natu": {
         "dex_no": 177,
@@ -6611,7 +6820,8 @@
             "Synchronize",
             "Early Bird",
             "Magic Bounce"
-        ]
+        ],
+        "basename": "natu"
     },
     "xatu": {
         "dex_no": 178,
@@ -6642,7 +6852,8 @@
             "Synchronize",
             "Early Bird",
             "Magic Bounce"
-        ]
+        ],
+        "basename": "xatu"
     },
     "mareep": {
         "dex_no": 179,
@@ -6674,7 +6885,8 @@
             "Static",
             null,
             "Plus"
-        ]
+        ],
+        "basename": "mareep"
     },
     "flaaffy": {
         "dex_no": 180,
@@ -6706,7 +6918,8 @@
             "Static",
             null,
             "Plus"
-        ]
+        ],
+        "basename": "flaaffy"
     },
     "ampharos": {
         "dex_no": 181,
@@ -6736,7 +6949,8 @@
             "Static",
             null,
             "Plus"
-        ]
+        ],
+        "basename": "ampharos"
     },
     "ampharos|~|mega|~|m": {
         "dex_no": 181,
@@ -6766,7 +6980,8 @@
             "Mold Breaker",
             null,
             null
-        ]
+        ],
+        "basename": "ampharos|~|mega|~|m"
     },
     "bellossom": {
         "dex_no": 182,
@@ -6796,7 +7011,8 @@
             "Chlorophyll",
             null,
             "Healer"
-        ]
+        ],
+        "basename": "bellossom"
     },
     "marill": {
         "dex_no": 183,
@@ -6827,7 +7043,8 @@
             "Thick Fat",
             "Huge Power",
             "Sap Sipper"
-        ]
+        ],
+        "basename": "marill"
     },
     "azumarill": {
         "dex_no": 184,
@@ -6858,7 +7075,8 @@
             "Thick Fat",
             "Huge Power",
             "Sap Sipper"
-        ]
+        ],
+        "basename": "azumarill"
     },
     "sudowoodo": {
         "dex_no": 185,
@@ -6888,7 +7106,8 @@
             "Sturdy",
             "Rock Head",
             "Rattled"
-        ]
+        ],
+        "basename": "sudowoodo"
     },
     "politoed": {
         "dex_no": 186,
@@ -6918,7 +7137,8 @@
             "Water Absorb",
             "Damp",
             "Drizzle"
-        ]
+        ],
+        "basename": "politoed"
     },
     "hoppip": {
         "dex_no": 187,
@@ -6951,7 +7171,8 @@
             "Chlorophyll",
             "Leaf Guard",
             "Infiltrator"
-        ]
+        ],
+        "basename": "hoppip"
     },
     "skiploom": {
         "dex_no": 188,
@@ -6984,7 +7205,8 @@
             "Chlorophyll",
             "Leaf Guard",
             "Infiltrator"
-        ]
+        ],
+        "basename": "skiploom"
     },
     "jumpluff": {
         "dex_no": 189,
@@ -7015,7 +7237,8 @@
             "Chlorophyll",
             "Leaf Guard",
             "Infiltrator"
-        ]
+        ],
+        "basename": "jumpluff"
     },
     "aipom": {
         "dex_no": 190,
@@ -7047,7 +7270,8 @@
             "Run Away",
             "Pickup",
             "Skill Link"
-        ]
+        ],
+        "basename": "aipom"
     },
     "sunkern": {
         "dex_no": 191,
@@ -7079,7 +7303,8 @@
             "Chlorophyll",
             "Solar Power",
             "Early Bird"
-        ]
+        ],
+        "basename": "sunkern"
     },
     "sunflora": {
         "dex_no": 192,
@@ -7109,7 +7334,8 @@
             "Chlorophyll",
             "Solar Power",
             "Early Bird"
-        ]
+        ],
+        "basename": "sunflora"
     },
     "yanma": {
         "dex_no": 193,
@@ -7142,7 +7368,8 @@
             "Speed Boost",
             "Compound Eyes",
             "Frisk"
-        ]
+        ],
+        "basename": "yanma"
     },
     "wooper": {
         "dex_no": 194,
@@ -7175,7 +7402,8 @@
             "Damp",
             "Water Absorb",
             "Unaware"
-        ]
+        ],
+        "basename": "wooper"
     },
     "quagsire": {
         "dex_no": 195,
@@ -7206,7 +7434,8 @@
             "Damp",
             "Water Absorb",
             "Unaware"
-        ]
+        ],
+        "basename": "quagsire"
     },
     "espeon": {
         "dex_no": 196,
@@ -7236,7 +7465,8 @@
             "Synchronize",
             null,
             "Magic Bounce"
-        ]
+        ],
+        "basename": "espeon"
     },
     "umbreon": {
         "dex_no": 197,
@@ -7266,7 +7496,8 @@
             "Synchronize",
             null,
             "Inner Focus"
-        ]
+        ],
+        "basename": "umbreon"
     },
     "murkrow": {
         "dex_no": 198,
@@ -7299,7 +7530,8 @@
             "Insomnia",
             "Super Luck",
             "Prankster"
-        ]
+        ],
+        "basename": "murkrow"
     },
     "slowking": {
         "dex_no": 199,
@@ -7330,7 +7562,8 @@
             "Oblivious",
             "Own Tempo",
             "Regenerator"
-        ]
+        ],
+        "basename": "slowking"
     },
     "misdreavus": {
         "dex_no": 200,
@@ -7362,7 +7595,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "misdreavus"
     },
     "unown": {
         "dex_no": 201,
@@ -7392,7 +7626,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "unown"
     },
     "wobbuffet": {
         "dex_no": 202,
@@ -7422,7 +7657,8 @@
             "Shadow Tag",
             null,
             "Telepathy"
-        ]
+        ],
+        "basename": "wobbuffet"
     },
     "girafarig": {
         "dex_no": 203,
@@ -7453,7 +7689,8 @@
             "Inner Focus",
             "Early Bird",
             "Sap Sipper"
-        ]
+        ],
+        "basename": "girafarig"
     },
     "pineco": {
         "dex_no": 204,
@@ -7485,7 +7722,8 @@
             "Sturdy",
             null,
             "Overcoat"
-        ]
+        ],
+        "basename": "pineco"
     },
     "forretress": {
         "dex_no": 205,
@@ -7516,7 +7754,8 @@
             "Sturdy",
             null,
             "Overcoat"
-        ]
+        ],
+        "basename": "forretress"
     },
     "dunsparce": {
         "dex_no": 206,
@@ -7546,7 +7785,8 @@
             "Serene Grace",
             "Run Away",
             "Rattled"
-        ]
+        ],
+        "basename": "dunsparce"
     },
     "gligar": {
         "dex_no": 207,
@@ -7579,7 +7819,8 @@
             "Hyper Cutter",
             "Sand Veil",
             "Immunity"
-        ]
+        ],
+        "basename": "gligar"
     },
     "steelix": {
         "dex_no": 208,
@@ -7610,7 +7851,8 @@
             "Rock Head",
             "Sturdy",
             "Sheer Force"
-        ]
+        ],
+        "basename": "steelix"
     },
     "steelix|~|mega|~|m": {
         "dex_no": 208,
@@ -7641,7 +7883,8 @@
             "Sand Force",
             null,
             null
-        ]
+        ],
+        "basename": "steelix|~|mega|~|m"
     },
     "snubbull": {
         "dex_no": 209,
@@ -7673,7 +7916,8 @@
             "Intimidate",
             "Run Away",
             "Rattled"
-        ]
+        ],
+        "basename": "snubbull"
     },
     "granbull": {
         "dex_no": 210,
@@ -7703,7 +7947,8 @@
             "Intimidate",
             "Quick Feet",
             "Rattled"
-        ]
+        ],
+        "basename": "granbull"
     },
     "qwilfish": {
         "dex_no": 211,
@@ -7734,7 +7979,8 @@
             "Poison Point",
             "Swift Swim",
             "Intimidate"
-        ]
+        ],
+        "basename": "qwilfish"
     },
     "scizor": {
         "dex_no": 212,
@@ -7765,7 +8011,8 @@
             "Swarm",
             "Technician",
             "Light Metal"
-        ]
+        ],
+        "basename": "scizor"
     },
     "scizor|~|mega|~|m": {
         "dex_no": 212,
@@ -7796,7 +8043,8 @@
             "Technician",
             null,
             null
-        ]
+        ],
+        "basename": "scizor|~|mega|~|m"
     },
     "shuckle": {
         "dex_no": 213,
@@ -7827,7 +8075,8 @@
             "Sturdy",
             "Gluttony",
             "Contrary"
-        ]
+        ],
+        "basename": "shuckle"
     },
     "heracross": {
         "dex_no": 214,
@@ -7858,7 +8107,8 @@
             "Swarm",
             "Guts",
             "Moxie"
-        ]
+        ],
+        "basename": "heracross"
     },
     "heracross|~|mega|~|m": {
         "dex_no": 214,
@@ -7889,7 +8139,8 @@
             "Skill Link",
             null,
             null
-        ]
+        ],
+        "basename": "heracross|~|mega|~|m"
     },
     "sneasel": {
         "dex_no": 215,
@@ -7922,7 +8173,8 @@
             "Inner Focus",
             "Keen Eye",
             "Pickpocket"
-        ]
+        ],
+        "basename": "sneasel"
     },
     "teddiursa": {
         "dex_no": 216,
@@ -7954,7 +8206,8 @@
             "Pickup",
             "Quick Feet",
             "Honey Gather"
-        ]
+        ],
+        "basename": "teddiursa"
     },
     "ursaring": {
         "dex_no": 217,
@@ -7984,7 +8237,8 @@
             "Guts",
             "Quick Feet",
             "Unnerve"
-        ]
+        ],
+        "basename": "ursaring"
     },
     "slugma": {
         "dex_no": 218,
@@ -8016,7 +8270,8 @@
             "Magma Armor",
             "Flame Body",
             "Weak Armor"
-        ]
+        ],
+        "basename": "slugma"
     },
     "magcargo": {
         "dex_no": 219,
@@ -8047,7 +8302,8 @@
             "Magma Armor",
             "Flame Body",
             "Weak Armor"
-        ]
+        ],
+        "basename": "magcargo"
     },
     "swinub": {
         "dex_no": 220,
@@ -8080,7 +8336,8 @@
             "Oblivious",
             "Snow Cloak",
             "Thick Fat"
-        ]
+        ],
+        "basename": "swinub"
     },
     "piloswine": {
         "dex_no": 221,
@@ -8113,7 +8370,8 @@
             "Oblivious",
             "Snow Cloak",
             "Thick Fat"
-        ]
+        ],
+        "basename": "piloswine"
     },
     "corsola": {
         "dex_no": 222,
@@ -8144,7 +8402,8 @@
             "Hustle",
             "Natural Cure",
             "Regenerator"
-        ]
+        ],
+        "basename": "corsola"
     },
     "remoraid": {
         "dex_no": 223,
@@ -8176,7 +8435,8 @@
             "Hustle",
             "Sniper",
             "Moody"
-        ]
+        ],
+        "basename": "remoraid"
     },
     "octillery": {
         "dex_no": 224,
@@ -8206,7 +8466,8 @@
             "Suction Cups",
             "Sniper",
             "Moody"
-        ]
+        ],
+        "basename": "octillery"
     },
     "delibird": {
         "dex_no": 225,
@@ -8237,7 +8498,8 @@
             "Vital Spirit",
             "Hustle",
             "Insomnia"
-        ]
+        ],
+        "basename": "delibird"
     },
     "mantine": {
         "dex_no": 226,
@@ -8268,7 +8530,8 @@
             "Swift Swim",
             "Water Absorb",
             "Water Veil"
-        ]
+        ],
+        "basename": "mantine"
     },
     "skarmory": {
         "dex_no": 227,
@@ -8299,7 +8562,8 @@
             "Keen Eye",
             "Sturdy",
             "Weak Armor"
-        ]
+        ],
+        "basename": "skarmory"
     },
     "houndour": {
         "dex_no": 228,
@@ -8332,7 +8596,8 @@
             "Early Bird",
             "Flash Fire",
             "Unnerve"
-        ]
+        ],
+        "basename": "houndour"
     },
     "houndoom": {
         "dex_no": 229,
@@ -8363,7 +8628,8 @@
             "Early Bird",
             "Flash Fire",
             "Unnerve"
-        ]
+        ],
+        "basename": "houndoom"
     },
     "houndoom|~|mega|~|m": {
         "dex_no": 229,
@@ -8394,7 +8660,8 @@
             "Solar Power",
             null,
             null
-        ]
+        ],
+        "basename": "houndoom|~|mega|~|m"
     },
     "kingdra": {
         "dex_no": 230,
@@ -8425,7 +8692,8 @@
             "Swift Swim",
             "Sniper",
             "Damp"
-        ]
+        ],
+        "basename": "kingdra"
     },
     "phanpy": {
         "dex_no": 231,
@@ -8457,7 +8725,8 @@
             "Pickup",
             null,
             "Sand Veil"
-        ]
+        ],
+        "basename": "phanpy"
     },
     "donphan": {
         "dex_no": 232,
@@ -8487,7 +8756,8 @@
             "Sturdy",
             null,
             "Sand Veil"
-        ]
+        ],
+        "basename": "donphan"
     },
     "porygon2": {
         "dex_no": 233,
@@ -8519,7 +8789,8 @@
             "Trace",
             "Download",
             "Analytic"
-        ]
+        ],
+        "basename": "porygon2"
     },
     "stantler": {
         "dex_no": 234,
@@ -8549,7 +8820,8 @@
             "Intimidate",
             "Frisk",
             "Sap Sipper"
-        ]
+        ],
+        "basename": "stantler"
     },
     "smeargle": {
         "dex_no": 235,
@@ -8579,7 +8851,8 @@
             "Own Tempo",
             "Technician",
             "Moody"
-        ]
+        ],
+        "basename": "smeargle"
     },
     "tyrogue": {
         "dex_no": 236,
@@ -8613,7 +8886,8 @@
             "Guts",
             "Steadfast",
             "Vital Spirit"
-        ]
+        ],
+        "basename": "tyrogue"
     },
     "hitmontop": {
         "dex_no": 237,
@@ -8643,7 +8917,8 @@
             "Intimidate",
             "Technician",
             "Steadfast"
-        ]
+        ],
+        "basename": "hitmontop"
     },
     "smoochum": {
         "dex_no": 238,
@@ -8676,7 +8951,8 @@
             "Oblivious",
             "Forewarn",
             "Hydration"
-        ]
+        ],
+        "basename": "smoochum"
     },
     "elekid": {
         "dex_no": 239,
@@ -8709,7 +8985,8 @@
             "Static",
             null,
             "Vital Spirit"
-        ]
+        ],
+        "basename": "elekid"
     },
     "magby": {
         "dex_no": 240,
@@ -8742,7 +9019,8 @@
             "Flame Body",
             null,
             "Vital Spirit"
-        ]
+        ],
+        "basename": "magby"
     },
     "miltank": {
         "dex_no": 241,
@@ -8772,7 +9050,8 @@
             "Thick Fat",
             "Scrappy",
             "Sap Sipper"
-        ]
+        ],
+        "basename": "miltank"
     },
     "blissey": {
         "dex_no": 242,
@@ -8802,7 +9081,8 @@
             "Natural Cure",
             "Serene Grace",
             "Healer"
-        ]
+        ],
+        "basename": "blissey"
     },
     "raikou": {
         "dex_no": 243,
@@ -8832,7 +9112,8 @@
             "Pressure",
             null,
             "Inner Focus"
-        ]
+        ],
+        "basename": "raikou"
     },
     "entei": {
         "dex_no": 244,
@@ -8862,7 +9143,8 @@
             "Pressure",
             null,
             "Inner Focus"
-        ]
+        ],
+        "basename": "entei"
     },
     "suicune": {
         "dex_no": 245,
@@ -8892,7 +9174,8 @@
             "Pressure",
             null,
             "Inner Focus"
-        ]
+        ],
+        "basename": "suicune"
     },
     "larvitar": {
         "dex_no": 246,
@@ -8925,7 +9208,8 @@
             "Guts",
             null,
             "Sand Veil"
-        ]
+        ],
+        "basename": "larvitar"
     },
     "pupitar": {
         "dex_no": 247,
@@ -8958,7 +9242,8 @@
             "Shed Skin",
             null,
             null
-        ]
+        ],
+        "basename": "pupitar"
     },
     "tyranitar": {
         "dex_no": 248,
@@ -8989,7 +9274,8 @@
             "Sand Stream",
             null,
             "Unnerve"
-        ]
+        ],
+        "basename": "tyranitar"
     },
     "tyranitar|~|mega|~|m": {
         "dex_no": 248,
@@ -9020,7 +9306,8 @@
             "Sand Stream",
             null,
             null
-        ]
+        ],
+        "basename": "tyranitar|~|mega|~|m"
     },
     "lugia": {
         "dex_no": 249,
@@ -9051,7 +9338,8 @@
             "Pressure",
             null,
             "Multiscale"
-        ]
+        ],
+        "basename": "lugia"
     },
     "ho-oh": {
         "dex_no": 250,
@@ -9082,7 +9370,8 @@
             "Pressure",
             null,
             "Regenerator"
-        ]
+        ],
+        "basename": "ho-oh"
     },
     "celebi": {
         "dex_no": 251,
@@ -9113,7 +9402,8 @@
             "Natural Cure",
             null,
             null
-        ]
+        ],
+        "basename": "celebi"
     },
     "treecko": {
         "dex_no": 252,
@@ -9145,7 +9435,8 @@
             "Overgrow",
             null,
             "Unburden"
-        ]
+        ],
+        "basename": "treecko"
     },
     "grovyle": {
         "dex_no": 253,
@@ -9177,7 +9468,8 @@
             "Overgrow",
             null,
             "Unburden"
-        ]
+        ],
+        "basename": "grovyle"
     },
     "sceptile": {
         "dex_no": 254,
@@ -9207,7 +9499,8 @@
             "Overgrow",
             null,
             "Unburden"
-        ]
+        ],
+        "basename": "sceptile"
     },
     "sceptile|~|mega|~|m": {
         "dex_no": 254,
@@ -9237,7 +9530,8 @@
             "Lightning Rod",
             null,
             null
-        ]
+        ],
+        "basename": "sceptile|~|mega|~|m"
     },
     "torchic": {
         "dex_no": 255,
@@ -9269,7 +9563,8 @@
             "Blaze",
             null,
             "Speed Boost"
-        ]
+        ],
+        "basename": "torchic"
     },
     "combusken": {
         "dex_no": 256,
@@ -9302,7 +9597,8 @@
             "Blaze",
             null,
             "Speed Boost"
-        ]
+        ],
+        "basename": "combusken"
     },
     "blaziken": {
         "dex_no": 257,
@@ -9333,7 +9629,8 @@
             "Blaze",
             null,
             "Speed Boost"
-        ]
+        ],
+        "basename": "blaziken"
     },
     "blaziken|~|mega|~|m": {
         "dex_no": 257,
@@ -9364,7 +9661,8 @@
             "Speed Boost",
             null,
             null
-        ]
+        ],
+        "basename": "blaziken|~|mega|~|m"
     },
     "mudkip": {
         "dex_no": 258,
@@ -9396,7 +9694,8 @@
             "Torrent",
             null,
             "Damp"
-        ]
+        ],
+        "basename": "mudkip"
     },
     "marshtomp": {
         "dex_no": 259,
@@ -9429,7 +9728,8 @@
             "Torrent",
             null,
             "Damp"
-        ]
+        ],
+        "basename": "marshtomp"
     },
     "swampert": {
         "dex_no": 260,
@@ -9460,7 +9760,8 @@
             "Torrent",
             null,
             "Damp"
-        ]
+        ],
+        "basename": "swampert"
     },
     "swampert|~|mega|~|m": {
         "dex_no": 260,
@@ -9491,7 +9792,8 @@
             "Swift Swim",
             null,
             null
-        ]
+        ],
+        "basename": "swampert|~|mega|~|m"
     },
     "poochyena": {
         "dex_no": 261,
@@ -9523,7 +9825,8 @@
             "Run Away",
             "Quick Feet",
             "Rattled"
-        ]
+        ],
+        "basename": "poochyena"
     },
     "mightyena": {
         "dex_no": 262,
@@ -9553,7 +9856,8 @@
             "Intimidate",
             "Quick Feet",
             "Moxie"
-        ]
+        ],
+        "basename": "mightyena"
     },
     "zigzagoon": {
         "dex_no": 263,
@@ -9585,7 +9889,8 @@
             "Pickup",
             "Gluttony",
             "Quick Feet"
-        ]
+        ],
+        "basename": "zigzagoon"
     },
     "linoone": {
         "dex_no": 264,
@@ -9615,7 +9920,8 @@
             "Pickup",
             "Gluttony",
             "Quick Feet"
-        ]
+        ],
+        "basename": "linoone"
     },
     "wurmple": {
         "dex_no": 265,
@@ -9648,7 +9954,8 @@
             "Shield Dust",
             null,
             "Run Away"
-        ]
+        ],
+        "basename": "wurmple"
     },
     "silcoon": {
         "dex_no": 266,
@@ -9678,7 +9985,8 @@
             "Shed Skin",
             null,
             null
-        ]
+        ],
+        "basename": "silcoon"
     },
     "beautifly": {
         "dex_no": 267,
@@ -9709,7 +10017,8 @@
             "Swarm",
             null,
             "Rivalry"
-        ]
+        ],
+        "basename": "beautifly"
     },
     "cascoon": {
         "dex_no": 268,
@@ -9741,7 +10050,8 @@
             "Shed Skin",
             null,
             null
-        ]
+        ],
+        "basename": "cascoon"
     },
     "dustox": {
         "dex_no": 269,
@@ -9772,7 +10082,8 @@
             "Shield Dust",
             null,
             "Compound Eyes"
-        ]
+        ],
+        "basename": "dustox"
     },
     "lotad": {
         "dex_no": 270,
@@ -9805,7 +10116,8 @@
             "Swift Swim",
             "Rain Dish",
             "Own Tempo"
-        ]
+        ],
+        "basename": "lotad"
     },
     "lombre": {
         "dex_no": 271,
@@ -9838,7 +10150,8 @@
             "Swift Swim",
             "Rain Dish",
             "Own Tempo"
-        ]
+        ],
+        "basename": "lombre"
     },
     "ludicolo": {
         "dex_no": 272,
@@ -9869,7 +10182,8 @@
             "Swift Swim",
             "Rain Dish",
             "Own Tempo"
-        ]
+        ],
+        "basename": "ludicolo"
     },
     "seedot": {
         "dex_no": 273,
@@ -9901,7 +10215,8 @@
             "Chlorophyll",
             "Early Bird",
             "Pickpocket"
-        ]
+        ],
+        "basename": "seedot"
     },
     "nuzleaf": {
         "dex_no": 274,
@@ -9934,7 +10249,8 @@
             "Chlorophyll",
             "Early Bird",
             "Pickpocket"
-        ]
+        ],
+        "basename": "nuzleaf"
     },
     "shiftry": {
         "dex_no": 275,
@@ -9965,7 +10281,8 @@
             "Chlorophyll",
             "Early Bird",
             "Pickpocket"
-        ]
+        ],
+        "basename": "shiftry"
     },
     "taillow": {
         "dex_no": 276,
@@ -9998,7 +10315,8 @@
             "Guts",
             null,
             "Scrappy"
-        ]
+        ],
+        "basename": "taillow"
     },
     "swellow": {
         "dex_no": 277,
@@ -10029,7 +10347,8 @@
             "Guts",
             null,
             "Scrappy"
-        ]
+        ],
+        "basename": "swellow"
     },
     "wingull": {
         "dex_no": 278,
@@ -10062,7 +10381,8 @@
             "Keen Eye",
             "Hydration",
             "Rain Dish"
-        ]
+        ],
+        "basename": "wingull"
     },
     "pelipper": {
         "dex_no": 279,
@@ -10093,7 +10413,8 @@
             "Keen Eye",
             "Drizzle",
             "Rain Dish"
-        ]
+        ],
+        "basename": "pelipper"
     },
     "ralts": {
         "dex_no": 280,
@@ -10126,7 +10447,8 @@
             "Synchronize",
             "Trace",
             "Telepathy"
-        ]
+        ],
+        "basename": "ralts"
     },
     "kirlia": {
         "dex_no": 281,
@@ -10160,7 +10482,8 @@
             "Synchronize",
             "Trace",
             "Telepathy"
-        ]
+        ],
+        "basename": "kirlia"
     },
     "gardevoir": {
         "dex_no": 282,
@@ -10191,7 +10514,8 @@
             "Synchronize",
             "Trace",
             "Telepathy"
-        ]
+        ],
+        "basename": "gardevoir"
     },
     "gardevoir|~|mega|~|m": {
         "dex_no": 282,
@@ -10222,7 +10546,8 @@
             "Pixilate",
             null,
             null
-        ]
+        ],
+        "basename": "gardevoir|~|mega|~|m"
     },
     "surskit": {
         "dex_no": 283,
@@ -10255,7 +10580,8 @@
             "Swift Swim",
             null,
             "Rain Dish"
-        ]
+        ],
+        "basename": "surskit"
     },
     "masquerain": {
         "dex_no": 284,
@@ -10286,7 +10612,8 @@
             "Intimidate",
             null,
             "Unnerve"
-        ]
+        ],
+        "basename": "masquerain"
     },
     "shroomish": {
         "dex_no": 285,
@@ -10318,7 +10645,8 @@
             "Effect Spore",
             "Poison Heal",
             "Quick Feet"
-        ]
+        ],
+        "basename": "shroomish"
     },
     "breloom": {
         "dex_no": 286,
@@ -10349,7 +10677,8 @@
             "Effect Spore",
             "Poison Heal",
             "Technician"
-        ]
+        ],
+        "basename": "breloom"
     },
     "slakoth": {
         "dex_no": 287,
@@ -10381,7 +10710,8 @@
             "Truant",
             null,
             null
-        ]
+        ],
+        "basename": "slakoth"
     },
     "vigoroth": {
         "dex_no": 288,
@@ -10413,7 +10743,8 @@
             "Vital Spirit",
             null,
             null
-        ]
+        ],
+        "basename": "vigoroth"
     },
     "slaking": {
         "dex_no": 289,
@@ -10443,7 +10774,8 @@
             "Truant",
             null,
             null
-        ]
+        ],
+        "basename": "slaking"
     },
     "nincada": {
         "dex_no": 290,
@@ -10477,7 +10809,8 @@
             "Compound Eyes",
             null,
             "Run Away"
-        ]
+        ],
+        "basename": "nincada"
     },
     "ninjask": {
         "dex_no": 291,
@@ -10508,7 +10841,8 @@
             "Speed Boost",
             null,
             "Infiltrator"
-        ]
+        ],
+        "basename": "ninjask"
     },
     "shedinja": {
         "dex_no": 292,
@@ -10539,7 +10873,8 @@
             "Wonder Guard",
             null,
             null
-        ]
+        ],
+        "basename": "shedinja"
     },
     "whismur": {
         "dex_no": 293,
@@ -10571,7 +10906,8 @@
             "Soundproof",
             null,
             "Rattled"
-        ]
+        ],
+        "basename": "whismur"
     },
     "loudred": {
         "dex_no": 294,
@@ -10603,7 +10939,8 @@
             "Soundproof",
             null,
             "Scrappy"
-        ]
+        ],
+        "basename": "loudred"
     },
     "exploud": {
         "dex_no": 295,
@@ -10633,7 +10970,8 @@
             "Soundproof",
             null,
             "Scrappy"
-        ]
+        ],
+        "basename": "exploud"
     },
     "makuhita": {
         "dex_no": 296,
@@ -10665,7 +11003,8 @@
             "Thick Fat",
             "Guts",
             "Sheer Force"
-        ]
+        ],
+        "basename": "makuhita"
     },
     "hariyama": {
         "dex_no": 297,
@@ -10695,7 +11034,8 @@
             "Thick Fat",
             "Guts",
             "Sheer Force"
-        ]
+        ],
+        "basename": "hariyama"
     },
     "azurill": {
         "dex_no": 298,
@@ -10729,7 +11069,8 @@
             "Thick Fat",
             "Huge Power",
             "Sap Sipper"
-        ]
+        ],
+        "basename": "azurill"
     },
     "nosepass": {
         "dex_no": 299,
@@ -10761,7 +11102,8 @@
             "Sturdy",
             "Magnet Pull",
             "Sand Force"
-        ]
+        ],
+        "basename": "nosepass"
     },
     "skitty": {
         "dex_no": 300,
@@ -10793,7 +11135,8 @@
             "Cute Charm",
             "Normalize",
             "Wonder Skin"
-        ]
+        ],
+        "basename": "skitty"
     },
     "delcatty": {
         "dex_no": 301,
@@ -10823,7 +11166,8 @@
             "Cute Charm",
             "Normalize",
             "Wonder Skin"
-        ]
+        ],
+        "basename": "delcatty"
     },
     "sableye": {
         "dex_no": 302,
@@ -10854,7 +11198,8 @@
             "Keen Eye",
             "Stall",
             "Prankster"
-        ]
+        ],
+        "basename": "sableye"
     },
     "sableye|~|mega|~|m": {
         "dex_no": 302,
@@ -10885,7 +11230,8 @@
             "Magic Bounce",
             null,
             null
-        ]
+        ],
+        "basename": "sableye|~|mega|~|m"
     },
     "mawile": {
         "dex_no": 303,
@@ -10916,7 +11262,8 @@
             "Hyper Cutter",
             "Intimidate",
             "Sheer Force"
-        ]
+        ],
+        "basename": "mawile"
     },
     "mawile|~|mega|~|m": {
         "dex_no": 303,
@@ -10947,7 +11294,8 @@
             "Huge Power",
             null,
             null
-        ]
+        ],
+        "basename": "mawile|~|mega|~|m"
     },
     "aron": {
         "dex_no": 304,
@@ -10980,7 +11328,8 @@
             "Sturdy",
             "Rock Head",
             "Heavy Metal"
-        ]
+        ],
+        "basename": "aron"
     },
     "lairon": {
         "dex_no": 305,
@@ -11013,7 +11362,8 @@
             "Sturdy",
             "Rock Head",
             "Heavy Metal"
-        ]
+        ],
+        "basename": "lairon"
     },
     "aggron": {
         "dex_no": 306,
@@ -11044,7 +11394,8 @@
             "Sturdy",
             "Rock Head",
             "Heavy Metal"
-        ]
+        ],
+        "basename": "aggron"
     },
     "aggron|~|mega|~|m": {
         "dex_no": 306,
@@ -11075,7 +11426,8 @@
             "Filter",
             null,
             null
-        ]
+        ],
+        "basename": "aggron|~|mega|~|m"
     },
     "meditite": {
         "dex_no": 307,
@@ -11108,7 +11460,8 @@
             "Pure Power",
             null,
             "Telepathy"
-        ]
+        ],
+        "basename": "meditite"
     },
     "medicham": {
         "dex_no": 308,
@@ -11139,7 +11492,8 @@
             "Pure Power",
             null,
             "Telepathy"
-        ]
+        ],
+        "basename": "medicham"
     },
     "medicham|~|mega|~|m": {
         "dex_no": 308,
@@ -11170,7 +11524,8 @@
             "Pure Power",
             null,
             null
-        ]
+        ],
+        "basename": "medicham|~|mega|~|m"
     },
     "electrike": {
         "dex_no": 309,
@@ -11202,7 +11557,8 @@
             "Static",
             "Lightning Rod",
             "Minus"
-        ]
+        ],
+        "basename": "electrike"
     },
     "manectric": {
         "dex_no": 310,
@@ -11232,7 +11588,8 @@
             "Static",
             "Lightning Rod",
             "Minus"
-        ]
+        ],
+        "basename": "manectric"
     },
     "manectric|~|mega|~|m": {
         "dex_no": 310,
@@ -11262,7 +11619,8 @@
             "Intimidate",
             null,
             null
-        ]
+        ],
+        "basename": "manectric|~|mega|~|m"
     },
     "plusle": {
         "dex_no": 311,
@@ -11292,7 +11650,8 @@
             "Plus",
             null,
             "Lightning Rod"
-        ]
+        ],
+        "basename": "plusle"
     },
     "minun": {
         "dex_no": 312,
@@ -11322,7 +11681,8 @@
             "Minus",
             null,
             "Volt Absorb"
-        ]
+        ],
+        "basename": "minun"
     },
     "volbeat": {
         "dex_no": 313,
@@ -11354,7 +11714,8 @@
             "Illuminate",
             "Swarm",
             "Prankster"
-        ]
+        ],
+        "basename": "volbeat"
     },
     "illumise": {
         "dex_no": 314,
@@ -11384,7 +11745,8 @@
             "Oblivious",
             "Tinted Lens",
             "Prankster"
-        ]
+        ],
+        "basename": "illumise"
     },
     "roselia": {
         "dex_no": 315,
@@ -11415,7 +11777,8 @@
             "Natural Cure",
             "Poison Point",
             "Leaf Guard"
-        ]
+        ],
+        "basename": "roselia"
     },
     "gulpin": {
         "dex_no": 316,
@@ -11447,7 +11810,8 @@
             "Liquid Ooze",
             "Sticky Hold",
             "Gluttony"
-        ]
+        ],
+        "basename": "gulpin"
     },
     "swalot": {
         "dex_no": 317,
@@ -11477,7 +11841,8 @@
             "Liquid Ooze",
             "Sticky Hold",
             "Gluttony"
-        ]
+        ],
+        "basename": "swalot"
     },
     "carvanha": {
         "dex_no": 318,
@@ -11510,7 +11875,8 @@
             "Rough Skin",
             null,
             "Speed Boost"
-        ]
+        ],
+        "basename": "carvanha"
     },
     "sharpedo": {
         "dex_no": 319,
@@ -11541,7 +11907,8 @@
             "Rough Skin",
             null,
             "Speed Boost"
-        ]
+        ],
+        "basename": "sharpedo"
     },
     "sharpedo|~|mega|~|m": {
         "dex_no": 319,
@@ -11572,7 +11939,8 @@
             "Strong Jaw",
             null,
             null
-        ]
+        ],
+        "basename": "sharpedo|~|mega|~|m"
     },
     "wailmer": {
         "dex_no": 320,
@@ -11604,7 +11972,8 @@
             "Water Veil",
             "Oblivious",
             "Pressure"
-        ]
+        ],
+        "basename": "wailmer"
     },
     "wailord": {
         "dex_no": 321,
@@ -11634,7 +12003,8 @@
             "Water Veil",
             "Oblivious",
             "Pressure"
-        ]
+        ],
+        "basename": "wailord"
     },
     "numel": {
         "dex_no": 322,
@@ -11667,7 +12037,8 @@
             "Oblivious",
             "Simple",
             "Own Tempo"
-        ]
+        ],
+        "basename": "numel"
     },
     "camerupt": {
         "dex_no": 323,
@@ -11698,7 +12069,8 @@
             "Magma Armor",
             "Solid Rock",
             "Anger Point"
-        ]
+        ],
+        "basename": "camerupt"
     },
     "camerupt|~|mega|~|m": {
         "dex_no": 323,
@@ -11729,7 +12101,8 @@
             "Sheer Force",
             null,
             null
-        ]
+        ],
+        "basename": "camerupt|~|mega|~|m"
     },
     "torkoal": {
         "dex_no": 324,
@@ -11759,7 +12132,8 @@
             "White Smoke",
             "Drought",
             "Shell Armor"
-        ]
+        ],
+        "basename": "torkoal"
     },
     "spoink": {
         "dex_no": 325,
@@ -11791,7 +12165,8 @@
             "Thick Fat",
             "Own Tempo",
             "Gluttony"
-        ]
+        ],
+        "basename": "spoink"
     },
     "grumpig": {
         "dex_no": 326,
@@ -11821,7 +12196,8 @@
             "Thick Fat",
             "Own Tempo",
             "Gluttony"
-        ]
+        ],
+        "basename": "grumpig"
     },
     "spinda": {
         "dex_no": 327,
@@ -11851,7 +12227,8 @@
             "Own Tempo",
             "Tangled Feet",
             "Contrary"
-        ]
+        ],
+        "basename": "spinda"
     },
     "trapinch": {
         "dex_no": 328,
@@ -11883,7 +12260,8 @@
             "Hyper Cutter",
             "Arena Trap",
             "Sheer Force"
-        ]
+        ],
+        "basename": "trapinch"
     },
     "vibrava": {
         "dex_no": 329,
@@ -11916,7 +12294,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "vibrava"
     },
     "flygon": {
         "dex_no": 330,
@@ -11947,7 +12326,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "flygon"
     },
     "cacnea": {
         "dex_no": 331,
@@ -11979,7 +12359,8 @@
             "Sand Veil",
             null,
             "Water Absorb"
-        ]
+        ],
+        "basename": "cacnea"
     },
     "cacturne": {
         "dex_no": 332,
@@ -12010,7 +12391,8 @@
             "Sand Veil",
             null,
             "Water Absorb"
-        ]
+        ],
+        "basename": "cacturne"
     },
     "swablu": {
         "dex_no": 333,
@@ -12043,7 +12425,8 @@
             "Natural Cure",
             null,
             "Cloud Nine"
-        ]
+        ],
+        "basename": "swablu"
     },
     "altaria": {
         "dex_no": 334,
@@ -12074,7 +12457,8 @@
             "Natural Cure",
             null,
             "Cloud Nine"
-        ]
+        ],
+        "basename": "altaria"
     },
     "altaria|~|mega|~|m": {
         "dex_no": 334,
@@ -12105,7 +12489,8 @@
             "Pixilate",
             null,
             null
-        ]
+        ],
+        "basename": "altaria|~|mega|~|m"
     },
     "zangoose": {
         "dex_no": 335,
@@ -12135,7 +12520,8 @@
             "Immunity",
             null,
             "Toxic Boost"
-        ]
+        ],
+        "basename": "zangoose"
     },
     "seviper": {
         "dex_no": 336,
@@ -12165,7 +12551,8 @@
             "Shed Skin",
             null,
             "Infiltrator"
-        ]
+        ],
+        "basename": "seviper"
     },
     "lunatone": {
         "dex_no": 337,
@@ -12196,7 +12583,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "lunatone"
     },
     "solrock": {
         "dex_no": 338,
@@ -12227,7 +12615,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "solrock"
     },
     "barboach": {
         "dex_no": 339,
@@ -12260,7 +12649,8 @@
             "Oblivious",
             "Anticipation",
             "Hydration"
-        ]
+        ],
+        "basename": "barboach"
     },
     "whiscash": {
         "dex_no": 340,
@@ -12291,7 +12681,8 @@
             "Oblivious",
             "Anticipation",
             "Hydration"
-        ]
+        ],
+        "basename": "whiscash"
     },
     "corphish": {
         "dex_no": 341,
@@ -12323,7 +12714,8 @@
             "Hyper Cutter",
             "Shell Armor",
             "Adaptability"
-        ]
+        ],
+        "basename": "corphish"
     },
     "crawdaunt": {
         "dex_no": 342,
@@ -12354,7 +12746,8 @@
             "Hyper Cutter",
             "Shell Armor",
             "Adaptability"
-        ]
+        ],
+        "basename": "crawdaunt"
     },
     "baltoy": {
         "dex_no": 343,
@@ -12387,7 +12780,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "baltoy"
     },
     "claydol": {
         "dex_no": 344,
@@ -12418,7 +12812,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "claydol"
     },
     "lileep": {
         "dex_no": 345,
@@ -12451,7 +12846,8 @@
             "Suction Cups",
             null,
             "Storm Drain"
-        ]
+        ],
+        "basename": "lileep"
     },
     "cradily": {
         "dex_no": 346,
@@ -12482,7 +12878,8 @@
             "Suction Cups",
             null,
             "Storm Drain"
-        ]
+        ],
+        "basename": "cradily"
     },
     "anorith": {
         "dex_no": 347,
@@ -12515,7 +12912,8 @@
             "Battle Armor",
             null,
             "Swift Swim"
-        ]
+        ],
+        "basename": "anorith"
     },
     "armaldo": {
         "dex_no": 348,
@@ -12546,7 +12944,8 @@
             "Battle Armor",
             null,
             "Swift Swim"
-        ]
+        ],
+        "basename": "armaldo"
     },
     "feebas": {
         "dex_no": 349,
@@ -12578,7 +12977,8 @@
             "Swift Swim",
             "Oblivious",
             "Adaptability"
-        ]
+        ],
+        "basename": "feebas"
     },
     "milotic": {
         "dex_no": 350,
@@ -12608,7 +13008,8 @@
             "Marvel Scale",
             "Competitive",
             "Cute Charm"
-        ]
+        ],
+        "basename": "milotic"
     },
     "castform": {
         "dex_no": 351,
@@ -12638,7 +13039,8 @@
             "Forecast",
             null,
             null
-        ]
+        ],
+        "basename": "castform"
     },
     "kecleon": {
         "dex_no": 352,
@@ -12668,7 +13070,8 @@
             "Color Change",
             null,
             "Protean"
-        ]
+        ],
+        "basename": "kecleon"
     },
     "shuppet": {
         "dex_no": 353,
@@ -12700,7 +13103,8 @@
             "Insomnia",
             "Frisk",
             "Cursed Body"
-        ]
+        ],
+        "basename": "shuppet"
     },
     "banette": {
         "dex_no": 354,
@@ -12730,7 +13134,8 @@
             "Insomnia",
             "Frisk",
             "Cursed Body"
-        ]
+        ],
+        "basename": "banette"
     },
     "banette|~|mega|~|m": {
         "dex_no": 354,
@@ -12760,7 +13165,8 @@
             "Prankster",
             null,
             null
-        ]
+        ],
+        "basename": "banette|~|mega|~|m"
     },
     "duskull": {
         "dex_no": 355,
@@ -12792,7 +13198,8 @@
             "Levitate",
             null,
             "Frisk"
-        ]
+        ],
+        "basename": "duskull"
     },
     "dusclops": {
         "dex_no": 356,
@@ -12824,7 +13231,8 @@
             "Pressure",
             null,
             "Frisk"
-        ]
+        ],
+        "basename": "dusclops"
     },
     "tropius": {
         "dex_no": 357,
@@ -12855,7 +13263,8 @@
             "Chlorophyll",
             "Solar Power",
             "Harvest"
-        ]
+        ],
+        "basename": "tropius"
     },
     "chimecho": {
         "dex_no": 358,
@@ -12885,7 +13294,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "chimecho"
     },
     "absol": {
         "dex_no": 359,
@@ -12915,7 +13325,8 @@
             "Pressure",
             "Super Luck",
             "Justified"
-        ]
+        ],
+        "basename": "absol"
     },
     "absol|~|mega|~|m": {
         "dex_no": 359,
@@ -12945,7 +13356,8 @@
             "Magic Bounce",
             null,
             null
-        ]
+        ],
+        "basename": "absol|~|mega|~|m"
     },
     "wynaut": {
         "dex_no": 360,
@@ -12977,7 +13389,8 @@
             "Shadow Tag",
             null,
             "Telepathy"
-        ]
+        ],
+        "basename": "wynaut"
     },
     "snorunt": {
         "dex_no": 361,
@@ -13010,7 +13423,8 @@
             "Inner Focus",
             "Ice Body",
             "Moody"
-        ]
+        ],
+        "basename": "snorunt"
     },
     "glalie": {
         "dex_no": 362,
@@ -13040,7 +13454,8 @@
             "Inner Focus",
             "Ice Body",
             "Moody"
-        ]
+        ],
+        "basename": "glalie"
     },
     "glalie|~|mega|~|m": {
         "dex_no": 362,
@@ -13070,7 +13485,8 @@
             "Refrigerate",
             null,
             null
-        ]
+        ],
+        "basename": "glalie|~|mega|~|m"
     },
     "spheal": {
         "dex_no": 363,
@@ -13103,7 +13519,8 @@
             "Thick Fat",
             "Ice Body",
             "Oblivious"
-        ]
+        ],
+        "basename": "spheal"
     },
     "sealeo": {
         "dex_no": 364,
@@ -13136,7 +13553,8 @@
             "Thick Fat",
             "Ice Body",
             "Oblivious"
-        ]
+        ],
+        "basename": "sealeo"
     },
     "walrein": {
         "dex_no": 365,
@@ -13167,7 +13585,8 @@
             "Thick Fat",
             "Ice Body",
             "Oblivious"
-        ]
+        ],
+        "basename": "walrein"
     },
     "clamperl": {
         "dex_no": 366,
@@ -13200,7 +13619,8 @@
             "Shell Armor",
             null,
             "Rattled"
-        ]
+        ],
+        "basename": "clamperl"
     },
     "huntail": {
         "dex_no": 367,
@@ -13230,7 +13650,8 @@
             "Swift Swim",
             null,
             "Water Veil"
-        ]
+        ],
+        "basename": "huntail"
     },
     "gorebyss": {
         "dex_no": 368,
@@ -13260,7 +13681,8 @@
             "Swift Swim",
             null,
             "Hydration"
-        ]
+        ],
+        "basename": "gorebyss"
     },
     "relicanth": {
         "dex_no": 369,
@@ -13291,7 +13713,8 @@
             "Swift Swim",
             "Rock Head",
             "Sturdy"
-        ]
+        ],
+        "basename": "relicanth"
     },
     "luvdisc": {
         "dex_no": 370,
@@ -13321,7 +13744,8 @@
             "Swift Swim",
             null,
             "Hydration"
-        ]
+        ],
+        "basename": "luvdisc"
     },
     "bagon": {
         "dex_no": 371,
@@ -13353,7 +13777,8 @@
             "Rock Head",
             null,
             "Sheer Force"
-        ]
+        ],
+        "basename": "bagon"
     },
     "shelgon": {
         "dex_no": 372,
@@ -13385,7 +13810,8 @@
             "Rock Head",
             null,
             "Overcoat"
-        ]
+        ],
+        "basename": "shelgon"
     },
     "salamence": {
         "dex_no": 373,
@@ -13416,7 +13842,8 @@
             "Intimidate",
             null,
             "Moxie"
-        ]
+        ],
+        "basename": "salamence"
     },
     "salamence|~|mega|~|m": {
         "dex_no": 373,
@@ -13447,7 +13874,8 @@
             "Aerilate",
             null,
             null
-        ]
+        ],
+        "basename": "salamence|~|mega|~|m"
     },
     "beldum": {
         "dex_no": 374,
@@ -13480,7 +13908,8 @@
             "Clear Body",
             null,
             "Light Metal"
-        ]
+        ],
+        "basename": "beldum"
     },
     "metang": {
         "dex_no": 375,
@@ -13513,7 +13942,8 @@
             "Clear Body",
             null,
             "Light Metal"
-        ]
+        ],
+        "basename": "metang"
     },
     "metagross": {
         "dex_no": 376,
@@ -13544,7 +13974,8 @@
             "Clear Body",
             null,
             "Light Metal"
-        ]
+        ],
+        "basename": "metagross"
     },
     "metagross|~|mega|~|m": {
         "dex_no": 376,
@@ -13575,7 +14006,8 @@
             "Tough Claws",
             null,
             null
-        ]
+        ],
+        "basename": "metagross|~|mega|~|m"
     },
     "regirock": {
         "dex_no": 377,
@@ -13605,7 +14037,8 @@
             "Clear Body",
             null,
             "Sturdy"
-        ]
+        ],
+        "basename": "regirock"
     },
     "regice": {
         "dex_no": 378,
@@ -13635,7 +14068,8 @@
             "Clear Body",
             null,
             "Ice Body"
-        ]
+        ],
+        "basename": "regice"
     },
     "registeel": {
         "dex_no": 379,
@@ -13665,7 +14099,8 @@
             "Clear Body",
             null,
             "Light Metal"
-        ]
+        ],
+        "basename": "registeel"
     },
     "latias": {
         "dex_no": 380,
@@ -13696,7 +14131,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "latias"
     },
     "latias|~|mega|~|m": {
         "dex_no": 380,
@@ -13727,7 +14163,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "latias|~|mega|~|m"
     },
     "latios": {
         "dex_no": 381,
@@ -13758,7 +14195,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "latios"
     },
     "latios|~|mega|~|m": {
         "dex_no": 381,
@@ -13789,7 +14227,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "latios|~|mega|~|m"
     },
     "kyogre": {
         "dex_no": 382,
@@ -13819,7 +14258,8 @@
             "Drizzle",
             null,
             null
-        ]
+        ],
+        "basename": "kyogre"
     },
     "kyogre|~|primal|~|mega|~|m": {
         "dex_no": 382,
@@ -13849,7 +14289,8 @@
             "Primordial Sea",
             null,
             null
-        ]
+        ],
+        "basename": "kyogre|~|primal|~|mega|~|m"
     },
     "groudon": {
         "dex_no": 383,
@@ -13879,7 +14320,8 @@
             "Drought",
             null,
             null
-        ]
+        ],
+        "basename": "groudon"
     },
     "groudon|~|primal|~|mega|~|m": {
         "dex_no": 383,
@@ -13909,7 +14351,8 @@
             "Desolate Land",
             null,
             null
-        ]
+        ],
+        "basename": "groudon|~|primal|~|mega|~|m"
     },
     "rayquaza": {
         "dex_no": 384,
@@ -13940,7 +14383,8 @@
             "Air Lock",
             null,
             null
-        ]
+        ],
+        "basename": "rayquaza"
     },
     "rayquaza|~|mega|~|m": {
         "dex_no": 384,
@@ -13971,7 +14415,8 @@
             "Delta Stream",
             null,
             null
-        ]
+        ],
+        "basename": "rayquaza|~|mega|~|m"
     },
     "jirachi": {
         "dex_no": 385,
@@ -14002,7 +14447,8 @@
             "Serene Grace",
             null,
             null
-        ]
+        ],
+        "basename": "jirachi"
     },
     "deoxys|~|normal": {
         "dex_no": 386,
@@ -14032,7 +14478,8 @@
             "Pressure",
             null,
             null
-        ]
+        ],
+        "basename": "deoxys|~|normal"
     },
     "deoxys|~|attack|~|atk": {
         "dex_no": 386,
@@ -14062,7 +14509,8 @@
             "Pressure",
             null,
             null
-        ]
+        ],
+        "basename": "deoxys|~|attack|~|atk"
     },
     "deoxys|~|defense|~|def": {
         "dex_no": 386,
@@ -14092,7 +14540,8 @@
             "Pressure",
             null,
             null
-        ]
+        ],
+        "basename": "deoxys|~|defense|~|def"
     },
     "deoxys|~|speed|~|spe|~|spd": {
         "dex_no": 386,
@@ -14122,7 +14571,8 @@
             "Pressure",
             null,
             null
-        ]
+        ],
+        "basename": "deoxys|~|speed|~|spe|~|spd"
     },
     "turtwig": {
         "dex_no": 387,
@@ -14154,7 +14604,8 @@
             "Overgrow",
             null,
             "Shell Armor"
-        ]
+        ],
+        "basename": "turtwig"
     },
     "grotle": {
         "dex_no": 388,
@@ -14186,7 +14637,8 @@
             "Overgrow",
             null,
             "Shell Armor"
-        ]
+        ],
+        "basename": "grotle"
     },
     "torterra": {
         "dex_no": 389,
@@ -14217,7 +14669,8 @@
             "Overgrow",
             null,
             "Shell Armor"
-        ]
+        ],
+        "basename": "torterra"
     },
     "chimchar": {
         "dex_no": 390,
@@ -14249,7 +14702,8 @@
             "Blaze",
             null,
             "Iron Fist"
-        ]
+        ],
+        "basename": "chimchar"
     },
     "monferno": {
         "dex_no": 391,
@@ -14282,7 +14736,8 @@
             "Blaze",
             null,
             "Iron Fist"
-        ]
+        ],
+        "basename": "monferno"
     },
     "infernape": {
         "dex_no": 392,
@@ -14313,7 +14768,8 @@
             "Blaze",
             null,
             "Iron Fist"
-        ]
+        ],
+        "basename": "infernape"
     },
     "piplup": {
         "dex_no": 393,
@@ -14345,7 +14801,8 @@
             "Torrent",
             null,
             "Defiant"
-        ]
+        ],
+        "basename": "piplup"
     },
     "prinplup": {
         "dex_no": 394,
@@ -14377,7 +14834,8 @@
             "Torrent",
             null,
             "Defiant"
-        ]
+        ],
+        "basename": "prinplup"
     },
     "empoleon": {
         "dex_no": 395,
@@ -14408,7 +14866,8 @@
             "Torrent",
             null,
             "Defiant"
-        ]
+        ],
+        "basename": "empoleon"
     },
     "starly": {
         "dex_no": 396,
@@ -14441,7 +14900,8 @@
             "Keen Eye",
             null,
             "Reckless"
-        ]
+        ],
+        "basename": "starly"
     },
     "staravia": {
         "dex_no": 397,
@@ -14474,7 +14934,8 @@
             "Intimidate",
             null,
             "Reckless"
-        ]
+        ],
+        "basename": "staravia"
     },
     "staraptor": {
         "dex_no": 398,
@@ -14505,7 +14966,8 @@
             "Intimidate",
             null,
             "Reckless"
-        ]
+        ],
+        "basename": "staraptor"
     },
     "bidoof": {
         "dex_no": 399,
@@ -14537,7 +14999,8 @@
             "Simple",
             "Unaware",
             "Moody"
-        ]
+        ],
+        "basename": "bidoof"
     },
     "bibarel": {
         "dex_no": 400,
@@ -14568,7 +15031,8 @@
             "Simple",
             "Unaware",
             "Moody"
-        ]
+        ],
+        "basename": "bibarel"
     },
     "kricketot": {
         "dex_no": 401,
@@ -14600,7 +15064,8 @@
             "Shed Skin",
             null,
             "Run Away"
-        ]
+        ],
+        "basename": "kricketot"
     },
     "kricketune": {
         "dex_no": 402,
@@ -14630,7 +15095,8 @@
             "Swarm",
             null,
             "Technician"
-        ]
+        ],
+        "basename": "kricketune"
     },
     "shinx": {
         "dex_no": 403,
@@ -14662,7 +15128,8 @@
             "Rivalry",
             "Intimidate",
             "Guts"
-        ]
+        ],
+        "basename": "shinx"
     },
     "luxio": {
         "dex_no": 404,
@@ -14694,7 +15161,8 @@
             "Rivalry",
             "Intimidate",
             "Guts"
-        ]
+        ],
+        "basename": "luxio"
     },
     "luxray": {
         "dex_no": 405,
@@ -14724,7 +15192,8 @@
             "Rivalry",
             "Intimidate",
             "Guts"
-        ]
+        ],
+        "basename": "luxray"
     },
     "budew": {
         "dex_no": 406,
@@ -14758,7 +15227,8 @@
             "Natural Cure",
             "Poison Point",
             "Leaf Guard"
-        ]
+        ],
+        "basename": "budew"
     },
     "roserade": {
         "dex_no": 407,
@@ -14789,7 +15259,8 @@
             "Natural Cure",
             "Poison Point",
             "Technician"
-        ]
+        ],
+        "basename": "roserade"
     },
     "cranidos": {
         "dex_no": 408,
@@ -14821,7 +15292,8 @@
             "Mold Breaker",
             null,
             "Sheer Force"
-        ]
+        ],
+        "basename": "cranidos"
     },
     "rampardos": {
         "dex_no": 409,
@@ -14851,7 +15323,8 @@
             "Mold Breaker",
             null,
             "Sheer Force"
-        ]
+        ],
+        "basename": "rampardos"
     },
     "shieldon": {
         "dex_no": 410,
@@ -14884,7 +15357,8 @@
             "Sturdy",
             null,
             "Soundproof"
-        ]
+        ],
+        "basename": "shieldon"
     },
     "bastiodon": {
         "dex_no": 411,
@@ -14915,7 +15389,8 @@
             "Sturdy",
             null,
             "Soundproof"
-        ]
+        ],
+        "basename": "bastiodon"
     },
     "burmy": {
         "dex_no": 412,
@@ -14948,7 +15423,8 @@
             "Shed Skin",
             null,
             "Overcoat"
-        ]
+        ],
+        "basename": "burmy"
     },
     "wormadam|~|plant": {
         "dex_no": 413,
@@ -14979,7 +15455,8 @@
             "Anticipation",
             null,
             "Overcoat"
-        ]
+        ],
+        "basename": "wormadam|~|plant"
     },
     "wormadam|~|sandy": {
         "dex_no": 413,
@@ -15010,7 +15487,8 @@
             "Anticipation",
             null,
             "Overcoat"
-        ]
+        ],
+        "basename": "wormadam|~|sandy"
     },
     "wormadam|~|trash": {
         "dex_no": 413,
@@ -15041,7 +15519,8 @@
             "Anticipation",
             null,
             "Overcoat"
-        ]
+        ],
+        "basename": "wormadam|~|trash"
     },
     "mothim": {
         "dex_no": 414,
@@ -15072,7 +15551,8 @@
             "Swarm",
             null,
             "Tinted Lens"
-        ]
+        ],
+        "basename": "mothim"
     },
     "combee": {
         "dex_no": 415,
@@ -15105,7 +15585,8 @@
             "Honey Gather",
             null,
             "Hustle"
-        ]
+        ],
+        "basename": "combee"
     },
     "vespiquen": {
         "dex_no": 416,
@@ -15136,7 +15617,8 @@
             "Pressure",
             null,
             "Unnerve"
-        ]
+        ],
+        "basename": "vespiquen"
     },
     "pachirisu": {
         "dex_no": 417,
@@ -15166,7 +15648,8 @@
             "Run Away",
             "Pickup",
             "Volt Absorb"
-        ]
+        ],
+        "basename": "pachirisu"
     },
     "buizel": {
         "dex_no": 418,
@@ -15198,7 +15681,8 @@
             "Swift Swim",
             null,
             "Water Veil"
-        ]
+        ],
+        "basename": "buizel"
     },
     "floatzel": {
         "dex_no": 419,
@@ -15228,7 +15712,8 @@
             "Swift Swim",
             null,
             "Water Veil"
-        ]
+        ],
+        "basename": "floatzel"
     },
     "cherubi": {
         "dex_no": 420,
@@ -15260,7 +15745,8 @@
             "Chlorophyll",
             null,
             null
-        ]
+        ],
+        "basename": "cherubi"
     },
     "cherrim": {
         "dex_no": 421,
@@ -15290,7 +15776,8 @@
             "Flower Gift",
             null,
             null
-        ]
+        ],
+        "basename": "cherrim"
     },
     "shellos": {
         "dex_no": 422,
@@ -15322,7 +15809,8 @@
             "Sticky Hold",
             "Storm Drain",
             "Sand Force"
-        ]
+        ],
+        "basename": "shellos"
     },
     "gastrodon": {
         "dex_no": 423,
@@ -15353,7 +15841,8 @@
             "Sticky Hold",
             "Storm Drain",
             "Sand Force"
-        ]
+        ],
+        "basename": "gastrodon"
     },
     "ambipom": {
         "dex_no": 424,
@@ -15383,7 +15872,8 @@
             "Technician",
             "Pickup",
             "Skill Link"
-        ]
+        ],
+        "basename": "ambipom"
     },
     "drifloon": {
         "dex_no": 425,
@@ -15416,7 +15906,8 @@
             "Aftermath",
             "Unburden",
             "Flare Boost"
-        ]
+        ],
+        "basename": "drifloon"
     },
     "drifblim": {
         "dex_no": 426,
@@ -15447,7 +15938,8 @@
             "Aftermath",
             "Unburden",
             "Flare Boost"
-        ]
+        ],
+        "basename": "drifblim"
     },
     "buneary": {
         "dex_no": 427,
@@ -15479,7 +15971,8 @@
             "Run Away",
             "Klutz",
             "Limber"
-        ]
+        ],
+        "basename": "buneary"
     },
     "lopunny": {
         "dex_no": 428,
@@ -15509,7 +16002,8 @@
             "Cute Charm",
             "Klutz",
             "Limber"
-        ]
+        ],
+        "basename": "lopunny"
     },
     "lopunny|~|mega|~|m": {
         "dex_no": 428,
@@ -15539,7 +16033,8 @@
             "Scrappy",
             null,
             null
-        ]
+        ],
+        "basename": "lopunny|~|mega|~|m"
     },
     "mismagius": {
         "dex_no": 429,
@@ -15569,7 +16064,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "mismagius"
     },
     "honchkrow": {
         "dex_no": 430,
@@ -15600,7 +16096,8 @@
             "Insomnia",
             "Super Luck",
             "Moxie"
-        ]
+        ],
+        "basename": "honchkrow"
     },
     "glameow": {
         "dex_no": 431,
@@ -15632,7 +16129,8 @@
             "Limber",
             "Own Tempo",
             "Keen Eye"
-        ]
+        ],
+        "basename": "glameow"
     },
     "purugly": {
         "dex_no": 432,
@@ -15662,7 +16160,8 @@
             "Thick Fat",
             "Own Tempo",
             "Defiant"
-        ]
+        ],
+        "basename": "purugly"
     },
     "chingling": {
         "dex_no": 433,
@@ -15694,7 +16193,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "chingling"
     },
     "stunky": {
         "dex_no": 434,
@@ -15727,7 +16227,8 @@
             "Stench",
             "Aftermath",
             "Keen Eye"
-        ]
+        ],
+        "basename": "stunky"
     },
     "skuntank": {
         "dex_no": 435,
@@ -15758,7 +16259,8 @@
             "Stench",
             "Aftermath",
             "Keen Eye"
-        ]
+        ],
+        "basename": "skuntank"
     },
     "bronzor": {
         "dex_no": 436,
@@ -15791,7 +16293,8 @@
             "Levitate",
             "Heatproof",
             "Heavy Metal"
-        ]
+        ],
+        "basename": "bronzor"
     },
     "bronzong": {
         "dex_no": 437,
@@ -15822,7 +16325,8 @@
             "Levitate",
             "Heatproof",
             "Heavy Metal"
-        ]
+        ],
+        "basename": "bronzong"
     },
     "bonsly": {
         "dex_no": 438,
@@ -15854,7 +16358,8 @@
             "Sturdy",
             "Rock Head",
             "Rattled"
-        ]
+        ],
+        "basename": "bonsly"
     },
     "mime jr.": {
         "dex_no": 439,
@@ -15887,7 +16392,8 @@
             "Soundproof",
             "Filter",
             "Technician"
-        ]
+        ],
+        "basename": "mime jr."
     },
     "happiny": {
         "dex_no": 440,
@@ -15920,7 +16426,8 @@
             "Natural Cure",
             "Serene Grace",
             "Friend Guard"
-        ]
+        ],
+        "basename": "happiny"
     },
     "chatot": {
         "dex_no": 441,
@@ -15951,7 +16458,8 @@
             "Keen Eye",
             "Tangled Feet",
             "Big Pecks"
-        ]
+        ],
+        "basename": "chatot"
     },
     "spiritomb": {
         "dex_no": 442,
@@ -15982,7 +16490,8 @@
             "Pressure",
             null,
             "Infiltrator"
-        ]
+        ],
+        "basename": "spiritomb"
     },
     "gible": {
         "dex_no": 443,
@@ -16015,7 +16524,8 @@
             "Sand Veil",
             null,
             "Rough Skin"
-        ]
+        ],
+        "basename": "gible"
     },
     "gabite": {
         "dex_no": 444,
@@ -16048,7 +16558,8 @@
             "Sand Veil",
             null,
             "Rough Skin"
-        ]
+        ],
+        "basename": "gabite"
     },
     "garchomp": {
         "dex_no": 445,
@@ -16079,7 +16590,8 @@
             "Sand Veil",
             null,
             "Rough Skin"
-        ]
+        ],
+        "basename": "garchomp"
     },
     "garchomp|~|mega|~|m": {
         "dex_no": 445,
@@ -16110,7 +16622,8 @@
             "Sand Force",
             null,
             null
-        ]
+        ],
+        "basename": "garchomp|~|mega|~|m"
     },
     "munchlax": {
         "dex_no": 446,
@@ -16142,7 +16655,8 @@
             "Pickup",
             "Thick Fat",
             "Gluttony"
-        ]
+        ],
+        "basename": "munchlax"
     },
     "riolu": {
         "dex_no": 447,
@@ -16174,7 +16688,8 @@
             "Steadfast",
             "Inner Focus",
             "Prankster"
-        ]
+        ],
+        "basename": "riolu"
     },
     "lucario": {
         "dex_no": 448,
@@ -16205,7 +16720,8 @@
             "Steadfast",
             "Inner Focus",
             "Justified"
-        ]
+        ],
+        "basename": "lucario"
     },
     "lucario|~|mega|~|m": {
         "dex_no": 448,
@@ -16236,7 +16752,8 @@
             "Adaptability",
             null,
             null
-        ]
+        ],
+        "basename": "lucario|~|mega|~|m"
     },
     "hippopotas": {
         "dex_no": 449,
@@ -16268,7 +16785,8 @@
             "Sand Stream",
             null,
             "Sand Force"
-        ]
+        ],
+        "basename": "hippopotas"
     },
     "hippowdon": {
         "dex_no": 450,
@@ -16298,7 +16816,8 @@
             "Sand Stream",
             null,
             "Sand Force"
-        ]
+        ],
+        "basename": "hippowdon"
     },
     "skorupi": {
         "dex_no": 451,
@@ -16331,7 +16850,8 @@
             "Battle Armor",
             "Sniper",
             "Keen Eye"
-        ]
+        ],
+        "basename": "skorupi"
     },
     "drapion": {
         "dex_no": 452,
@@ -16362,7 +16882,8 @@
             "Battle Armor",
             "Sniper",
             "Keen Eye"
-        ]
+        ],
+        "basename": "drapion"
     },
     "croagunk": {
         "dex_no": 453,
@@ -16395,7 +16916,8 @@
             "Anticipation",
             "Dry Skin",
             "Poison Touch"
-        ]
+        ],
+        "basename": "croagunk"
     },
     "toxicroak": {
         "dex_no": 454,
@@ -16426,7 +16948,8 @@
             "Anticipation",
             "Dry Skin",
             "Poison Touch"
-        ]
+        ],
+        "basename": "toxicroak"
     },
     "carnivine": {
         "dex_no": 455,
@@ -16456,7 +16979,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "carnivine"
     },
     "finneon": {
         "dex_no": 456,
@@ -16488,7 +17012,8 @@
             "Swift Swim",
             "Storm Drain",
             "Water Veil"
-        ]
+        ],
+        "basename": "finneon"
     },
     "lumineon": {
         "dex_no": 457,
@@ -16518,7 +17043,8 @@
             "Swift Swim",
             "Storm Drain",
             "Water Veil"
-        ]
+        ],
+        "basename": "lumineon"
     },
     "mantyke": {
         "dex_no": 458,
@@ -16551,7 +17077,8 @@
             "Swift Swim",
             "Water Absorb",
             "Water Veil"
-        ]
+        ],
+        "basename": "mantyke"
     },
     "snover": {
         "dex_no": 459,
@@ -16584,7 +17111,8 @@
             "Snow Warning",
             null,
             "Soundproof"
-        ]
+        ],
+        "basename": "snover"
     },
     "abomasnow": {
         "dex_no": 460,
@@ -16615,7 +17143,8 @@
             "Snow Warning",
             null,
             "Soundproof"
-        ]
+        ],
+        "basename": "abomasnow"
     },
     "abomasnow|~|mega|~|m": {
         "dex_no": 460,
@@ -16646,7 +17175,8 @@
             "Snow Warning",
             null,
             null
-        ]
+        ],
+        "basename": "abomasnow|~|mega|~|m"
     },
     "weavile": {
         "dex_no": 461,
@@ -16677,7 +17207,8 @@
             "Pressure",
             null,
             "Pickpocket"
-        ]
+        ],
+        "basename": "weavile"
     },
     "magnezone": {
         "dex_no": 462,
@@ -16708,7 +17239,8 @@
             "Magnet Pull",
             "Sturdy",
             "Analytic"
-        ]
+        ],
+        "basename": "magnezone"
     },
     "lickilicky": {
         "dex_no": 463,
@@ -16738,7 +17270,8 @@
             "Own Tempo",
             "Oblivious",
             "Cloud Nine"
-        ]
+        ],
+        "basename": "lickilicky"
     },
     "rhyperior": {
         "dex_no": 464,
@@ -16769,7 +17302,8 @@
             "Lightning Rod",
             "Solid Rock",
             "Reckless"
-        ]
+        ],
+        "basename": "rhyperior"
     },
     "tangrowth": {
         "dex_no": 465,
@@ -16799,7 +17333,8 @@
             "Chlorophyll",
             "Leaf Guard",
             "Regenerator"
-        ]
+        ],
+        "basename": "tangrowth"
     },
     "electivire": {
         "dex_no": 466,
@@ -16829,7 +17364,8 @@
             "Motor Drive",
             null,
             "Vital Spirit"
-        ]
+        ],
+        "basename": "electivire"
     },
     "magmortar": {
         "dex_no": 467,
@@ -16859,7 +17395,8 @@
             "Flame Body",
             null,
             "Vital Spirit"
-        ]
+        ],
+        "basename": "magmortar"
     },
     "togekiss": {
         "dex_no": 468,
@@ -16890,7 +17427,8 @@
             "Hustle",
             "Serene Grace",
             "Super Luck"
-        ]
+        ],
+        "basename": "togekiss"
     },
     "yanmega": {
         "dex_no": 469,
@@ -16921,7 +17459,8 @@
             "Speed Boost",
             "Tinted Lens",
             "Frisk"
-        ]
+        ],
+        "basename": "yanmega"
     },
     "leafeon": {
         "dex_no": 470,
@@ -16951,7 +17490,8 @@
             "Leaf Guard",
             null,
             "Chlorophyll"
-        ]
+        ],
+        "basename": "leafeon"
     },
     "glaceon": {
         "dex_no": 471,
@@ -16981,7 +17521,8 @@
             "Snow Cloak",
             null,
             "Ice Body"
-        ]
+        ],
+        "basename": "glaceon"
     },
     "gliscor": {
         "dex_no": 472,
@@ -17012,7 +17553,8 @@
             "Hyper Cutter",
             "Sand Veil",
             "Poison Heal"
-        ]
+        ],
+        "basename": "gliscor"
     },
     "mamoswine": {
         "dex_no": 473,
@@ -17043,7 +17585,8 @@
             "Oblivious",
             "Snow Cloak",
             "Thick Fat"
-        ]
+        ],
+        "basename": "mamoswine"
     },
     "porygon-z": {
         "dex_no": 474,
@@ -17073,7 +17616,8 @@
             "Adaptability",
             "Download",
             "Analytic"
-        ]
+        ],
+        "basename": "porygon-z"
     },
     "gallade": {
         "dex_no": 475,
@@ -17104,7 +17648,8 @@
             "Steadfast",
             null,
             "Justified"
-        ]
+        ],
+        "basename": "gallade"
     },
     "gallade|~|mega|~|m": {
         "dex_no": 475,
@@ -17135,7 +17680,8 @@
             "Inner Focus",
             null,
             null
-        ]
+        ],
+        "basename": "gallade|~|mega|~|m"
     },
     "probopass": {
         "dex_no": 476,
@@ -17166,7 +17712,8 @@
             "Sturdy",
             "Magnet Pull",
             "Sand Force"
-        ]
+        ],
+        "basename": "probopass"
     },
     "dusknoir": {
         "dex_no": 477,
@@ -17196,7 +17743,8 @@
             "Pressure",
             null,
             "Frisk"
-        ]
+        ],
+        "basename": "dusknoir"
     },
     "froslass": {
         "dex_no": 478,
@@ -17227,7 +17775,8 @@
             "Snow Cloak",
             null,
             "Cursed Body"
-        ]
+        ],
+        "basename": "froslass"
     },
     "rotom": {
         "dex_no": 479,
@@ -17258,7 +17807,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "rotom"
     },
     "rotom|~|heat": {
         "dex_no": 479,
@@ -17289,7 +17839,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "rotom|~|heat"
     },
     "rotom|~|wash": {
         "dex_no": 479,
@@ -17320,7 +17871,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "rotom|~|wash"
     },
     "rotom|~|frost": {
         "dex_no": 479,
@@ -17351,7 +17903,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "rotom|~|frost"
     },
     "rotom|~|fan": {
         "dex_no": 479,
@@ -17382,7 +17935,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "rotom|~|fan"
     },
     "rotom|~|mow": {
         "dex_no": 479,
@@ -17413,7 +17967,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "rotom|~|mow"
     },
     "uxie": {
         "dex_no": 480,
@@ -17443,7 +17998,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "uxie"
     },
     "mesprit": {
         "dex_no": 481,
@@ -17473,7 +18029,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "mesprit"
     },
     "azelf": {
         "dex_no": 482,
@@ -17503,7 +18060,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "azelf"
     },
     "dialga": {
         "dex_no": 483,
@@ -17534,7 +18092,8 @@
             "Pressure",
             null,
             "Telepathy"
-        ]
+        ],
+        "basename": "dialga"
     },
     "palkia": {
         "dex_no": 484,
@@ -17565,7 +18124,8 @@
             "Pressure",
             null,
             "Telepathy"
-        ]
+        ],
+        "basename": "palkia"
     },
     "heatran": {
         "dex_no": 485,
@@ -17596,7 +18156,8 @@
             "Flash Fire",
             null,
             "Flame Body"
-        ]
+        ],
+        "basename": "heatran"
     },
     "regigigas": {
         "dex_no": 486,
@@ -17626,7 +18187,8 @@
             "Slow Start",
             null,
             null
-        ]
+        ],
+        "basename": "regigigas"
     },
     "giratina|~|altered": {
         "dex_no": 487,
@@ -17657,7 +18219,8 @@
             "Pressure",
             null,
             "Telepathy"
-        ]
+        ],
+        "basename": "giratina|~|altered"
     },
     "giratina|~|origin": {
         "dex_no": 487,
@@ -17688,7 +18251,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "giratina|~|origin"
     },
     "cresselia": {
         "dex_no": 488,
@@ -17718,7 +18282,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "cresselia"
     },
     "phione": {
         "dex_no": 489,
@@ -17750,7 +18315,8 @@
             "Hydration",
             null,
             null
-        ]
+        ],
+        "basename": "phione"
     },
     "manaphy": {
         "dex_no": 490,
@@ -17780,7 +18346,8 @@
             "Hydration",
             null,
             null
-        ]
+        ],
+        "basename": "manaphy"
     },
     "darkrai": {
         "dex_no": 491,
@@ -17810,7 +18377,8 @@
             "Bad Dreams",
             null,
             null
-        ]
+        ],
+        "basename": "darkrai"
     },
     "shaymin|~|land": {
         "dex_no": 492,
@@ -17841,7 +18409,8 @@
             "Natural Cure",
             null,
             null
-        ]
+        ],
+        "basename": "shaymin|~|land"
     },
     "shaymin|~|sky": {
         "dex_no": 492,
@@ -17872,7 +18441,8 @@
             "Serene Grace",
             null,
             null
-        ]
+        ],
+        "basename": "shaymin|~|sky"
     },
     "arceus": {
         "dex_no": 493,
@@ -17902,7 +18472,8 @@
             "Multitype",
             null,
             null
-        ]
+        ],
+        "basename": "arceus"
     },
     "victini": {
         "dex_no": 494,
@@ -17933,7 +18504,8 @@
             "Victory Star",
             null,
             null
-        ]
+        ],
+        "basename": "victini"
     },
     "snivy": {
         "dex_no": 495,
@@ -17965,7 +18537,8 @@
             "Overgrow",
             null,
             "Contrary"
-        ]
+        ],
+        "basename": "snivy"
     },
     "servine": {
         "dex_no": 496,
@@ -17997,7 +18570,8 @@
             "Overgrow",
             null,
             "Contrary"
-        ]
+        ],
+        "basename": "servine"
     },
     "serperior": {
         "dex_no": 497,
@@ -18027,7 +18601,8 @@
             "Overgrow",
             null,
             "Contrary"
-        ]
+        ],
+        "basename": "serperior"
     },
     "tepig": {
         "dex_no": 498,
@@ -18059,7 +18634,8 @@
             "Blaze",
             null,
             "Thick Fat"
-        ]
+        ],
+        "basename": "tepig"
     },
     "pignite": {
         "dex_no": 499,
@@ -18092,7 +18668,8 @@
             "Blaze",
             null,
             "Thick Fat"
-        ]
+        ],
+        "basename": "pignite"
     },
     "emboar": {
         "dex_no": 500,
@@ -18123,7 +18700,8 @@
             "Blaze",
             null,
             "Reckless"
-        ]
+        ],
+        "basename": "emboar"
     },
     "oshawott": {
         "dex_no": 501,
@@ -18155,7 +18733,8 @@
             "Torrent",
             null,
             "Shell Armor"
-        ]
+        ],
+        "basename": "oshawott"
     },
     "dewott": {
         "dex_no": 502,
@@ -18187,7 +18766,8 @@
             "Torrent",
             null,
             "Shell Armor"
-        ]
+        ],
+        "basename": "dewott"
     },
     "samurott": {
         "dex_no": 503,
@@ -18217,7 +18797,8 @@
             "Torrent",
             null,
             "Shell Armor"
-        ]
+        ],
+        "basename": "samurott"
     },
     "patrat": {
         "dex_no": 504,
@@ -18249,7 +18830,8 @@
             "Run Away",
             "Keen Eye",
             "Analytic"
-        ]
+        ],
+        "basename": "patrat"
     },
     "watchog": {
         "dex_no": 505,
@@ -18279,7 +18861,8 @@
             "Illuminate",
             "Keen Eye",
             "Analytic"
-        ]
+        ],
+        "basename": "watchog"
     },
     "lillipup": {
         "dex_no": 506,
@@ -18311,7 +18894,8 @@
             "Vital Spirit",
             "Pickup",
             "Run Away"
-        ]
+        ],
+        "basename": "lillipup"
     },
     "herdier": {
         "dex_no": 507,
@@ -18343,7 +18927,8 @@
             "Intimidate",
             "Sand Rush",
             "Scrappy"
-        ]
+        ],
+        "basename": "herdier"
     },
     "stoutland": {
         "dex_no": 508,
@@ -18373,7 +18958,8 @@
             "Intimidate",
             "Sand Rush",
             "Scrappy"
-        ]
+        ],
+        "basename": "stoutland"
     },
     "purrloin": {
         "dex_no": 509,
@@ -18405,7 +18991,8 @@
             "Limber",
             "Unburden",
             "Prankster"
-        ]
+        ],
+        "basename": "purrloin"
     },
     "liepard": {
         "dex_no": 510,
@@ -18435,7 +19022,8 @@
             "Limber",
             "Unburden",
             "Prankster"
-        ]
+        ],
+        "basename": "liepard"
     },
     "pansage": {
         "dex_no": 511,
@@ -18467,7 +19055,8 @@
             "Gluttony",
             null,
             "Overgrow"
-        ]
+        ],
+        "basename": "pansage"
     },
     "simisage": {
         "dex_no": 512,
@@ -18497,7 +19086,8 @@
             "Gluttony",
             null,
             "Overgrow"
-        ]
+        ],
+        "basename": "simisage"
     },
     "pansear": {
         "dex_no": 513,
@@ -18529,7 +19119,8 @@
             "Gluttony",
             null,
             "Blaze"
-        ]
+        ],
+        "basename": "pansear"
     },
     "simisear": {
         "dex_no": 514,
@@ -18559,7 +19150,8 @@
             "Gluttony",
             null,
             "Blaze"
-        ]
+        ],
+        "basename": "simisear"
     },
     "panpour": {
         "dex_no": 515,
@@ -18591,7 +19183,8 @@
             "Gluttony",
             null,
             "Torrent"
-        ]
+        ],
+        "basename": "panpour"
     },
     "simipour": {
         "dex_no": 516,
@@ -18621,7 +19214,8 @@
             "Gluttony",
             null,
             "Torrent"
-        ]
+        ],
+        "basename": "simipour"
     },
     "munna": {
         "dex_no": 517,
@@ -18653,7 +19247,8 @@
             "Forewarn",
             "Synchronize",
             "Telepathy"
-        ]
+        ],
+        "basename": "munna"
     },
     "musharna": {
         "dex_no": 518,
@@ -18683,7 +19278,8 @@
             "Forewarn",
             "Synchronize",
             "Telepathy"
-        ]
+        ],
+        "basename": "musharna"
     },
     "pidove": {
         "dex_no": 519,
@@ -18716,7 +19312,8 @@
             "Big Pecks",
             "Super Luck",
             "Rivalry"
-        ]
+        ],
+        "basename": "pidove"
     },
     "tranquill": {
         "dex_no": 520,
@@ -18749,7 +19346,8 @@
             "Big Pecks",
             "Super Luck",
             "Rivalry"
-        ]
+        ],
+        "basename": "tranquill"
     },
     "unfezant": {
         "dex_no": 521,
@@ -18780,7 +19378,8 @@
             "Big Pecks",
             "Super Luck",
             "Rivalry"
-        ]
+        ],
+        "basename": "unfezant"
     },
     "blitzle": {
         "dex_no": 522,
@@ -18812,7 +19411,8 @@
             "Lightning Rod",
             "Motor Drive",
             "Sap Sipper"
-        ]
+        ],
+        "basename": "blitzle"
     },
     "zebstrika": {
         "dex_no": 523,
@@ -18842,7 +19442,8 @@
             "Lightning Rod",
             "Motor Drive",
             "Sap Sipper"
-        ]
+        ],
+        "basename": "zebstrika"
     },
     "roggenrola": {
         "dex_no": 524,
@@ -18874,7 +19475,8 @@
             "Sturdy",
             "Weak Armor",
             "Sand Force"
-        ]
+        ],
+        "basename": "roggenrola"
     },
     "boldore": {
         "dex_no": 525,
@@ -18906,7 +19508,8 @@
             "Sturdy",
             "Weak Armor",
             "Sand Force"
-        ]
+        ],
+        "basename": "boldore"
     },
     "gigalith": {
         "dex_no": 526,
@@ -18936,7 +19539,8 @@
             "Sturdy",
             "Sand Stream",
             "Sand Force"
-        ]
+        ],
+        "basename": "gigalith"
     },
     "woobat": {
         "dex_no": 527,
@@ -18969,7 +19573,8 @@
             "Unaware",
             "Klutz",
             "Simple"
-        ]
+        ],
+        "basename": "woobat"
     },
     "swoobat": {
         "dex_no": 528,
@@ -19000,7 +19605,8 @@
             "Unaware",
             "Klutz",
             "Simple"
-        ]
+        ],
+        "basename": "swoobat"
     },
     "drilbur": {
         "dex_no": 529,
@@ -19032,7 +19638,8 @@
             "Sand Rush",
             "Sand Force",
             "Mold Breaker"
-        ]
+        ],
+        "basename": "drilbur"
     },
     "excadrill": {
         "dex_no": 530,
@@ -19063,7 +19670,8 @@
             "Sand Rush",
             "Sand Force",
             "Mold Breaker"
-        ]
+        ],
+        "basename": "excadrill"
     },
     "audino": {
         "dex_no": 531,
@@ -19093,7 +19701,8 @@
             "Healer",
             "Regenerator",
             "Klutz"
-        ]
+        ],
+        "basename": "audino"
     },
     "audino|~|mega|~|m": {
         "dex_no": 531,
@@ -19123,7 +19732,8 @@
             "Healer",
             null,
             null
-        ]
+        ],
+        "basename": "audino|~|mega|~|m"
     },
     "timburr": {
         "dex_no": 532,
@@ -19155,7 +19765,8 @@
             "Guts",
             "Sheer Force",
             "Iron Fist"
-        ]
+        ],
+        "basename": "timburr"
     },
     "gurdurr": {
         "dex_no": 533,
@@ -19187,7 +19798,8 @@
             "Guts",
             "Sheer Force",
             "Iron Fist"
-        ]
+        ],
+        "basename": "gurdurr"
     },
     "conkeldurr": {
         "dex_no": 534,
@@ -19217,7 +19829,8 @@
             "Guts",
             "Sheer Force",
             "Iron Fist"
-        ]
+        ],
+        "basename": "conkeldurr"
     },
     "tympole": {
         "dex_no": 535,
@@ -19249,7 +19862,8 @@
             "Swift Swim",
             "Hydration",
             "Water Absorb"
-        ]
+        ],
+        "basename": "tympole"
     },
     "palpitoad": {
         "dex_no": 536,
@@ -19282,7 +19896,8 @@
             "Swift Swim",
             "Hydration",
             "Water Absorb"
-        ]
+        ],
+        "basename": "palpitoad"
     },
     "seismitoad": {
         "dex_no": 537,
@@ -19313,7 +19928,8 @@
             "Swift Swim",
             "Poison Touch",
             "Water Absorb"
-        ]
+        ],
+        "basename": "seismitoad"
     },
     "throh": {
         "dex_no": 538,
@@ -19343,7 +19959,8 @@
             "Guts",
             "Inner Focus",
             "Mold Breaker"
-        ]
+        ],
+        "basename": "throh"
     },
     "sawk": {
         "dex_no": 539,
@@ -19373,7 +19990,8 @@
             "Sturdy",
             "Inner Focus",
             "Mold Breaker"
-        ]
+        ],
+        "basename": "sawk"
     },
     "sewaddle": {
         "dex_no": 540,
@@ -19406,7 +20024,8 @@
             "Swarm",
             "Chlorophyll",
             "Overcoat"
-        ]
+        ],
+        "basename": "sewaddle"
     },
     "swadloon": {
         "dex_no": 541,
@@ -19439,7 +20058,8 @@
             "Leaf Guard",
             "Chlorophyll",
             "Overcoat"
-        ]
+        ],
+        "basename": "swadloon"
     },
     "leavanny": {
         "dex_no": 542,
@@ -19470,7 +20090,8 @@
             "Swarm",
             "Chlorophyll",
             "Overcoat"
-        ]
+        ],
+        "basename": "leavanny"
     },
     "venipede": {
         "dex_no": 543,
@@ -19503,7 +20124,8 @@
             "Poison Point",
             "Swarm",
             "Speed Boost"
-        ]
+        ],
+        "basename": "venipede"
     },
     "whirlipede": {
         "dex_no": 544,
@@ -19536,7 +20158,8 @@
             "Poison Point",
             "Swarm",
             "Speed Boost"
-        ]
+        ],
+        "basename": "whirlipede"
     },
     "scolipede": {
         "dex_no": 545,
@@ -19567,7 +20190,8 @@
             "Poison Point",
             "Swarm",
             "Speed Boost"
-        ]
+        ],
+        "basename": "scolipede"
     },
     "cottonee": {
         "dex_no": 546,
@@ -19600,7 +20224,8 @@
             "Prankster",
             "Infiltrator",
             "Chlorophyll"
-        ]
+        ],
+        "basename": "cottonee"
     },
     "whimsicott": {
         "dex_no": 547,
@@ -19631,7 +20256,8 @@
             "Prankster",
             "Infiltrator",
             "Chlorophyll"
-        ]
+        ],
+        "basename": "whimsicott"
     },
     "petilil": {
         "dex_no": 548,
@@ -19663,7 +20289,8 @@
             "Chlorophyll",
             "Own Tempo",
             "Leaf Guard"
-        ]
+        ],
+        "basename": "petilil"
     },
     "lilligant": {
         "dex_no": 549,
@@ -19693,7 +20320,8 @@
             "Chlorophyll",
             "Own Tempo",
             "Leaf Guard"
-        ]
+        ],
+        "basename": "lilligant"
     },
     "basculin|~|red-striped|~|red": {
         "dex_no": 550,
@@ -19723,7 +20351,8 @@
             "Reckless",
             "Adaptability",
             "Mold Breaker"
-        ]
+        ],
+        "basename": "basculin|~|red-striped|~|red"
     },
     "basculin|~|blue-striped|~|blue": {
         "dex_no": 550,
@@ -19753,7 +20382,8 @@
             "Rock Head",
             "Adaptability",
             "Mold Breaker"
-        ]
+        ],
+        "basename": "basculin|~|blue-striped|~|blue"
     },
     "sandile": {
         "dex_no": 551,
@@ -19786,7 +20416,8 @@
             "Intimidate",
             "Moxie",
             "Anger Point"
-        ]
+        ],
+        "basename": "sandile"
     },
     "krokorok": {
         "dex_no": 552,
@@ -19819,7 +20450,8 @@
             "Intimidate",
             "Moxie",
             "Anger Point"
-        ]
+        ],
+        "basename": "krokorok"
     },
     "krookodile": {
         "dex_no": 553,
@@ -19850,7 +20482,8 @@
             "Intimidate",
             "Moxie",
             "Anger Point"
-        ]
+        ],
+        "basename": "krookodile"
     },
     "darumaka": {
         "dex_no": 554,
@@ -19882,7 +20515,8 @@
             "Hustle",
             null,
             "Inner Focus"
-        ]
+        ],
+        "basename": "darumaka"
     },
     "darmanitan": {
         "dex_no": 555,
@@ -19912,7 +20546,8 @@
             "Sheer Force",
             null,
             "Zen Mode"
-        ]
+        ],
+        "basename": "darmanitan"
     },
     "darmanitan|~|zen|~|mode": {
         "dex_no": 555,
@@ -19942,7 +20577,8 @@
             "Zen Mode",
             null,
             null
-        ]
+        ],
+        "basename": "darmanitan|~|zen|~|mode"
     },
     "maractus": {
         "dex_no": 556,
@@ -19972,7 +20608,8 @@
             "Water Absorb",
             "Chlorophyll",
             "Storm Drain"
-        ]
+        ],
+        "basename": "maractus"
     },
     "dwebble": {
         "dex_no": 557,
@@ -20005,7 +20642,8 @@
             "Sturdy",
             "Shell Armor",
             "Weak Armor"
-        ]
+        ],
+        "basename": "dwebble"
     },
     "crustle": {
         "dex_no": 558,
@@ -20036,7 +20674,8 @@
             "Sturdy",
             "Shell Armor",
             "Weak Armor"
-        ]
+        ],
+        "basename": "crustle"
     },
     "scraggy": {
         "dex_no": 559,
@@ -20069,7 +20708,8 @@
             "Shed Skin",
             "Moxie",
             "Intimidate"
-        ]
+        ],
+        "basename": "scraggy"
     },
     "scrafty": {
         "dex_no": 560,
@@ -20100,7 +20740,8 @@
             "Shed Skin",
             "Moxie",
             "Intimidate"
-        ]
+        ],
+        "basename": "scrafty"
     },
     "sigilyph": {
         "dex_no": 561,
@@ -20131,7 +20772,8 @@
             "Wonder Skin",
             "Magic Guard",
             "Tinted Lens"
-        ]
+        ],
+        "basename": "sigilyph"
     },
     "yamask": {
         "dex_no": 562,
@@ -20163,7 +20805,8 @@
             "Mummy",
             null,
             null
-        ]
+        ],
+        "basename": "yamask"
     },
     "cofagrigus": {
         "dex_no": 563,
@@ -20193,7 +20836,8 @@
             "Mummy",
             null,
             null
-        ]
+        ],
+        "basename": "cofagrigus"
     },
     "tirtouga": {
         "dex_no": 564,
@@ -20226,7 +20870,8 @@
             "Solid Rock",
             "Sturdy",
             "Swift Swim"
-        ]
+        ],
+        "basename": "tirtouga"
     },
     "carracosta": {
         "dex_no": 565,
@@ -20257,7 +20902,8 @@
             "Solid Rock",
             "Sturdy",
             "Swift Swim"
-        ]
+        ],
+        "basename": "carracosta"
     },
     "archen": {
         "dex_no": 566,
@@ -20290,7 +20936,8 @@
             "Defeatist",
             null,
             null
-        ]
+        ],
+        "basename": "archen"
     },
     "archeops": {
         "dex_no": 567,
@@ -20321,7 +20968,8 @@
             "Defeatist",
             null,
             null
-        ]
+        ],
+        "basename": "archeops"
     },
     "trubbish": {
         "dex_no": 568,
@@ -20353,7 +21001,8 @@
             "Stench",
             "Sticky Hold",
             "Aftermath"
-        ]
+        ],
+        "basename": "trubbish"
     },
     "garbodor": {
         "dex_no": 569,
@@ -20383,7 +21032,8 @@
             "Stench",
             "Weak Armor",
             "Aftermath"
-        ]
+        ],
+        "basename": "garbodor"
     },
     "zorua": {
         "dex_no": 570,
@@ -20415,7 +21065,8 @@
             "Illusion",
             null,
             null
-        ]
+        ],
+        "basename": "zorua"
     },
     "zoroark": {
         "dex_no": 571,
@@ -20445,7 +21096,8 @@
             "Illusion",
             null,
             null
-        ]
+        ],
+        "basename": "zoroark"
     },
     "minccino": {
         "dex_no": 572,
@@ -20477,7 +21129,8 @@
             "Cute Charm",
             "Technician",
             "Skill Link"
-        ]
+        ],
+        "basename": "minccino"
     },
     "cinccino": {
         "dex_no": 573,
@@ -20507,7 +21160,8 @@
             "Cute Charm",
             "Technician",
             "Skill Link"
-        ]
+        ],
+        "basename": "cinccino"
     },
     "gothita": {
         "dex_no": 574,
@@ -20539,7 +21193,8 @@
             "Frisk",
             "Competitive",
             "Shadow Tag"
-        ]
+        ],
+        "basename": "gothita"
     },
     "gothorita": {
         "dex_no": 575,
@@ -20571,7 +21226,8 @@
             "Frisk",
             "Competitive",
             "Shadow Tag"
-        ]
+        ],
+        "basename": "gothorita"
     },
     "gothitelle": {
         "dex_no": 576,
@@ -20601,7 +21257,8 @@
             "Frisk",
             "Competitive",
             "Shadow Tag"
-        ]
+        ],
+        "basename": "gothitelle"
     },
     "solosis": {
         "dex_no": 577,
@@ -20633,7 +21290,8 @@
             "Overcoat",
             "Magic Guard",
             "Regenerator"
-        ]
+        ],
+        "basename": "solosis"
     },
     "duosion": {
         "dex_no": 578,
@@ -20665,7 +21323,8 @@
             "Overcoat",
             "Magic Guard",
             "Regenerator"
-        ]
+        ],
+        "basename": "duosion"
     },
     "reuniclus": {
         "dex_no": 579,
@@ -20695,7 +21354,8 @@
             "Overcoat",
             "Magic Guard",
             "Regenerator"
-        ]
+        ],
+        "basename": "reuniclus"
     },
     "ducklett": {
         "dex_no": 580,
@@ -20728,7 +21388,8 @@
             "Keen Eye",
             "Big Pecks",
             "Hydration"
-        ]
+        ],
+        "basename": "ducklett"
     },
     "swanna": {
         "dex_no": 581,
@@ -20759,7 +21420,8 @@
             "Keen Eye",
             "Big Pecks",
             "Hydration"
-        ]
+        ],
+        "basename": "swanna"
     },
     "vanillite": {
         "dex_no": 582,
@@ -20791,7 +21453,8 @@
             "Ice Body",
             "Snow Cloak",
             "Weak Armor"
-        ]
+        ],
+        "basename": "vanillite"
     },
     "vanillish": {
         "dex_no": 583,
@@ -20823,7 +21486,8 @@
             "Ice Body",
             "Snow Cloak",
             "Weak Armor"
-        ]
+        ],
+        "basename": "vanillish"
     },
     "vanilluxe": {
         "dex_no": 584,
@@ -20853,7 +21517,8 @@
             "Ice Body",
             "Snow Warning",
             "Weak Armor"
-        ]
+        ],
+        "basename": "vanilluxe"
     },
     "deerling": {
         "dex_no": 585,
@@ -20886,7 +21551,8 @@
             "Chlorophyll",
             "Sap Sipper",
             "Serene Grace"
-        ]
+        ],
+        "basename": "deerling"
     },
     "sawsbuck": {
         "dex_no": 586,
@@ -20917,7 +21583,8 @@
             "Chlorophyll",
             "Sap Sipper",
             "Serene Grace"
-        ]
+        ],
+        "basename": "sawsbuck"
     },
     "emolga": {
         "dex_no": 587,
@@ -20948,7 +21615,8 @@
             "Static",
             null,
             "Motor Drive"
-        ]
+        ],
+        "basename": "emolga"
     },
     "karrablast": {
         "dex_no": 588,
@@ -20980,7 +21648,8 @@
             "Swarm",
             "Shed Skin",
             "No Guard"
-        ]
+        ],
+        "basename": "karrablast"
     },
     "escavalier": {
         "dex_no": 589,
@@ -21011,7 +21680,8 @@
             "Swarm",
             "Shell Armor",
             "Overcoat"
-        ]
+        ],
+        "basename": "escavalier"
     },
     "foongus": {
         "dex_no": 590,
@@ -21044,7 +21714,8 @@
             "Effect Spore",
             null,
             "Regenerator"
-        ]
+        ],
+        "basename": "foongus"
     },
     "amoonguss": {
         "dex_no": 591,
@@ -21075,7 +21746,8 @@
             "Effect Spore",
             null,
             "Regenerator"
-        ]
+        ],
+        "basename": "amoonguss"
     },
     "frillish": {
         "dex_no": 592,
@@ -21108,7 +21780,8 @@
             "Water Absorb",
             "Cursed Body",
             "Damp"
-        ]
+        ],
+        "basename": "frillish"
     },
     "jellicent": {
         "dex_no": 593,
@@ -21139,7 +21812,8 @@
             "Water Absorb",
             "Cursed Body",
             "Damp"
-        ]
+        ],
+        "basename": "jellicent"
     },
     "alomomola": {
         "dex_no": 594,
@@ -21169,7 +21843,8 @@
             "Healer",
             "Hydration",
             "Regenerator"
-        ]
+        ],
+        "basename": "alomomola"
     },
     "joltik": {
         "dex_no": 595,
@@ -21202,7 +21877,8 @@
             "Compound Eyes",
             "Unnerve",
             "Swarm"
-        ]
+        ],
+        "basename": "joltik"
     },
     "galvantula": {
         "dex_no": 596,
@@ -21233,7 +21909,8 @@
             "Compound Eyes",
             "Unnerve",
             "Swarm"
-        ]
+        ],
+        "basename": "galvantula"
     },
     "ferroseed": {
         "dex_no": 597,
@@ -21266,7 +21943,8 @@
             "Iron Barbs",
             null,
             null
-        ]
+        ],
+        "basename": "ferroseed"
     },
     "ferrothorn": {
         "dex_no": 598,
@@ -21297,7 +21975,8 @@
             "Iron Barbs",
             null,
             "Anticipation"
-        ]
+        ],
+        "basename": "ferrothorn"
     },
     "klink": {
         "dex_no": 599,
@@ -21329,7 +22008,8 @@
             "Plus",
             "Minus",
             "Clear Body"
-        ]
+        ],
+        "basename": "klink"
     },
     "klang": {
         "dex_no": 600,
@@ -21361,7 +22041,8 @@
             "Plus",
             "Minus",
             "Clear Body"
-        ]
+        ],
+        "basename": "klang"
     },
     "klinklang": {
         "dex_no": 601,
@@ -21391,7 +22072,8 @@
             "Plus",
             "Minus",
             "Clear Body"
-        ]
+        ],
+        "basename": "klinklang"
     },
     "tynamo": {
         "dex_no": 602,
@@ -21423,7 +22105,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "tynamo"
     },
     "eelektrik": {
         "dex_no": 603,
@@ -21455,7 +22138,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "eelektrik"
     },
     "eelektross": {
         "dex_no": 604,
@@ -21485,7 +22169,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "eelektross"
     },
     "elgyem": {
         "dex_no": 605,
@@ -21517,7 +22202,8 @@
             "Telepathy",
             "Synchronize",
             "Analytic"
-        ]
+        ],
+        "basename": "elgyem"
     },
     "beheeyem": {
         "dex_no": 606,
@@ -21547,7 +22233,8 @@
             "Telepathy",
             "Synchronize",
             "Analytic"
-        ]
+        ],
+        "basename": "beheeyem"
     },
     "litwick": {
         "dex_no": 607,
@@ -21580,7 +22267,8 @@
             "Flash Fire",
             "Flame Body",
             "Infiltrator"
-        ]
+        ],
+        "basename": "litwick"
     },
     "lampent": {
         "dex_no": 608,
@@ -21613,7 +22301,8 @@
             "Flash Fire",
             "Flame Body",
             "Infiltrator"
-        ]
+        ],
+        "basename": "lampent"
     },
     "chandelure": {
         "dex_no": 609,
@@ -21644,7 +22333,8 @@
             "Flash Fire",
             "Flame Body",
             "Infiltrator"
-        ]
+        ],
+        "basename": "chandelure"
     },
     "axew": {
         "dex_no": 610,
@@ -21676,7 +22366,8 @@
             "Rivalry",
             "Mold Breaker",
             "Unnerve"
-        ]
+        ],
+        "basename": "axew"
     },
     "fraxure": {
         "dex_no": 611,
@@ -21708,7 +22399,8 @@
             "Rivalry",
             "Mold Breaker",
             "Unnerve"
-        ]
+        ],
+        "basename": "fraxure"
     },
     "haxorus": {
         "dex_no": 612,
@@ -21738,7 +22430,8 @@
             "Rivalry",
             "Mold Breaker",
             "Unnerve"
-        ]
+        ],
+        "basename": "haxorus"
     },
     "cubchoo": {
         "dex_no": 613,
@@ -21770,7 +22463,8 @@
             "Snow Cloak",
             "Slush Rush",
             "Rattled"
-        ]
+        ],
+        "basename": "cubchoo"
     },
     "beartic": {
         "dex_no": 614,
@@ -21800,7 +22494,8 @@
             "Snow Cloak",
             "Slush Rush",
             "Swift Swim"
-        ]
+        ],
+        "basename": "beartic"
     },
     "cryogonal": {
         "dex_no": 615,
@@ -21830,7 +22525,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "cryogonal"
     },
     "shelmet": {
         "dex_no": 616,
@@ -21862,7 +22558,8 @@
             "Hydration",
             "Shell Armor",
             "Overcoat"
-        ]
+        ],
+        "basename": "shelmet"
     },
     "accelgor": {
         "dex_no": 617,
@@ -21892,7 +22589,8 @@
             "Hydration",
             "Sticky Hold",
             "Unburden"
-        ]
+        ],
+        "basename": "accelgor"
     },
     "stunfisk": {
         "dex_no": 618,
@@ -21923,7 +22621,8 @@
             "Static",
             "Limber",
             "Sand Veil"
-        ]
+        ],
+        "basename": "stunfisk"
     },
     "mienfoo": {
         "dex_no": 619,
@@ -21955,7 +22654,8 @@
             "Inner Focus",
             "Regenerator",
             "Reckless"
-        ]
+        ],
+        "basename": "mienfoo"
     },
     "mienshao": {
         "dex_no": 620,
@@ -21985,7 +22685,8 @@
             "Inner Focus",
             "Regenerator",
             "Reckless"
-        ]
+        ],
+        "basename": "mienshao"
     },
     "druddigon": {
         "dex_no": 621,
@@ -22015,7 +22716,8 @@
             "Rough Skin",
             "Sheer Force",
             "Mold Breaker"
-        ]
+        ],
+        "basename": "druddigon"
     },
     "golett": {
         "dex_no": 622,
@@ -22048,7 +22750,8 @@
             "Iron Fist",
             "Klutz",
             "No Guard"
-        ]
+        ],
+        "basename": "golett"
     },
     "golurk": {
         "dex_no": 623,
@@ -22079,7 +22782,8 @@
             "Iron Fist",
             "Klutz",
             "No Guard"
-        ]
+        ],
+        "basename": "golurk"
     },
     "pawniard": {
         "dex_no": 624,
@@ -22112,7 +22816,8 @@
             "Defiant",
             "Inner Focus",
             "Pressure"
-        ]
+        ],
+        "basename": "pawniard"
     },
     "bisharp": {
         "dex_no": 625,
@@ -22143,7 +22848,8 @@
             "Defiant",
             "Inner Focus",
             "Pressure"
-        ]
+        ],
+        "basename": "bisharp"
     },
     "bouffalant": {
         "dex_no": 626,
@@ -22173,7 +22879,8 @@
             "Reckless",
             "Sap Sipper",
             "Soundproof"
-        ]
+        ],
+        "basename": "bouffalant"
     },
     "rufflet": {
         "dex_no": 627,
@@ -22206,7 +22913,8 @@
             "Keen Eye",
             "Sheer Force",
             "Hustle"
-        ]
+        ],
+        "basename": "rufflet"
     },
     "braviary": {
         "dex_no": 628,
@@ -22237,7 +22945,8 @@
             "Keen Eye",
             "Sheer Force",
             "Defiant"
-        ]
+        ],
+        "basename": "braviary"
     },
     "vullaby": {
         "dex_no": 629,
@@ -22270,7 +22979,8 @@
             "Big Pecks",
             "Overcoat",
             "Weak Armor"
-        ]
+        ],
+        "basename": "vullaby"
     },
     "mandibuzz": {
         "dex_no": 630,
@@ -22301,7 +23011,8 @@
             "Big Pecks",
             "Overcoat",
             "Weak Armor"
-        ]
+        ],
+        "basename": "mandibuzz"
     },
     "heatmor": {
         "dex_no": 631,
@@ -22331,7 +23042,8 @@
             "Gluttony",
             "Flash Fire",
             "White Smoke"
-        ]
+        ],
+        "basename": "heatmor"
     },
     "durant": {
         "dex_no": 632,
@@ -22362,7 +23074,8 @@
             "Swarm",
             "Hustle",
             "Truant"
-        ]
+        ],
+        "basename": "durant"
     },
     "deino": {
         "dex_no": 633,
@@ -22395,7 +23108,8 @@
             "Hustle",
             null,
             null
-        ]
+        ],
+        "basename": "deino"
     },
     "zweilous": {
         "dex_no": 634,
@@ -22428,7 +23142,8 @@
             "Hustle",
             null,
             null
-        ]
+        ],
+        "basename": "zweilous"
     },
     "hydreigon": {
         "dex_no": 635,
@@ -22459,7 +23174,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "hydreigon"
     },
     "larvesta": {
         "dex_no": 636,
@@ -22492,7 +23208,8 @@
             "Flame Body",
             null,
             "Swarm"
-        ]
+        ],
+        "basename": "larvesta"
     },
     "volcarona": {
         "dex_no": 637,
@@ -22523,7 +23240,8 @@
             "Flame Body",
             null,
             "Swarm"
-        ]
+        ],
+        "basename": "volcarona"
     },
     "cobalion": {
         "dex_no": 638,
@@ -22554,7 +23272,8 @@
             "Justified",
             null,
             null
-        ]
+        ],
+        "basename": "cobalion"
     },
     "terrakion": {
         "dex_no": 639,
@@ -22585,7 +23304,8 @@
             "Justified",
             null,
             null
-        ]
+        ],
+        "basename": "terrakion"
     },
     "virizion": {
         "dex_no": 640,
@@ -22616,7 +23336,8 @@
             "Justified",
             null,
             null
-        ]
+        ],
+        "basename": "virizion"
     },
     "tornadus|~|incarnate": {
         "dex_no": 641,
@@ -22646,7 +23367,8 @@
             "Prankster",
             null,
             "Defiant"
-        ]
+        ],
+        "basename": "tornadus|~|incarnate"
     },
     "tornadus|~|therian|~|t": {
         "dex_no": 641,
@@ -22676,7 +23398,8 @@
             "Regenerator",
             null,
             null
-        ]
+        ],
+        "basename": "tornadus|~|therian|~|t"
     },
     "thundurus|~|incarnate": {
         "dex_no": 642,
@@ -22707,7 +23430,8 @@
             "Prankster",
             null,
             "Defiant"
-        ]
+        ],
+        "basename": "thundurus|~|incarnate"
     },
     "thundurus|~|therian|~|t": {
         "dex_no": 642,
@@ -22738,7 +23462,8 @@
             "Volt Absorb",
             null,
             null
-        ]
+        ],
+        "basename": "thundurus|~|therian|~|t"
     },
     "reshiram": {
         "dex_no": 643,
@@ -22769,7 +23494,8 @@
             "Turboblaze",
             null,
             null
-        ]
+        ],
+        "basename": "reshiram"
     },
     "zekrom": {
         "dex_no": 644,
@@ -22800,7 +23526,8 @@
             "Teravolt",
             null,
             null
-        ]
+        ],
+        "basename": "zekrom"
     },
     "landorus|~|incarnate": {
         "dex_no": 645,
@@ -22831,7 +23558,8 @@
             "Sand Force",
             null,
             "Sheer Force"
-        ]
+        ],
+        "basename": "landorus|~|incarnate"
     },
     "landorus|~|therian|~|t": {
         "dex_no": 645,
@@ -22862,7 +23590,8 @@
             "Intimidate",
             null,
             null
-        ]
+        ],
+        "basename": "landorus|~|therian|~|t"
     },
     "kyurem": {
         "dex_no": 646,
@@ -22893,7 +23622,8 @@
             "Pressure",
             null,
             null
-        ]
+        ],
+        "basename": "kyurem"
     },
     "kyurem|~|black": {
         "dex_no": 646,
@@ -22924,7 +23654,8 @@
             "Teravolt",
             null,
             null
-        ]
+        ],
+        "basename": "kyurem|~|black"
     },
     "kyurem|~|white": {
         "dex_no": 646,
@@ -22955,7 +23686,8 @@
             "Turboblaze",
             null,
             null
-        ]
+        ],
+        "basename": "kyurem|~|white"
     },
     "keldeo": {
         "dex_no": 647,
@@ -22986,7 +23718,8 @@
             "Justified",
             null,
             null
-        ]
+        ],
+        "basename": "keldeo"
     },
     "meloetta|~|aria": {
         "dex_no": 648,
@@ -23017,7 +23750,8 @@
             "Serene Grace",
             null,
             null
-        ]
+        ],
+        "basename": "meloetta|~|aria"
     },
     "meloetta|~|pirouette": {
         "dex_no": 648,
@@ -23048,7 +23782,8 @@
             "Serene Grace",
             null,
             null
-        ]
+        ],
+        "basename": "meloetta|~|pirouette"
     },
     "genesect": {
         "dex_no": 649,
@@ -23079,7 +23814,8 @@
             "Download",
             null,
             null
-        ]
+        ],
+        "basename": "genesect"
     },
     "chespin": {
         "dex_no": 650,
@@ -23111,7 +23847,8 @@
             "Overgrow",
             null,
             "Bulletproof"
-        ]
+        ],
+        "basename": "chespin"
     },
     "quilladin": {
         "dex_no": 651,
@@ -23143,7 +23880,8 @@
             "Overgrow",
             null,
             "Bulletproof"
-        ]
+        ],
+        "basename": "quilladin"
     },
     "chesnaught": {
         "dex_no": 652,
@@ -23174,7 +23912,8 @@
             "Overgrow",
             null,
             "Bulletproof"
-        ]
+        ],
+        "basename": "chesnaught"
     },
     "fennekin": {
         "dex_no": 653,
@@ -23206,7 +23945,8 @@
             "Blaze",
             null,
             "Magician"
-        ]
+        ],
+        "basename": "fennekin"
     },
     "braixen": {
         "dex_no": 654,
@@ -23238,7 +23978,8 @@
             "Blaze",
             null,
             "Magician"
-        ]
+        ],
+        "basename": "braixen"
     },
     "delphox": {
         "dex_no": 655,
@@ -23269,7 +24010,8 @@
             "Blaze",
             null,
             "Magician"
-        ]
+        ],
+        "basename": "delphox"
     },
     "froakie": {
         "dex_no": 656,
@@ -23301,7 +24043,8 @@
             "Torrent",
             null,
             "Protean"
-        ]
+        ],
+        "basename": "froakie"
     },
     "frogadier": {
         "dex_no": 657,
@@ -23333,7 +24076,8 @@
             "Torrent",
             null,
             "Protean"
-        ]
+        ],
+        "basename": "frogadier"
     },
     "greninja": {
         "dex_no": 658,
@@ -23364,7 +24108,8 @@
             "Torrent",
             null,
             "Protean"
-        ]
+        ],
+        "basename": "greninja"
     },
     "greninja|~|ash|~|ash-greninja|~|a": {
         "dex_no": 658,
@@ -23395,7 +24140,8 @@
             "Battle Bond",
             null,
             null
-        ]
+        ],
+        "basename": "greninja|~|ash|~|ash-greninja|~|a"
     },
     "bunnelby": {
         "dex_no": 659,
@@ -23427,7 +24173,8 @@
             "Pickup",
             "Cheek Pouch",
             "Huge Power"
-        ]
+        ],
+        "basename": "bunnelby"
     },
     "diggersby": {
         "dex_no": 660,
@@ -23458,7 +24205,8 @@
             "Pickup",
             "Cheek Pouch",
             "Huge Power"
-        ]
+        ],
+        "basename": "diggersby"
     },
     "fletchling": {
         "dex_no": 661,
@@ -23491,7 +24239,8 @@
             "Big Pecks",
             null,
             "Gale Wings"
-        ]
+        ],
+        "basename": "fletchling"
     },
     "fletchinder": {
         "dex_no": 662,
@@ -23524,7 +24273,8 @@
             "Flame Body",
             null,
             "Gale Wings"
-        ]
+        ],
+        "basename": "fletchinder"
     },
     "talonflame": {
         "dex_no": 663,
@@ -23555,7 +24305,8 @@
             "Flame Body",
             null,
             " Gale Wings"
-        ]
+        ],
+        "basename": "talonflame"
     },
     "scatterbug": {
         "dex_no": 664,
@@ -23587,7 +24338,8 @@
             "Shield Dust",
             "Compound Eyes",
             "Friend Guard"
-        ]
+        ],
+        "basename": "scatterbug"
     },
     "spewpa": {
         "dex_no": 665,
@@ -23619,7 +24371,8 @@
             "Shed Skin",
             null,
             "Friend Guard"
-        ]
+        ],
+        "basename": "spewpa"
     },
     "vivillon": {
         "dex_no": 666,
@@ -23650,7 +24403,8 @@
             "Shield Dust",
             "Compound Eyes",
             "Friend Guard"
-        ]
+        ],
+        "basename": "vivillon"
     },
     "litleo": {
         "dex_no": 667,
@@ -23683,7 +24437,8 @@
             "Rivalry",
             "Unnerve",
             "Moxie"
-        ]
+        ],
+        "basename": "litleo"
     },
     "pyroar": {
         "dex_no": 668,
@@ -23714,7 +24469,8 @@
             "Rivalry",
             "Unnerve",
             "Moxie"
-        ]
+        ],
+        "basename": "pyroar"
     },
     "flabebe": {
         "dex_no": 669,
@@ -23746,7 +24502,8 @@
             "Flower Veil",
             null,
             "Symbiosis"
-        ]
+        ],
+        "basename": "flabebe"
     },
     "floette": {
         "dex_no": 670,
@@ -23778,7 +24535,8 @@
             "Flower Veil",
             null,
             "Symbiosis"
-        ]
+        ],
+        "basename": "floette"
     },
     "floette|~|eternal": {
         "dex_no": 670,
@@ -23810,7 +24568,8 @@
             "Flower Veil",
             null,
             null
-        ]
+        ],
+        "basename": "floette|~|eternal"
     },
     "florges": {
         "dex_no": 671,
@@ -23840,7 +24599,8 @@
             "Flower Veil",
             null,
             "Symbiosis"
-        ]
+        ],
+        "basename": "florges"
     },
     "skiddo": {
         "dex_no": 672,
@@ -23872,7 +24632,8 @@
             "Sap Sipper",
             null,
             "Grass Pelt"
-        ]
+        ],
+        "basename": "skiddo"
     },
     "gogoat": {
         "dex_no": 673,
@@ -23902,7 +24663,8 @@
             "Sap Sipper",
             null,
             "Grass Pelt"
-        ]
+        ],
+        "basename": "gogoat"
     },
     "pancham": {
         "dex_no": 674,
@@ -23934,7 +24696,8 @@
             "Iron Fist",
             "Mold Breaker",
             "Scrappy"
-        ]
+        ],
+        "basename": "pancham"
     },
     "pangoro": {
         "dex_no": 675,
@@ -23965,7 +24728,8 @@
             "Iron Fist",
             "Mold Breaker",
             "Scrappy"
-        ]
+        ],
+        "basename": "pangoro"
     },
     "furfrou": {
         "dex_no": 676,
@@ -23995,7 +24759,8 @@
             "Fur Coat",
             null,
             null
-        ]
+        ],
+        "basename": "furfrou"
     },
     "espurr": {
         "dex_no": 677,
@@ -24027,7 +24792,8 @@
             "Keen Eye",
             "Infiltrator",
             "Own Tempo"
-        ]
+        ],
+        "basename": "espurr"
     },
     "meowstic|~|male|~|m": {
         "dex_no": 678,
@@ -24057,7 +24823,8 @@
             "Keen Eye",
             "Infiltrator",
             "Prankster"
-        ]
+        ],
+        "basename": "meowstic|~|male|~|m"
     },
     "meowstic|~|female|~|f": {
         "dex_no": 678,
@@ -24087,7 +24854,8 @@
             "Keen Eye",
             "Infiltrator",
             "Competitive"
-        ]
+        ],
+        "basename": "meowstic|~|female|~|f"
     },
     "honedge": {
         "dex_no": 679,
@@ -24120,7 +24888,8 @@
             "No Guard",
             null,
             null
-        ]
+        ],
+        "basename": "honedge"
     },
     "doublade": {
         "dex_no": 680,
@@ -24153,7 +24922,8 @@
             "No Guard",
             null,
             null
-        ]
+        ],
+        "basename": "doublade"
     },
     "aegislash|~|shield": {
         "dex_no": 681,
@@ -24184,7 +24954,8 @@
             "Stance Change",
             null,
             null
-        ]
+        ],
+        "basename": "aegislash|~|shield"
     },
     "aegislash|~|blade": {
         "dex_no": 681,
@@ -24215,7 +24986,8 @@
             "Stance Change",
             null,
             null
-        ]
+        ],
+        "basename": "aegislash|~|blade"
     },
     "spritzee": {
         "dex_no": 682,
@@ -24247,7 +25019,8 @@
             "Healer",
             null,
             "Aroma Veil"
-        ]
+        ],
+        "basename": "spritzee"
     },
     "aromatisse": {
         "dex_no": 683,
@@ -24277,7 +25050,8 @@
             "Healer",
             null,
             "Aroma Veil"
-        ]
+        ],
+        "basename": "aromatisse"
     },
     "swirlix": {
         "dex_no": 684,
@@ -24309,7 +25083,8 @@
             "Sweet Veil",
             null,
             "Unburden"
-        ]
+        ],
+        "basename": "swirlix"
     },
     "slurpuff": {
         "dex_no": 685,
@@ -24339,7 +25114,8 @@
             "Sweet Veil",
             null,
             "Unburden"
-        ]
+        ],
+        "basename": "slurpuff"
     },
     "inkay": {
         "dex_no": 686,
@@ -24372,7 +25148,8 @@
             "Contrary",
             "Suction Cups",
             "Infiltrator"
-        ]
+        ],
+        "basename": "inkay"
     },
     "malamar": {
         "dex_no": 687,
@@ -24403,7 +25180,8 @@
             "Contrary",
             "Suction Cups",
             "Infiltrator"
-        ]
+        ],
+        "basename": "malamar"
     },
     "binacle": {
         "dex_no": 688,
@@ -24436,7 +25214,8 @@
             "Sniper",
             "Tough Claws",
             "Pickpocket"
-        ]
+        ],
+        "basename": "binacle"
     },
     "barbaracle": {
         "dex_no": 689,
@@ -24467,7 +25246,8 @@
             "Sniper",
             "Tough Claws",
             "Pickpocket"
-        ]
+        ],
+        "basename": "barbaracle"
     },
     "skrelp": {
         "dex_no": 690,
@@ -24500,7 +25280,8 @@
             "Poison Point",
             "Poison Touch",
             "Adaptability"
-        ]
+        ],
+        "basename": "skrelp"
     },
     "dragalge": {
         "dex_no": 691,
@@ -24531,7 +25312,8 @@
             "Poison Point",
             "Poison Touch",
             "Adaptability"
-        ]
+        ],
+        "basename": "dragalge"
     },
     "clauncher": {
         "dex_no": 692,
@@ -24563,7 +25345,8 @@
             "Mega Launcher",
             null,
             null
-        ]
+        ],
+        "basename": "clauncher"
     },
     "clawitzer": {
         "dex_no": 693,
@@ -24593,7 +25376,8 @@
             "Mega Launcher",
             null,
             null
-        ]
+        ],
+        "basename": "clawitzer"
     },
     "helioptile": {
         "dex_no": 694,
@@ -24626,7 +25410,8 @@
             "Dry Skin",
             "Sand Veil",
             "Solar Power"
-        ]
+        ],
+        "basename": "helioptile"
     },
     "heliolisk": {
         "dex_no": 695,
@@ -24657,7 +25442,8 @@
             "Dry Skin",
             "Sand Veil",
             "Solar Power"
-        ]
+        ],
+        "basename": "heliolisk"
     },
     "tyrunt": {
         "dex_no": 696,
@@ -24690,7 +25476,8 @@
             "Strong Jaw",
             null,
             "Sturdy"
-        ]
+        ],
+        "basename": "tyrunt"
     },
     "tyrantrum": {
         "dex_no": 697,
@@ -24721,7 +25508,8 @@
             "Strong Jaw",
             null,
             "Rock Head"
-        ]
+        ],
+        "basename": "tyrantrum"
     },
     "amaura": {
         "dex_no": 698,
@@ -24754,7 +25542,8 @@
             "Refrigerate",
             null,
             "Snow Warning"
-        ]
+        ],
+        "basename": "amaura"
     },
     "aurorus": {
         "dex_no": 699,
@@ -24785,7 +25574,8 @@
             "Refrigerate",
             null,
             "Snow Warning"
-        ]
+        ],
+        "basename": "aurorus"
     },
     "sylveon": {
         "dex_no": 700,
@@ -24815,7 +25605,8 @@
             "Cute Charm",
             null,
             "Pixilate"
-        ]
+        ],
+        "basename": "sylveon"
     },
     "hawlucha": {
         "dex_no": 701,
@@ -24846,7 +25637,8 @@
             "Limber",
             "Unburden",
             "Mold Breaker"
-        ]
+        ],
+        "basename": "hawlucha"
     },
     "dedenne": {
         "dex_no": 702,
@@ -24877,7 +25669,8 @@
             "Cheek Pouch",
             "Pickup",
             "Plus"
-        ]
+        ],
+        "basename": "dedenne"
     },
     "carbink": {
         "dex_no": 703,
@@ -24908,7 +25701,8 @@
             "Clear Body",
             null,
             "Sturdy"
-        ]
+        ],
+        "basename": "carbink"
     },
     "goomy": {
         "dex_no": 704,
@@ -24940,7 +25734,8 @@
             "Sap Sipper",
             "Hydration",
             "Gooey"
-        ]
+        ],
+        "basename": "goomy"
     },
     "sliggoo": {
         "dex_no": 705,
@@ -24972,7 +25767,8 @@
             "Sap Sipper",
             "Hydration",
             "Gooey"
-        ]
+        ],
+        "basename": "sliggoo"
     },
     "goodra": {
         "dex_no": 706,
@@ -25002,7 +25798,8 @@
             "Sap Sipper",
             "Hydration",
             "Gooey"
-        ]
+        ],
+        "basename": "goodra"
     },
     "klefki": {
         "dex_no": 707,
@@ -25033,7 +25830,8 @@
             "Prankster",
             null,
             "Magician"
-        ]
+        ],
+        "basename": "klefki"
     },
     "phantump": {
         "dex_no": 708,
@@ -25066,7 +25864,8 @@
             "Natural Cure",
             "Frisk",
             "Harvest"
-        ]
+        ],
+        "basename": "phantump"
     },
     "trevenant": {
         "dex_no": 709,
@@ -25097,7 +25896,8 @@
             "Natural Cure",
             "Frisk",
             "Harvest"
-        ]
+        ],
+        "basename": "trevenant"
     },
     "pumpkaboo|~|small": {
         "dex_no": 710,
@@ -25128,7 +25928,8 @@
             "Pickup",
             "Frisk",
             "Insomnia"
-        ]
+        ],
+        "basename": "pumpkaboo|~|small"
     },
     "pumpkaboo|~|average": {
         "dex_no": 710,
@@ -25159,7 +25960,8 @@
             "Pickup",
             "Frisk",
             "Insomnia"
-        ]
+        ],
+        "basename": "pumpkaboo|~|average"
     },
     "pumpkaboo|~|large": {
         "dex_no": 710,
@@ -25190,7 +25992,8 @@
             "Pickup",
             "Frisk",
             "Insomnia"
-        ]
+        ],
+        "basename": "pumpkaboo|~|large"
     },
     "pumpkaboo|~|super": {
         "dex_no": 710,
@@ -25223,7 +26026,8 @@
             "Pickup",
             "Frisk",
             "Insomnia"
-        ]
+        ],
+        "basename": "pumpkaboo|~|super"
     },
     "gourgeist|~|small": {
         "dex_no": 711,
@@ -25254,7 +26058,8 @@
             "Pickup",
             "Frisk",
             "Insomnia"
-        ]
+        ],
+        "basename": "gourgeist|~|small"
     },
     "gourgeist|~|average": {
         "dex_no": 711,
@@ -25285,7 +26090,8 @@
             "Pickup",
             "Frisk",
             "Insomnia"
-        ]
+        ],
+        "basename": "gourgeist|~|average"
     },
     "gourgeist|~|large": {
         "dex_no": 711,
@@ -25316,7 +26122,8 @@
             "Pickup",
             "Frisk",
             "Insomnia"
-        ]
+        ],
+        "basename": "gourgeist|~|large"
     },
     "gourgeist|~|super": {
         "dex_no": 711,
@@ -25347,7 +26154,8 @@
             "Pickup",
             "Frisk",
             "Insomnia"
-        ]
+        ],
+        "basename": "gourgeist|~|super"
     },
     "bergmite": {
         "dex_no": 712,
@@ -25379,7 +26187,8 @@
             "Own Tempo",
             "Ice Body",
             "Sturdy"
-        ]
+        ],
+        "basename": "bergmite"
     },
     "avalugg": {
         "dex_no": 713,
@@ -25409,7 +26218,8 @@
             "Own Tempo",
             "Ice Body",
             "Sturdy"
-        ]
+        ],
+        "basename": "avalugg"
     },
     "noibat": {
         "dex_no": 714,
@@ -25442,7 +26252,8 @@
             "Frisk",
             "Infiltrator",
             "Telepathy"
-        ]
+        ],
+        "basename": "noibat"
     },
     "noivern": {
         "dex_no": 715,
@@ -25473,7 +26284,8 @@
             "Frisk",
             "Infiltrator",
             "Telepathy"
-        ]
+        ],
+        "basename": "noivern"
     },
     "xerneas": {
         "dex_no": 716,
@@ -25503,7 +26315,8 @@
             "Fairy Aura",
             null,
             null
-        ]
+        ],
+        "basename": "xerneas"
     },
     "yveltal": {
         "dex_no": 717,
@@ -25534,7 +26347,8 @@
             "Dark Aura",
             null,
             null
-        ]
+        ],
+        "basename": "yveltal"
     },
     "zygarde|~|50%|~|50|~|normal": {
         "dex_no": 718,
@@ -25565,7 +26379,8 @@
             "Aura Break",
             "Power Construct",
             null
-        ]
+        ],
+        "basename": "zygarde|~|50%|~|50|~|normal"
     },
     "zygarde|~|10%|~|10|~|dog": {
         "dex_no": 718,
@@ -25596,7 +26411,8 @@
             "Aura Break",
             "Power Construct",
             null
-        ]
+        ],
+        "basename": "zygarde|~|10%|~|10|~|dog"
     },
     "zygarde|~|complete|~|100%|~|100": {
         "dex_no": 718,
@@ -25627,7 +26443,8 @@
             "Power Construct",
             null,
             null
-        ]
+        ],
+        "basename": "zygarde|~|complete|~|100%|~|100"
     },
     "diancie": {
         "dex_no": 719,
@@ -25658,7 +26475,8 @@
             "Clear Body",
             null,
             null
-        ]
+        ],
+        "basename": "diancie"
     },
     "diancie|~|mega|~|m": {
         "dex_no": 719,
@@ -25689,7 +26507,8 @@
             "Magic Bounce",
             null,
             null
-        ]
+        ],
+        "basename": "diancie|~|mega|~|m"
     },
     "hoopa|~|confined": {
         "dex_no": 720,
@@ -25720,7 +26539,8 @@
             "Magician",
             null,
             null
-        ]
+        ],
+        "basename": "hoopa|~|confined"
     },
     "hoopa|~|unbound": {
         "dex_no": 720,
@@ -25751,7 +26571,8 @@
             "Magician",
             null,
             null
-        ]
+        ],
+        "basename": "hoopa|~|unbound"
     },
     "volcanion": {
         "dex_no": 721,
@@ -25782,7 +26603,8 @@
             "Water Absorb",
             null,
             null
-        ]
+        ],
+        "basename": "volcanion"
     },
     "rowlet": {
         "dex_no": 722,
@@ -25815,7 +26637,8 @@
             "Overgrow",
             null,
             "Long Reach"
-        ]
+        ],
+        "basename": "rowlet"
     },
     "dartrix": {
         "dex_no": 723,
@@ -25848,7 +26671,8 @@
             "Overgrow",
             null,
             "Long Reach"
-        ]
+        ],
+        "basename": "dartrix"
     },
     "decidueye": {
         "dex_no": 724,
@@ -25879,7 +26703,8 @@
             "Overgrow",
             null,
             "Long Reach"
-        ]
+        ],
+        "basename": "decidueye"
     },
     "litten": {
         "dex_no": 725,
@@ -25911,7 +26736,8 @@
             "Blaze",
             null,
             "Intimidate"
-        ]
+        ],
+        "basename": "litten"
     },
     "torracat": {
         "dex_no": 726,
@@ -25943,7 +26769,8 @@
             "Blaze",
             null,
             "Intimidate"
-        ]
+        ],
+        "basename": "torracat"
     },
     "incineroar": {
         "dex_no": 727,
@@ -25974,7 +26801,8 @@
             "Blaze",
             null,
             "Intimidate"
-        ]
+        ],
+        "basename": "incineroar"
     },
     "popplio": {
         "dex_no": 728,
@@ -26006,7 +26834,8 @@
             "Torrent",
             null,
             "Liquid Voice"
-        ]
+        ],
+        "basename": "popplio"
     },
     "brionne": {
         "dex_no": 729,
@@ -26038,7 +26867,8 @@
             "Torrent",
             null,
             "Liquid Voice"
-        ]
+        ],
+        "basename": "brionne"
     },
     "primarina": {
         "dex_no": 730,
@@ -26069,7 +26899,8 @@
             "Torrent",
             null,
             "Liquid Voice"
-        ]
+        ],
+        "basename": "primarina"
     },
     "pikipek": {
         "dex_no": 731,
@@ -26102,7 +26933,8 @@
             "Keen Eye",
             "Skill Link",
             "Pickup"
-        ]
+        ],
+        "basename": "pikipek"
     },
     "trumbeak": {
         "dex_no": 732,
@@ -26135,7 +26967,8 @@
             "Keen Eye",
             "Skill Link",
             "Pickup"
-        ]
+        ],
+        "basename": "trumbeak"
     },
     "toucannon": {
         "dex_no": 733,
@@ -26166,7 +26999,8 @@
             "Keen Eye",
             "Skill Link",
             "Sheer Force"
-        ]
+        ],
+        "basename": "toucannon"
     },
     "yungoos": {
         "dex_no": 734,
@@ -26198,7 +27032,8 @@
             "Stakeout",
             "Strong Jaw",
             "Adaptability"
-        ]
+        ],
+        "basename": "yungoos"
     },
     "gumshoos": {
         "dex_no": 735,
@@ -26228,7 +27063,8 @@
             "Stakeout",
             "Strong Jaw",
             "Adaptability"
-        ]
+        ],
+        "basename": "gumshoos"
     },
     "grubbin": {
         "dex_no": 736,
@@ -26260,7 +27096,8 @@
             "Swarm",
             null,
             null
-        ]
+        ],
+        "basename": "grubbin"
     },
     "charjabug": {
         "dex_no": 737,
@@ -26293,7 +27130,8 @@
             "Battery",
             null,
             null
-        ]
+        ],
+        "basename": "charjabug"
     },
     "vikavolt": {
         "dex_no": 738,
@@ -26324,7 +27162,8 @@
             "Levitate",
             null,
             null
-        ]
+        ],
+        "basename": "vikavolt"
     },
     "crabrawler": {
         "dex_no": 739,
@@ -26356,7 +27195,8 @@
             "Hyper Cutter",
             "Iron Fist",
             "Anger Point"
-        ]
+        ],
+        "basename": "crabrawler"
     },
     "crabominable": {
         "dex_no": 740,
@@ -26387,7 +27227,8 @@
             "Hyper Cutter",
             "Iron Fist",
             "Anger Point"
-        ]
+        ],
+        "basename": "crabominable"
     },
     "oricorio": {
         "dex_no": 741,
@@ -26418,7 +27259,8 @@
             "Dancer",
             null,
             null
-        ]
+        ],
+        "basename": "oricorio"
     },
     "cutiefly": {
         "dex_no": 742,
@@ -26451,7 +27293,8 @@
             "Honey Gather",
             "Shield Dust",
             "Sweet Veil"
-        ]
+        ],
+        "basename": "cutiefly"
     },
     "ribombee": {
         "dex_no": 743,
@@ -26482,7 +27325,8 @@
             "Honey Gather",
             "Shield Dust",
             "Sweet Veil"
-        ]
+        ],
+        "basename": "ribombee"
     },
     "rockruff": {
         "dex_no": 744,
@@ -26514,7 +27358,8 @@
             "Keen Eye",
             "Vital Spirit",
             "Steadfast"
-        ]
+        ],
+        "basename": "rockruff"
     },
     "lycanroc|~|midday|~|day|~|sun": {
         "dex_no": 745,
@@ -26544,7 +27389,8 @@
             "Keen Eye",
             "Sand Rush",
             "Steadfast"
-        ]
+        ],
+        "basename": "lycanroc|~|midday|~|day|~|sun"
     },
     "lycanroc|~|midnight|~|night|~|moon": {
         "dex_no": 745,
@@ -26574,7 +27420,8 @@
             "Keen Eye",
             "Vital Spirit",
             "No Guard"
-        ]
+        ],
+        "basename": "lycanroc|~|midnight|~|night|~|moon"
     },
     "wishiwashi|~|solo": {
         "dex_no": 746,
@@ -26604,7 +27451,8 @@
             "Schooling",
             null,
             null
-        ]
+        ],
+        "basename": "wishiwashi|~|solo"
     },
     "wishiwashi|~|school": {
         "dex_no": 746,
@@ -26634,7 +27482,8 @@
             "Schooling",
             null,
             null
-        ]
+        ],
+        "basename": "wishiwashi|~|school"
     },
     "mareanie": {
         "dex_no": 747,
@@ -26667,7 +27516,8 @@
             "Merciless",
             "Limber",
             "Regenerator"
-        ]
+        ],
+        "basename": "mareanie"
     },
     "toxapex": {
         "dex_no": 748,
@@ -26698,7 +27548,8 @@
             "Merciless",
             "Limber",
             "Regenerator"
-        ]
+        ],
+        "basename": "toxapex"
     },
     "mudbray": {
         "dex_no": 749,
@@ -26730,7 +27581,8 @@
             "Own Tempo",
             "Stamina",
             "Inner Focus"
-        ]
+        ],
+        "basename": "mudbray"
     },
     "mudsdale": {
         "dex_no": 750,
@@ -26760,7 +27612,8 @@
             "Own Tempo",
             "Stamina",
             "Inner Focus"
-        ]
+        ],
+        "basename": "mudsdale"
     },
     "dewpider": {
         "dex_no": 751,
@@ -26793,7 +27646,8 @@
             "Water Bubble",
             null,
             "Water Absorb"
-        ]
+        ],
+        "basename": "dewpider"
     },
     "araquanid": {
         "dex_no": 752,
@@ -26824,7 +27678,8 @@
             "Water Bubble",
             null,
             "Water Absorb"
-        ]
+        ],
+        "basename": "araquanid"
     },
     "fomantis": {
         "dex_no": 753,
@@ -26856,7 +27711,8 @@
             "Leaf Guard",
             null,
             "Contrary"
-        ]
+        ],
+        "basename": "fomantis"
     },
     "lurantis": {
         "dex_no": 754,
@@ -26886,7 +27742,8 @@
             "Leaf Guard",
             null,
             "Contrary"
-        ]
+        ],
+        "basename": "lurantis"
     },
     "morelull": {
         "dex_no": 755,
@@ -26919,7 +27776,8 @@
             "Illuminate",
             "Effect Spore",
             "Rain Dish"
-        ]
+        ],
+        "basename": "morelull"
     },
     "shiinotic": {
         "dex_no": 756,
@@ -26950,7 +27808,8 @@
             "Illuminate",
             "Effect Spore",
             "Rain Dish"
-        ]
+        ],
+        "basename": "shiinotic"
     },
     "salandit": {
         "dex_no": 757,
@@ -26983,7 +27842,8 @@
             "Corrosion",
             null,
             "Oblivious"
-        ]
+        ],
+        "basename": "salandit"
     },
     "salazzle": {
         "dex_no": 758,
@@ -27014,7 +27874,8 @@
             "Corrosion",
             null,
             "Oblivious"
-        ]
+        ],
+        "basename": "salazzle"
     },
     "stufful": {
         "dex_no": 759,
@@ -27047,7 +27908,8 @@
             "Fluffy",
             "Klutz",
             "Cute Charm"
-        ]
+        ],
+        "basename": "stufful"
     },
     "bewear": {
         "dex_no": 760,
@@ -27078,7 +27940,8 @@
             "Fluffy",
             "Klutz",
             "Unnerve"
-        ]
+        ],
+        "basename": "bewear"
     },
     "bounsweet": {
         "dex_no": 761,
@@ -27110,7 +27973,8 @@
             "Leaf Guard",
             "Oblivious",
             "Sweet Veil"
-        ]
+        ],
+        "basename": "bounsweet"
     },
     "steenee": {
         "dex_no": 762,
@@ -27142,7 +28006,8 @@
             "Leaf Guard",
             "Oblivious",
             "Sweet Veil"
-        ]
+        ],
+        "basename": "steenee"
     },
     "tsareena": {
         "dex_no": 763,
@@ -27172,7 +28037,8 @@
             "Leaf Guard",
             "Queenly Majesty",
             "Sweet Veil"
-        ]
+        ],
+        "basename": "tsareena"
     },
     "comfey": {
         "dex_no": 764,
@@ -27202,7 +28068,8 @@
             "Flower Veil",
             "Triage",
             "Natural Cure"
-        ]
+        ],
+        "basename": "comfey"
     },
     "oranguru": {
         "dex_no": 765,
@@ -27233,7 +28100,8 @@
             "Inner Focus",
             "Telepathy",
             "Symbiosis"
-        ]
+        ],
+        "basename": "oranguru"
     },
     "passimian": {
         "dex_no": 766,
@@ -27263,7 +28131,8 @@
             "Receiver",
             null,
             "Defiant"
-        ]
+        ],
+        "basename": "passimian"
     },
     "wimpod": {
         "dex_no": 767,
@@ -27296,7 +28165,8 @@
             "Wimp Out",
             null,
             null
-        ]
+        ],
+        "basename": "wimpod"
     },
     "golisopod": {
         "dex_no": 768,
@@ -27327,7 +28197,8 @@
             "Emergency Exit",
             null,
             null
-        ]
+        ],
+        "basename": "golisopod"
     },
     "sandygast": {
         "dex_no": 769,
@@ -27360,7 +28231,8 @@
             "Water Compaction",
             null,
             "Sand Veil"
-        ]
+        ],
+        "basename": "sandygast"
     },
     "palossand": {
         "dex_no": 770,
@@ -27391,7 +28263,8 @@
             "Water Compaction",
             null,
             "Sand Veil"
-        ]
+        ],
+        "basename": "palossand"
     },
     "pyukumuku": {
         "dex_no": 771,
@@ -27421,7 +28294,8 @@
             "Innards Out",
             null,
             "Unaware"
-        ]
+        ],
+        "basename": "pyukumuku"
     },
     "type: null": {
         "dex_no": 772,
@@ -27453,7 +28327,8 @@
             "Battle Armor",
             null,
             null
-        ]
+        ],
+        "basename": "type: null"
     },
     "silvally": {
         "dex_no": 773,
@@ -27483,7 +28358,8 @@
             "RKS System",
             null,
             null
-        ]
+        ],
+        "basename": "silvally"
     },
     "minior|~|meteor": {
         "dex_no": 774,
@@ -27514,7 +28390,8 @@
             "Shields Down",
             null,
             null
-        ]
+        ],
+        "basename": "minior|~|meteor"
     },
     "minior|~|core": {
         "dex_no": 774,
@@ -27545,7 +28422,8 @@
             "Shields Down",
             null,
             null
-        ]
+        ],
+        "basename": "minior|~|core"
     },
     "komala": {
         "dex_no": 775,
@@ -27575,7 +28453,8 @@
             "Comatose",
             null,
             null
-        ]
+        ],
+        "basename": "komala"
     },
     "turtonator": {
         "dex_no": 776,
@@ -27606,7 +28485,8 @@
             "Shell Armor",
             null,
             null
-        ]
+        ],
+        "basename": "turtonator"
     },
     "togedemaru": {
         "dex_no": 777,
@@ -27637,7 +28517,8 @@
             "Iron Barbs",
             "Lightning Rod",
             "Sturdy"
-        ]
+        ],
+        "basename": "togedemaru"
     },
     "mimikyu": {
         "dex_no": 778,
@@ -27668,7 +28549,8 @@
             "Disguise",
             null,
             null
-        ]
+        ],
+        "basename": "mimikyu"
     },
     "bruxish": {
         "dex_no": 779,
@@ -27699,7 +28581,8 @@
             "Dazzling",
             "Strong Jaw",
             "Wonder Skin"
-        ]
+        ],
+        "basename": "bruxish"
     },
     "drampa": {
         "dex_no": 780,
@@ -27730,7 +28613,8 @@
             "Berserk",
             "Sap Sipper",
             "Cloud Nine"
-        ]
+        ],
+        "basename": "drampa"
     },
     "dhelmise": {
         "dex_no": 781,
@@ -27761,7 +28645,8 @@
             "Steelworker",
             null,
             null
-        ]
+        ],
+        "basename": "dhelmise"
     },
     "jangmo-o": {
         "dex_no": 782,
@@ -27793,7 +28678,8 @@
             "Bulletproof",
             "Soundproof",
             "Overcoat"
-        ]
+        ],
+        "basename": "jangmo-o"
     },
     "hakamo-o": {
         "dex_no": 783,
@@ -27826,7 +28712,8 @@
             "Bulletproof",
             "Soundproof",
             "Overcoat"
-        ]
+        ],
+        "basename": "hakamo-o"
     },
     "kommo-o": {
         "dex_no": 784,
@@ -27857,7 +28744,8 @@
             "Bulletproof",
             "Soundproof",
             "Overcoat"
-        ]
+        ],
+        "basename": "kommo-o"
     },
     "tapu koko": {
         "dex_no": 785,
@@ -27888,7 +28776,8 @@
             "Electric Surge",
             null,
             "Telepathy"
-        ]
+        ],
+        "basename": "tapu koko"
     },
     "tapu lele": {
         "dex_no": 786,
@@ -27919,7 +28808,8 @@
             "Psychic Surge",
             null,
             "Telepathy"
-        ]
+        ],
+        "basename": "tapu lele"
     },
     "tapu bulu": {
         "dex_no": 787,
@@ -27950,7 +28840,8 @@
             "Grassy Surge",
             null,
             "Telepathy"
-        ]
+        ],
+        "basename": "tapu bulu"
     },
     "tapu fini": {
         "dex_no": 788,
@@ -27981,7 +28872,8 @@
             "Misty Surge",
             null,
             "Telepathy"
-        ]
+        ],
+        "basename": "tapu fini"
     },
     "cosmog": {
         "dex_no": 789,
@@ -28013,7 +28905,8 @@
             "Unaware",
             null,
             null
-        ]
+        ],
+        "basename": "cosmog"
     },
     "cosmoem": {
         "dex_no": 790,
@@ -28046,7 +28939,8 @@
             "Sturdy",
             null,
             null
-        ]
+        ],
+        "basename": "cosmoem"
     },
     "solgaleo": {
         "dex_no": 791,
@@ -28077,7 +28971,8 @@
             "Full Metal Body",
             null,
             null
-        ]
+        ],
+        "basename": "solgaleo"
     },
     "lunala": {
         "dex_no": 792,
@@ -28108,7 +29003,8 @@
             "Shadow Shield",
             null,
             null
-        ]
+        ],
+        "basename": "lunala"
     },
     "nihilego": {
         "dex_no": 793,
@@ -28139,7 +29035,8 @@
             "Beast Boost",
             null,
             null
-        ]
+        ],
+        "basename": "nihilego"
     },
     "buzzwole": {
         "dex_no": 794,
@@ -28170,7 +29067,8 @@
             "Beast Boost",
             null,
             null
-        ]
+        ],
+        "basename": "buzzwole"
     },
     "pheromosa": {
         "dex_no": 795,
@@ -28201,7 +29099,8 @@
             "Beast Boost",
             null,
             null
-        ]
+        ],
+        "basename": "pheromosa"
     },
     "xurkitree": {
         "dex_no": 796,
@@ -28231,7 +29130,8 @@
             "Beast Boost",
             null,
             null
-        ]
+        ],
+        "basename": "xurkitree"
     },
     "celesteela": {
         "dex_no": 797,
@@ -28262,7 +29162,8 @@
             "Beast Boost",
             null,
             null
-        ]
+        ],
+        "basename": "celesteela"
     },
     "kartana": {
         "dex_no": 798,
@@ -28293,7 +29194,8 @@
             "Beast Boost",
             null,
             null
-        ]
+        ],
+        "basename": "kartana"
     },
     "guzzlord": {
         "dex_no": 799,
@@ -28324,7 +29226,8 @@
             "Beast Boost",
             null,
             null
-        ]
+        ],
+        "basename": "guzzlord"
     },
     "necrozma": {
         "dex_no": 800,
@@ -28354,7 +29257,8 @@
             "Prism Armor",
             null,
             null
-        ]
+        ],
+        "basename": "necrozma"
     },
     "magearna": {
         "dex_no": 801,
@@ -28385,7 +29289,8 @@
             "Soul-Heart",
             null,
             null
-        ]
+        ],
+        "basename": "magearna"
     },
     "marshadow": {
         "dex_no": 802,
@@ -28416,6 +29321,7 @@
             "Technician",
             null,
             null
-        ]
+        ],
+        "basename": "marshadow"
     }
 }
