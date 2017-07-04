@@ -8,7 +8,10 @@ import unicodedata
 import prawcore
 import re
 
-from PokeFacts import Config
+try:
+    from PokeFacts import Config
+except ImportError:
+    import Config
 
 COMMENT = 1
 ACCOUNT = 2
@@ -27,10 +30,6 @@ class Helpers():
     def isValidThing(self, thing):
         # the bot shouldn't reply to itself
         if thing.author.name == Config.USERNAME:
-            return False
-        
-        # if the thing was created before the bot initialized
-        if thing.created_utc < self.startTime:
             return False
 
         return True
@@ -195,7 +194,7 @@ class Helpers():
 
     # using permalink() as a function doesn't work on submissions
     # using permalink as an attribute sometimes works and sometimes doesn't work with comments
-    def getPermalink(thing):
+    def getPermalink(self, thing):
         try:
             return thing.permalink()
         except:

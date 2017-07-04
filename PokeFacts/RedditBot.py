@@ -23,15 +23,22 @@ import time
 import praw
 import prawcore
 import importlib
+import traceback
 
 from praw.models.util import stream_generator
 
-from PokeFacts import Config
-from PokeFacts import DataPulls
-from PokeFacts import Helpers
-from PokeFacts import Management
-from PokeFacts import Responder
-
+try:
+    from PokeFacts import Config
+    from PokeFacts import DataPulls
+    from PokeFacts import Helpers
+    from PokeFacts import Management
+    from PokeFacts import Responder
+except ImportError:
+    import Config
+    import DataPulls
+    import Helpers
+    import Management
+    import Responder
 try:
     from layer7_utilities import Logger
 except ImportError:
@@ -57,6 +64,7 @@ class CallResponse():
     def __init__(self):
         self.startTime  = time.time()
         self.scriptfile = os.path.abspath(__file__)
+        self.scriptpath = os.path.dirname(self.scriptfile)
         self.logger     = Logger(Config.USERNAME, Config.VERSION)
 
         self.r = Config.reddit()
@@ -68,21 +76,27 @@ class CallResponse():
         self.done       = {}
         
         self.reloadConfig(True)
-        self.logger.info('Initialized and ready to go on: ' + (', '.join(Config.SUBREDDITS)))
     
     # Reload the configuration. If the Config.py file was modified, this
     # function will make those changes go into effect
     def reloadConfig(self, first_load=False):
         if not first_load:
             importlib.reload(Config)
-
+        
+        self.match_p    = re.compile(Config.MATCH_STRING)
         self.subreddit  = self.r.subreddit('+'.join(Config.SUBREDDITS))
         self.srmodnames = (sr.lower() for sr in Config.SUBREDDITS if self.helpers.isBotModeratorOf(sr, 'posts'))
-        self.modded     = self.r.subreddit('+'.join(self.srmodnames))
         self.srNoTry    = [] # list of subreddit (IDs) to not operate in
 
-        with open('data/response.txt', 'r') as template_file:
+        if any(self.srmodnames):
+            self.modded = self.r.subreddit('+'.join(self.srmodnames))
+        else:
+            self.modded = None
+
+        with open(self.scriptpath + '/data/response.txt', 'r') as template_file:
             self.response_template = template_file.read()
+
+        self.logger.info('Initialized and ready to go on: ' + (', '.join(Config.SUBREDDITS)))
 
     # get a list of call items in the given body
     # list will be empty if the bot was not called
@@ -90,8 +104,10 @@ class CallResponse():
         items = []
         seen  = []
 
-        for match in re.findall(Config.MATCH_STRING, body):
-            identifier = self.helpers.validateIdentifier(match)
+        it = re.finditer(self.match_p, body)
+        for match in it:
+            match       = match.group(0)
+            identifier  = self.helpers.validateIdentifier(match)
             
             if identifier in seen:
                 continue
@@ -102,7 +118,7 @@ class CallResponse():
                 info = self.data.getInfo(identifier)
                 if not info is None:
                     self.logger.debug("Got info for: %s"%match)
-                    items.append()
+                    items.append(info)
         return items
     
     # will compile the response for the bot to send given a list of call items
@@ -129,6 +145,10 @@ class CallResponse():
     # if should break out of the current stream after
     # the current thing is processed
     def should_break(self, thing):
+        # if the thing was created before the bot initialized
+        if thing.created_utc < self.startTime:
+            return False
+
         seen = False
         if thing.id in self.done:
             last_process = self.done[thing.id]['last_process']
@@ -162,7 +182,7 @@ class CallResponse():
             return True
 
         type        = self.helpers.typeof(thing)        # thing type (int)
-        noun        = self.nounForType(type)            # thing type noun
+        noun        = self.helpers.nounForType(type)    # thing type noun
         is_valid    = True                              # if the thing is valid for processing
         subject     = None                              # thing subject (if applicable)
         body        = None                              # thing body
@@ -194,6 +214,7 @@ class CallResponse():
         did_edit        = False                     # if the bot edited an existing comment
 
         if any(items):
+            self.logger.debug("Got " + str(len(items)) + " calls from " + thing.fullname)
             try:
                 # check if already there already exists a reply for this thing
                 if thing.id in self.done:
@@ -228,10 +249,15 @@ class CallResponse():
                             "reply_id":  reply_thing.id,
                             "last_process": time.time()
                         }
-                    except:
+                    except Exception as e:
                         # delete if something went wrong with generating the reply
                         reply_thing.delete()
                         reply_thing = None
+                        self.logger.warning("[1] Was unable to reply to: " + thing.fullname)
+                        print(traceback.format_exception(None, e, e.__traceback__),
+                                file=sys.stderr, flush=True)
+                else:
+                    self.logger.warning("[2] Was unable to reply to: " + thing.fullname)
             except praw.exceptions.APIException:
                 self.logger.warning(noun + " was deleted, id - %s"%str(thing.fullname))
 
@@ -239,6 +265,8 @@ class CallResponse():
 
     # main loop action
     def action(self):
+        self.logger.debug("Next loop")
+
         # check comments
         if Config.RESPONDER_CHECK_COMMENTS:
             for comment in self.subreddit.stream.comments():
@@ -264,7 +292,7 @@ class CallResponse():
                     break
 
         # check edited comments for modded subs
-        if Config.RESPONDER_CHECK_EDITED:
+        if Config.RESPONDER_CHECK_EDITED and not self.modded is None:
             editstream = stream_generator(self.modded.mod.edited,pause_after=0)
             for edited_thing in editstream:
                 if edited_thing is None:
@@ -283,31 +311,40 @@ def main(redditbot):
     try:
         redditbot.action()
 
-    except UnicodeEncodeError:
+    except UnicodeEncodeError as e:
         redditbot.logger.warning("Caught UnicodeEncodeError")
+        print(traceback.format_exception(None, e, e.__traceback__),
+                file=sys.stderr, flush=True)
  
-    except praw.exceptions.APIException:
+    except praw.exceptions.APIException as e:
         redditbot.logger.exception("API Error! - Sleeping")
+        print(traceback.format_exception(None, e, e.__traceback__),
+                file=sys.stderr, flush=True)
         time.sleep(120)
 
-    except praw.exceptions.ClientException:
+    except praw.exceptions.ClientException as e:
         redditbot.logger.exception("PRAW Client Error! - Sleeping")
+        print(traceback.format_exception(None, e, e.__traceback__),
+                file=sys.stderr, flush=True)
         time.sleep(120)
 
-    except prawcore.exceptions.ServerError:
+    except prawcore.exceptions.ServerError as e:
         redditbot.logger.exception("PRAW Server Error! - Sleeping")
+        print(traceback.format_exception(None, e, e.__traceback__),
+                file=sys.stderr, flush=True)
         time.sleep(120)
 
     except KeyboardInterrupt:
         redditbot.logger.warning('Caught KeyboardInterrupt')
         sys.exit()
         
-    except Exception:
+    except Exception as e:
         redditbot.logger.critical('General Exception - sleeping 5 min')
+        print(traceback.format_exception(None, e, e.__traceback__),
+                file=sys.stderr, flush=True)
         time.sleep(300)
 
 if __name__ == '__main__':
     redditbot = CallResponse()
-    redditbot.logger.info("Starting up")
     while True:
         main(redditbot)
