@@ -40,7 +40,7 @@ OPERATORS = ["kwwxis", "Haruka-sama", "bigslothonmyface", "technophonix1", "D0cR
 # ----------------
 
 # list of subreddits the bot is allowed to operate on (case matters!)
-SUBREDDITS      = ["pokemontest"]
+SUBREDDITS      = ["pokemontest", "pokemonmods"]
 
 # should check comments?
 RESPONDER_CHECK_COMMENTS = True

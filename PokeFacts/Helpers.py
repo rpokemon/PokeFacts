@@ -179,17 +179,19 @@ class Helpers():
 
         if not type(must_have_perms) == set:
             must_have_perms = set(must_have_perms)
+        
+        try:
+            for mod in subreddit.moderator():
+                perms = set(mod.mod_permissions)
 
-        for mod in subreddit.moderator():
-            perms = set(mod.mod_permissions)
-
-            if str(mod) == Config.USERNAME:
-                if len(must_have_perms) == 0 or "all" in perms:
-                    return True
-                if must_have_perms.issubset(perms):
-                    return True
-                return False
-                
+                if str(mod) == Config.USERNAME:
+                    if len(must_have_perms) == 0 or "all" in perms:
+                        return True
+                    if must_have_perms.issubset(perms):
+                        return True
+                    return False
+        except prawcore.exceptions.Forbidden:
+            return False    
         return False
 
     # using permalink() as a function doesn't work on submissions

@@ -90,8 +90,6 @@ class CallResponse():
         self.srNoTry    = [] # list of subreddit (IDs) to not operate in
 
         if any(self.srmodnames):
-            print(self.srmodnames)
-            print('+'.join(self.srmodnames))
             self.modded = self.r.subreddit('+'.join(self.srmodnames))
         else:
             self.modded = None
@@ -126,7 +124,7 @@ class CallResponse():
         return items
     
     # will compile the response for the bot to send given a list of call items
-    def get_response(self, parent_thing, reply_thing, items):
+    def get_response(self, parent_thing, items):
         response_body = ''
 
         for item in items[:-1]:
@@ -139,9 +137,6 @@ class CallResponse():
             'subreddit':    parent_thing.subreddit.display_name,
             'permalink':    self.helpers.getPermalink(parent_thing),
             'botname':      Config.USERNAME,
-            'reply_id':     reply_thing.id,
-            'reply_utc':    reply_thing.created_utc,
-            'reply_link':   self.helpers.getPermalink(reply_thing),
             'body':         response_body,
         })
     
@@ -163,15 +158,16 @@ class CallResponse():
         else:
             # if the comment has been seen, only do not break if
             # the comment's edit time after the last process time
-
+            
             if not hasattr(thing, 'edited'):
                 return True
-            elif thing.edited == False:
-                return True
-            elif thing.edited > last_process:
-                return False
             else:
-                return True
+                if thing.edited == False:
+                    return True
+                elif thing.edited > last_process:
+                    return False
+                else:
+                    return True
     
     # process the thing (comment, submission, or message)
     #  - responds if necessary
@@ -181,31 +177,32 @@ class CallResponse():
     # Returns:
     #   true - if should continue
     #   false - if should break
-    def process(self, thing, ignore_done = False):
+    def process(self, thing, ignore_break=False):
         if hasattr(thing, 'subreddit') and not thing.subreddit is None and thing.subreddit.id in self.srNoTry:
             return True
 
-        type        = self.helpers.typeof(thing)        # thing type (int)
-        noun        = self.helpers.nounForType(type)    # thing type noun
+        ttype       = self.helpers.typeof(thing)        # thing type (int)
+        noun        = self.helpers.nounForType(ttype)   # thing type noun
         is_valid    = True                              # if the thing is valid for processing
         subject     = None                              # thing subject (if applicable)
         body        = None                              # thing body
         items       = []                                # call items
 
         if self.should_break(thing):
-            return False
+            if not ignore_break:
+                return False
 
-        if type == Helpers.COMMENT:
+        if ttype == Helpers.COMMENT:
             body      = thing.body
             is_valid  = self.helpers.isValidComment(thing)
-        elif type == Helpers.SUBMISSION:
+        elif ttype == Helpers.SUBMISSION:
             body      = thing.selftext
             is_valid  = self.helpers.isValidSubmission(thing)
-        elif type == Helpers.MESSAGE:
+        elif ttype == Helpers.MESSAGE:
             body      = thing.body
             subject   = thing.subject
             is_valid  = self.helpers.isValidMessage(thing) # returns False
-            if thing.author.name in Config.OPERATORS:
+            if thing.author is not None and thing.author.name in Config.OPERATORS:
                 response = self.mgmt.processOperatorCommand(thing.author.name, subject, body)
                 if type(response) == str:
                     thing.reply(response)
@@ -215,55 +212,47 @@ class CallResponse():
         
         items           = self.get_calls(body)
         reply_thing     = None                      # the comment created by the bot's reply
-        did_edit        = False                     # if the bot edited an existing comment
 
         if any(items):
             self.logger.debug("Got " + str(len(items)) + " calls from " + thing.fullname)
             try:
+                # compile reply
+                response_body = self.get_response(thing, items)
+
                 # check if already there already exists a reply for this thing
                 if thing.id in self.done:
-                    reply_thing  = self.r.comment(id=self.done[thing.id]["reply_id"])
-                    did_edit     = True
+                    reply_thing = self.r.comment(id=self.done[thing.id]["reply_id"])
+                    reply_thing.edit(response_body)
+                    self.logger.info("> Edited reply to " + noun + " by %s, id - %s"%(str(thing.author), thing.fullname))
                 else:
-                    # reply without body first so that we can pass the thing id and permalink
-                    # on to the response generator function
-                    try:
-                        reply_thing = thing.reply("&nbsp;")
-                    except prawcore.exceptions.Forbidden:
-                        # we're banned from this subreddit, add to self.srNoTry
-                        # so we won't try again for this subbie
-                        self.srNoTry.append(thing.subreddit.id)
-                        reply_thing = None
-                if reply_thing:
-                    try:
-                        # compile reply
-                        response_body = self.get_response(thing, reply_thing, items)
-                        reply_thing.edit(response_body)
-                        self.logger.info("> Replied to " + noun + " by %s, id - %s"%(str(thing.author), thing.fullname))
-                        
-                        # optionals
-                        if not did_edit and self.mgmt.bot_isModerator(thing.subreddit):
-                            if type == Helpers.SUBMISSION and Config.REPLY_SHOULD_STICKY:
-                                reply_thing.mod.distinguish(sticky=True)
-                            elif type == Helpers.COMMENT and Config.REPLY_SHOULD_DISTINGUISH:
-                                reply_thing.mod.distinguish()
+                    reply_thing = thing.reply(response_body)
+                    self.logger.info("> Replied to " + noun + " by %s, id - %s"%(str(thing.author), thing.fullname))
 
-                        # add to done queue
-                        self.done[thing.id] = {
-                            "reply_id":  reply_thing.id,
-                            "last_process": time.time()
-                        }
-                    except Exception as e:
-                        # delete if something went wrong with generating the reply
-                        reply_thing.delete()
-                        reply_thing = None
-                        self.logger.warning("> [1] Was unable to reply to: " + thing.fullname)
-                        print(traceback.format_exception(None, e, e.__traceback__),
-                                file=sys.stderr, flush=True)
-                else:
-                    self.logger.warning("> [2] Was unable to reply to: " + thing.fullname)
+                    # optionals
+                    if self.mgmt.bot_isModerator(thing.subreddit):
+                        if ttype == Helpers.SUBMISSION and Config.REPLY_SHOULD_STICKY:
+                            reply_thing.mod.distinguish(sticky=True)
+                        elif ttype == Helpers.COMMENT and Config.REPLY_SHOULD_DISTINGUISH:
+                            reply_thing.mod.distinguish()
+
+                # add to done queue
+                self.done[thing.id] = {
+                    "reply_id":  reply_thing.id,
+                    "last_process": time.time()
+                }
             except praw.exceptions.APIException:
                 self.logger.warning("> " + noun + " was deleted, id - %s"%str(thing.fullname))
+            except prawcore.exceptions.Forbidden:
+                # we're banned from this subreddit, add to self.srNoTry
+                # so we won't try again for this subbie
+                self.srNoTry.append(thing.subreddit.id)
+            except Exception as e:
+                # delete if something went wrong with generating the reply
+                reply_thing.delete()
+                reply_thing = None
+                self.logger.warning("> [1] Was unable to reply to: " + thing.fullname)
+                print(traceback.format_exception(None, e, e.__traceback__),
+                        file=sys.stderr, flush=True)
 
         return True
 
@@ -289,15 +278,6 @@ class CallResponse():
                 if not self.process(submission):
                     break
 
-        # check user name mentions (for edited comments)
-        if Config.RESPONDER_CHECK_MENTIONS:
-            self.logger.debug('-----[ Checking mentions ]-----')
-            for comment in self.r.inbox.mentions(limit=None):
-                if comment is None:
-                    break
-                if not self.process(comment):
-                    break
-
         # check edited comments for modded subs
         if Config.RESPONDER_CHECK_EDITED and not self.modded is None:
             self.logger.debug('-----[ Checking edited comments ]-----')
@@ -308,12 +288,20 @@ class CallResponse():
                     break
                     
         # check messages (for operator sent commands)
-        for message in self.r.inbox.unread(limit=10):
-            self.logger.debug('-----[ Checking unread inbox ]-----')
+        self.logger.debug('-----[ Checking unread inbox ]-----')
+        for message in self.r.inbox.unread(limit=None):
             if message is None:
                 break
-            if not self.process(message):
-                break
+
+            message.mark_read()
+
+            if message.subject == 'username mention':
+                print("got mention: " + message.fullname)
+                if not Config.RESPONDER_CHECK_MENTIONS:
+                    continue
+                print(" - will proceed to processing")
+
+            self.process(message, ignore_break = True)
 
 def main(redditbot):
     try:
