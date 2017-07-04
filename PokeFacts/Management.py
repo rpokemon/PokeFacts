@@ -6,8 +6,6 @@ import praw
 import psutil
 import signal
 
-from PokeFacts import Config
-
 class Management():
 
     def __init__(self, main):

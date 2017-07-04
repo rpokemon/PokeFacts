@@ -5,7 +5,7 @@
 # helper functions and things
 
 import unicodedata
-import praw, prawcore
+import prawcore
 import re
 
 from PokeFacts import Config
