@@ -1276,8 +1276,8 @@
             "Small and very docile, it protects itself with its small, poisonous horn when attacked."
         ],
         "name": {
-            "english": "Nidoran&#9792;",
-            "japanese": "Nidoran&#9792;",
+            "english": "Nidoran\u2640",
+            "japanese": "Nidoran\u2640",
             "kana": "\u30cb\u30c9\u30e9\u30f3\u2640"
         },
         "evolutions": [
@@ -1299,7 +1299,7 @@
             "Rivalry",
             "Hustle"
         ],
-        "basename": "nidoran"
+        "basename": "nidoran-f"
     },
     "nidorina": {
         "dex_no": 30,
@@ -1374,8 +1374,8 @@
             "Its large ears are flapped like wings when it is listening to distant sounds. It extends toxic barbs when angered."
         ],
         "name": {
-            "english": "Nidoran&#9794;",
-            "japanese": "Nidoran&#9794;",
+            "english": "Nidoran\u2642",
+            "japanese": "Nidoran\u2642",
             "kana": "\u30cb\u30c9\u30e9\u30f3\u2642"
         },
         "evolutions": [
@@ -1397,7 +1397,7 @@
             "Rivalry",
             "Hustle"
         ],
-        "basename": "nidoran"
+        "basename": "nidoran-m"
     },
     "nidorino": {
         "dex_no": 33,
