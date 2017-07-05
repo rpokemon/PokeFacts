@@ -67,7 +67,7 @@ IDENTIFIER_SANITIZE = r"[^A-Za-z0-9 ]"
 # DATAPULLS CONFIG
 # ----------------
 
-DATA_FILES = ['/data/pokemon.json', '/data/abilities.json'] # list of json files for responder to search with
+DATA_FILES = ['/data/pokemon.json', '/data/items.json', '/data/moves.json', '/data/abilities.json'] # list of json files for responder to search with
 DATA_SYNONYM_FILES = ['/data/synonyms.json']
 DATA_CONF = {
     # defines which item property to use for the 'type' field
