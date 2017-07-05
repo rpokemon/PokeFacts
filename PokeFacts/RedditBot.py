@@ -94,7 +94,7 @@ class CallResponse():
         else:
             self.modded = None
         
-        template_file = codecs.open(self.scriptpath + '/data/response.txt', "r", "utf-8")
+        template_file = codecs.open(self.scriptpath + '/' + Config.REPLY_TEMPLATE_FILE.lstrip('/'), "r", "utf-8")
         self.response_template = template_file.read()
         template_file.close()
 
@@ -108,8 +108,9 @@ class CallResponse():
 
         it = re.finditer(self.match_p, body)
         for match in it:
-            match       = match.group(0)
-            identifier  = self.helpers.validateIdentifier(match)
+            match = match.group(0)
+
+            identifier, prefix = self.helpers.validateIdentifier(match)
             
             if identifier in seen:
                 continue
@@ -117,10 +118,11 @@ class CallResponse():
                 seen.append(identifier)
 
             if not identifier == False:
-                info = self.data.getInfo(identifier)
+                info = self.data.getInfo(identifier, prefix)
                 if not info is None:
                     self.logger.debug("Got info for: %s"%match)
                     items.append(info)
+        
         return items
     
     # will compile the response for the bot to send given a list of call items

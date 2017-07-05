@@ -130,7 +130,7 @@ def respondItem(call_item)
 
 # getResponse - this function should return the response body
 # for the given call item (as returned by DataPulls.getInfo)
-def getResponse(call_item, is_last = False):  
+def getResponse(item, is_last = False):  
     response_types = {
         "pokemon":  respondPokemon,
         "ability":  respondAbility,
@@ -138,7 +138,7 @@ def getResponse(call_item, is_last = False):
         #"item":     respondItem,
     }
     try:
-        response = response_types[call_item["type"]](call_item)
+        response = response_types[item.type](item.get())
     except KeyError:
         response = ""
 

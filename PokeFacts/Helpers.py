@@ -56,7 +56,7 @@ class Helpers():
 
     def validateIdentifier(self, query):
         if len(query) <= 1:
-            return False
+            return False, None
         
         if Config.IDENTIFIER_NO_ACCENTS:
             query = self.removeAccents(query)
@@ -93,7 +93,7 @@ class Helpers():
 
             # if still no results, return false
             if idx == -1:
-                return False
+                return False, None
 
             identifier = query[offset:]
         else:
@@ -101,7 +101,7 @@ class Helpers():
             suffix_len = len(suffix)
 
             if not query[-suffix_len:] == suffix:
-                return False
+                return False, None
 
             identifier = query[offset:-suffix_len]
         
@@ -109,8 +109,9 @@ class Helpers():
             identifier = re.sub(Config.IDENTIFIER_SANITIZE, '', identifier) # remove symbols
 
         identifier = re.sub(r'\s+', ' ', identifier).strip() # remove extraneous whitespace
+        prefix = Config.MATCH_PAIR_PREFIXES[idx]
 
-        return identifier
+        return identifier, prefix
 
     # removes accents
     # e.g. "Flabébé" -> "Flabebe"

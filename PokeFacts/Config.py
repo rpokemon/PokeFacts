@@ -64,14 +64,36 @@ IDENTIFIER_TO_LOWER = True
 IDENTIFIER_NO_ACCENTS = True
 IDENTIFIER_SANITIZE = r"[^A-Za-z0-9 ]"
 
-# DATA CONFIG
-# ---------------
+# DATAPULLS CONFIG
+# ----------------
 
-DATA_FILES      = ['/data/pokemon.json', '/data/abilities.json'] # list of json files for responder to search with
+DATA_FILES = ['/data/pokemon.json', '/data/abilities.json'] # list of json files for responder to search with
+
+DATA_CONF = {
+    # defines which item property to use for the 'type' field
+    # if this property is not set, then all items will have
+    # no type (i.e. `None`)
+    "type_property": "type",
+
+    # defines which item property to use for the item terms
+    "term_property": "terms",
+
+    # search a specific type for a given prefix (works for both pair and standalone)
+    #  - use `None` to search items that do not have a type
+    #  - use a list for searching multiple types
+    #  - set to `True` to search over all types including items without types
+    # If this property is not set, then all prefixes will search over all types
+    "type_for_prefix": {
+        "{": True,
+        "<": True,
+        "!": True,
+    }
+}
 
 # RESPONSE CONFIG
 # ---------------
 
+REPLY_TEMPLATE_FILE = "/data/response.txt"
 REPLY_SHOULD_STICKY = False # should sticky comment if reply is top level?
 REPLY_SHOULD_DISTINGUISH = False # should distinguish comment?
 
