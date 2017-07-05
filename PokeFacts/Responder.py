@@ -58,11 +58,11 @@ def respondAbility(call_item)
 
     name = call_item["name"]
     basename = call_item.lower().replace(' ', '')
-    generation = call_item["description"]
-    description = call_item["introduced"]
+    generation = call_item["introduced"]
+    description = call_item["description"]
 
     response += '**' + name + '** '
-    response += '(Introduced: generation ' + generation + ')'
+    response += '(Introduced: gen ' + generation + ')'
     response += "\n\n"
 
     response += xstr(description)
@@ -80,7 +80,29 @@ def respondAbility(call_item)
 def respondMove(call_item)
     response = ''
 
-    # TODO: Move Response formatting
+    name = call_item["name"]
+    basename = call_item.lower().replace(' ', '')
+    move_type = call_item["typing"]
+    pp = call_item["pp"]
+    category = call_item["category"]
+    power = "varies" if category == "varies" else (call_item["power"] or "-")
+    accuracy = call_item["accuracy"] or "-"
+    description = call_item["description"]
+
+    response += '**' + name + '** '
+    response += '(Category: ' + category + ')'
+    response += "\n\n"
+
+    response += move_type + ' | PP: ' + pp + '| Power: ' + power + " | Accuracy: " + accuracy
+    response += "\n\n"
+
+    response += description
+    response += "\n\n"
+
+    response += '[Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/'+name+') |'
+    response += '[Serebii](https://www.serebii.net/attackdex-sm/'+basename+'.shtml) |'
+    response += '[Smogon](http://www.smogon.com/dex/sm/abilities/'+name+'/)'
+    response += "\n\n"
 
     return response
 
@@ -89,7 +111,20 @@ def respondMove(call_item)
 def respondItem(call_item)
     response = ''
 
-    # TODO: Move Response formatting
+    name = call_item["name"]
+    basename = call_item.lower().replace(' ', '')
+    description = call_item["description"]
+
+    response += '**' + name + '** '
+    response += "\n\n"
+
+    response += description
+    response += "\n\n"
+
+    response += '[Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/'+name+') |'
+    response += '[Serebii](https://www.serebii.net/attackdex-sm/'+basename+'.shtml) |'
+    response += '[Smogon](http://www.smogon.com/dex/sm/items/'+name+'/)'
+    response += "\n\n"
 
     return response
 
