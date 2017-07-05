@@ -1,1400 +1,1633 @@
-{
-    "adaptability": {
+[
+    {
         "name": "Adaptability",
         "description": " Powers up moves of the same type as the Pok\u00c3\u00a9mon.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "adaptability"
     },
-    "aerilate": {
+    {
         "name": "Aerilate",
         "description": " Normal-type moves become Flying-type moves. The power of those moves is boosted a little.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "aerilate"
     },
-    "aftermath": {
+    {
         "name": "Aftermath",
         "description": " Damages the attacker if it contacts the Pok\u00c3\u00a9mon with a finishing hit.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "aftermath"
     },
-    "air lock": {
+    {
         "name": "Air Lock",
         "description": " Eliminates the effects of weather.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "air lock"
     },
-    "analytic": {
+    {
         "name": "Analytic",
         "description": " Boosts move power when the Pok\u00c3\u00a9mon moves last.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "analytic"
     },
-    "anger point": {
+    {
         "name": "Anger Point",
         "description": " The Pok\u00c3\u00a9mon is angered when it takes a critical hit, and that maxes its Attack stat.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "anger point"
     },
-    "anticipation": {
+    {
         "name": "Anticipation",
         "description": " The Pok\u00c3\u00a9mon can sense an opposing Pok\u00c3\u00a9mon's dangerous moves.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "anticipation"
     },
-    "arena trap": {
+    {
         "name": "Arena Trap",
         "description": " Prevents opposing Pok\u00c3\u00a9mon from fleeing.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "arena trap"
     },
-    "aroma veil": {
+    {
         "name": "Aroma Veil",
         "description": " Protects itself and its allies from attacks that limit their move choices.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "aroma veil"
     },
-    "aura break": {
+    {
         "name": "Aura Break",
         "description": " The effects of \"Aura\" Abilities are reversed to lower the power of affected moves.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "aura break"
     },
-    "bad dreams": {
+    {
         "name": "Bad Dreams",
         "description": " Reduces the HP of sleeping opposing Pok\u00c3\u00a9mon.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "bad dreams"
     },
-    "battery": {
+    {
         "name": "Battery",
         "description": " Powers up ally Pok\u00c3\u00a9mon's special moves.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "battery"
     },
-    "battle armor": {
+    {
         "name": "Battle Armor",
         "description": " Hard armor protects the Pok\u00c3\u00a9mon from critical hits.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "battle armor"
     },
-    "battle bond": {
+    {
         "name": "Battle Bond",
         "description": " Defeating an opposing Pok\u00c3\u00a9mon strengthens the Pok\u00c3\u00a9mon's bond with its Trainer, and it becomes Ash-Greninja. Water Shuriken gets more powerful.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "battle bond"
     },
-    "beast boost": {
+    {
         "name": "Beast Boost",
         "description": " The Pok\u00c3\u00a9mon boosts its most proficient stat each time it knocks out a Pok\u00c3\u00a9mon.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "beast boost"
     },
-    "berserk": {
+    {
         "name": "Berserk",
         "description": " Boosts the Pok\u00c3\u00a9mon's Sp. Atk stat when it takes a  hit that causes its HP to become half or less.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "berserk"
     },
-    "big pecks": {
+    {
         "name": "Big Pecks",
         "description": " Protects the Pok\u00c3\u00a9mon from Defense-lowering effects.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "big pecks"
     },
-    "blaze": {
+    {
         "name": "Blaze",
         "description": " Powers up Fire-type moves when the Pok\u00c3\u00a9mon's HP is low.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "blaze"
     },
-    "bulletproof": {
+    {
         "name": "Bulletproof",
         "description": " Protects the Pok\u00c3\u00a9mon from some ball and bomb moves.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "bulletproof"
     },
-    "cacophony": {
+    {
         "name": "Cacophony",
         "description": " Avoids sound-based moves.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "cacophony"
     },
-    "cheek pouch": {
+    {
         "name": "Cheek Pouch",
         "description": " Restores HP as well when the Pok\u00c3\u00a9mon eats a Berry.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "cheek pouch"
     },
-    "chlorophyll": {
+    {
         "name": "Chlorophyll",
         "description": " Boosts the Pok\u00c3\u00a9mon's Speed stat in sunshine.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "chlorophyll"
     },
-    "clear body": {
+    {
         "name": "Clear Body",
         "description": " Prevents other Pok\u00c3\u00a9mon's moves or Abilities from lowering the Pok\u00c3\u00a9mon's stats.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "clear body"
     },
-    "cloud nine": {
+    {
         "name": "Cloud Nine",
         "description": " Eliminates the effects of weather.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "cloud nine"
     },
-    "color change": {
+    {
         "name": "Color Change",
         "description": " The Pok\u00c3\u00a9mon's type becomes the type of the move used on it.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "color change"
     },
-    "comatose": {
+    {
         "name": "Comatose",
         "description": " It's always drowsing and will never wake up. It can attack without waking up.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "comatose"
     },
-    "competitive": {
+    {
         "name": "Competitive",
         "description": " Boosts the Sp. Atk stat sharply when a stat is lowered.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "competitive"
     },
-    "compound eyes": {
+    {
         "name": "Compound Eyes",
         "description": " The Pok\u00c3\u00a9mon's compound eyes boost its accuracy.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "compound eyes"
     },
-    "contrary": {
+    {
         "name": "Contrary",
         "description": " Makes stat changes have an opposite effect.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "contrary"
     },
-    "corrosion": {
+    {
         "name": "Corrosion",
         "description": " The Pok\u00c3\u00a9mon can poison the target even if it's a Steel or Poison type.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "corrosion"
     },
-    "cursed body": {
+    {
         "name": "Cursed Body",
         "description": " May disable a move used on the Pok\u00c3\u00a9mon.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "cursed body"
     },
-    "cute charm": {
+    {
         "name": "Cute Charm",
         "description": " Contact with the Pok\u00c3\u00a9mon may cause infatuation.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "cute charm"
     },
-    "damp": {
+    {
         "name": "Damp",
         "description": " Prevents the use of explosive moves such as Self-Destruct by dampening its surroundings.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "damp"
     },
-    "dancer": {
+    {
         "name": "Dancer",
         "description": " When another Pok\u00c3\u00a9mon uses a dance move, it can use a dance move following it regardless of its Speed.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "dancer"
     },
-    "dark aura": {
+    {
         "name": "Dark Aura",
         "description": " Powers up each Pok\u00c3\u00a9mon's Dark-type moves.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "dark aura"
     },
-    "dazzling": {
+    {
         "name": "Dazzling",
         "description": " Surprises the opposing Pok\u00c3\u00a9mon, making it unable to attack using priority moves.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "dazzling"
     },
-    "defeatist": {
+    {
         "name": "Defeatist",
         "description": " Halves the Pok\u00c3\u00a9mon's Attack and Sp. Atk stats when its HP becomes half or less.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "defeatist"
     },
-    "defiant": {
+    {
         "name": "Defiant",
         "description": " Boosts the Pok\u00c3\u00a9mon's Attack stat sharply when its stats are lowered.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "defiant"
     },
-    "delta stream": {
+    {
         "name": "Delta Stream",
         "description": " The Pok\u00c3\u00a9mon changes the weather to eliminate all of the Flying type's weaknesses.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "delta stream"
     },
-    "desolate land": {
+    {
         "name": "Desolate Land",
         "description": " The Pok\u00c3\u00a9mon changes the weather to nullify Water-type attacks.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "desolate land"
     },
-    "disguise": {
+    {
         "name": "Disguise",
         "description": " Once per battle, the shroud that covers the Pok\u00c3\u00a9mon can protect it from an attack.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "disguise"
     },
-    "download": {
+    {
         "name": "Download",
         "description": " Compares an opposing Pok\u00c3\u00a9mon's Defense and Sp. Def stats before raising its own Attack or Sp. Atk stat\u00e2\u20ac\u201dwhichever will be more effective.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "download"
     },
-    "drizzle": {
+    {
         "name": "Drizzle",
         "description": " The Pok\u00c3\u00a9mon makes it rain when it enters a battle.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "drizzle"
     },
-    "drought": {
+    {
         "name": "Drought",
         "description": " Turns the sunlight harsh when the Pok\u00c3\u00a9mon enters a battle.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "drought"
     },
-    "dry skin": {
+    {
         "name": "Dry Skin",
         "description": " Restores HP in rain or when hit by Water-type moves. Reduces HP in sunshine, and increases the damage received from Fire-type moves.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "dry skin"
     },
-    "early bird": {
+    {
         "name": "Early Bird",
         "description": " The Pok\u00c3\u00a9mon awakens twice as fast as other Pok\u00c3\u00a9mon from sleep.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "early bird"
     },
-    "effect spore": {
+    {
         "name": "Effect Spore",
         "description": " Contact with the Pok\u00c3\u00a9mon may inflict poison, sleep, or paralysis on its attacker.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "effect spore"
     },
-    "electric surge": {
+    {
         "name": "Electric Surge",
         "description": " Turns the ground into Electric Terrain when the Pok\u00c3\u00a9mon enters a battle.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "electric surge"
     },
-    "emergency exit": {
+    {
         "name": "Emergency Exit",
         "description": " The Pok\u00c3\u00a9mon, sensing danger, switches out when its HP becomes half or less.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "emergency exit"
     },
-    "fairy aura": {
+    {
         "name": "Fairy Aura",
         "description": " Powers up each Pok\u00c3\u00a9mon's Fairy-type moves.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "fairy aura"
     },
-    "filter": {
+    {
         "name": "Filter",
         "description": " Reduces the power of supereffective attacks taken.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "filter"
     },
-    "flame body": {
+    {
         "name": "Flame Body",
         "description": " Contact with the Pok\u00c3\u00a9mon may burn the attacker.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "flame body"
     },
-    "flare boost": {
+    {
         "name": "Flare Boost",
         "description": " Powers up special attacks when the Pok\u00c3\u00a9mon is burned.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "flare boost"
     },
-    "flash fire": {
+    {
         "name": "Flash Fire",
         "description": " Powers up the Pok\u00c3\u00a9mon's Fire-type moves if it's hit by one.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "flash fire"
     },
-    "flower gift": {
+    {
         "name": "Flower Gift",
         "description": " Boosts the Attack and Sp. Def stats of itself and allies when it is sunny.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "flower gift"
     },
-    "flower veil": {
+    {
         "name": "Flower Veil",
         "description": " Ally Grass-type Pok\u00c3\u00a9mon are protected from status conditions and the lowering of their stats.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "flower veil"
     },
-    "fluffy": {
+    {
         "name": "Fluffy",
         "description": " Halves the damage taken from moves that make direct contact, but doubles that of Fire-type moves.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "fluffy"
     },
-    "forecast": {
+    {
         "name": "Forecast",
         "description": " The Pok\u00c3\u00a9mon transforms with the weather to change its type to Water, Fire, or Ice.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "forecast"
     },
-    "forewarn": {
+    {
         "name": "Forewarn",
         "description": " When it enters a battle, the Pok\u00c3\u00a9mon can tell one of the moves an opposing Pok\u00c3\u00a9mon has.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "forewarn"
     },
-    "friend guard": {
+    {
         "name": "Friend Guard",
         "description": " Reduces damage done to allies.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "friend guard"
     },
-    "frisk": {
+    {
         "name": "Frisk",
         "description": " When it enters a battle, the Pok\u00c3\u00a9mon can check an opposing Pok\u00c3\u00a9mon's held item.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "frisk"
     },
-    "full metal body": {
+    {
         "name": "Full Metal Body",
         "description": " Prevents other Pok\u00c3\u00a9mon's moves or Abilities from lowering the Pok\u00c3\u00a9mon's stats.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "full metal body"
     },
-    "fur coat": {
+    {
         "name": "Fur Coat",
         "description": " Halves the damage from physical moves.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "fur coat"
     },
-    "gale wings": {
+    {
         "name": "Gale Wings",
         "description": " Gives priority to Flying-type moves when the  Pok\u00c3\u00a9mon's HP is full.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "gale wings"
     },
-    "galvanize": {
+    {
         "name": "Galvanize",
         "description": " Normal-type moves become Electric-type moves. The power of those moves is boosted a little.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "galvanize"
     },
-    "gluttony": {
+    {
         "name": "Gluttony",
         "description": " Makes the Pok\u00c3\u00a9mon eat a held Berry when its HP drops to half or less, which is sooner than usual.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "gluttony"
     },
-    "gooey": {
+    {
         "name": "Gooey",
         "description": " Contact with the Pok\u00c3\u00a9mon lowers the attacker's Speed stat.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "gooey"
     },
-    "grass pelt": {
+    {
         "name": "Grass Pelt",
         "description": " Boosts the Pok\u00c3\u00a9mon's Defense stat in  Grassy Terrain.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "grass pelt"
     },
-    "grassy surge": {
+    {
         "name": "Grassy Surge",
         "description": " Turns the ground into Grassy Terrain when the Pok\u00c3\u00a9mon enters a battle.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "grassy surge"
     },
-    "guts": {
+    {
         "name": "Guts",
         "description": " It's so gutsy that having a status condition boosts the Pok\u00c3\u00a9mon's Attack stat.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "guts"
     },
-    "harvest": {
+    {
         "name": "Harvest",
         "description": " May create another Berry after one is used.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "harvest"
     },
-    "healer": {
+    {
         "name": "Healer",
         "description": " Sometimes heals an ally's status condition.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "healer"
     },
-    "heatproof": {
+    {
         "name": "Heatproof",
         "description": " The heatproof body of the Pok\u00c3\u00a9mon halves the damage from Fire-type moves that hit it.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "heatproof"
     },
-    "heavy metal": {
+    {
         "name": "Heavy Metal",
         "description": " Doubles the Pok\u00c3\u00a9mon's weight.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "heavy metal"
     },
-    "honey gather": {
+    {
         "name": "Honey Gather",
         "description": " The Pok\u00c3\u00a9mon may gather Honey after a battle.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "honey gather"
     },
-    "huge power": {
+    {
         "name": "Huge Power",
         "description": " Doubles the Pok\u00c3\u00a9mon's Attack stat.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "huge power"
     },
-    "hustle": {
+    {
         "name": "Hustle",
         "description": " Boosts the Attack stat, but lowers accuracy.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "hustle"
     },
-    "hydration": {
+    {
         "name": "Hydration",
         "description": " Heals status conditions if it's raining.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "hydration"
     },
-    "hyper cutter": {
+    {
         "name": "Hyper Cutter",
         "description": " The Pok\u00c3\u00a9mon's proud of its powerful pincers. They prevent other Pok\u00c3\u00a9mon from lowering its Attack stat.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "hyper cutter"
     },
-    "ice body": {
+    {
         "name": "Ice Body",
         "description": " The Pok\u00c3\u00a9mon gradually regains HP in a hailstorm.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "ice body"
     },
-    "illuminate": {
+    {
         "name": "Illuminate",
         "description": " Raises the likelihood of meeting wild Pok\u00c3\u00a9mon by illuminating the surroundings.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "illuminate"
     },
-    "illusion": {
+    {
         "name": "Illusion",
         "description": " Comes out disguised as the Pok\u00c3\u00a9mon in the party's last spot.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "illusion"
     },
-    "immunity": {
+    {
         "name": "Immunity",
         "description": " The immune system of the Pok\u00c3\u00a9mon prevents it from getting poisoned.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "immunity"
     },
-    "imposter": {
+    {
         "name": "Imposter",
         "description": " The Pok\u00c3\u00a9mon transforms itself into the Pok\u00c3\u00a9mon it's facing.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "imposter"
     },
-    "infiltrator": {
+    {
         "name": "Infiltrator",
         "description": " Passes through the opposing Pok\u00c3\u00a9mon's barrier, substitute, and the like and strikes.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "infiltrator"
     },
-    "innards out": {
+    {
         "name": "Innards Out",
         "description": " Damages the attacker landing the finishing hit by the amount equal to its last HP.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "innards out"
     },
-    "inner focus": {
+    {
         "name": "Inner Focus",
         "description": " The Pok\u00c3\u00a9mon's intensely focused, and that protects the Pok\u00c3\u00a9mon from flinching.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "inner focus"
     },
-    "insomnia": {
+    {
         "name": "Insomnia",
         "description": " The Pok\u00c3\u00a9mon is suffering from insomnia and cannot fall asleep.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "insomnia"
     },
-    "intimidate": {
+    {
         "name": "Intimidate",
         "description": " The Pok\u00c3\u00a9mon intimidates opposing Pok\u00c3\u00a9mon upon entering battle, lowering their Attack stat.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "intimidate"
     },
-    "iron barbs": {
+    {
         "name": "Iron Barbs",
         "description": " Inflicts damage to the attacker on contact with iron barbs.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "iron barbs"
     },
-    "iron fist": {
+    {
         "name": "Iron Fist",
         "description": " Powers up punching moves.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "iron fist"
     },
-    "justified": {
+    {
         "name": "Justified",
         "description": " Being hit by a Dark-type move boosts the Attack stat of the Pok\u00c3\u00a9mon, for justice.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "justified"
     },
-    "keen eye": {
+    {
         "name": "Keen Eye",
         "description": " Keen eyes prevent other Pok\u00c3\u00a9mon from lowering this Pok\u00c3\u00a9mon's accuracy.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "keen eye"
     },
-    "klutz": {
+    {
         "name": "Klutz",
         "description": " The Pok\u00c3\u00a9mon can't use any held items.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "klutz"
     },
-    "leaf guard": {
+    {
         "name": "Leaf Guard",
         "description": " Prevents status conditions in sunny weather.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "leaf guard"
     },
-    "levitate": {
+    {
         "name": "Levitate",
         "description": " By floating in the air, the Pok\u00c3\u00a9mon receives full immunity to all Ground-type moves.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "levitate"
     },
-    "light metal": {
+    {
         "name": "Light Metal",
         "description": " Halves the Pok\u00c3\u00a9mon's weight.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "light metal"
     },
-    "lightning rod": {
+    {
         "name": "Lightning Rod",
         "description": " The Pok\u00c3\u00a9mon draws in all Electric-type moves.  Instead of being hit by Electric-type moves,  it boosts its Sp. Atk.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "lightning rod"
     },
-    "limber": {
+    {
         "name": "Limber",
         "description": " Its limber body protects the Pok\u00c3\u00a9mon from paralysis.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "limber"
     },
-    "liquid ooze": {
+    {
         "name": "Liquid Ooze",
         "description": " Oozed liquid has strong stench, which damages attackers using any draining move.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "liquid ooze"
     },
-    "liquid voice": {
+    {
         "name": "Liquid Voice",
         "description": " All sound-based moves become Water-type moves.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "liquid voice"
     },
-    "long reach": {
+    {
         "name": "Long Reach",
         "description": " The Pok\u00c3\u00a9mon uses its moves without making contact with the target.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "long reach"
     },
-    "magic bounce": {
+    {
         "name": "Magic Bounce",
         "description": " Reflects status moves, instead of getting hit by them.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "magic bounce"
     },
-    "magic guard": {
+    {
         "name": "Magic Guard",
         "description": " The Pok\u00c3\u00a9mon only takes damage from attacks.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "magic guard"
     },
-    "magician": {
+    {
         "name": "Magician",
         "description": " The Pok\u00c3\u00a9mon steals the held item of a Pok\u00c3\u00a9mon it hits with a move.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "magician"
     },
-    "magma armor": {
+    {
         "name": "Magma Armor",
         "description": " The Pok\u00c3\u00a9mon is covered with hot magma, which prevents the Pok\u00c3\u00a9mon from becoming frozen.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "magma armor"
     },
-    "magnet pull": {
+    {
         "name": "Magnet Pull",
         "description": " Prevents Steel-type Pok\u00c3\u00a9mon from escaping using its magnetic force.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "magnet pull"
     },
-    "marvel scale": {
+    {
         "name": "Marvel Scale",
         "description": " The Pok\u00c3\u00a9mon's marvelous scales boost the Defense stat if it has a status condition.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "marvel scale"
     },
-    "mega launcher": {
+    {
         "name": "Mega Launcher",
         "description": " Powers up aura and pulse moves.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "mega launcher"
     },
-    "merciless": {
+    {
         "name": "Merciless",
         "description": " The Pok\u00c3\u00a9mon's attacks become critical hits if the target is poisoned.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "merciless"
     },
-    "minus": {
+    {
         "name": "Minus",
         "description": " Boosts the Sp. Atk stat of the Pok\u00c3\u00a9mon if an ally with the Plus or Minus Ability is also in battle.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "minus"
     },
-    "misty surge": {
+    {
         "name": "Misty Surge",
         "description": " Turns the ground into Misty Terrain when the Pok\u00c3\u00a9mon enters a battle.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "misty surge"
     },
-    "mold breaker": {
+    {
         "name": "Mold Breaker",
         "description": " Moves can be used on the target regardless of its Abilities.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "mold breaker"
     },
-    "moody": {
+    {
         "name": "Moody",
         "description": " Raises one stat sharply and lowers another every turn.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "moody"
     },
-    "motor drive": {
+    {
         "name": "Motor Drive",
         "description": " Boosts its Speed stat if hit by an Electric-type move, instead of taking damage.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "motor drive"
     },
-    "moxie": {
+    {
         "name": "Moxie",
         "description": " The Pok\u00c3\u00a9mon shows moxie, and that boosts the Attack stat after knocking out any Pok\u00c3\u00a9mon.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "moxie"
     },
-    "multiscale": {
+    {
         "name": "Multiscale",
         "description": " Reduces the amount of damage the Pok\u00c3\u00a9mon takes when its HP is full.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "multiscale"
     },
-    "multitype": {
+    {
         "name": "Multitype",
         "description": " Changes the Pok\u00c3\u00a9mon's type to match the Plate or Z-Crystal it holds.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "multitype"
     },
-    "mummy": {
+    {
         "name": "Mummy",
         "description": " Contact with the Pok\u00c3\u00a9mon changes the attacker's Ability to Mummy.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "mummy"
     },
-    "natural cure": {
+    {
         "name": "Natural Cure",
         "description": " All status conditions heal when the Pok\u00c3\u00a9mon switches out.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "natural cure"
     },
-    "no guard": {
+    {
         "name": "No Guard",
         "description": " The Pok\u00c3\u00a9mon employs no-guard tactics to ensure incoming and outgoing attacks always land.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "no guard"
     },
-    "normalize": {
+    {
         "name": "Normalize",
         "description": " All the Pok\u00c3\u00a9mon's moves become Normal type. The power of those moves is boosted a little.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "normalize"
     },
-    "oblivious": {
+    {
         "name": "Oblivious",
         "description": " The Pok\u00c3\u00a9mon is oblivious, and that keeps it from being infatuated or falling for taunts.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "oblivious"
     },
-    "overcoat": {
+    {
         "name": "Overcoat",
         "description": " Protects the Pok\u00c3\u00a9mon from things like sand, hail, and powder.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "overcoat"
     },
-    "overgrow": {
+    {
         "name": "Overgrow",
         "description": " Powers up Grass-type moves when the Pok\u00c3\u00a9mon's HP is low.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "overgrow"
     },
-    "own tempo": {
+    {
         "name": "Own Tempo",
         "description": " This Pok\u00c3\u00a9mon has its own tempo, and that prevents it from becoming confused.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "own tempo"
     },
-    "parental bond": {
+    {
         "name": "Parental Bond",
         "description": " Parent and child each attacks.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "parental bond"
     },
-    "pickpocket": {
+    {
         "name": "Pickpocket",
         "description": " Steals an item from an attacker that made direct contact.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "pickpocket"
     },
-    "pickup": {
+    {
         "name": "Pickup",
         "description": " The Pok\u00c3\u00a9mon may pick up the item an opposing Pok\u00c3\u00a9mon used during a battle. It may pick up items outside of battle, too.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "pickup"
     },
-    "pixilate": {
+    {
         "name": "Pixilate",
         "description": " Normal-type moves become Fairy-type moves. The power of those moves is boosted a little.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "pixilate"
     },
-    "plus": {
+    {
         "name": "Plus",
         "description": " Boosts the Sp. Atk stat of the Pok\u00c3\u00a9mon if an ally with the Plus or Minus Ability is also in battle.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "plus"
     },
-    "poison heal": {
+    {
         "name": "Poison Heal",
         "description": " Restores HP if the Pok\u00c3\u00a9mon is poisoned, instead of losing HP.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "poison heal"
     },
-    "poison point": {
+    {
         "name": "Poison Point",
         "description": " Contact with the Pok\u00c3\u00a9mon may poison the attacker.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "poison point"
     },
-    "poison touch": {
+    {
         "name": "Poison Touch",
         "description": " May poison a target when the Pok\u00c3\u00a9mon makes contact.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "poison touch"
     },
-    "power construct": {
+    {
         "name": "Power Construct",
         "description": " Other Cells gather to aid when its HP becomes half or less. Then the Pok\u00c3\u00a9mon changes its form to Complete Forme.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "power construct"
     },
-    "power of alchemy": {
+    {
         "name": "Power of Alchemy",
         "description": " The Pok\u00c3\u00a9mon copies the Ability of a defeated ally.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "power of alchemy"
     },
-    "prankster": {
+    {
         "name": "Prankster",
         "description": " Gives priority to a status move.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "prankster"
     },
-    "pressure": {
+    {
         "name": "Pressure",
         "description": " By putting pressure on the opposing Pok\u00c3\u00a9mon, it raises their PP usage.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "pressure"
     },
-    "primordial sea": {
+    {
         "name": "Primordial Sea",
         "description": " The Pok\u00c3\u00a9mon changes the weather to nullify Fire-type attacks.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "primordial sea"
     },
-    "prism armor": {
+    {
         "name": "Prism Armor",
         "description": " Reduces the power of supereffective attacks taken.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "prism armor"
     },
-    "protean": {
+    {
         "name": "Protean",
         "description": " Changes the Pok\u00c3\u00a9mon's type to the type of the move it's about to use.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "protean"
     },
-    "psychic surge": {
+    {
         "name": "Psychic Surge",
         "description": " Turns the ground into Psychic Terrain when the Pok\u00c3\u00a9mon enters a battle.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "psychic surge"
     },
-    "pure power": {
+    {
         "name": "Pure Power",
         "description": " Using its pure power, the Pok\u00c3\u00a9mon doubles its Attack stat.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "pure power"
     },
-    "queenly majesty": {
+    {
         "name": "Queenly Majesty",
         "description": " Its majesty pressures the opposing Pok\u00c3\u00a9mon, making it unable to attack using priority moves.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "queenly majesty"
     },
-    "quick feet": {
+    {
         "name": "Quick Feet",
         "description": " Boosts the Speed stat if the Pok\u00c3\u00a9mon has a status condition.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "quick feet"
     },
-    "rain dish": {
+    {
         "name": "Rain Dish",
         "description": " The Pok\u00c3\u00a9mon gradually regains HP in rain.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "rain dish"
     },
-    "rattled": {
+    {
         "name": "Rattled",
         "description": " Dark-, Ghost-, and Bug-type moves scare the Pok\u00c3\u00a9mon and boost its Speed stat.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "rattled"
     },
-    "receiver": {
+    {
         "name": "Receiver",
         "description": " The Pok\u00c3\u00a9mon copies the Ability of a defeated ally.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "receiver"
     },
-    "reckless": {
+    {
         "name": "Reckless",
         "description": " Powers up moves that have recoil damage.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "reckless"
     },
-    "refrigerate": {
+    {
         "name": "Refrigerate",
         "description": " Normal-type moves become Ice-type moves. The power of those moves is boosted a little.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "refrigerate"
     },
-    "regenerator": {
+    {
         "name": "Regenerator",
         "description": " Restores a little HP when withdrawn from battle.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "regenerator"
     },
-    "rivalry": {
+    {
         "name": "Rivalry",
         "description": " Becomes competitive and deals more damage to Pok\u00c3\u00a9mon of the same gender, but deals less to Pok\u00c3\u00a9mon of the opposite gender.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "rivalry"
     },
-    "rks system": {
+    {
         "name": "RKS System",
         "description": " Changes the Pok\u00c3\u00a9mon's type to match the memory disc it holds.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "rks system"
     },
-    "rock head": {
+    {
         "name": "Rock Head",
         "description": " Protects the Pok\u00c3\u00a9mon from recoil damage.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "rock head"
     },
-    "rough skin": {
+    {
         "name": "Rough Skin",
         "description": " This Pok\u00c3\u00a9mon inflicts damage with its rough skin to the attacker on contact.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "rough skin"
     },
-    "run away": {
+    {
         "name": "Run Away",
         "description": " Enables a sure getaway from wild Pok\u00c3\u00a9mon.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "run away"
     },
-    "sand force": {
+    {
         "name": "Sand Force",
         "description": " Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "sand force"
     },
-    "sand rush": {
+    {
         "name": "Sand Rush",
         "description": " Boosts the Pok\u00c3\u00a9mon's Speed stat in a sandstorm.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "sand rush"
     },
-    "sand stream": {
+    {
         "name": "Sand Stream",
         "description": " The Pok\u00c3\u00a9mon summons a sandstorm when it enters a battle.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "sand stream"
     },
-    "sand veil": {
+    {
         "name": "Sand Veil",
         "description": " Boosts the Pok\u00c3\u00a9mon's evasion in a sandstorm.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "sand veil"
     },
-    "sap sipper": {
+    {
         "name": "Sap Sipper",
         "description": " Boosts the Attack stat if hit by a Grass-type move, instead of taking damage.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "sap sipper"
     },
-    "schooling": {
+    {
         "name": "Schooling",
         "description": " When it has a lot of HP, the Pok\u00c3\u00a9mon forms a powerful school. It stops schooling when its HP is low.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "schooling"
     },
-    "scrappy": {
+    {
         "name": "Scrappy",
         "description": " The Pok\u00c3\u00a9mon can hit Ghost-type Pok\u00c3\u00a9mon with Normal- and Fighting-type moves.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "scrappy"
     },
-    "serene grace": {
+    {
         "name": "Serene Grace",
         "description": " Boosts the likelihood of additional effects occurring  when attacking.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "serene grace"
     },
-    "shadow shield": {
+    {
         "name": "Shadow Shield",
         "description": " Reduces the amount of damage the Pok\u00c3\u00a9mon takes while its HP is full.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "shadow shield"
     },
-    "shadow tag": {
+    {
         "name": "Shadow Tag",
         "description": " This Pok\u00c3\u00a9mon steps on the opposing Pok\u00c3\u00a9mon's shadow to prevent it from escaping.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "shadow tag"
     },
-    "shed skin": {
+    {
         "name": "Shed Skin",
         "description": " The Pok\u00c3\u00a9mon may heal its own status conditions by shedding its skin.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "shed skin"
     },
-    "sheer force": {
+    {
         "name": "Sheer Force",
         "description": " Removes additional effects to increase the power of moves when attacking.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "sheer force"
     },
-    "shell armor": {
+    {
         "name": "Shell Armor",
         "description": " A hard shell protects the Pok\u00c3\u00a9mon from critical hits.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "shell armor"
     },
-    "shield dust": {
+    {
         "name": "Shield Dust",
         "description": " This Pok\u00c3\u00a9mon's dust blocks the additional effects of attacks taken.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "shield dust"
     },
-    "shields down": {
+    {
         "name": "Shields Down",
         "description": " When its HP becomes half or less, the Pok\u00c3\u00a9mon's shell breaks and it becomes aggressive.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "shields down"
     },
-    "simple": {
+    {
         "name": "Simple",
         "description": " The stat changes the Pok\u00c3\u00a9mon receives are doubled.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "simple"
     },
-    "skill link": {
+    {
         "name": "Skill Link",
         "description": " Maximizes the number of times multi-strike moves hit.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "skill link"
     },
-    "slow start": {
+    {
         "name": "Slow Start",
         "description": " For five turns, the Pok\u00c3\u00a9mon's Attack and Speed stats are halved.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "slow start"
     },
-    "slush rush": {
+    {
         "name": "Slush Rush",
         "description": " Boosts the Pok\u00c3\u00a9mon's Speed stat in a hailstorm.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "slush rush"
     },
-    "sniper": {
+    {
         "name": "Sniper",
         "description": " Powers up moves if they become critical hits when attacking.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "sniper"
     },
-    "snow cloak": {
+    {
         "name": "Snow Cloak",
         "description": " Boosts evasion in a hailstorm.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "snow cloak"
     },
-    "snow warning": {
+    {
         "name": "Snow Warning",
         "description": " The Pok\u00c3\u00a9mon summons a hailstorm when it enters a battle.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "snow warning"
     },
-    "solar power": {
+    {
         "name": "Solar Power",
         "description": " Boosts the Sp. Atk stat in sunny weather, but HP decreases every turn.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "solar power"
     },
-    "solid rock": {
+    {
         "name": "Solid Rock",
         "description": " Reduces the power of supereffective attacks taken.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "solid rock"
     },
-    "soul-heart": {
+    {
         "name": "Soul-Heart",
         "description": " Boosts its Sp. Atk stat every time a Pok\u00c3\u00a9mon faints.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "soul-heart"
     },
-    "soundproof": {
+    {
         "name": "Soundproof",
         "description": " Soundproofing of the Pok\u00c3\u00a9mon itself gives full  immunity to all sound-based moves.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "soundproof"
     },
-    "speed boost": {
+    {
         "name": "Speed Boost",
         "description": " Its Speed stat is boosted every turn.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "speed boost"
     },
-    "stakeout": {
+    {
         "name": "Stakeout",
         "description": " Doubles the damage dealt to the target's replacement if the target switches out.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "stakeout"
     },
-    "stall": {
+    {
         "name": "Stall",
         "description": " The Pok\u00c3\u00a9mon moves after all other Pok\u00c3\u00a9mon do.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "stall"
     },
-    "stamina": {
+    {
         "name": "Stamina",
         "description": " Boosts the Defense stat when hit by an attack.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "stamina"
     },
-    "stance change": {
+    {
         "name": "Stance Change",
         "description": " The Pok\u00c3\u00a9mon changes its form to Blade Forme when it uses an attack move, and changes to Shield Forme when it uses King's Shield.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "stance change"
     },
-    "static": {
+    {
         "name": "Static",
         "description": " The Pok\u00c3\u00a9mon is charged with static electricity, so contact with it may cause paralysis.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "static"
     },
-    "steadfast": {
+    {
         "name": "Steadfast",
         "description": " The Pok\u00c3\u00a9mon's determination boosts the Speed stat each time the Pok\u00c3\u00a9mon flinches.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "steadfast"
     },
-    "steelworker": {
+    {
         "name": "Steelworker",
         "description": " Powers up Steel-type moves.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "steelworker"
     },
-    "stench": {
+    {
         "name": "Stench",
         "description": " By releasing stench when attacking, this Pok\u00c3\u00a9mon may cause the target to flinch.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "stench"
     },
-    "sticky hold": {
+    {
         "name": "Sticky Hold",
         "description": " Items held by the Pok\u00c3\u00a9mon are stuck fast and cannot be removed by other Pok\u00c3\u00a9mon.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "sticky hold"
     },
-    "storm drain": {
+    {
         "name": "Storm Drain",
         "description": " Draws in all Water-type moves. Instead of being hit  by Water-type moves, it boosts its Sp. Atk.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "storm drain"
     },
-    "strong jaw": {
+    {
         "name": "Strong Jaw",
         "description": " The Pok\u00c3\u00a9mon's strong jaw boosts the power of its biting moves.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "strong jaw"
     },
-    "sturdy": {
+    {
         "name": "Sturdy",
         "description": " It cannot be knocked out with one hit. One-hit KO moves cannot knock it out, either.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "sturdy"
     },
-    "suction cups": {
+    {
         "name": "Suction Cups",
         "description": " This Pok\u00c3\u00a9mon uses suction cups to stay in one spot to negate all moves and items that force switching out.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "suction cups"
     },
-    "super luck": {
+    {
         "name": "Super Luck",
         "description": " The Pok\u00c3\u00a9mon is so lucky that the critical-hit ratios of its moves are boosted.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "super luck"
     },
-    "surge surfer": {
+    {
         "name": "Surge Surfer",
         "description": " Doubles the Pok\u00c3\u00a9mon's Speed stat on Electric Terrain.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "surge surfer"
     },
-    "swarm": {
+    {
         "name": "Swarm",
         "description": " Powers up Bug-type moves when the Pok\u00c3\u00a9mon's HP is low.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "swarm"
     },
-    "sweet veil": {
+    {
         "name": "Sweet Veil",
         "description": " Prevents itself and ally Pok\u00c3\u00a9mon from falling asleep.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "sweet veil"
     },
-    "swift swim": {
+    {
         "name": "Swift Swim",
         "description": " Boosts the Pok\u00c3\u00a9mon's Speed stat in rain.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "swift swim"
     },
-    "symbiosis": {
+    {
         "name": "Symbiosis",
         "description": " The Pok\u00c3\u00a9mon passes its item to an ally that has used up an item.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "symbiosis"
     },
-    "synchronize": {
+    {
         "name": "Synchronize",
         "description": " The attacker will receive the same status condition if it inflicts a burn, poison, or paralysis to the Pok\u00c3\u00a9mon.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "synchronize"
     },
-    "tangled feet": {
+    {
         "name": "Tangled Feet",
         "description": " Raises evasion if the Pok\u00c3\u00a9mon is confused.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "tangled feet"
     },
-    "tangling hair": {
+    {
         "name": "Tangling Hair",
         "description": " Contact with the Pok\u00c3\u00a9mon lowers the attacker's Speed stat.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "tangling hair"
     },
-    "technician": {
+    {
         "name": "Technician",
         "description": " Powers up the Pok\u00c3\u00a9mon's weaker moves.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "technician"
     },
-    "telepathy": {
+    {
         "name": "Telepathy",
         "description": " Anticipates an ally's attack and dodges it.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "telepathy"
     },
-    "teravolt": {
+    {
         "name": "Teravolt",
         "description": " Moves can be used on the target regardless of its Abilities.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "teravolt"
     },
-    "thick fat": {
+    {
         "name": "Thick Fat",
         "description": " The Pok\u00c3\u00a9mon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "thick fat"
     },
-    "tinted lens": {
+    {
         "name": "Tinted Lens",
         "description": " The Pok\u00c3\u00a9mon can use \"not very effective\" moves to deal regular damage.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "tinted lens"
     },
-    "torrent": {
+    {
         "name": "Torrent",
         "description": " Powers up Water-type moves when the Pok\u00c3\u00a9mon's HP is low.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "torrent"
     },
-    "tough claws": {
+    {
         "name": "Tough Claws",
         "description": " Powers up moves that make direct contact.",
         "introduced": "VI",
-        "type": "ability"
+        "type": "ability",
+        "term": "tough claws"
     },
-    "toxic boost": {
+    {
         "name": "Toxic Boost",
         "description": " Powers up physical attacks when the Pok\u00c3\u00a9mon is poisoned.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "toxic boost"
     },
-    "trace": {
+    {
         "name": "Trace",
         "description": " When it enters a battle, the Pok\u00c3\u00a9mon copies an opposing Pok\u00c3\u00a9mon's Ability.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "trace"
     },
-    "triage": {
+    {
         "name": "Triage",
         "description": " Gives priority to a healing move.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "triage"
     },
-    "truant": {
+    {
         "name": "Truant",
         "description": " The Pok\u00c3\u00a9mon can't use a move the following turn if it uses one.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "truant"
     },
-    "turboblaze": {
+    {
         "name": "Turboblaze",
         "description": " Moves can be used on the target regardless of its Abilities.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "turboblaze"
     },
-    "unaware": {
+    {
         "name": "Unaware",
         "description": " When attacking, the Pok\u00c3\u00a9mon ignores the target Pok\u00c3\u00a9mon's stat changes.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "unaware"
     },
-    "unburden": {
+    {
         "name": "Unburden",
         "description": " Boosts the Speed stat if the Pok\u00c3\u00a9mon's held item is  used or lost.",
         "introduced": "IV",
-        "type": "ability"
+        "type": "ability",
+        "term": "unburden"
     },
-    "unnerve": {
+    {
         "name": "Unnerve",
         "description": " Unnerves opposing Pok\u00c3\u00a9mon and makes them unable to eat Berries.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "unnerve"
     },
-    "victory star": {
+    {
         "name": "Victory Star",
         "description": " Boosts the accuracy of its allies and itself.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "victory star"
     },
-    "vital spirit": {
+    {
         "name": "Vital Spirit",
         "description": " The Pok\u00c3\u00a9mon is full of vitality, and that prevents it from falling asleep.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "vital spirit"
     },
-    "volt absorb": {
+    {
         "name": "Volt Absorb",
         "description": " Restores HP if hit by an Electric-type move, instead of taking damage.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "volt absorb"
     },
-    "water absorb": {
+    {
         "name": "Water Absorb",
         "description": " Restores HP if hit by a Water-type move, instead of taking damage.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "water absorb"
     },
-    "water bubble": {
+    {
         "name": "Water Bubble",
         "description": " Lowers the power of Fire-type moves done to the Pok\u00c3\u00a9mon and prevents the Pok\u00c3\u00a9mon from getting a burn.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "water bubble"
     },
-    "water compaction": {
+    {
         "name": "Water Compaction",
         "description": " Boosts the Pok\u00c3\u00a9mon's Defense stat sharply when hit by a Water-type move.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "water compaction"
     },
-    "water veil": {
+    {
         "name": "Water Veil",
         "description": " The Pok\u00c3\u00a9mon is covered with a water veil, which prevents the Pok\u00c3\u00a9mon from getting a burn.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "water veil"
     },
-    "weak armor": {
+    {
         "name": "Weak Armor",
         "description": " Physical attacks to the Pok\u00c3\u00a9mon lower its Defense stat but sharply raise its Speed stat.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "weak armor"
     },
-    "white smoke": {
+    {
         "name": "White Smoke",
         "description": " The Pok\u00c3\u00a9mon is protected by its white smoke, which prevents other Pok\u00c3\u00a9mon from lowering its stats.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "white smoke"
     },
-    "wimp out": {
+    {
         "name": "Wimp Out",
         "description": " The Pok\u00c3\u00a9mon cowardly switches out when its HP becomes half or less.",
         "introduced": "VII",
-        "type": "ability"
+        "type": "ability",
+        "term": "wimp out"
     },
-    "wonder guard": {
+    {
         "name": "Wonder Guard",
         "description": " Its mysterious power only lets supereffective moves hit the Pok\u00c3\u00a9mon.",
         "introduced": "III",
-        "type": "ability"
+        "type": "ability",
+        "term": "wonder guard"
     },
-    "wonder skin": {
+    {
         "name": "Wonder Skin",
         "description": " Makes status moves more likely to miss.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "wonder skin"
     },
-    "zen mode": {
+    {
         "name": "Zen Mode",
         "description": " Changes the Pok\u00c3\u00a9mon's shape when HP is half or less.",
         "introduced": "V",
-        "type": "ability"
+        "type": "ability",
+        "term": "zen mode"
     }
-}
+]

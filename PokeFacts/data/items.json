@@ -1,492 +1,590 @@
-{
-    "cherish ball": {
+[
+    {
         "name": "Cherish Ball",
         "description": "A quite rare Pok\u00c3\u00a9 Ball that has been crafted in order to commemorate a special occasion of some sort.",
-        "type": "item"
+        "type": "item",
+        "term": "cherish ball"
     },
-    "premier ball": {
+    {
         "name": "Premier Ball",
         "description": "A somewhat rare Pok\u00c3\u00a9 Ball that was made as a commemorative item used to celebrate an event of some sort.",
-        "type": "item"
+        "type": "item",
+        "term": "premier ball"
     },
-    "amaze mulch": {
+    {
         "name": "Amaze Mulch",
         "description": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.",
-        "type": "item"
+        "type": "item",
+        "term": "amaze mulch"
     },
-    "black flute": {
+    {
         "name": "Black Flute",
         "description": "A flute made from black glass. It makes it easier to encounter strong Pok\u00c3\u00a9mon in the place you use it.",
-        "type": "item"
+        "type": "item",
+        "term": "black flute"
     },
-    "blue flute": {
+    {
         "name": "Blue Flute",
         "description": "A flute made from blue glass that awakens sleeping Pok\u00c3\u00a9mon.",
-        "type": "item"
+        "type": "item",
+        "term": "blue flute"
     },
-    "boost mulch": {
+    {
         "name": "Boost Mulch",
         "description": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.",
-        "type": "item"
+        "type": "item",
+        "term": "boost mulch"
     },
-    "common stone": {
+    {
         "name": "Common Stone",
         "description": "A perfectly normal stone that might appear to be valuable to some. It's all in the eye of the beholder.",
-        "type": "item"
+        "type": "item",
+        "term": "common stone"
     },
-    "damp mulch": {
+    {
         "name": "Damp Mulch",
         "description": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.",
-        "type": "item"
+        "type": "item",
+        "term": "damp mulch"
     },
-    "fluffy tail": {
+    {
         "name": "Fluffy Tail",
         "description": "A toy that attracts the attention of a Pok\u00c3\u00a9mon. It guarantees escape from any battle with wild Pok\u00c3\u00a9mon.",
-        "type": "item"
+        "type": "item",
+        "term": "fluffy tail"
     },
-    "gooey mulch": {
+    {
         "name": "Gooey Mulch",
         "description": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.",
-        "type": "item"
+        "type": "item",
+        "term": "gooey mulch"
     },
-    "growth mulch": {
+    {
         "name": "Growth Mulch",
         "description": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.",
-        "type": "item"
+        "type": "item",
+        "term": "growth mulch"
     },
-    "odd keystone": {
+    {
         "name": "Odd Keystone",
         "description": "A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally.",
-        "type": "item"
+        "type": "item",
+        "term": "odd keystone"
     },
-    "red flute": {
+    {
         "name": "Red Flute",
         "description": "A flute made from red glass that snaps Pok\u00c3\u00a9mon out of infatuation.",
-        "type": "item"
+        "type": "item",
+        "term": "red flute"
     },
-    "rich mulch": {
+    {
         "name": "Rich Mulch",
         "description": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.",
-        "type": "item"
+        "type": "item",
+        "term": "rich mulch"
     },
-    "shoal salt": {
+    {
         "name": "Shoal Salt",
         "description": "Salt that you found inside Shoal Cave.",
-        "type": "item"
+        "type": "item",
+        "term": "shoal salt"
     },
-    "shoal shell": {
+    {
         "name": "Shoal Shell",
         "description": "A seashell that you found inside Shoal Cave.",
-        "type": "item"
+        "type": "item",
+        "term": "shoal shell"
     },
-    "stable mulch": {
+    {
         "name": "Stable Mulch",
         "description": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.",
-        "type": "item"
+        "type": "item",
+        "term": "stable mulch"
     },
-    "surprise mulch": {
+    {
         "name": "Surprise Mulch",
         "description": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.",
-        "type": "item"
+        "type": "item",
+        "term": "surprise mulch"
     },
-    "white flute": {
+    {
         "name": "White Flute",
         "description": "A flute made from white glass. It makes it easier to encounter weak Pok\u00c3\u00a9mon in the place you use it.",
-        "type": "item"
+        "type": "item",
+        "term": "white flute"
     },
-    "yellow flute": {
+    {
         "name": "Yellow Flute",
         "description": "A flute made from yellow glass that snaps Pok\u00c3\u00a9mon out of confusion.",
-        "type": "item"
+        "type": "item",
+        "term": "yellow flute"
     },
-    "claw fossil": {
+    {
         "name": "Claw Fossil",
         "description": "A fossil from a prehistoric Pok\u00c3\u00a9mon that once lived in the sea. It appears to be a fragment of a claw.",
-        "type": "item"
+        "type": "item",
+        "term": "claw fossil"
     },
-    "dome fossil": {
+    {
         "name": "Dome Fossil",
         "description": "A fossil from a prehistoric Pok\u00c3\u00a9mon that once lived in the sea. It could be a shell or carapace.",
-        "type": "item"
+        "type": "item",
+        "term": "dome fossil"
     },
-    "helix fossil": {
+    {
         "name": "Helix Fossil",
         "description": "A fossil from a prehistoric Pok\u00c3\u00a9mon that once lived in the sea. It might be a piece of a seashell.",
-        "type": "item"
+        "type": "item",
+        "term": "helix fossil"
     },
-    "jaw fossil": {
+    {
         "name": "Jaw Fossil",
         "description": "A fossil from a prehistoric Pok\u00c3\u00a9mon that once lived on the land. It looks as if it could be a piece of a large jaw.",
-        "type": "item"
+        "type": "item",
+        "term": "jaw fossil"
     },
-    "old amber": {
+    {
         "name": "Old Amber",
         "description": "A piece of amber that still contains the genetic material of an ancient Pok\u00c3\u00a9mon. It's clear with a tawny, reddish tint.",
-        "type": "item"
+        "type": "item",
+        "term": "old amber"
     },
-    "root fossil": {
+    {
         "name": "Root Fossil",
         "description": "A fossil from a prehistoric Pok\u00c3\u00a9mon that once lived in the sea. It looks as if it could be part of a plant's root.",
-        "type": "item"
+        "type": "item",
+        "term": "root fossil"
     },
-    "sail fossil": {
+    {
         "name": "Sail Fossil",
         "description": "A fossil from a prehistoric Pok\u00c3\u00a9mon that once lived on the land. It looks like the impression from a skin sail.",
-        "type": "item"
+        "type": "item",
+        "term": "sail fossil"
     },
-    "belue berry": {
+    {
         "name": "Belue Berry",
         "description": "Used to make Pok\u00c3\u00a9blocks that will enhance your Beauty, this Berry is rare in other regions.",
-        "type": "item"
+        "type": "item",
+        "term": "belue berry"
     },
-    "cornn berry": {
+    {
         "name": "Cornn Berry",
         "description": "Used to make Pok\u00c3\u00a9blocks that will enhance your Beauty, this Berry is rare in other regions.",
-        "type": "item"
+        "type": "item",
+        "term": "cornn berry"
     },
-    "custap berry": {
+    {
         "name": "Custap Berry",
         "description": "A Berry to be consumed by Pok\u00c3\u00a9mon. If a Pok\u00c3\u00a9mon holds one, it will be able to move first just once when it's in a pinch.",
-        "type": "item"
+        "type": "item",
+        "term": "custap berry"
     },
-    "durin berry": {
+    {
         "name": "Durin Berry",
         "description": "Used to make Pok\u00c3\u00a9blocks that will enhance your Cleverness, this Berry is rare in other regions.",
-        "type": "item"
+        "type": "item",
+        "term": "durin berry"
     },
-    "enigma berry": {
+    {
         "name": "Enigma Berry",
         "description": "A Berry to be consumed by Pok\u00c3\u00a9mon. If a Pok\u00c3\u00a9mon holds one, being hit by a supereffective attack will restore its HP.",
-        "type": "item"
+        "type": "item",
+        "term": "enigma berry"
     },
-    "jaboca berry": {
+    {
         "name": "Jaboca Berry",
         "description": "A Berry to be consumed by Pok\u00c3\u00a9mon. If a physical attack hits the Pok\u00c3\u00a9mon holding it, the attacker will also be hurt.",
-        "type": "item"
+        "type": "item",
+        "term": "jaboca berry"
     },
-    "magost berry": {
+    {
         "name": "Magost Berry",
         "description": "Used to make Pok\u00c3\u00a9blocks that will enhance your Cuteness, this Berry is rare in other regions.",
-        "type": "item"
+        "type": "item",
+        "term": "magost berry"
     },
-    "micle berry": {
+    {
         "name": "Micle Berry",
         "description": "A Berry to be consumed by Pok\u00c3\u00a9mon. If a Pok\u00c3\u00a9mon holds one, its accuracy will increase just once when it's in a pinch.",
-        "type": "item"
+        "type": "item",
+        "term": "micle berry"
     },
-    "nanab berry": {
+    {
         "name": "Nanab Berry",
         "description": "Used to make Pok\u00c3\u00a9blocks that will enhance your Cuteness. Its pink flesh is sweet when eaten.",
-        "type": "item"
+        "type": "item",
+        "term": "nanab berry"
     },
-    "nomel berry": {
+    {
         "name": "Nomel Berry",
         "description": "Used to make Pok\u00c3\u00a9blocks that will enhance your Toughness, this Berry is rare in other regions.",
-        "type": "item"
+        "type": "item",
+        "term": "nomel berry"
     },
-    "pamtre berry": {
+    {
         "name": "Pamtre Berry",
         "description": "Used to make Pok\u00c3\u00a9blocks that will enhance your Beauty, this Berry is rare in other regions.",
-        "type": "item"
+        "type": "item",
+        "term": "pamtre berry"
     },
-    "rabuta berry": {
+    {
         "name": "Rabuta Berry",
         "description": "Used to make Pok\u00c3\u00a9blocks that will enhance your Cleverness, this Berry is rare in other regions.",
-        "type": "item"
+        "type": "item",
+        "term": "rabuta berry"
     },
-    "razz berry": {
+    {
         "name": "Razz Berry",
         "description": "Used to make Pok\u00c3\u00a9blocks that will enhance your Coolness. Its red flesh is spicy when eaten.",
-        "type": "item"
+        "type": "item",
+        "term": "razz berry"
     },
-    "rowap berry": {
+    {
         "name": "Rowap Berry",
         "description": "A Berry to be consumed by Pok\u00c3\u00a9mon. If a special attack hits the Pok\u00c3\u00a9mon holding it, the attacker will also be hurt.",
-        "type": "item"
+        "type": "item",
+        "term": "rowap berry"
     },
-    "spelon berry": {
+    {
         "name": "Spelon Berry",
         "description": "Used to make Pok\u00c3\u00a9blocks that will enhance your Cuteness, this Berry is rare in other regions.",
-        "type": "item"
+        "type": "item",
+        "term": "spelon berry"
     },
-    "watmel berry": {
+    {
         "name": "Watmel Berry",
         "description": "Used to make Pok\u00c3\u00a9blocks that will enhance your Cleverness, this Berry is rare in other regions.",
-        "type": "item"
+        "type": "item",
+        "term": "watmel berry"
     },
-    "wepear berry": {
+    {
         "name": "Wepear Berry",
         "description": "Used to make Pok\u00c3\u00a9blocks that will enhance your Cleverness. Its green flesh is bitter when eaten.",
-        "type": "item"
+        "type": "item",
+        "term": "wepear berry"
     },
-    "blue scarf": {
+    {
         "name": "Blue Scarf",
         "description": "An item to be held by a Pok\u00c3\u00a9mon. During a contest, it raises the Beauty aspect of the Pok\u00c3\u00a9mon holding it.",
-        "type": "item"
+        "type": "item",
+        "term": "blue scarf"
     },
-    "bug gem": {
+    {
         "name": "Bug Gem",
         "description": "A gem with an insect-like essence. When held, it strengthens the power of a Bug-type move one time.",
-        "type": "item"
+        "type": "item",
+        "term": "bug gem"
     },
-    "dark gem": {
+    {
         "name": "Dark Gem",
         "description": "A gem with an essence of darkness. When held, it strengthens the power of a Dark-type move one time.",
-        "type": "item"
+        "type": "item",
+        "term": "dark gem"
     },
-    "dragon gem": {
+    {
         "name": "Dragon Gem",
         "description": "A gem with a draconic essence. When held, it strengthens the power of a Dragon-type move one time.",
-        "type": "item"
+        "type": "item",
+        "term": "dragon gem"
     },
-    "electric gem": {
+    {
         "name": "Electric Gem",
         "description": "A gem with an essence of electricity. When held, it strengthens the power of an Electric-type move one time.",
-        "type": "item"
+        "type": "item",
+        "term": "electric gem"
     },
-    "fairy gem": {
+    {
         "name": "Fairy Gem",
         "description": "A gem with an essence of the fey. When held, it strengthens the power of a Fairy-type move one time.",
-        "type": "item"
+        "type": "item",
+        "term": "fairy gem"
     },
-    "fighting gem": {
+    {
         "name": "Fighting Gem",
         "description": "A gem with an essence of combat. When held, it strengthens the power of a Fighting-type move one time.",
-        "type": "item"
+        "type": "item",
+        "term": "fighting gem"
     },
-    "fire gem": {
+    {
         "name": "Fire Gem",
         "description": "A gem with an essence of fire. When held, it strengthens the power of a Fire-type move one time.",
-        "type": "item"
+        "type": "item",
+        "term": "fire gem"
     },
-    "flying gem": {
+    {
         "name": "Flying Gem",
         "description": "A gem with an essence of air. When held, it strengthens the power of a Flying-type move one time.",
-        "type": "item"
+        "type": "item",
+        "term": "flying gem"
     },
-    "ghost gem": {
+    {
         "name": "Ghost Gem",
         "description": "A gem with a spectral essence. When held, it strengthens the power of a Ghost-type move one time.",
-        "type": "item"
+        "type": "item",
+        "term": "ghost gem"
     },
-    "grass gem": {
+    {
         "name": "Grass Gem",
         "description": "A gem with an essence of nature. When held, it strengthens the power of a Grass-type move one time.",
-        "type": "item"
+        "type": "item",
+        "term": "grass gem"
     },
-    "green scarf": {
+    {
         "name": "Green Scarf",
         "description": "An item to be held by a Pok\u00c3\u00a9mon. During a contest, it raises the Clever aspect of the Pok\u00c3\u00a9mon holding it.",
-        "type": "item"
+        "type": "item",
+        "term": "green scarf"
     },
-    "ground gem": {
+    {
         "name": "Ground Gem",
         "description": "A gem with an essence of land. When held, it strengthens the power of a Ground-type move one time.",
-        "type": "item"
+        "type": "item",
+        "term": "ground gem"
     },
-    "ice gem": {
+    {
         "name": "Ice Gem",
         "description": "A gem with an essence of ice. When held, it strengthens the power of an Ice-type move one time.",
-        "type": "item"
+        "type": "item",
+        "term": "ice gem"
     },
-    "macho brace": {
+    {
         "name": "Macho Brace",
         "description": "An item to be held by a Pok\u00c3\u00a9mon. This stiff, heavy brace helps Pok\u00c3\u00a9mon grow strong but cuts Speed in battle.",
-        "type": "item"
+        "type": "item",
+        "term": "macho brace"
     },
-    "pink scarf": {
+    {
         "name": "Pink Scarf",
         "description": "An item to be held by a Pok\u00c3\u00a9mon. During a contest, it raises the Cute aspect of the Pok\u00c3\u00a9mon holding it.",
-        "type": "item"
+        "type": "item",
+        "term": "pink scarf"
     },
-    "poison gem": {
+    {
         "name": "Poison Gem",
         "description": "A gem with an essence of poison. When held, it strengthens the power of a Poison-type move one time.",
-        "type": "item"
+        "type": "item",
+        "term": "poison gem"
     },
-    "psychic gem": {
+    {
         "name": "Psychic Gem",
         "description": "A gem with an essence of the mind. When held, it strengthens the power of a Psychic-type move one time.",
-        "type": "item"
+        "type": "item",
+        "term": "psychic gem"
     },
-    "red scarf": {
+    {
         "name": "Red Scarf",
         "description": "An item to be held by a Pok\u00c3\u00a9mon. During a contest, it raises the Cool aspect of the Pok\u00c3\u00a9mon holding it.",
-        "type": "item"
+        "type": "item",
+        "term": "red scarf"
     },
-    "rock gem": {
+    {
         "name": "Rock Gem",
         "description": "A gem with an essence of rock. When held, it strengthens the power of a Rock-type move one time.",
-        "type": "item"
+        "type": "item",
+        "term": "rock gem"
     },
-    "steel gem": {
+    {
         "name": "Steel Gem",
         "description": "A gem with an essence of steel. When held, it strengthens the power of a Steel-type move one time.",
-        "type": "item"
+        "type": "item",
+        "term": "steel gem"
     },
-    "water gem": {
+    {
         "name": "Water Gem",
         "description": "A gem with an essence of water. When held, it strengthens the power of a Water-type move one time.",
-        "type": "item"
+        "type": "item",
+        "term": "water gem"
     },
-    "yellow scarf": {
+    {
         "name": "Yellow Scarf",
         "description": "An item to be held by a Pok\u00c3\u00a9mon. During a contest, it raises the Tough aspect of the Pok\u00c3\u00a9mon holding it.",
-        "type": "item"
+        "type": "item",
+        "term": "yellow scarf"
     },
-    "abomasite": {
+    {
         "name": "Abomasite",
         "description": "One of a variety of mysterious Mega Stones. Have Abomasnow hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "abomasite"
     },
-    "aggronite": {
+    {
         "name": "Aggronite",
         "description": "One of a variety of mysterious Mega Stones. Have Aggron hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "aggronite"
     },
-    "altarianite": {
+    {
         "name": "Altarianite",
         "description": "One of a variety of mysterious Mega Stones. Have Altaria hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "altarianite"
     },
-    "ampharosite": {
+    {
         "name": "Ampharosite",
         "description": "One of a variety of mysterious Mega Stones. Have Ampharos hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "ampharosite"
     },
-    "audinite": {
+    {
         "name": "Audinite",
         "description": "One of a variety of mysterious Mega Stones. Have Audino hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "audinite"
     },
-    "banettite": {
+    {
         "name": "Banettite",
         "description": "One of a variety of mysterious Mega Stones. Have Banette hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "banettite"
     },
-    "beedrillite": {
+    {
         "name": "Beedrillite",
         "description": "One of a variety of mysterious Mega Stones. Have Beedrill hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "beedrillite"
     },
-    "blazikenite": {
+    {
         "name": "Blazikenite",
         "description": "One of a variety of mysterious Mega Stones. Have Blaziken hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "blazikenite"
     },
-    "cameruptite": {
+    {
         "name": "Cameruptite",
         "description": "One of a variety of mysterious Mega Stones. Have Camerupt hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "cameruptite"
     },
-    "diancite": {
+    {
         "name": "Diancite",
         "description": "One of a variety of mysterious Mega Stones. Have Diancie hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "diancite"
     },
-    "galladite": {
+    {
         "name": "Galladite",
         "description": "One of a variety of mysterious Mega Stones. Have Gallade hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "galladite"
     },
-    "gardevoirite": {
+    {
         "name": "Gardevoirite",
         "description": "One of a variety of mysterious Mega Stones. Have Gardevoir hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "gardevoirite"
     },
-    "heracronite": {
+    {
         "name": "Heracronite",
         "description": "One of a variety of mysterious Mega Stones. Have Heracross hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "heracronite"
     },
-    "houndoominite": {
+    {
         "name": "Houndoominite",
         "description": "One of a variety of mysterious Mega Stones. Have Houndoom hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "houndoominite"
     },
-    "latiasite": {
+    {
         "name": "Latiasite",
         "description": "One of a variety of mysterious Mega Stones. Have Latias hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "latiasite"
     },
-    "latiosite": {
+    {
         "name": "Latiosite",
         "description": "One of a variety of mysterious Mega Stones. Have Latios hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "latiosite"
     },
-    "lopunnite": {
+    {
         "name": "Lopunnite",
         "description": "One of a variety of mysterious Mega Stones. Have Lopunny hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "lopunnite"
     },
-    "manectite": {
+    {
         "name": "Manectite",
         "description": "One of a variety of mysterious Mega Stones. Have Manectric hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "manectite"
     },
-    "mawilite": {
+    {
         "name": "Mawilite",
         "description": "One of a variety of mysterious Mega Stones. Have Mawile hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "mawilite"
     },
-    "medichamite": {
+    {
         "name": "Medichamite",
         "description": "One of a variety of mysterious Mega Stones. Have Medicham hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "medichamite"
     },
-    "mewtwonite x": {
+    {
         "name": "Mewtwonite X",
         "description": "One of a variety of mysterious Mega Stones. Have Mewtwo hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "mewtwonite x"
     },
-    "mewtwonite y": {
+    {
         "name": "Mewtwonite Y",
         "description": "One of a variety of mysterious Mega Stones. Have Mewtwo hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "mewtwonite y"
     },
-    "pidgeotite": {
+    {
         "name": "Pidgeotite",
         "description": "One of a variety of mysterious Mega Stones. Have Pidgeot hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "pidgeotite"
     },
-    "sceptilite": {
+    {
         "name": "Sceptilite",
         "description": "One of a variety of mysterious Mega Stones. Have Sceptile hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "sceptilite"
     },
-    "steelixite": {
+    {
         "name": "Steelixite",
         "description": "One of a variety of mysterious Mega Stones. Have Steelix hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "steelixite"
     },
-    "swampertite": {
+    {
         "name": "Swampertite",
         "description": "One of a variety of mysterious Mega Stones. Have Swampert hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "swampertite"
     },
-    "tyranitarite": {
+    {
         "name": "Tyranitarite",
         "description": "One of a variety of mysterious Mega Stones. Have Tyranitar hold it, and this stone will enable it to Mega Evolve during battle.",
-        "type": "item"
+        "type": "item",
+        "term": "tyranitarite"
     },
-    "marshadium z": {
+    {
         "name": "Marshadium Z",
         "description": "It converts Z-Power into crystals that upgrade Marshadow's Spectral Thief to an exclusive Z-Move.",
-        "type": "item"
+        "type": "item",
+        "term": "marshadium z"
     },
-    "mewnium z": {
+    {
         "name": "Mewnium Z",
         "description": "It converts Z-Power into crystals that upgrade Mew's Psychic to an exclusive Z-Move.",
-        "type": "item"
+        "type": "item",
+        "term": "mewnium z"
     },
-    "pikashunium z": {
+    {
         "name": "Pikashunium Z",
         "description": "This is a crystallized form of Z-Power. It upgrades a Thunderbolt by Pikachu in a cap to a Z-Move.",
-        "type": "item"
+        "type": "item",
+        "term": "pikashunium z"
     },
-    "snorlium z": {
+    {
         "name": "Snorlium Z",
         "description": "It converts Z-Power into crystals that upgrade Snorlax's Giga Impact to an exclusive Z-Move.",
-        "type": "item"
+        "type": "item",
+        "term": "snorlium z"
     }
-}
+]
