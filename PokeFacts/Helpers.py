@@ -59,7 +59,7 @@ class Helpers():
             return False, None
         
         if Config.IDENTIFIER_NO_ACCENTS:
-            query = self.removeAccents(query)
+            query = Helpers.removeAccents(query)
 
         if Config.IDENTIFIER_TO_LOWER:
             query = query.lower()
@@ -115,7 +115,8 @@ class Helpers():
 
     # removes accents
     # e.g. "Flabébé" -> "Flabebe"
-    def removeAccents(self, s):
+    @staticmethod
+    def removeAccents(s):
         return ''.join(c for c in unicodedata.normalize('NFD', s)
                         if unicodedata.category(c) != 'Mn')
 

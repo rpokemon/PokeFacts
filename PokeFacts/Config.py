@@ -68,7 +68,7 @@ IDENTIFIER_SANITIZE = r"[^A-Za-z0-9 ]"
 # ----------------
 
 DATA_FILES = ['/data/pokemon.json', '/data/abilities.json'] # list of json files for responder to search with
-
+DATA_SYNONYM_FILES = ['/data/synonyms.json']
 DATA_CONF = {
     # defines which item property to use for the 'type' field
     # if this property is not set, then all items will have
