@@ -86,7 +86,7 @@
         "pp": "20",
         "power": null,
         "accuracy": null,
-        "description": "The user raises the Sp. Def stat of an ally Pok&amp;eacute;mon by using a mysterious aroma.",
+        "description": "The user raises the Sp. Def stat of an ally Pok\u00c3\u00a9mon by using a mysterious aroma.",
         "type": "move"
     },
     "assist": {
@@ -96,7 +96,7 @@
         "pp": "20",
         "power": null,
         "accuracy": null,
-        "description": "The user hurriedly and randomly uses a move among those known by ally Pok&amp;eacute;mon.",
+        "description": "The user hurriedly and randomly uses a move among those known by ally Pok\u00c3\u00a9mon.",
         "type": "move"
     },
     "attract": {
@@ -166,7 +166,7 @@
         "pp": "40",
         "power": null,
         "accuracy": null,
-        "description": "The user switches places with a party Pok&amp;eacute;mon in waiting and passes along any stat changes.",
+        "description": "The user switches places with a party Pok\u00c3\u00a9mon in waiting and passes along any stat changes.",
         "type": "move"
     },
     "belly drum": {
@@ -236,7 +236,7 @@
         "pp": "20",
         "power": null,
         "accuracy": "100",
-        "description": "If any opposing Pok&amp;eacute;mon is the opposite gender of the user, it is charmed, which harshly lowers its Sp. Atk stat.",
+        "description": "If any opposing Pok\u00c3\u00a9mon is the opposite gender of the user, it is charmed, which harshly lowers its Sp. Atk stat.",
         "type": "move"
     },
     "celebrate": {
@@ -246,7 +246,7 @@
         "pp": "40",
         "power": null,
         "accuracy": null,
-        "description": "The Pok&amp;eacute;mon congratulates you on your special day!",
+        "description": "The Pok\u00c3\u00a9mon congratulates you on your special day!",
         "type": "move"
     },
     "charge": {
@@ -356,7 +356,7 @@
         "pp": "40",
         "power": null,
         "accuracy": "100",
-        "description": "The user releases cotton-like spores that cling to the opposing Pok&amp;eacute;mon, which harshly lowers their Speed stat.",
+        "description": "The user releases cotton-like spores that cling to the opposing Pok\u00c3\u00a9mon, which harshly lowers their Speed stat.",
         "type": "move"
     },
     "crafty shield": {
@@ -386,7 +386,7 @@
         "pp": "10",
         "power": null,
         "accuracy": "50",
-        "description": "Opposing Pok&amp;eacute;mon are dragged into a world of total darkness that makes them sleep.",
+        "description": "Opposing Pok\u00c3\u00a9mon are dragged into a world of total darkness that makes them sleep.",
         "type": "move"
     },
     "defend order": {
@@ -426,7 +426,7 @@
         "pp": "5",
         "power": null,
         "accuracy": null,
-        "description": "After using this move, if the user faints, the Pok&amp;eacute;mon that landed the knockout hit also faints. Its chance of failing rises if it is used in succession.",
+        "description": "After using this move, if the user faints, the Pok\u00c3\u00a9mon that landed the knockout hit also faints. Its chance of failing rises if it is used in succession.",
         "type": "move"
     },
     "detect": {
@@ -486,7 +486,7 @@
         "pp": "10",
         "power": null,
         "accuracy": null,
-        "description": "The user electrifies the ground for five turns, powering up Electric-type moves. Pok&amp;eacute;mon on the ground no longer fall asleep.",
+        "description": "The user electrifies the ground for five turns, powering up Electric-type moves. Pok\u00c3\u00a9mon on the ground no longer fall asleep.",
         "type": "move"
     },
     "electrify": {
@@ -556,7 +556,7 @@
         "pp": "10",
         "power": null,
         "accuracy": null,
-        "description": "By locking down the battlefield, the user keeps all Pok&amp;eacute;mon from fleeing during the next turn.",
+        "description": "By locking down the battlefield, the user keeps all Pok\u00c3\u00a9mon from fleeing during the next turn.",
         "type": "move"
     },
     "fake tears": {
@@ -616,7 +616,7 @@
         "pp": "10",
         "power": null,
         "accuracy": null,
-        "description": "The user raises the Defense stat of all Grass-type Pok&amp;eacute;mon in battle with a mysterious power.",
+        "description": "The user raises the Defense stat of all Grass-type Pok\u00c3\u00a9mon in battle with a mysterious power.",
         "type": "move"
     },
     "focus energy": {
@@ -676,7 +676,7 @@
         "pp": "20",
         "power": null,
         "accuracy": null,
-        "description": "The user engages its gears to raise the Attack and Sp. Atk stats of ally Pok&amp;eacute;mon with the Plus or Minus Ability.",
+        "description": "The user engages its gears to raise the Attack and Sp. Atk stats of ally Pok\u00c3\u00a9mon with the Plus or Minus Ability.",
         "type": "move"
     },
     "geomancy": {
@@ -716,7 +716,7 @@
         "pp": "10",
         "power": null,
         "accuracy": null,
-        "description": "The user turns the ground to grass for five turns. This restores the HP of Pok&amp;eacute;mon on the ground a little every turn and powers up Grass type-moves.",
+        "description": "The user turns the ground to grass for five turns. This restores the HP of Pok\u00c3\u00a9mon on the ground a little every turn and powers up Grass type-moves.",
         "type": "move"
     },
     "gravity": {
@@ -726,7 +726,7 @@
         "pp": "5",
         "power": null,
         "accuracy": null,
-        "description": "Enables Flying-type Pok&amp;eacute;mon or Pok&amp;eacute;mon with the Levitate Ability to be hit by Ground-type moves. Flying moves can't be used.",
+        "description": "Enables Flying-type Pok\u00c3\u00a9mon or Pok\u00c3\u00a9mon with the Levitate Ability to be hit by Ground-type moves. Flying moves can't be used.",
         "type": "move"
     },
     "growl": {
@@ -736,7 +736,7 @@
         "pp": "40",
         "power": null,
         "accuracy": "100",
-        "description": "The user growls in an endearing way, making opposing Pok&amp;eacute;mon less wary. This lowers their Attack stat.",
+        "description": "The user growls in an endearing way, making opposing Pok\u00c3\u00a9mon less wary. This lowers their Attack stat.",
         "type": "move"
     },
     "growth": {
@@ -786,7 +786,7 @@
         "pp": "10",
         "power": null,
         "accuracy": null,
-        "description": "The user summons a hailstorm lasting five turns. It damages all Pok&amp;eacute;mon except the Ice type.",
+        "description": "The user summons a hailstorm lasting five turns. It damages all Pok\u00c3\u00a9mon except the Ice type.",
         "type": "move"
     },
     "happy hour": {
@@ -816,7 +816,7 @@
         "pp": "30",
         "power": null,
         "accuracy": null,
-        "description": "The user creates a haze that eliminates every stat change among all the Pok&amp;eacute;mon engaged in battle.",
+        "description": "The user creates a haze that eliminates every stat change among all the Pok\u00c3\u00a9mon engaged in battle.",
         "type": "move"
     },
     "heal bell": {
@@ -826,7 +826,7 @@
         "pp": "5",
         "power": null,
         "accuracy": null,
-        "description": "The user makes a soothing bell chime to heal the status conditions of all the party Pok&amp;eacute;mon.",
+        "description": "The user makes a soothing bell chime to heal the status conditions of all the party Pok\u00c3\u00a9mon.",
         "type": "move"
     },
     "heal block": {
@@ -866,7 +866,7 @@
         "pp": "10",
         "power": null,
         "accuracy": null,
-        "description": "The user faints. In return, the Pok&amp;eacute;mon taking its place will have its HP restored and status conditions cured.",
+        "description": "The user faints. In return, the Pok\u00c3\u00a9mon taking its place will have its HP restored and status conditions cured.",
         "type": "move"
     },
     "heart swap": {
@@ -936,7 +936,7 @@
         "pp": "10",
         "power": null,
         "accuracy": null,
-        "description": "If opposing Pok&amp;eacute;mon know any move also known by the user, they are prevented from using it.",
+        "description": "If opposing Pok\u00c3\u00a9mon know any move also known by the user, they are prevented from using it.",
         "type": "move"
     },
     "ingrain": {
@@ -1026,7 +1026,7 @@
         "pp": "30",
         "power": null,
         "accuracy": "100",
-        "description": "The user gives opposing Pok&amp;eacute;mon an intimidating leer that lowers the Defense stat.",
+        "description": "The user gives opposing Pok\u00c3\u00a9mon an intimidating leer that lowers the Defense stat.",
         "type": "move"
     },
     "light screen": {
@@ -1066,7 +1066,7 @@
         "pp": "30",
         "power": null,
         "accuracy": null,
-        "description": "The user chants an incantation toward the sky, preventing opposing Pok&amp;eacute;mon from landing critical hits for five turns.",
+        "description": "The user chants an incantation toward the sky, preventing opposing Pok\u00c3\u00a9mon from landing critical hits for five turns.",
         "type": "move"
     },
     "lunar dance": {
@@ -1076,7 +1076,7 @@
         "pp": "10",
         "power": null,
         "accuracy": null,
-        "description": "The user faints. In return, the Pok&amp;eacute;mon taking its place will have its status and HP fully restored.",
+        "description": "The user faints. In return, the Pok\u00c3\u00a9mon taking its place will have its status and HP fully restored.",
         "type": "move"
     },
     "magic coat": {
@@ -1096,7 +1096,7 @@
         "pp": "10",
         "power": null,
         "accuracy": null,
-        "description": "The user creates a bizarre area in which Pok&amp;eacute;mon's held items lose their effects for five turns.",
+        "description": "The user creates a bizarre area in which Pok\u00c3\u00a9mon's held items lose their effects for five turns.",
         "type": "move"
     },
     "magnet rise": {
@@ -1116,7 +1116,7 @@
         "pp": "20",
         "power": null,
         "accuracy": null,
-        "description": "The user manipulates magnetic fields, which raises the Defense and Sp. Def stats of ally Pok&amp;eacute;mon with the Plus or Minus Ability.",
+        "description": "The user manipulates magnetic fields, which raises the Defense and Sp. Def stats of ally Pok\u00c3\u00a9mon with the Plus or Minus Ability.",
         "type": "move"
     },
     "mat block": {
@@ -1206,7 +1206,7 @@
         "pp": "10",
         "power": null,
         "accuracy": null,
-        "description": "The user copies the target's last move. The move can be used during battle until the Pok&amp;eacute;mon is switched out.",
+        "description": "The user copies the target's last move. The move can be used during battle until the Pok\u00c3\u00a9mon is switched out.",
         "type": "move"
     },
     "mind reader": {
@@ -1266,7 +1266,7 @@
         "pp": "10",
         "power": null,
         "accuracy": null,
-        "description": "This protects Pok&amp;eacute;mon on the ground from status conditions and halves damage from Dragon-type moves for five turns.",
+        "description": "This protects Pok\u00c3\u00a9mon on the ground from status conditions and halves damage from Dragon-type moves for five turns.",
         "type": "move"
     },
     "moonlight": {
@@ -1366,7 +1366,7 @@
         "pp": "20",
         "power": null,
         "accuracy": "100",
-        "description": "With a parting threat, the user lowers the target's Attack and Sp. Atk stats. Then it switches with a party Pok&amp;eacute;mon.",
+        "description": "With a parting threat, the user lowers the target's Attack and Sp. Atk stats. Then it switches with a party Pok\u00c3\u00a9mon.",
         "type": "move"
     },
     "perish song": {
@@ -1376,7 +1376,7 @@
         "pp": "5",
         "power": null,
         "accuracy": null,
-        "description": "Any Pok&amp;eacute;mon that hears this song faints in three turns, unless it switches out of battle.",
+        "description": "Any Pok\u00c3\u00a9mon that hears this song faints in three turns, unless it switches out of battle.",
         "type": "move"
     },
     "play nice": {
@@ -1396,7 +1396,7 @@
         "pp": "40",
         "power": null,
         "accuracy": "90",
-        "description": "A cloud of poison gas is sprayed in the face of opposing Pok&amp;eacute;mon, poisoning those hit.",
+        "description": "A cloud of poison gas is sprayed in the face of opposing Pok\u00c3\u00a9mon, poisoning those hit.",
         "type": "move"
     },
     "poison powder": {
@@ -1476,7 +1476,7 @@
         "pp": "10",
         "power": null,
         "accuracy": null,
-        "description": "This protects Pok&amp;eacute;mon on the ground from priority moves and powers up Psychic-type moves for five turns.",
+        "description": "This protects Pok\u00c3\u00a9mon on the ground from priority moves and powers up Psychic-type moves for five turns.",
         "type": "move"
     },
     "psycho shift": {
@@ -1616,7 +1616,7 @@
         "pp": "20",
         "power": null,
         "accuracy": null,
-        "description": "The target is scared off, and a different Pok&amp;eacute;mon is dragged out. In the wild, this ends a battle against a single Pok&amp;eacute;mon.",
+        "description": "The target is scared off, and a different Pok\u00c3\u00a9mon is dragged out. In the wild, this ends a battle against a single Pok\u00c3\u00a9mon.",
         "type": "move"
     },
     "rock polish": {
@@ -1656,7 +1656,7 @@
         "pp": "10",
         "power": null,
         "accuracy": null,
-        "description": "Tilling the soil, the user makes it easier for plants to grow. This raises the Attack and Sp. Atk stats of Grass-type Pok&amp;eacute;mon.",
+        "description": "Tilling the soil, the user makes it easier for plants to grow. This raises the Attack and Sp. Atk stats of Grass-type Pok\u00c3\u00a9mon.",
         "type": "move"
     },
     "safeguard": {
@@ -1886,7 +1886,7 @@
         "pp": "20",
         "power": null,
         "accuracy": null,
-        "description": "The user lays a trap of spikes at the opposing team's feet. The trap hurts Pok&amp;eacute;mon that switch into battle.",
+        "description": "The user lays a trap of spikes at the opposing team's feet. The trap hurts Pok\u00c3\u00a9mon that switch into battle.",
         "type": "move"
     },
     "spiky shield": {
@@ -1946,7 +1946,7 @@
         "pp": "20",
         "power": null,
         "accuracy": null,
-        "description": "The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pok&amp;eacute;mon that switch into battle.",
+        "description": "The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pok\u00c3\u00a9mon that switch into battle.",
         "type": "move"
     },
     "sticky web": {
@@ -1986,7 +1986,7 @@
         "pp": "40",
         "power": null,
         "accuracy": "95",
-        "description": "The opposing Pok&amp;eacute;mon are bound with silk blown from the user's mouth that harshly lowers the Speed stat.",
+        "description": "The opposing Pok\u00c3\u00a9mon are bound with silk blown from the user's mouth that harshly lowers the Speed stat.",
         "type": "move"
     },
     "stun spore": {
@@ -2066,7 +2066,7 @@
         "pp": "20",
         "power": null,
         "accuracy": "100",
-        "description": "A sweet scent that harshly lowers opposing Pok&amp;eacute;mon's evasiveness.",
+        "description": "A sweet scent that harshly lowers opposing Pok\u00c3\u00a9mon's evasiveness.",
         "type": "move"
     },
     "switcheroo": {
@@ -2116,7 +2116,7 @@
         "pp": "30",
         "power": null,
         "accuracy": "100",
-        "description": "The user wags its tail cutely, making opposing Pok&amp;eacute;mon less wary and lowering their Defense stat.",
+        "description": "The user wags its tail cutely, making opposing Pok\u00c3\u00a9mon less wary and lowering their Defense stat.",
         "type": "move"
     },
     "tailwind": {
@@ -2156,7 +2156,7 @@
         "pp": "20",
         "power": null,
         "accuracy": "100",
-        "description": "The user performs a wobbly dance that confuses the Pok&amp;eacute;mon around it.",
+        "description": "The user performs a wobbly dance that confuses the Pok\u00c3\u00a9mon around it.",
         "type": "move"
     },
     "telekinesis": {
@@ -2176,7 +2176,7 @@
         "pp": "20",
         "power": null,
         "accuracy": null,
-        "description": "Use it to flee from any wild Pok&amp;eacute;mon.",
+        "description": "Use it to flee from any wild Pok\u00c3\u00a9mon.",
         "type": "move"
     },
     "thunder wave": {
@@ -2236,7 +2236,7 @@
         "pp": "20",
         "power": null,
         "accuracy": null,
-        "description": "The user lays a trap of poison spikes at the feet of the opposing team. The spikes will poison opposing Pok&amp;eacute;mon that switch into battle.",
+        "description": "The user lays a trap of poison spikes at the feet of the opposing team. The spikes will poison opposing Pok\u00c3\u00a9mon that switch into battle.",
         "type": "move"
     },
     "toxic thread": {
@@ -2276,7 +2276,7 @@
         "pp": "5",
         "power": null,
         "accuracy": null,
-        "description": "The user creates a bizarre area in which slower Pok&amp;eacute;mon get to move first for five turns.",
+        "description": "The user creates a bizarre area in which slower Pok\u00c3\u00a9mon get to move first for five turns.",
         "type": "move"
     },
     "trick-or-treat": {
@@ -2296,7 +2296,7 @@
         "pp": "20",
         "power": null,
         "accuracy": "100",
-        "description": "Opposing Pok&amp;eacute;mon are drenched in an odd poisonous liquid. This lowers the Attack, Sp. Atk, and Speed stats of a poisoned target.",
+        "description": "Opposing Pok\u00c3\u00a9mon are drenched in an odd poisonous liquid. This lowers the Attack, Sp. Atk, and Speed stats of a poisoned target.",
         "type": "move"
     },
     "water sport": {
@@ -2316,7 +2316,7 @@
         "pp": "20",
         "power": null,
         "accuracy": null,
-        "description": "The target is blown away, and a different Pok&amp;eacute;mon is dragged out. In the wild, this ends a battle against a single Pok&amp;eacute;mon.",
+        "description": "The target is blown away, and a different Pok\u00c3\u00a9mon is dragged out. In the wild, this ends a battle against a single Pok\u00c3\u00a9mon.",
         "type": "move"
     },
     "wide guard": {
@@ -2366,7 +2366,7 @@
         "pp": "10",
         "power": null,
         "accuracy": null,
-        "description": "The user creates a bizarre area in which Pok&amp;eacute;mon's Defense and Sp. Def stats are swapped for five turns.",
+        "description": "The user creates a bizarre area in which Pok\u00c3\u00a9mon's Defense and Sp. Def stats are swapped for five turns.",
         "type": "move"
     },
     "work up": {
@@ -2546,7 +2546,7 @@
         "pp": "15",
         "power": "100",
         "accuracy": "100",
-        "description": "The user first heats up its beak, and then it attacks the target. Making direct contact with the Pok&amp;eacute;mon while it's heating up its beak results in a burn.",
+        "description": "The user first heats up its beak, and then it attacks the target. Making direct contact with the Pok\u00c3\u00a9mon while it's heating up its beak results in a burn.",
         "type": "move"
     },
     "beat up": {
@@ -2556,7 +2556,7 @@
         "pp": "10",
         "power": null,
         "accuracy": "100",
-        "description": "The user gets all party Pok&amp;eacute;mon to attack the target. The more party Pok&amp;eacute;mon, the greater the number of attacks.",
+        "description": "The user gets all party Pok\u00c3\u00a9mon to attack the target. The more party Pok\u00c3\u00a9mon, the greater the number of attacks.",
         "type": "move"
     },
     "bide": {
@@ -2786,7 +2786,7 @@
         "pp": "10",
         "power": "60",
         "accuracy": "90",
-        "description": "The target is thrown, and a different Pok&amp;eacute;mon is dragged out. In the wild, this ends a battle against a single Pok&amp;eacute;mon.",
+        "description": "The target is thrown, and a different Pok\u00c3\u00a9mon is dragged out. In the wild, this ends a battle against a single Pok\u00c3\u00a9mon.",
         "type": "move"
     },
     "clamp": {
@@ -2966,7 +2966,7 @@
         "pp": "5",
         "power": "100",
         "accuracy": "95",
-        "description": "The user whips up a storm of diamonds to damage opposing Pok&amp;eacute;mon. This may also sharply raise the user's Defense stat.",
+        "description": "The user whips up a storm of diamonds to damage opposing Pok\u00c3\u00a9mon. This may also sharply raise the user's Defense stat.",
         "type": "move"
     },
     "dig": {
@@ -3086,7 +3086,7 @@
         "pp": "10",
         "power": "60",
         "accuracy": "90",
-        "description": "The target is knocked away, and a different Pok&amp;eacute;mon is dragged out. In the wild, this ends a battle against a single Pok&amp;eacute;mon.",
+        "description": "The target is knocked away, and a different Pok\u00c3\u00a9mon is dragged out. In the wild, this ends a battle against a single Pok\u00c3\u00a9mon.",
         "type": "move"
     },
     "drain punch": {
@@ -3146,7 +3146,7 @@
         "pp": "10",
         "power": "100",
         "accuracy": "100",
-        "description": "The user sets off an earthquake that strikes every Pok&amp;eacute;mon around it.",
+        "description": "The user sets off an earthquake that strikes every Pok\u00c3\u00a9mon around it.",
         "type": "move"
     },
     "egg bomb": {
@@ -3816,7 +3816,7 @@
         "pp": "10",
         "power": "90",
         "accuracy": "100",
-        "description": "The user gathers the energy of the land and focuses that power on opposing Pok&amp;eacute;mon to damage them.",
+        "description": "The user gathers the energy of the land and focuses that power on opposing Pok\u00c3\u00a9mon to damage them.",
         "type": "move"
     },
     "last resort": {
@@ -4246,7 +4246,7 @@
         "pp": "10",
         "power": "120",
         "accuracy": "85",
-        "description": "The user attacks opposing Pok&amp;eacute;mon by manifesting the power of the land in fearsome blades of stone.",
+        "description": "The user attacks opposing Pok\u00c3\u00a9mon by manifesting the power of the land in fearsome blades of stone.",
         "type": "move"
     },
     "present": {
@@ -4286,7 +4286,7 @@
         "pp": "1",
         "power": "210",
         "accuracy": null,
-        "description": "Z-Power brings out the true capabilities of the user, Snorlax. The Pok&amp;eacute;mon moves its enormous body energetically and attacks the target with full force.",
+        "description": "Z-Power brings out the true capabilities of the user, Snorlax. The Pok\u00c3\u00a9mon moves its enormous body energetically and attacks the target with full force.",
         "type": "move"
     },
     "punishment": {
@@ -4346,7 +4346,7 @@
         "pp": "25",
         "power": "55",
         "accuracy": "95",
-        "description": "Sharp-edged leaves are launched to slash at the opposing Pok&amp;eacute;mon. Critical hits land more easily.",
+        "description": "Sharp-edged leaves are launched to slash at the opposing Pok\u00c3\u00a9mon. Critical hits land more easily.",
         "type": "move"
     },
     "razor shell": {
@@ -4426,7 +4426,7 @@
         "pp": "10",
         "power": "75",
         "accuracy": "90",
-        "description": "Large boulders are hurled at the opposing Pok&amp;eacute;mon to inflict damage. This may also make the opposing Pok&amp;eacute;mon flinch.",
+        "description": "Large boulders are hurled at the opposing Pok\u00c3\u00a9mon to inflict damage. This may also make the opposing Pok\u00c3\u00a9mon flinch.",
         "type": "move"
     },
     "rock smash": {
@@ -4716,7 +4716,7 @@
         "pp": "15",
         "power": "50",
         "accuracy": "100",
-        "description": "The user throws a stone or similar projectile to attack an opponent. A flying Pok&amp;eacute;mon will fall to the ground when it's hit.",
+        "description": "The user throws a stone or similar projectile to attack an opponent. A flying Pok\u00c3\u00a9mon will fall to the ground when it's hit.",
         "type": "move"
     },
     "smart strike": {
@@ -5006,7 +5006,7 @@
         "pp": "10",
         "power": "90",
         "accuracy": "100",
-        "description": "This move also hits opposing Pok&amp;eacute;mon that are in the air. Those Pok&amp;eacute;mon are knocked down to the ground.",
+        "description": "This move also hits opposing Pok\u00c3\u00a9mon that are in the air. Those Pok\u00c3\u00a9mon are knocked down to the ground.",
         "type": "move"
     },
     "thousand waves": {
@@ -5106,7 +5106,7 @@
         "pp": "20",
         "power": "70",
         "accuracy": "100",
-        "description": "After making its attack, the user rushes back to switch places with a party Pok&amp;eacute;mon in waiting.",
+        "description": "After making its attack, the user rushes back to switch places with a party Pok\u00c3\u00a9mon in waiting.",
         "type": "move"
     },
     "v-create": {
@@ -5276,7 +5276,7 @@
         "pp": "30",
         "power": "40",
         "accuracy": "100",
-        "description": "The opposing Pok&amp;eacute;mon are attacked with a spray of harsh acid. This may also lower their Sp. Def stat.",
+        "description": "The opposing Pok\u00c3\u00a9mon are attacked with a spray of harsh acid. This may also lower their Sp. Def stat.",
         "type": "move"
     },
     "acid spray": {
@@ -5306,7 +5306,7 @@
         "pp": "25",
         "power": "60",
         "accuracy": "95",
-        "description": "The user launches razor-like wind to slash the opposing Pok&amp;eacute;mon. Critical hits land more easily.",
+        "description": "The user launches razor-like wind to slash the opposing Pok\u00c3\u00a9mon. Critical hits land more easily.",
         "type": "move"
     },
     "air slash": {
@@ -5376,7 +5376,7 @@
         "pp": "5",
         "power": "110",
         "accuracy": "70",
-        "description": "A howling blizzard is summoned to strike opposing Pok&amp;eacute;mon. This may also leave the opposing Pok&amp;eacute;mon frozen.",
+        "description": "A howling blizzard is summoned to strike opposing Pok\u00c3\u00a9mon. This may also leave the opposing Pok\u00c3\u00a9mon frozen.",
         "type": "move"
     },
     "blue flare": {
@@ -5416,7 +5416,7 @@
         "pp": "30",
         "power": "40",
         "accuracy": "100",
-        "description": "A spray of countless bubbles is jetted at the opposing Pok&amp;eacute;mon. This may also lower their Speed stat.",
+        "description": "A spray of countless bubbles is jetted at the opposing Pok\u00c3\u00a9mon. This may also lower their Speed stat.",
         "type": "move"
     },
     "bubble beam": {
@@ -5476,7 +5476,7 @@
         "pp": "5",
         "power": "110",
         "accuracy": "100",
-        "description": "The user rubs the scales on its entire body and makes a huge noise to attack the opposing Pok&amp;eacute;mon. The user's Defense stat goes down after the attack.",
+        "description": "The user rubs the scales on its entire body and makes a huge noise to attack the opposing Pok\u00c3\u00a9mon. The user's Defense stat goes down after the attack.",
         "type": "move"
     },
     "clear smog": {
@@ -5506,7 +5506,7 @@
         "pp": "10",
         "power": "100",
         "accuracy": "100",
-        "description": "If the Pok&amp;eacute;mon the user has inflicted damage on have already used their moves, this move eliminates the effect of the target's Ability.",
+        "description": "If the Pok\u00c3\u00a9mon the user has inflicted damage on have already used their moves, this move eliminates the effect of the target's Ability.",
         "type": "move"
     },
     "dark pulse": {
@@ -5526,7 +5526,7 @@
         "pp": "10",
         "power": "80",
         "accuracy": "100",
-        "description": "The user damages opposing Pok&amp;eacute;mon by emitting a powerful flash.",
+        "description": "The user damages opposing Pok\u00c3\u00a9mon by emitting a powerful flash.",
         "type": "move"
     },
     "disarming voice": {
@@ -5536,7 +5536,7 @@
         "pp": "15",
         "power": "40",
         "accuracy": null,
-        "description": "Letting out a charming cry, the user does emotional damage to opposing Pok&amp;eacute;mon. This attack never misses.",
+        "description": "Letting out a charming cry, the user does emotional damage to opposing Pok\u00c3\u00a9mon. This attack never misses.",
         "type": "move"
     },
     "discharge": {
@@ -5656,7 +5656,7 @@
         "pp": "15",
         "power": "55",
         "accuracy": "95",
-        "description": "The user attacks and captures opposing Pok&amp;eacute;mon using an electric net. This lowers their Speed stat.",
+        "description": "The user attacks and captures opposing Pok\u00c3\u00a9mon using an electric net. This lowers their Speed stat.",
         "type": "move"
     },
     "ember": {
@@ -5686,7 +5686,7 @@
         "pp": "5",
         "power": "150",
         "accuracy": "100",
-        "description": "The user attacks opposing Pok&amp;eacute;mon with explosive fury. The lower the user's HP, the lower the move's power.",
+        "description": "The user attacks opposing Pok\u00c3\u00a9mon with explosive fury. The lower the user's HP, the lower the move's power.",
         "type": "move"
     },
     "extrasensory": {
@@ -5766,7 +5766,7 @@
         "pp": "15",
         "power": "70",
         "accuracy": "100",
-        "description": "The user attacks the target with a bursting flame. The bursting flame damages Pok&amp;eacute;mon next to the target as well.",
+        "description": "The user attacks the target with a bursting flame. The bursting flame damages Pok\u00c3\u00a9mon next to the target as well.",
         "type": "move"
     },
     "flamethrower": {
@@ -5886,7 +5886,7 @@
         "pp": "10",
         "power": "65",
         "accuracy": "95",
-        "description": "The user attacks by blowing freezing cold air at opposing Pok&amp;eacute;mon. This lowers their Speed stat.",
+        "description": "The user attacks by blowing freezing cold air at opposing Pok\u00c3\u00a9mon. This lowers their Speed stat.",
         "type": "move"
     },
     "grass knot": {
@@ -5916,7 +5916,7 @@
         "pp": "1",
         "power": null,
         "accuracy": null,
-        "description": "The user, the Land Spirit Pok&amp;eacute;mon, obtains Alola's energy using its Z-Power and attacks the target with full force. This reduces the target's HP greatly.",
+        "description": "The user, the Land Spirit Pok\u00c3\u00a9mon, obtains Alola's energy using its Z-Power and attacks the target with full force. This reduces the target's HP greatly.",
         "type": "move"
     },
     "gust": {
@@ -5936,7 +5936,7 @@
         "pp": "10",
         "power": "95",
         "accuracy": "90",
-        "description": "The user attacks by exhaling hot breath on the opposing Pok&amp;eacute;mon. This may also leave those Pok&amp;eacute;mon with a burn.",
+        "description": "The user attacks by exhaling hot breath on the opposing Pok\u00c3\u00a9mon. This may also leave those Pok\u00c3\u00a9mon with a burn.",
         "type": "move"
     },
     "hex": {
@@ -5956,7 +5956,7 @@
         "pp": "15",
         "power": "60",
         "accuracy": "100",
-        "description": "A unique attack that varies in type depending on the Pok&amp;eacute;mon using it.",
+        "description": "A unique attack that varies in type depending on the Pok\u00c3\u00a9mon using it.",
         "type": "move"
     },
     "hurricane": {
@@ -6046,7 +6046,7 @@
         "pp": "15",
         "power": "55",
         "accuracy": "95",
-        "description": "The user attacks with a gust of chilled air. This also lowers the opposing Pok&amp;eacute;mon's Speed stats.",
+        "description": "The user attacks with a gust of chilled air. This also lowers the opposing Pok\u00c3\u00a9mon's Speed stats.",
         "type": "move"
     },
     "incinerate": {
@@ -6056,7 +6056,7 @@
         "pp": "15",
         "power": "60",
         "accuracy": "100",
-        "description": "The user attacks opposing Pok&amp;eacute;mon with fire. If a Pok&amp;eacute;mon is holding a certain item, such as a Berry, the item becomes burned up and unusable.",
+        "description": "The user attacks opposing Pok\u00c3\u00a9mon with fire. If a Pok\u00c3\u00a9mon is holding a certain item, such as a Berry, the item becomes burned up and unusable.",
         "type": "move"
     },
     "inferno": {
@@ -6256,7 +6256,7 @@
         "pp": "10",
         "power": "90",
         "accuracy": "85",
-        "description": "The user attacks by shooting muddy water at the opposing Pok&amp;eacute;mon. This may also lower their accuracy.",
+        "description": "The user attacks by shooting muddy water at the opposing Pok\u00c3\u00a9mon. This may also lower their accuracy.",
         "type": "move"
     },
     "mystical fire": {
@@ -6346,7 +6346,7 @@
         "pp": "10",
         "power": "110",
         "accuracy": "85",
-        "description": "The user attacks opposing Pok&amp;eacute;mon with countless beams of light that glow a deep and brilliant blue.",
+        "description": "The user attacks opposing Pok\u00c3\u00a9mon with countless beams of light that glow a deep and brilliant blue.",
         "type": "move"
     },
     "overheat": {
@@ -6396,7 +6396,7 @@
         "pp": "25",
         "power": "40",
         "accuracy": "100",
-        "description": "The user attacks with a chilling gust of powdery snow. This may also freeze the opposing Pok&amp;eacute;mon.",
+        "description": "The user attacks with a chilling gust of powdery snow. This may also freeze the opposing Pok\u00c3\u00a9mon.",
         "type": "move"
     },
     "power gem": {
@@ -6486,7 +6486,7 @@
         "pp": "10",
         "power": "80",
         "accuracy": "100",
-        "description": "In this two-turn attack, blades of wind hit opposing Pok&amp;eacute;mon on the second turn. Critical hits land more easily.",
+        "description": "In this two-turn attack, blades of wind hit opposing Pok\u00c3\u00a9mon on the second turn. Critical hits land more easily.",
         "type": "move"
     },
     "relic song": {
@@ -6496,7 +6496,7 @@
         "pp": "10",
         "power": "75",
         "accuracy": "100",
-        "description": "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pok&amp;eacute;mon. This may also induce sleep.",
+        "description": "The user sings an ancient song and attacks by appealing to the hearts of the listening opposing Pok\u00c3\u00a9mon. This may also induce sleep.",
         "type": "move"
     },
     "revelation dance": {
@@ -6586,7 +6586,7 @@
         "pp": "5",
         "power": null,
         "accuracy": "30",
-        "description": "The target faints instantly. It's less likely to hit the target if it's used by Pok&amp;eacute;mon other than Ice types.",
+        "description": "The target faints instantly. It's less likely to hit the target if it's used by Pok\u00c3\u00a9mon other than Ice types.",
         "type": "move"
     },
     "shell trap": {
@@ -6596,7 +6596,7 @@
         "pp": "5",
         "power": "150",
         "accuracy": "100",
-        "description": "The user sets a shell trap. If the user is hit by a physical move, the trap will explode and inflict damage on the opposing Pok&amp;eacute;mon.",
+        "description": "The user sets a shell trap. If the user is hit by a physical move, the trap will explode and inflict damage on the opposing Pok\u00c3\u00a9mon.",
         "type": "move"
     },
     "shock wave": {
@@ -6676,7 +6676,7 @@
         "pp": "15",
         "power": "55",
         "accuracy": "95",
-        "description": "The user yells as if it's ranting about something, which lowers the Sp. Atk stat of opposing Pok&amp;eacute;mon.",
+        "description": "The user yells as if it's ranting about something, which lowers the Sp. Atk stat of opposing Pok\u00c3\u00a9mon.",
         "type": "move"
     },
     "snore": {
@@ -6726,7 +6726,7 @@
         "pp": "10",
         "power": "90",
         "accuracy": "100",
-        "description": "The user bursts into song, emitting many bubbles. Any Pok&amp;eacute;mon suffering from a burn will be healed by the touch of these bubbles.",
+        "description": "The user bursts into song, emitting many bubbles. Any Pok\u00c3\u00a9mon suffering from a burn will be healed by the touch of these bubbles.",
         "type": "move"
     },
     "spit up": {
@@ -6776,7 +6776,7 @@
         "pp": "20",
         "power": "50",
         "accuracy": "100",
-        "description": "While resisting, the user attacks the opposing Pok&amp;eacute;mon. This lowers the Sp. Atk stat of those hit.",
+        "description": "While resisting, the user attacks the opposing Pok\u00c3\u00a9mon. This lowers the Sp. Atk stat of those hit.",
         "type": "move"
     },
     "surf": {
@@ -6796,7 +6796,7 @@
         "pp": "20",
         "power": "60",
         "accuracy": null,
-        "description": "Star-shaped rays are shot at the opposing Pok&amp;eacute;mon. This attack never misses.",
+        "description": "Star-shaped rays are shot at the opposing Pok\u00c3\u00a9mon. This attack never misses.",
         "type": "move"
     },
     "synchronoise": {
@@ -6806,7 +6806,7 @@
         "pp": "10",
         "power": "120",
         "accuracy": "100",
-        "description": "Using an odd shock wave, the user inflicts damage on any Pok&amp;eacute;mon of the same type in the area around it.",
+        "description": "Using an odd shock wave, the user inflicts damage on any Pok\u00c3\u00a9mon of the same type in the area around it.",
         "type": "move"
     },
     "techno blast": {
@@ -6876,7 +6876,7 @@
         "pp": "20",
         "power": "40",
         "accuracy": "100",
-        "description": "The user whips up a vicious tornado to tear at the opposing Pok&amp;eacute;mon. This may also make them flinch.",
+        "description": "The user whips up a vicious tornado to tear at the opposing Pok\u00c3\u00a9mon. This may also make them flinch.",
         "type": "move"
     },
     "uproar": {
@@ -6886,7 +6886,7 @@
         "pp": "10",
         "power": "90",
         "accuracy": "100",
-        "description": "The user attacks in an uproar for three turns. During that time, no Pok&amp;eacute;mon can fall asleep.",
+        "description": "The user attacks in an uproar for three turns. During that time, no Pok\u00c3\u00a9mon can fall asleep.",
         "type": "move"
     },
     "vacuum wave": {
@@ -6916,7 +6916,7 @@
         "pp": "20",
         "power": "70",
         "accuracy": "100",
-        "description": "After making its attack, the user rushes back to switch places with a party Pok&amp;eacute;mon in waiting.",
+        "description": "After making its attack, the user rushes back to switch places with a party Pok\u00c3\u00a9mon in waiting.",
         "type": "move"
     },
     "water gun": {
@@ -6966,7 +6966,7 @@
         "pp": "5",
         "power": "150",
         "accuracy": "100",
-        "description": "The user spouts water to damage opposing Pok&amp;eacute;mon. The lower the user's HP, the lower the move's power.",
+        "description": "The user spouts water to damage opposing Pok\u00c3\u00a9mon. The lower the user's HP, the lower the move's power.",
         "type": "move"
     },
     "weather ball": {
