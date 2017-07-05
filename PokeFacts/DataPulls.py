@@ -20,8 +20,8 @@ except ImportError:
 
 class DataPulls():
 
-    def __init__(self, main):
-        self.main = main
+    def __init__(self, scriptpath):
+        self.scriptpath = scriptpath
         self.reload()
 
     # reload - should reload the data to pull from
@@ -29,12 +29,12 @@ class DataPulls():
         self.store = ItemStore(Config.DATA_CONF)
 
         for file in Config.DATA_FILES:
-            file = self.main.scriptpath + '/' + file.lstrip('/')
+            file = self.scriptpath + '/' + file.lstrip('/')
             with open(file) as data_file:
                 self.store.addItems(json.load(data_file))
 
         for file in Config.DATA_SYNONYM_FILES:
-            file = self.main.scriptpath + '/' + file.lstrip('/')
+            file = self.scriptpath + '/' + file.lstrip('/')
             with open(file) as data_file:
                 self.store.addSynonyms(json.load(data_file))
 
@@ -120,7 +120,7 @@ class ItemStore():
             return self.index.findCluster(type).findItem(search_term)
 
     def addItems(self, data):
-        for item in data.items():
+        for item in data:
             self.addItem(item)
 
     def addItem(self, item_value):

@@ -76,7 +76,7 @@ DATA_CONF = {
     "type_property": "type",
 
     # defines which item property to use for the item terms
-    "term_property": "terms",
+    "term_property": "term",
 
     # search a specific type for a given prefix (works for both pair and standalone)
     #  - use `None` to search items that do not have a type

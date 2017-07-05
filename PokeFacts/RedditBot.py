@@ -73,7 +73,7 @@ class CallResponse():
 
         self.helpers    = Helpers.Helpers(self.r)
         self.mgmt       = Management.Management(self)
-        self.data       = DataPulls.DataPulls(self)
+        self.data       = DataPulls.DataPulls(self.scriptpath)
         self.done       = {}
         
         self.reloadConfig(True)
