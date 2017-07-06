@@ -126,7 +126,7 @@ class CallResponse():
             if not identifier == False:
                 info = self.data.getInfo(identifier, type=search_type)
                 if not info is None:
-                    self.logger.debug("Got info for: %s"%match)
+                    self.logger.info("Got info for: %s"%match)
                     items.append(info)
         
         return items
@@ -222,7 +222,7 @@ class CallResponse():
         reply_thing     = None                      # the comment created by the bot's reply
 
         if any(items):
-            self.logger.debug("Got " + str(len(items)) + " calls from " + thing.fullname)
+            self.logger.info("Got " + str(len(items)) + " calls from " + thing.fullname)
             try:
                 # compile reply
                 response_body = self.get_response(thing, items)
