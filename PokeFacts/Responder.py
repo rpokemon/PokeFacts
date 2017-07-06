@@ -12,7 +12,7 @@ def xstr(x):
 
 # respondPokemon - function returns the response body
 # of pokemon type objects (as returned by DataPulls.getInfo)
-def respondPokemon(call_item)
+def respondPokemon(call_item):
     response = ''
 
     basename = xstr(call_item['basename'])
@@ -53,7 +53,7 @@ def respondPokemon(call_item)
 
 # respondPokemon - function returns the response body
 # of ability type objects (as returned by DataPulls.getInfo)
-def respondAbility(call_item)
+def respondAbility(call_item):
     response = ''
 
     name = call_item["name"]
@@ -77,7 +77,7 @@ def respondAbility(call_item)
 
 # respondPokemon - function returns the response body
 # of move type objects (as returned by DataPulls.getInfo)
-def respondMove(call_item)
+def respondMove(call_item):
     response = ''
 
     name = call_item["name"]
@@ -108,7 +108,7 @@ def respondMove(call_item)
 
 # respondPokemon - function returns the response body
 # of item type objects (as returned by DataPulls.getInfo)
-def respondItem(call_item)
+def respondItem(call_item):
     response = ''
 
     name = call_item["name"]

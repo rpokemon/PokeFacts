@@ -1,14 +1,22 @@
-{
-    "bulbasaur": {
+[
+    {
+        "term": "charizard",
         "placeholder": 1
     },
-    "ivysaur": {
+    {
+        "term": "charizard mega",
         "placeholder": 2
     },
-    "venusaur": {
+    {
+        "term": "venusaur",
         "placeholder": 3
     },
-    "venusaur|~|mega|~|m": {
+    {
+        "term": "venusaur mega",
         "placeholder": 4
+    },
+    {
+        "term": "bulbasaur",
+        "placeholder": 5
     }
-}
+]

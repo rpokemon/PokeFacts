@@ -4,7 +4,6 @@ import re
 import sys
 import json
 import codecs
-import itertools
 
 from difflib import SequenceMatcher
 from collections import Counter
@@ -53,8 +52,8 @@ class DataPulls():
     #  - is stripped of all symbols and punctuation
     #  - has multiple whitespace replaced with a single space
     #  - has no leading or trailing whitespace
-    def getInfo(self, identifier, match_prefix):
-        result = self.store.search(identifier)
+    def getInfo(self, identifier, type=True):
+        result = self.store.search(identifier, type=type)
         if result.isEmpty():
             return None
         else:
@@ -79,8 +78,13 @@ class Item():
         self.type       = type
         self.term       = term
 
-    def get(self):
-        return self.value
+    def get(self, specific_property=None):
+        if specific_property is None:
+            return self.value
+        elif specific_property in self.value:
+            return self.value[specific_property]
+        else:
+            return None
 
     def getOrElse(self, otherwise=None):
         if self.isEmpty():

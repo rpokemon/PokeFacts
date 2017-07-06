@@ -26,8 +26,6 @@ import prawcore
 import importlib
 import traceback
 
-from praw.models.util import stream_generator
-
 try:
     from PokeFacts import Config
     from PokeFacts import DataPulls
@@ -117,8 +115,13 @@ class CallResponse():
             else:
                 seen.append(identifier)
 
+            search_type = True
+            if 'type_for_prefix' in Config.DATA_CONF:
+                if prefix in Config.DATA_CONF['type_for_prefix']:
+                    search_type = Config.DATA_CONF['type_for_prefix'][prefix]
+
             if not identifier == False:
-                info = self.data.getInfo(identifier, prefix)
+                info = self.data.getInfo(identifier, type=search_type)
                 if not info is None:
                     self.logger.debug("Got info for: %s"%match)
                     items.append(info)

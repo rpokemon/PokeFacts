@@ -46,18 +46,20 @@ class TestHelpers(object):
             mismatch_suffix = Config.MATCH_PAIR_SUFFIXES[mismatch_index]
 
             for input_data, expected_result in test_data.items():
-                result = helpers.validateIdentifier(prefix + input_data + suffix)
-
+                result, res_prefix = helpers.validateIdentifier(prefix + input_data + suffix)
+                
                 assert result == expected_result
+                assert res_prefix == prefix
 
-                bad_result0 = helpers.validateIdentifier(prefix + input_data + mismatch_suffix)
-                bad_result1 = helpers.validateIdentifier(mismatch_prefix + input_data + suffix)
+                bad_result0, _ = helpers.validateIdentifier(prefix + input_data + mismatch_suffix)
+                bad_result1, _ = helpers.validateIdentifier(mismatch_prefix + input_data + suffix)
 
                 assert bad_result0 == False
                 assert bad_result1 == False
 
         for idx, prefix in enumerate(Config.MATCH_STANDALONE_PREFIXES):
             for input_data, expected_result in test_data.items():
-                result = helpers.validateIdentifier(prefix + input_data)
+                result, res_prefix = helpers.validateIdentifier(prefix + input_data)
 
                 assert result == expected_result
+                assert res_prefix == prefix
