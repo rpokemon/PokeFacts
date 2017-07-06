@@ -10,42 +10,62 @@ def xstr(x):
         return ''
     return str(x)
 
+def xget(source, prop):
+    if type(source) == dict:
+        if prop in source:
+            return xstr(source[prop])
+    elif type(source) == list:
+        if prop < len(source) and prop >= 0:
+            return xstr(source[prop])
+    return ''
+
+def xlist(L):
+    if L is None:
+        return []
+    if not isinstance(L, list):
+        L = [L]
+    return [xstr(x) for x in L if x is not None]
+
 # respondPokemon - function returns the response body
 # of pokemon type objects (as returned by DataPulls.getInfo)
 def respondPokemon(call_item):
     response = ''
 
-    basename = xstr(call_item['basename'])
-    en_name = xstr(call_item['name']['english'])
-    jp_name = xstr(call_item['name']['kana'])
-    rj_name = xstr(call_item['name']['japanese'])
-    fdex_no = xstr(call_item['dex_no']).zfill(3)
-    types = call_item['types']
-    abilities = call_item['abilities'][:2]
-    hidden_ability = call_item["abilities"][2]
-    base_stats = call_item['base_stats']
+    basename        = xget(call_item, 'basename')
+    en_name         = xget(call_item['name'], 'english')
+    jp_name         = xget(call_item['name'], 'kana')
+    rj_name         = xget(call_item['name'], 'japanese')
+    fdex_no         = xget(call_item, 'dex_no').zfill(3)
+
+    pokeclass       = xget(call_item, 'classification')
+    types           = xlist(call_item['types'])
+    abilities       = xlist(call_item['abilities'][:2])
+    hidden_ability  = xget(call_item["abilities"], 2)
+    base_stats      = xlist(call_item['base_stats'])
+    evolutions      = xlist(call_item['evolutions'])
 
     response += '**#' + fdex_no + ' ' + en_name + '** '
     response += '(Japanese ' + jp_name + ' ' + rj_name + ')'
     response += "\n\n"
 
-    response += xstr(call_item['classification']) + ' | ' + xstr(' '.join(types)) 
+    response += pokeclass + ' | ' + (' '.join(types))
     response += "\n\n"
 
     response += ' / '.join(abilities)
-    response += (' / HA: ' + hidden_ability) if hidden_ability is not None else ''
+    if hidden_ability is not None:
+        response += ' / HA: ' + hidden_ability
     response += "\n\n"
 
-    response += xstr('/'.join(base_stats))
+    response += '/'.join(base_stats)
     response += "\n\n"
 
-    if any(call_item['evolutions']):
-        response += 'Evolutions: ' + xstr(' '.join(call_item['evolutions']))
+    if any(evolutions):
+        response += 'Evolutions: ' + (' '.join(evolutions))
         response += "\n\n"
 
-    response += '[Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/'+basename+') |'
-    response += '[Serebii](http://www.serebii.net/pokedex-sm/'+fdex_no+'.shtml) |'
-    response += '[Smogon](http://www.smogon.com/dex/sm/pokemon/'+basename+'/) |'
+    response += '[Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/'+basename+') | '
+    response += '[Serebii](http://www.serebii.net/pokedex-sm/'+fdex_no+'.shtml) | '
+    response += '[Smogon](http://www.smogon.com/dex/sm/pokemon/'+basename+'/) | '
     response += '[Pokemon.com](http://www.pokemon.com/us/pokedex/'+basename+')'
     response += "\n\n"
 
@@ -56,20 +76,20 @@ def respondPokemon(call_item):
 def respondAbility(call_item):
     response = ''
 
-    name = call_item["name"]
-    basename = call_item.lower().replace(' ', '')
-    generation = call_item["introduced"]
-    description = call_item["description"]
+    name        = xget(call_item, "name")
+    basename    = xget(call_item, "term").replace(' ', '')
+    generation  = xget(call_item, "introduced")
+    description = xget(call_item, "description")
 
     response += '**' + name + '** '
     response += '(Introduced: gen ' + generation + ')'
     response += "\n\n"
 
-    response += xstr(description)
+    response += description
     response += "\n\n"
 
-    response += '[Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/'+name+') |'
-    response += '[Serebii](https://www.serebii.net/abilitydex/'+basename+'.shtml) |'
+    response += '[Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/'+name+') | '
+    response += '[Serebii](https://www.serebii.net/abilitydex/'+basename+'.shtml) | '
     response += '[Smogon](http://www.smogon.com/dex/sm/abilities/'+name+'/)'
     response += "\n\n"
 
@@ -80,14 +100,14 @@ def respondAbility(call_item):
 def respondMove(call_item):
     response = ''
 
-    name = call_item["name"]
-    basename = call_item.lower().replace(' ', '')
-    move_type = call_item["typing"]
-    pp = call_item["pp"]
-    category = call_item["category"]
-    power = "varies" if category == "varies" else (call_item["power"] or "-")
-    accuracy = call_item["accuracy"] or "-"
-    description = call_item["description"]
+    name        = xget(call_item, "name")
+    basename    = xget(call_item, "term").replace(' ', '')
+    move_type   = xget(call_item, "typing")
+    pp          = xget(call_item, "pp")
+    category    = xget(call_item, "category")
+    power       = "varies" if category == "varies" else (xget(call_item, "power") or "-")
+    accuracy    = xget(call_item, "accuracy") or "-"
+    description = xget(call_item, "description")
 
     response += '**' + name + '** '
     response += '(Category: ' + category + ')'
@@ -99,8 +119,8 @@ def respondMove(call_item):
     response += description
     response += "\n\n"
 
-    response += '[Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/'+name+') |'
-    response += '[Serebii](https://www.serebii.net/attackdex-sm/'+basename+'.shtml) |'
+    response += '[Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/'+name+') | '
+    response += '[Serebii](https://www.serebii.net/attackdex-sm/'+basename+'.shtml) | '
     response += '[Smogon](http://www.smogon.com/dex/sm/abilities/'+name+'/)'
     response += "\n\n"
 
@@ -111,9 +131,9 @@ def respondMove(call_item):
 def respondItem(call_item):
     response = ''
 
-    name = call_item["name"]
-    basename = call_item.lower().replace(' ', '')
-    description = call_item["description"]
+    name        = xget(call_item, "name")
+    basename    = xget(call_item, "term").replace(' ', '')
+    description = xget(call_item, "description")
 
     response += '**' + name + '** '
     response += "\n\n"
@@ -121,8 +141,8 @@ def respondItem(call_item):
     response += description
     response += "\n\n"
 
-    response += '[Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/'+name+') |'
-    response += '[Serebii](https://www.serebii.net/attackdex-sm/'+basename+'.shtml) |'
+    response += '[Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/'+name+') | '
+    response += '[Serebii](https://www.serebii.net/attackdex-sm/'+basename+'.shtml) | '
     response += '[Smogon](http://www.smogon.com/dex/sm/items/'+name+'/)'
     response += "\n\n"
 
@@ -134,11 +154,11 @@ def getResponse(item, is_last = False):
     response_types = {
         "pokemon":  respondPokemon,
         "ability":  respondAbility,
-        #"move":     respondMove,
-        #"item":     respondItem,
+        "move":     respondMove,
+        "item":     respondItem,
     }
     try:
-        response = response_types[item.type](item.get())
+        response = response_types[item.type]( item.get() )
     except KeyError:
         response = ""
 

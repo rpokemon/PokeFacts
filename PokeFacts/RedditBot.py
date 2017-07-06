@@ -251,13 +251,6 @@ class CallResponse():
                 # we're banned from this subreddit, add to self.srNoTry
                 # so we won't try again for this subbie
                 self.srNoTry.append(thing.subreddit.id)
-            except Exception as e:
-                # delete if something went wrong with generating the reply
-                reply_thing.delete()
-                reply_thing = None
-                self.logger.warning("> [1] Was unable to reply to: " + thing.fullname)
-                print(traceback.format_exception(None, e, e.__traceback__),
-                        file=sys.stderr, flush=True)
 
         return True
 
@@ -314,25 +307,21 @@ def main(redditbot):
 
     except UnicodeEncodeError as e:
         redditbot.logger.warning("Caught UnicodeEncodeError")
-        print(traceback.format_exception(None, e, e.__traceback__),
-                file=sys.stderr, flush=True)
+        traceback.print_exc()
  
     except praw.exceptions.APIException as e:
         redditbot.logger.exception("API Error! - Sleeping")
-        print(traceback.format_exception(None, e, e.__traceback__),
-                file=sys.stderr, flush=True)
+        traceback.print_exc()
         time.sleep(120)
 
     except praw.exceptions.ClientException as e:
         redditbot.logger.exception("PRAW Client Error! - Sleeping")
-        print(traceback.format_exception(None, e, e.__traceback__),
-                file=sys.stderr, flush=True)
+        traceback.print_exc()
         time.sleep(120)
 
     except prawcore.exceptions.ServerError as e:
         redditbot.logger.exception("PRAW Server Error! - Sleeping")
-        print(traceback.format_exception(None, e, e.__traceback__),
-                file=sys.stderr, flush=True)
+        traceback.print_exc()
         time.sleep(120)
 
     except KeyboardInterrupt:
@@ -341,8 +330,7 @@ def main(redditbot):
         
     except Exception as e:
         redditbot.logger.critical('General Exception - sleeping 5 min')
-        print(traceback.format_exception(None, e, e.__traceback__),
-                file=sys.stderr, flush=True)
+        traceback.print_exc()
         time.sleep(300)
 
 if __name__ == '__main__':
