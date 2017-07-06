@@ -37,6 +37,7 @@ def respondPokemon(call_item):
     rj_name         = xget(call_item['name'], 'japanese')
     fdex_no         = xget(call_item, 'dex_no').zfill(3)
 
+    dex_entry       = ' '.join(xlist(call_item['dex_entry']))
     pokeclass       = xget(call_item, 'classification')
     types           = xlist(call_item['types'])
     abilities       = xlist(call_item['abilities'][:2])
@@ -48,20 +49,21 @@ def respondPokemon(call_item):
     response += '(Japanese ' + jp_name + ' ' + rj_name + ')'
     response += "\n\n"
 
-    response += pokeclass + ' | ' + (' '.join(types))
+    response += pokeclass + ' | Types: ' + (', '.join(types))
+    if any(evolutions):
+        response += ' | Evolutions: ' + (' '.join(evolutions))
     response += "\n\n"
 
-    response += ' / '.join(abilities)
-    if hidden_ability is not None and len(hidden_ability) > 0:
-        response += ' / HA: ' + hidden_ability
+    response += '_'+dex_entry+'_'
     response += "\n\n"
 
     response += '/'.join(base_stats)
+    if any(abilities):
+        response += ' | Abilities: '
+        response += ' / '.join(abilities)
+        if hidden_ability is not None and len(hidden_ability) > 0:
+            response += ' / HA: ' + hidden_ability
     response += "\n\n"
-
-    if any(evolutions):
-        response += 'Evolutions: ' + (' '.join(evolutions))
-        response += "\n\n"
 
     response += '[Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/'+basename+') | '
     response += '[Serebii](http://www.serebii.net/pokedex-sm/'+fdex_no+'.shtml) | '
@@ -113,7 +115,7 @@ def respondMove(call_item):
     response += '(Category: ' + category + ')'
     response += "\n\n"
 
-    response += move_type + ' | PP: ' + pp + '| Power: ' + power + " | Accuracy: " + accuracy
+    response += move_type + ' | PP: ' + pp + ' | Power: ' + power + " | Accuracy: " + accuracy
     response += "\n\n"
 
     response += description
