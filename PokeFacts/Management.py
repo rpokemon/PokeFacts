@@ -5,6 +5,7 @@ import sys
 import praw
 import psutil
 import signal
+import traceback
 
 class Management():
 
@@ -33,14 +34,18 @@ class Management():
 
     def bot_reloadData(self):
         try:
+            self.main.logger.info('Reloading data...')
             self.main.data.reload()
+            self.main.logger.info('Data reloaded.')
             return True
         except IOError:
             return False
 
     def bot_reloadConfig(self):
         try:
+            self.main.logger.info('Reloading config...')
             self.main.reloadConfig()
+            self.main.logger.info('Config reloaded.')
             return True
         except IOError:
             return False
@@ -63,12 +68,17 @@ class Management():
         return is_nohup
 
     def bot_restart(self):
+        self.main.logger.info('Initializing restart sequence')
         try:
             # close open files/resources to prevent possible memory leaks
             p = psutil.Process(os.getpid())
-            for handler in p.get_open_files() + p.connections():
-                os.close(handler.fd)
+            for handler in p.open_files() + p.connections():
+                if not handler.fd == -1:
+                    os.close(handler.fd)
+            self.main.logger.info('All open files and connections closed')
         except:
+            self.main.logger.info('Failed to restart - could not close resources')
+            traceback.print_exc()
             return False
 
         # restart the current script
@@ -79,9 +89,12 @@ class Management():
         # in the remaining args we pass the original arguments
         # if the current script was originally run in nohup mode, that'll carry over
         try:
+            self.main.logger.info('Restarting...')
             os.execl(sys.executable, sys.executable, self.main.scriptfile, *sys.argv[1:])
             return True
         except OSError:
+            self.main.logger.info('Failed to restart - OSError')
+            traceback.print_exc()
             return False
     
     # does the bot mod with at least 'posts' perms?

@@ -65,6 +65,8 @@ class CallResponse():
         self.scriptfile = os.path.abspath(__file__)
         self.scriptpath = os.path.dirname(self.scriptfile)
         self.logger     = Logger(Config.USERNAME, Config.VERSION)
+        
+        self.logger.info('Bot started, initializing...')
 
         self.r = Config.reddit()
         self.logger.info('Connected to reddit account: {}'.format(self.r.user.me()))
@@ -81,6 +83,7 @@ class CallResponse():
     def reloadConfig(self, first_load=False):
         if not first_load:
             importlib.reload(Config)
+            self.logger.info('Reloading config')
         
         self.match_p    = re.compile(Config.MATCH_STRING)
         self.subreddit  = self.r.subreddit('+'.join(Config.SUBREDDITS))
