@@ -853,7 +853,6 @@
             72
         ],
         "types": [
-            "Dark",
             "Normal"
         ],
         "abilities": [
@@ -923,7 +922,6 @@
             97
         ],
         "types": [
-            "Dark",
             "Normal"
         ],
         "abilities": [
@@ -1162,8 +1160,7 @@
             110
         ],
         "types": [
-            "Electric",
-            "Psychic"
+            "Electric"
         ],
         "abilities": [
             "Static",
@@ -1230,8 +1227,7 @@
             40
         ],
         "types": [
-            "Ice",
-            "Steel"
+            "ground"
         ],
         "abilities": [
             "Sand Veil",
@@ -1300,8 +1296,7 @@
             65
         ],
         "types": [
-            "Ice",
-            "Steel"
+            "ground"
         ],
         "abilities": [
             "Sand Veil",
@@ -1642,7 +1637,7 @@
             65
         ],
         "types": [
-            "Ice"
+            "Fire"
         ],
         "abilities": [
             "Flash Fire",
@@ -1710,8 +1705,7 @@
             100
         ],
         "types": [
-            "Ice",
-            "Fairy"
+            "Fire"
         ],
         "abilities": [
             "Flash Fire",
@@ -2165,8 +2159,7 @@
             95
         ],
         "types": [
-            "Ground",
-            "Steel"
+            "Ground"
         ],
         "abilities": [
             "Sand Veil",
@@ -2235,8 +2228,7 @@
             120
         ],
         "types": [
-            "Ground",
-            "Steel"
+            "Ground"
         ],
         "abilities": [
             "Sand Veil",
@@ -2303,7 +2295,7 @@
             90
         ],
         "types": [
-            "Dark"
+            "Normal"
         ],
         "abilities": [
             "Pickup",
@@ -3164,7 +3156,7 @@
         ],
         "types": [
             "Rock",
-            "Electric"
+            "Ground"
         ],
         "abilities": [
             "Rock Head",
@@ -3234,7 +3226,7 @@
         ],
         "types": [
             "Rock",
-            "Electric"
+            "Ground"
         ],
         "abilities": [
             "Rock Head",
@@ -3304,7 +3296,7 @@
         ],
         "types": [
             "Rock",
-            "Electric"
+            "Ground"
         ],
         "abilities": [
             "Rock Head",
@@ -3789,8 +3781,7 @@
             25
         ],
         "types": [
-            "Poison",
-            "Dark"
+            "Poison"
         ],
         "abilities": [
             "Stench",
@@ -3859,8 +3850,7 @@
             50
         ],
         "types": [
-            "Poison",
-            "Dark"
+            "Poison"
         ],
         "abilities": [
             "Stench",
@@ -4413,7 +4403,7 @@
         ],
         "types": [
             "Grass",
-            "Dragon"
+            "Psychic"
         ],
         "abilities": [
             "Chlorophyll",
