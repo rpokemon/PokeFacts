@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 
-import json
 import re
+import sys
+import json
+import codecs
+import itertools
 
 from difflib import SequenceMatcher
 from collections import Counter
@@ -9,9 +12,11 @@ from collections import Counter
 try:
     from PokeFacts import Config
     from PokeFacts import Helpers
+    from PokeFacts import SymSpell
 except ImportError:
     import Config
     import Helpers
+    import SymSpell
 
 # DataPulls.py
 # ~~~~~~~~~~~~
@@ -30,12 +35,12 @@ class DataPulls():
 
         for file in Config.DATA_FILES:
             file = self.scriptpath + '/' + file.lstrip('/')
-            with open(file) as data_file:
+            with codecs.open(file, "r", "utf-8") as data_file:
                 self.store.addItems(json.load(data_file))
 
         for file in Config.DATA_SYNONYM_FILES:
             file = self.scriptpath + '/' + file.lstrip('/')
-            with open(file) as data_file:
+            with codecs.open(file, "r", "utf-8") as data_file:
                 self.store.addSynonyms(json.load(data_file))
 
 
@@ -175,8 +180,13 @@ class ItemCluster():
         return ClusterSearchHelper(self).findItem(search_term)
 
     def addItem(self, item):
+        term_no_spaces = item.term.replace(" ", "")
+
         self.termholder.addTerm(item.term)
+        self.termholder.addTerm(term_no_spaces)
+
         self.items[item.term] = item
+        self.items[term_no_spaces] = item
 
     def addSynonym(self, old_word, new_word):
         self.synonyms[old_word] = new_word
@@ -234,33 +244,41 @@ class ClusterSearchHelper():
 
         if len(self.clusters) == 1:
             source_cluster = self.clusters[0]
-            real_term = source_cluster.termholder.termcorrection(search_term)
+            real_term, likely = source_cluster.termholder.termcorrection(search_term)
         else:
-            real_term, source_cluster = self.termcorrection(search_term)
+            real_term, source_cluster = self.findTerm(search_term)
 
         if real_term is None:
             return Item.newFalseItem()
         
         return source_cluster.items[real_term]
 
-    def termcorrection(self, term):
-        global _wordEditsCache
-
-        ret_term = None
-        ret_cluster = None
-
+    def findTerm(self, term):
         term = TermEntry(term, term.split())
+
+        likely_ratio = 0
+        likely_term = None
+        likely_cluster = None
+
         for cluster in self.clusters:
-            ret = cluster.termholder.termcorrection(term)
-            if not ret is None:
-                ret_term = ret
-                ret_cluster = cluster
-                break
+            term_candidate, ratio_candidate = cluster.termholder.termcorrection(term)
 
-        for word in term.words:
-            _wordEditsCache.pop(word, None)
+            # if 100%, no point in checking the rest
+            # if above 90%, then it's close enough
+            if ratio_candidate >= 0.9:
+                return term_candidate, cluster
 
-        return ret_term, ret_cluster
+            # ignore if likelyhood is less than 50%
+            # (too low to consider)
+            if ratio_candidate < 0.50:
+                continue
+
+            if ratio_candidate > likely_ratio:
+                likely_ratio    = ratio_candidate
+                likely_term     = term_candidate
+                likely_cluster  = cluster
+        
+        return likely_term, likely_cluster
 
 # helper class used by TermHolder
 # the purpose of this class is to save a little memory
@@ -279,16 +297,23 @@ class TermHolder():
     def __init__(self, parent_cluster):
         self.parent_cluster = parent_cluster
 
-        self._PN = 0
-        self._terms = []
-        self._words = Counter()
+        self.symspell = SymSpell.SymSpell()
 
-        self._wordToTermMap = {}
+        self._PN = 0 # the total number of words
+        self._terms = set() # list of all terms
+        self._words = Counter() # word -> number of times the word is used
+
+        self._wordToTermMap = {} # word to term cluster
+    
+    # approximate size of this TermHolder Object
+    def getByteSize(self):
+        return sys.getsizeof(self._terms) + sys.getsizeof(self._words) \
+                + sys.getsizeof(self._wordToTermMap) + sys.getsizeof(self.symspell.dictionary)
 
     def addTerm(self, term):
         term = TermEntry(term, term.split())
 
-        self._terms.append(term)
+        self._terms.add(term)
 
         for word in term.words:
             self._words[word] += 1
@@ -298,22 +323,30 @@ class TermHolder():
                 self._wordToTermMap[word] = []
             self._wordToTermMap[word].append(term)
 
+            if Config.DATA_USE_SYMSPELL:
+                self.symspell.create_dictionary_entry(word)
+
+    # ------------------------------------------------------------------------------------------
+    # TERM CORRECTION
 
     def termcorrection(self, term):
         if term in self._terms:
-            return term
+            return term, 1.00
 
         least_common_word = None
         min_word_count = float('inf')
 
         if not isinstance(term, TermEntry):
             term = TermEntry(term, term.split())
-
+        
+        # here we're trying to find the least common word
+        # in this term in hopes that the cluster using
+        # that word has a small amount of term candidates
         for word in term.words:
             word = self.correction(word)
 
             if not word in self._words:
-                return None
+                return None, 0.00
 
             count = self._words[word]
             if count < min_word_count:
@@ -325,39 +358,49 @@ class TermHolder():
         max_candidate = None
         max_ratio = 0
 
-        for idx, candidate in enumerate(self._wordToTermMap[least_common_word]):
+        # loop over all term candidates in the cluster and compare the similarity
+        # to our term. Retrieve the candidate with the most similarity
+        term_candidates = self._wordToTermMap[least_common_word]
+        if not any(term_candidates):
+            return None, 0.00
+
+        for idx, candidate in enumerate(term_candidates):
             ratio = TermHolder.similar(term.term, candidate.term)
             if ratio > max_ratio:
                 max_candidate = candidate
                 max_ratio = ratio
         
-        return max_candidate.term
-    
-    def P(self, word, N=None):
-        "Probability of `word`."
-        return self._words[word] / (N or self._PN)
+        if max_candidate is None:
+            return None, 0.00
+
+        return max_candidate.term, max_ratio
+
+    @staticmethod
+    def similar(a, b):
+        return SequenceMatcher(None, a, b).ratio()
+
+    # ------------------------------------------------------------------------------------------
+    # WORD CORRECTION
 
     def correction(self, word):
         "Most probable spelling correction for word."
         
-        # if already an existing word, return
-        if word in self._words:
-            return word
-        
-        # check synonyms
-        synonym = self.parent_cluster.findSynonym(word)
-        if not synonym is None:
-            word = synonym
-        
-        # check if existing word after synonym check
-        if word in self._words:
-            return word
+        if Config.DATA_USE_SYMSPELL:
+            candidates = [ self.symspell.best_word(word) ]
+        else:
+            candidates = self.candidates(word)
 
-        candidates = self.candidates(word)
-        if len(candidates) == 1:
-            return candidates.pop()
-        
+        synonym = self.parent_cluster.findSynonym(word)
+        if synonym is not None:
+            candidates.append(synonym)
+        else:
+            return candidates[0]
+
         return max(candidates, key=self.P)
+    
+    def P(self, word):
+        "Probability of `word`."
+        return self._words[word] / self._PN
     
     # courtesy http://norvig.com/spell-correct.html
     def candidates(self, word):
@@ -373,45 +416,17 @@ class TermHolder():
     @staticmethod
     def edits1(word):
         "All edits that are one edit away from `word`."
-        global _wordEditsCache
-
-        if word in _wordEditsCache and 'edits1' in _wordEditsCache[word]:
-            return _wordEditsCache[word]['edits1']
-
-        letters    = 'abcdefghijklmnopqrstuvwxyz'
         splits     = [(word[:i], word[i:])    for i in range(len(word) + 1)]
         deletes    = [L + R[1:]               for L, R in splits if R]
         transposes = [L + R[1] + R[0] + R[2:] for L, R in splits if len(R)>1]
-        replaces   = [L + c + R[1:]           for L, R in splits if R for c in letters]
-        inserts    = [L + c + R               for L, R in splits for c in letters]
-        
-        ret = set(deletes + transposes + replaces + inserts)
-
-        if not word in _wordEditsCache:
-            _wordEditsCache[word] = {}
-        _wordEditsCache[word]['edits1'] = ret
-
-        return ret
+        replaces   = [L + c + R[1:]           for L, R in splits if R for c in ALPHABET]
+        inserts    = [L + c + R               for L, R in splits for c in ALPHABET]
+        return set(deletes + transposes + replaces + inserts)
     
     # courtesy http://norvig.com/spell-correct.html
     @staticmethod
     def edits2(word): 
         "All edits that are two edits away from `word`."
-        global _wordEditsCache
+        return (e2 for e1 in TermHolder.edits1(word) for e2 in TermHolder.edits1(e1))
 
-        if word in _wordEditsCache and 'edits2' in _wordEditsCache[word]:
-            return _wordEditsCache[word]['edits2']
-
-        ret = [e2 for e1 in TermHolder.edits1(word) for e2 in TermHolder.edits1(e1)]
-
-        if not word in _wordEditsCache:
-            _wordEditsCache[word] = {}
-        _wordEditsCache[word]['edits2'] = ret
-
-        return ret
-
-    @staticmethod
-    def similar(a, b):
-        return SequenceMatcher(None, a, b).ratio()
-
-_wordEditsCache = {}
+ALPHABET = 'abcdefghijklmnopqrstuvwxyz'
