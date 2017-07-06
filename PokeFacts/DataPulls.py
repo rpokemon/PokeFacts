@@ -269,7 +269,7 @@ class ClusterSearchHelper():
 
         for cluster in self.clusters:
             term_candidate, ratio_candidate = cluster.termholder.termcorrection(term)
-            print('Got', term_candidate, 'at ratio', ratio_candidate)
+            #print('Got', term_candidate, 'at ratio', ratio_candidate)
             # if 100%, no point in checking the rest
             # if above 90%, then it's close enough
             if ratio_candidate >= 0.9:
@@ -385,7 +385,7 @@ class TermHolder():
 
         max_candidate = None
         max_ratio = 0
-        print(':', new_token1, new_token2, '/', least_common_word, '/', [x.tokenized for x in self._wordToTermMap[least_common_word]])
+        #print(':', new_token1, new_token2, '/', least_common_word, '/', [x.tokenized for x in self._wordToTermMap[least_common_word]])
 
         # loop over all term candidates in the cluster and compare the similarity
         # to our term. Retrieve the candidate with the most similarity
