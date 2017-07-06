@@ -1379,7 +1379,7 @@
         ],
         "basename": "nidoran-f",
         "type": "pokemon",
-        "term": "nidoran female f"
+        "term": "nidoran female"
     },
     {
         "dex_no": 30,
@@ -24845,7 +24845,7 @@
         ],
         "basename": "tornadus",
         "type": "pokemon",
-        "term": "tornadus therian t"
+        "term": "tornadus therian"
     },
     {
         "dex_no": 642,
@@ -24913,7 +24913,7 @@
         ],
         "basename": "thundurus",
         "type": "pokemon",
-        "term": "thundurus therian t"
+        "term": "thundurus therian"
     },
     {
         "dex_no": 643,
@@ -25049,7 +25049,7 @@
         ],
         "basename": "landorus",
         "type": "pokemon",
-        "term": "landorus therian t"
+        "term": "landorus therian"
     },
     {
         "dex_no": 646,
@@ -26391,7 +26391,7 @@
         ],
         "basename": "meowstic",
         "type": "pokemon",
-        "term": "meowstic female f"
+        "term": "meowstic female"
     },
     {
         "dex_no": 679,
