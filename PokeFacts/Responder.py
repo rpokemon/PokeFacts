@@ -52,7 +52,7 @@ def respondPokemon(call_item):
     response += "\n\n"
 
     response += ' / '.join(abilities)
-    if hidden_ability is not None:
+    if hidden_ability is not None and len(hidden_ability) > 0:
         response += ' / HA: ' + hidden_ability
     response += "\n\n"
 

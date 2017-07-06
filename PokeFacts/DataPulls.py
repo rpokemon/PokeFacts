@@ -186,6 +186,9 @@ class ItemCluster():
     def addItem(self, item):
         term_no_spaces = item.term.replace(" ", "")
 
+        if item.term in self.items:
+            return
+
         self.termholder.addTerm(item.term)
         self.termholder.addTerm(term_no_spaces)
 
@@ -258,7 +261,7 @@ class ClusterSearchHelper():
         return source_cluster.items[real_term]
 
     def findTerm(self, term):
-        term = TermEntry(term, term.split())
+        term = TermEntry(term)
 
         likely_ratio = 0
         likely_term = None
@@ -266,7 +269,7 @@ class ClusterSearchHelper():
 
         for cluster in self.clusters:
             term_candidate, ratio_candidate = cluster.termholder.termcorrection(term)
-
+            print('Got', term_candidate, 'at ratio', ratio_candidate)
             # if 100%, no point in checking the rest
             # if above 90%, then it's close enough
             if ratio_candidate >= 0.9:
@@ -291,9 +294,13 @@ class ClusterSearchHelper():
 # all the keys with the same term point to the same object
 class TermEntry():
 
-    def __init__(self, term, termwords):
+    def __init__(self, term):
         self.term = term
-        self.words = termwords
+        self.words = term.split()
+        self.sortedWords = sorted(self.words)
+        self.tokenized = ''.join(self.sortedWords)
+
+termWordDict = SymSpell.SymSpell()
 
 # helper class used by ItemCluster
 class TermHolder():
@@ -301,7 +308,7 @@ class TermHolder():
     def __init__(self, parent_cluster):
         self.parent_cluster = parent_cluster
 
-        self.symspell = SymSpell.SymSpell()
+        #self.symspell = SymSpell.SymSpell()
 
         self._PN = 0 # the total number of words
         self._terms = set() # list of all terms
@@ -315,7 +322,7 @@ class TermHolder():
                 + sys.getsizeof(self._wordToTermMap) + sys.getsizeof(self.symspell.dictionary)
 
     def addTerm(self, term):
-        term = TermEntry(term, term.split())
+        term = TermEntry(term)
 
         self._terms.add(term)
 
@@ -328,7 +335,8 @@ class TermHolder():
             self._wordToTermMap[word].append(term)
 
             if Config.DATA_USE_SYMSPELL:
-                self.symspell.create_dictionary_entry(word)
+                #self.symspell.create_dictionary_entry(word)
+                termWordDict.create_dictionary_entry(word)
 
     # ------------------------------------------------------------------------------------------
     # TERM CORRECTION
@@ -341,38 +349,56 @@ class TermHolder():
         min_word_count = float('inf')
 
         if not isinstance(term, TermEntry):
-            term = TermEntry(term, term.split())
+            term = TermEntry(term)
         
         # here we're trying to find the least common word
         # in this term in hopes that the cluster using
         # that word has a small amount of term candidates
+        new_words1 = []
+        new_words2 = []
         for word in term.words:
-            word = self.correction(word)
+            old_word = word
+            new_word = self.correction(old_word)
 
-            if not word in self._words:
-                return None, 0.00
+            word_similarity = 0 if new_word is None else TermHolder.similar(old_word, new_word)
 
-            count = self._words[word]
-            if count < min_word_count:
-                min_word_count = count
-                least_common_word = word
-        
-        term.term = " ".join(term.words)
+            if new_word is None or word_similarity <= 0.7:
+                new_words1.append(old_word)
+                word = old_word
+            else:
+                new_words1.append(new_word)
+                word = new_word
+
+            new_words2.append(new_word)
+
+            if word in self._words:
+                count = self._words[word]
+                if count < min_word_count:
+                    min_word_count = count
+                    least_common_word = word
+
+        if least_common_word is None:
+            return None, 0.0
+
+        new_token1 = ''.join(sorted(new_words1))
+        new_token2 = ''.join(sorted(new_words2))
 
         max_candidate = None
         max_ratio = 0
+        print(':', new_token1, new_token2, '/', least_common_word, '/', [x.tokenized for x in self._wordToTermMap[least_common_word]])
 
         # loop over all term candidates in the cluster and compare the similarity
         # to our term. Retrieve the candidate with the most similarity
-        term_candidates = self._wordToTermMap[least_common_word]
-        if not any(term_candidates):
-            return None, 0.00
-
-        for idx, candidate in enumerate(term_candidates):
-            ratio = TermHolder.similar(term.term, candidate.term)
-            if ratio > max_ratio:
+        for idx, candidate in enumerate(self._wordToTermMap[least_common_word]):
+            ratio1 = TermHolder.similar(new_token1, candidate.tokenized)
+            if ratio1 > max_ratio:
                 max_candidate = candidate
-                max_ratio = ratio
+                max_ratio = ratio1
+
+            ratio2 = TermHolder.similar(new_token2, candidate.tokenized)
+            if ratio2 > max_ratio:
+                max_candidate = candidate
+                max_ratio = ratio2
         
         if max_candidate is None:
             return None, 0.00
@@ -390,7 +416,8 @@ class TermHolder():
         "Most probable spelling correction for word."
         
         if Config.DATA_USE_SYMSPELL:
-            candidates = [ self.symspell.best_word(word) ]
+            #candidates = [ self.symspell.best_word(word) ]
+            candidates = [ termWordDict.best_word(word) ]
         else:
             candidates = self.candidates(word)
 
