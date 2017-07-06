@@ -3,18 +3,25 @@
 PokeFacts is a Reddit bot made by the moderators of /r/pokemon
 which responds with info about a Pokemon when requested.
 
-(Bot is still in development, not active)
-
 It currently runs on the following subreddits: /r/pokemon
 
 ## Usage
 
 In your comment or selfposts, use any of the following: 
-{PokemonName}, <PokemonName>, or !PokemonName
+{NameHere}, <NameHere>, or !NameHere
+
+The name can be that of any Pokemon, item, ability or move.
+
+Please note that the exclamation mark notation does not work
+with names containing spaces. So !Mr. Mime, !Life Orb, !Flame Body
+etc won't work, but {Mr. Mime}, {Life Orb}, {Flame Body} etc will.
 
 Example comment:
 
-    {Bulbsaur} is pretty cool.
+    {Bulbasaur} is pretty cool.
+
+The bot will attempt to correction spelling mistakes, so {Bulbasaur}
+and {Bulsaur} will both work.
 
 ## FAQ
 
@@ -50,6 +57,13 @@ The moderators of /r/pokemon!
 
 ## Contributing
 
+### Correcting errata/missing information
+
+The information used by bot are located in `PokeFacts/data/pokemon.json`,
+`PokeFacts/data/items.json`, `PokeFacts/data/moves.json`, and `PokeFacts/data/abilities.json`.
+Feel free to submit a pull request if you know how, or otherwise submit an issue
+or [modmail us on Reddit](https://www.reddit.com/message/compose?to=%2Fr%2Fpokemon).
+
 ### Requirements to run
 
 Requires PRAW, Python 3, and psutil. Using the latest versions is recommended.
@@ -57,6 +71,11 @@ If you'd like to test it out for yourself, you'll need to configure the
 `PokeFacts/Config.py` and create a `PokeFacts/Secrets.py` file containing
 two variables: `PASSWORD` and `APP_SECRET` which are respectively the reddit
 account password and OAuth app secret.
+
+If you'd like to modify the code to use for your own subreddit, the only
+files you need to change are `PokeFacts/Responder.py` and `PokeFacts/Config.py`.
+The rest of the code is pretty general. The `Responder.py` file only needs the
+`getResponse(item, is_last)` function where 'item' is a DataPulls.Item object.
 
 ### Testing
 
