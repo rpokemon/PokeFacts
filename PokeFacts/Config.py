@@ -89,6 +89,7 @@ DATA_CONF = {
         "!": True,
     }
 }
+DATA_USE_SYMSPELL = True
 
 # RESPONSE CONFIG
 # ---------------
