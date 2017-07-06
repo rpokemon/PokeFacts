@@ -5,5 +5,5 @@
 {{PokemonName}}, <PokemonName>, or !PokemonName | 
 [FAQ](/r/pokemon/wiki/pokefacts) |
 [Mistake?](https://www.reddit.com/message/compose?to=%2Fr%2Fpokemon&subject=[ISSUE]%20PokeFacts&message={permalink}) |
-[Source Code](https://github.com/rpokemon/PokeFacts) |
+[Source](https://github.com/rpokemon/PokeFacts) |
 [♥](/r/pokemon/wiki/pokefacts/thanks)
