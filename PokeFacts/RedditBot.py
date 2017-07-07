@@ -264,6 +264,7 @@ class CallResponse():
                 if comment is None:
                     break
                 if not self.process(comment):
+                    self.logger.debug('broke out of comments loop')
                     break
         
         # check self posts
@@ -273,6 +274,7 @@ class CallResponse():
                 if submission is None:
                     break
                 if not self.process(submission):
+                    self.logger.debug('broke out of submissions loop')
                     break
 
         # check edited comments for modded subs
@@ -282,6 +284,7 @@ class CallResponse():
                 if edited_thing is None:
                     break
                 if not self.process(edited_thing):
+                    self.logger.debug('broke out of edited loop')
                     break
                     
         # check messages (for operator sent commands)
