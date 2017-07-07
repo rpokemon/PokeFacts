@@ -96,6 +96,7 @@ class Helpers():
                 return False, None
 
             identifier = query[offset:]
+            prefix = Config.MATCH_STANDALONE_PREFIXES[idx]
         else:
             suffix = Config.MATCH_PAIR_SUFFIXES[idx]
             suffix_len = len(suffix)
@@ -104,12 +105,12 @@ class Helpers():
                 return False, None
 
             identifier = query[offset:-suffix_len]
+            prefix = Config.MATCH_PAIR_PREFIXES[idx]
         
         if type(Config.IDENTIFIER_SANITIZE) == str:
             identifier = re.sub(Config.IDENTIFIER_SANITIZE, '', identifier) # remove symbols
 
         identifier = re.sub(r'\s+', ' ', identifier).strip() # remove extraneous whitespace
-        prefix = Config.MATCH_PAIR_PREFIXES[idx]
 
         return identifier, prefix
 
