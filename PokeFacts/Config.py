@@ -113,9 +113,9 @@ REPLY_SHOULD_DISTINGUISH = False # should distinguish comment?
 # you can change these
 MATCH_PAIR_PREFIXES         = ['{', '<']
 MATCH_PAIR_SUFFIXES         = ['}', '>']
-MATCH_PAIR_VALUE            = r"[A-Za-z0-9\'\-\. ]+"
+MATCH_PAIR_VALUE            = r"[A-Za-zÀ-ÿ0-9\'\-\. ]+"
 MATCH_STANDALONE_PREFIXES   = ['!']
-MATCH_STANDALONE_VALUE      = r"[A-Za-z0-9\'\-]+"
+MATCH_STANDALONE_VALUE      = r"[A-Za-zÀ-ÿ0-9\'\-]+"
 
 # DO NOT CHANGE ANYTHING BELOW THIS LINE
 # --------------------------------------
