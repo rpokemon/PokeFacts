@@ -87,7 +87,7 @@ class CallResponse():
         self.match_p    = re.compile(Config.MATCH_STRING)
         self.subreddit  = self.r.subreddit('+'.join(Config.SUBREDDITS)) if self.r else None
         self.srmodnames = list(sr.lower() for sr in Config.SUBREDDITS if self.helpers.isBotModeratorOf(sr, 'posts'))
-        self.srNoTry    = [] # list of subreddit (IDs) to not operate in
+        self.srNoTry    = set() # list of subreddit (IDs) to not operate in
 
         if any(self.srmodnames) and self.r:
             self.modded = self.r.subreddit('+'.join(self.srmodnames))
@@ -182,6 +182,10 @@ class CallResponse():
     #   true - if should continue
     #   false - if should break
     def process(self, thing, ignore_break=False):
+        if self.should_break(thing):
+            if not ignore_break:
+                return False
+
         if hasattr(thing, 'subreddit') and not thing.subreddit is None and thing.subreddit.id in self.srNoTry:
             return True
 
@@ -191,10 +195,6 @@ class CallResponse():
         subject     = None                              # thing subject (if applicable)
         body        = None                              # thing body
         items       = []                                # call items
-
-        if self.should_break(thing):
-            if not ignore_break:
-                return False
 
         if ttype == Helpers.COMMENT:
             body      = thing.body
