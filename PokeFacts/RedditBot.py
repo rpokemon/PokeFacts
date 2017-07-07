@@ -87,7 +87,6 @@ class CallResponse():
         self.match_p    = re.compile(Config.MATCH_STRING)
         self.subreddit  = self.r.subreddit('+'.join(Config.SUBREDDITS)) if self.r else None
         self.srmodnames = list(sr.lower() for sr in Config.SUBREDDITS if self.helpers.isBotModeratorOf(sr, 'posts'))
-        self.srNoTry    = set() # list of subreddit (IDs) to not operate in
 
         if any(self.srmodnames) and self.r:
             self.modded = self.r.subreddit('+'.join(self.srmodnames))
@@ -185,10 +184,13 @@ class CallResponse():
         if self.should_break(thing):
             if not ignore_break:
                 return False
-
-        if hasattr(thing, 'subreddit') and not thing.subreddit is None and thing.subreddit.id in self.srNoTry:
-            return True
-
+        
+        if thing.id not in self.done:
+            self.done[thing.id] = {
+                "reply_id":     None,
+                "last_process": time.time()
+            }
+        
         ttype       = self.helpers.typeof(thing)        # thing type (int)
         noun        = self.helpers.nounForType(ttype)   # thing type noun
         is_valid    = True                              # if the thing is valid for processing
@@ -224,7 +226,7 @@ class CallResponse():
                 response_body = self.get_response(thing, items)
 
                 # check if already there already exists a reply for this thing
-                if thing.id in self.done:
+                if self.done[thing.id]["reply_id"] is not None:
                     reply_thing = self.r.comment(id=self.done[thing.id]["reply_id"])
                     reply_thing.edit(response_body)
                     self.logger.info("> Edited reply to " + noun + " by %s, id - %s"%(str(thing.author), thing.fullname))
@@ -239,17 +241,12 @@ class CallResponse():
                         elif ttype == Helpers.COMMENT and Config.REPLY_SHOULD_DISTINGUISH:
                             reply_thing.mod.distinguish()
 
-                # add to done queue
-                self.done[thing.id] = {
-                    "reply_id":  reply_thing.id,
-                    "last_process": time.time()
-                }
+                # update reply_id in done queue
+                self.done[thing.id]["reply_id"] = reply_thing.id
             except praw.exceptions.APIException:
                 self.logger.warning("> " + noun + " was deleted, id - %s"%str(thing.fullname))
             except prawcore.exceptions.Forbidden:
-                # we're banned from this subreddit, add to self.srNoTry
-                # so we won't try again for this subbie
-                self.srNoTry.append(thing.subreddit.id)
+                pass # this exception happens if we're banned from the subreddit
 
         return True
 
