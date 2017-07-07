@@ -259,33 +259,39 @@ class CallResponse():
 
         # check comments
         if Config.RESPONDER_CHECK_COMMENTS:
+            amount = 0
             self.logger.debug('-----[ Checking new comments ]-----')
             for comment in self.subreddit.comments(limit=200):
                 if comment is None:
                     break
                 if not self.process(comment):
-                    self.logger.debug('broke out of comments loop')
+                    self.logger.debug('       Broke out of comments loop', amount)
                     break
+                amount += 1
         
         # check self posts
         if Config.RESPONDER_CHECK_SUBMISSIONS:
+            amount = 0
             self.logger.debug('-----[ Checking new submissions ]-----')
             for submission in self.subreddit.new(limit=100):
                 if submission is None:
                     break
                 if not self.process(submission):
-                    self.logger.debug('broke out of submissions loop')
+                    self.logger.debug('       Broke out of submissions loop', amount)
                     break
+                amount += 1
 
         # check edited comments for modded subs
         if Config.RESPONDER_CHECK_EDITED and not self.modded is None:
+            amount = 0
             self.logger.debug('-----[ Checking edited comments ]-----')
             for edited_thing in self.modded.mod.edited(limit=100):
                 if edited_thing is None:
                     break
                 if not self.process(edited_thing):
-                    self.logger.debug('broke out of edited loop')
+                    self.logger.debug('       Broke out of edited loop', amount)
                     break
+                amount += 1
                     
         # check messages (for operator sent commands)
         self.logger.debug('-----[ Checking unread inbox ]-----')
