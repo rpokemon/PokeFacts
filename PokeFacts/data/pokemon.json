@@ -9332,7 +9332,7 @@
         ],
         "basename": "porygon2",
         "type": "pokemon",
-        "term": "porygon2"
+        "term": "porygon 2"
     },
     {
         "dex_no": 234,
@@ -18705,7 +18705,7 @@
         ],
         "basename": "porygon-z",
         "type": "pokemon",
-        "term": "porygon-z"
+        "term": "porygon z"
     },
     {
         "dex_no": 475,
@@ -21610,7 +21610,7 @@
         ],
         "basename": "basculin",
         "type": "pokemon",
-        "term": "basculin red-striped red"
+        "term": "basculin red striped"
     },
     {
         "dex_no": 550,
@@ -21643,7 +21643,7 @@
         ],
         "basename": "basculin",
         "type": "pokemon",
-        "term": "basculin blue-striped blue"
+        "term": "basculin blue striped"
     },
     {
         "dex_no": 551,
@@ -25633,7 +25633,7 @@
         ],
         "basename": "greninja",
         "type": "pokemon",
-        "term": "greninja ash ash-greninja"
+        "term": "greninja ash"
     },
     {
         "dex_no": 659,
@@ -30451,7 +30451,7 @@
         ],
         "basename": "jangmo-o",
         "type": "pokemon",
-        "term": "jangmo-o"
+        "term": "jangmo o"
     },
     {
         "dex_no": 783,
@@ -30487,7 +30487,7 @@
         ],
         "basename": "hakamo-o",
         "type": "pokemon",
-        "term": "hakamo-o"
+        "term": "hakamo o"
     },
     {
         "dex_no": 784,
@@ -30521,7 +30521,7 @@
         ],
         "basename": "kommo-o",
         "type": "pokemon",
-        "term": "kommo-o"
+        "term": "kommo o"
     },
     {
         "dex_no": 785,

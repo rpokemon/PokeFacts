@@ -368,8 +368,9 @@ class TermHolder():
             else:
                 new_words1.append(new_word)
                 word = new_word
-
-            new_words2.append(new_word)
+            
+            if new_word is not None:
+                new_words2.append(new_word)
 
             if word in self._words:
                 count = self._words[word]
