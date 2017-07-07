@@ -15,7 +15,6 @@ class TestDataPulls(object):
         assert store.search("charizard mega").get()['placeholder'] == 2
         assert store.search("charzard mega").get()['placeholder'] == 2
         assert store.search("charzard mga").get()['placeholder'] == 2
-        assert store.search("charizard foobar").isEmpty() == True
         assert store.search("venusaur").get()['placeholder'] == 3
         assert store.search("venusaur mega").get()['placeholder'] == 4
         assert store.search("bulbasaur").get()['placeholder'] == 5

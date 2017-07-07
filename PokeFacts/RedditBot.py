@@ -60,7 +60,7 @@ except ImportError:
 
 # Call the bot, get a response...
 class CallResponse():
-    def __init__(self):
+    def __init__(self, praw_reddit=None):
         self.startTime  = time.time()
         self.scriptfile = os.path.abspath(__file__)
         self.scriptpath = os.path.dirname(self.scriptfile)
@@ -68,8 +68,12 @@ class CallResponse():
         
         self.logger.info('Bot started, initializing...')
 
-        self.r = Config.reddit()
-        self.logger.info('Connected to reddit account: {}'.format(self.r.user.me()))
+        if praw_reddit is None:
+            self.r = Config.reddit()
+        else:
+            self.r = praw_reddit
+        if not self.r is None:
+            self.logger.info('Connected to reddit account: {}'.format(self.r.user.me()))
 
         self.helpers    = Helpers.Helpers(self.r)
         self.mgmt       = Management.Management(self)
@@ -83,14 +87,15 @@ class CallResponse():
     def reloadConfig(self, first_load=False):
         if not first_load:
             importlib.reload(Config)
-            self.logger.info('Reloading config')
+            self.logger.info('Reloading config...')
         
         self.match_p    = re.compile(Config.MATCH_STRING)
-        self.subreddit  = self.r.subreddit('+'.join(Config.SUBREDDITS))
+        if not self.r is None:
+            self.subreddit  = self.r.subreddit('+'.join(Config.SUBREDDITS))
         self.srmodnames = list(sr.lower() for sr in Config.SUBREDDITS if self.helpers.isBotModeratorOf(sr, 'posts'))
         self.srNoTry    = [] # list of subreddit (IDs) to not operate in
 
-        if any(self.srmodnames):
+        if any(self.srmodnames) and not self.r is None:
             self.modded = self.r.subreddit('+'.join(self.srmodnames))
         else:
             self.modded = None
@@ -105,7 +110,7 @@ class CallResponse():
     # list will be empty if the bot was not called
     def get_calls(self, body):
         items = []
-        seen  = []
+        seen  = set()
 
         it = re.finditer(self.match_p, body)
         for match in it:
@@ -116,7 +121,7 @@ class CallResponse():
             if identifier in seen:
                 continue
             else:
-                seen.append(identifier)
+                seen.add(identifier)
 
             search_type = True
             if 'type_for_prefix' in Config.DATA_CONF:
@@ -125,7 +130,9 @@ class CallResponse():
 
             if not identifier == False:
                 info = self.data.getInfo(identifier, type=search_type)
-                if not info is None:
+                if not info is None and not info.term in seen:
+                    self.seen.add(info.term)
+
                     self.logger.info("Got info for: %s"%match)
                     items.append(info)
         
