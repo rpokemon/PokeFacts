@@ -178,7 +178,7 @@
         "dex_no": 5,
         "classification": "Flame Pok\u00e9mon",
         "dex_entry": [
-            "It lashes about with its tail to knock down its foe.  It then tears up the fallen opponent with  sharp claws. ",
+            "It lashes about with its tail to knock down its foe.  It then tears up the fallen opponent with  sharp claws.",
             "When it swings its burning tail, it elevates the air temperature to unbearably high levels."
         ],
         "name": {
@@ -316,7 +316,7 @@
         "classification": "Tiny Turtle Pok\u00e9mon",
         "dex_entry": [
             "It shelters itself in its shell, then strikes back with spouts of water at every opportunity.",
-            "Shoots water at prey while in the water. Withdraws into its shell when in danger. "
+            "Shoots water at prey while in the water. Withdraws into its shell when in danger."
         ],
         "name": {
             "english": "Squirtle",
@@ -836,7 +836,7 @@
         "classification": "Mouse Pok\u00e9mon",
         "dex_entry": [
             "Living wherever there is food available, it ceaselessly scavenges for edibles the entire day.",
-            "Its fangs are long and very sharp. They grow continuously, so it gnaws on hard things to whittle them down. "
+            "Its fangs are long and very sharp. They grow continuously, so it gnaws on hard things to whittle them down."
         ],
         "name": {
             "english": "Rattata",
@@ -853,7 +853,6 @@
             72
         ],
         "types": [
-            "Dark",
             "Normal"
         ],
         "abilities": [
@@ -870,7 +869,7 @@
         "classification": "Mouse Pok\u00e9mon",
         "dex_entry": [
             "Living wherever there is food available, it ceaselessly scavenges for edibles the entire day.",
-            "Its fangs are long and very sharp. They grow continuously, so it gnaws on hard things to whittle them down. "
+            "Its fangs are long and very sharp. They grow continuously, so it gnaws on hard things to whittle them down."
         ],
         "name": {
             "english": "Alolan Rattata",
@@ -923,7 +922,6 @@
             97
         ],
         "types": [
-            "Dark",
             "Normal"
         ],
         "abilities": [
@@ -1044,7 +1042,7 @@
         "classification": "Snake Pok\u00e9mon",
         "dex_entry": [
             "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.",
-            "Moving silently and stealthily, it eats the eggs of birds, such as Pidgey and Spearow, whole. "
+            "Moving silently and stealthily, it eats the eggs of birds, such as Pidgey and Spearow, whole."
         ],
         "name": {
             "english": "Ekans",
@@ -1079,7 +1077,7 @@
         "classification": "Cobra Pok\u00e9mon",
         "dex_entry": [
             "The pattern on its belly appears to be a frightening face. Weak foes will flee just at the sight of the pattern.",
-            "To intimidate foes, it spreads its chest wide and makes eerie sounds by expelling air from its mouth. "
+            "To intimidate foes, it spreads its chest wide and makes eerie sounds by expelling air from its mouth."
         ],
         "name": {
             "english": "Arbok",
@@ -1162,8 +1160,7 @@
             110
         ],
         "types": [
-            "Electric",
-            "Psychic"
+            "Electric"
         ],
         "abilities": [
             "Static",
@@ -1230,8 +1227,7 @@
             40
         ],
         "types": [
-            "Ice",
-            "Steel"
+            "ground"
         ],
         "abilities": [
             "Sand Veil",
@@ -1300,8 +1296,7 @@
             65
         ],
         "types": [
-            "Ice",
-            "Steel"
+            "ground"
         ],
         "abilities": [
             "Sand Veil",
@@ -1642,7 +1637,7 @@
             65
         ],
         "types": [
-            "Ice"
+            "Fire"
         ],
         "abilities": [
             "Flash Fire",
@@ -1710,8 +1705,7 @@
             100
         ],
         "types": [
-            "Ice",
-            "Fairy"
+            "Fire"
         ],
         "abilities": [
             "Flash Fire",
@@ -2078,7 +2072,7 @@
         "classification": "Insect Pok\u00e9mon",
         "dex_entry": [
             "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light.",
-            "Lives in the shadows of tall trees where it eats bugs. It is attracted by light at night. "
+            "Lives in the shadows of tall trees where it eats bugs. It is attracted by light at night."
         ],
         "name": {
             "english": "Venonat",
@@ -2165,8 +2159,7 @@
             95
         ],
         "types": [
-            "Ground",
-            "Steel"
+            "Ground"
         ],
         "abilities": [
             "Sand Veil",
@@ -2235,8 +2228,7 @@
             120
         ],
         "types": [
-            "Ground",
-            "Steel"
+            "Ground"
         ],
         "abilities": [
             "Sand Veil",
@@ -2286,7 +2278,7 @@
         "classification": "Scratch Cat Pok\u00e9mon",
         "dex_entry": [
             "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
-            "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change. "
+            "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change."
         ],
         "name": {
             "english": "Meowth",
@@ -2303,7 +2295,7 @@
             90
         ],
         "types": [
-            "Dark"
+            "Normal"
         ],
         "abilities": [
             "Pickup",
@@ -2319,7 +2311,7 @@
         "classification": "Scratch Cat Pok\u00e9mon",
         "dex_entry": [
             "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
-            "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change. "
+            "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change."
         ],
         "name": {
             "english": "Alolan Meowth",
@@ -2353,8 +2345,8 @@
         "dex_no": 53,
         "classification": "Classy Cat Pok\u00e9mon",
         "dex_entry": [
-            "A very haughty Pok\u00e9mon. Among fans, the size of the jewel in its forehead is a topic of much talk. ",
-            "Its lithe muscles allow it to walk without making a sound. It attacks in an instant. "
+            "A very haughty Pok\u00e9mon. Among fans, the size of the jewel in its forehead is a topic of much talk.",
+            "Its lithe muscles allow it to walk without making a sound. It attacks in an instant."
         ],
         "name": {
             "english": "Persian",
@@ -2386,8 +2378,8 @@
         "dex_no": 53,
         "classification": "Classy Cat Pok\u00e9mon",
         "dex_entry": [
-            "A very haughty Pok\u00e9mon. Among fans, the size of the jewel in its forehead is a topic of much talk. ",
-            "Its lithe muscles allow it to walk without making a sound. It attacks in an instant. "
+            "A very haughty Pok\u00e9mon. Among fans, the size of the jewel in its forehead is a topic of much talk.",
+            "Its lithe muscles allow it to walk without making a sound. It attacks in an instant."
         ],
         "name": {
             "english": "Alolan Persian",
@@ -3004,7 +2996,7 @@
         "classification": "Flycatcher Pok\u00e9mon",
         "dex_entry": [
             "The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything.",
-            "It spits out Poison Powder to immobilize the enemy  and then finishes it with a spray of Acid. "
+            "It spits out Poison Powder to immobilize the enemy  and then finishes it with a spray of Acid."
         ],
         "name": {
             "english": "Weepinbell",
@@ -3040,7 +3032,7 @@
         "classification": "Flycatcher Pok\u00e9mon",
         "dex_entry": [
             "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
-            "Once ingested into this Pok\u00e9mon's body,  even the hardest object will melt into nothing. "
+            "Once ingested into this Pok\u00e9mon's body,  even the hardest object will melt into nothing."
         ],
         "name": {
             "english": "Victreebel",
@@ -3164,7 +3156,7 @@
         ],
         "types": [
             "Rock",
-            "Electric"
+            "Ground"
         ],
         "abilities": [
             "Rock Head",
@@ -3234,7 +3226,7 @@
         ],
         "types": [
             "Rock",
-            "Electric"
+            "Ground"
         ],
         "abilities": [
             "Rock Head",
@@ -3304,7 +3296,7 @@
         ],
         "types": [
             "Rock",
-            "Electric"
+            "Ground"
         ],
         "abilities": [
             "Rock Head",
@@ -3772,7 +3764,7 @@
         "classification": "Sludge Pok\u00e9mon",
         "dex_entry": [
             "Sludge exposed to X-rays from the moon transformed into Grimer. It loves feeding on filthy things.",
-            "Appears in flithy areas. It thrives by sucking up polluted sludge that is pumped out of factories. "
+            "Appears in flithy areas. It thrives by sucking up polluted sludge that is pumped out of factories."
         ],
         "name": {
             "english": "Grimer",
@@ -3789,8 +3781,7 @@
             25
         ],
         "types": [
-            "Poison",
-            "Dark"
+            "Poison"
         ],
         "abilities": [
             "Stench",
@@ -3806,7 +3797,7 @@
         "classification": "Sludge Pok\u00e9mon",
         "dex_entry": [
             "Sludge exposed to X-rays from the moon transformed into Grimer. It loves feeding on filthy things.",
-            "Appears in flithy areas. It thrives by sucking up polluted sludge that is pumped out of factories. "
+            "Appears in flithy areas. It thrives by sucking up polluted sludge that is pumped out of factories."
         ],
         "name": {
             "english": "Alolan Grimer",
@@ -3841,8 +3832,8 @@
         "dex_no": 89,
         "classification": "Sludge Pok\u00e9mon",
         "dex_entry": [
-            "They love to gather in smelly areas where sludge accumulates, making the stench around  them worse. ",
-            "A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact. "
+            "They love to gather in smelly areas where sludge accumulates, making the stench around  them worse.",
+            "A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact."
         ],
         "name": {
             "english": "Muk",
@@ -3859,8 +3850,7 @@
             50
         ],
         "types": [
-            "Poison",
-            "Dark"
+            "Poison"
         ],
         "abilities": [
             "Stench",
@@ -3875,8 +3865,8 @@
         "dex_no": 89,
         "classification": "Sludge Pok\u00e9mon",
         "dex_entry": [
-            "They love to gather in smelly areas where sludge accumulates, making the stench around  them worse. ",
-            "A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact. "
+            "They love to gather in smelly areas where sludge accumulates, making the stench around  them worse.",
+            "A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact."
         ],
         "name": {
             "english": "Alolan Muk",
@@ -4395,7 +4385,7 @@
         "classification": "Coconut Pok\u00e9mon",
         "dex_entry": [
             "Its three heads think independently. However, they are friendly and never appear to squabble.",
-            "It is called \"The Walking Jungle.\" If a head grows  too big, it falls off and becomes an Exeggcute. "
+            "It is called \"The Walking Jungle.\" If a head grows  too big, it falls off and becomes an Exeggcute."
         ],
         "name": {
             "english": "Exeggutor",
@@ -4413,7 +4403,7 @@
         ],
         "types": [
             "Grass",
-            "Dragon"
+            "Psychic"
         ],
         "abilities": [
             "Chlorophyll",
@@ -4429,7 +4419,7 @@
         "classification": "Coconut Pok\u00e9mon",
         "dex_entry": [
             "Its three heads think independently. However, they are friendly and never appear to squabble.",
-            "It is called \"The Walking Jungle.\" If a head grows  too big, it falls off and becomes an Exeggcute. "
+            "It is called \"The Walking Jungle.\" If a head grows  too big, it falls off and becomes an Exeggcute."
         ],
         "name": {
             "english": "Alolan Exeggutor",
@@ -4599,7 +4589,7 @@
         "classification": "Punching Pok\u00e9mon",
         "dex_entry": [
             "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
-            "The spirit of a pro boxer has infused this Pok\u00e9mon. It throws punches that are faster than a bullet train. "
+            "The spirit of a pro boxer has infused this Pok\u00e9mon. It throws punches that are faster than a bullet train."
         ],
         "name": {
             "english": "Hitmonchan",
@@ -4666,8 +4656,8 @@
         "dex_no": 109,
         "classification": "Poison Gas Pok\u00e9mon",
         "dex_entry": [
-            "Its thin, filmy body is filled with gases that cause constant sniffles, coughs and teary eyes. ",
-            "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive. "
+            "Its thin, filmy body is filled with gases that cause constant sniffles, coughs and teary eyes.",
+            "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive."
         ],
         "name": {
             "english": "Koffing",
@@ -4701,8 +4691,8 @@
         "dex_no": 110,
         "classification": "Poison Gas Pok\u00e9mon",
         "dex_entry": [
-            "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases. ",
-            "Very rarely, a sudden mutation can result in two small Koffing twins becoming conjoined as a Weezing. "
+            "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases.",
+            "Very rarely, a sudden mutation can result in two small Koffing twins becoming conjoined as a Weezing."
         ],
         "name": {
             "english": "Weezing",
@@ -4770,7 +4760,7 @@
         "dex_no": 112,
         "classification": "Drill Pok\u00e9mon",
         "dex_entry": [
-            "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit. ",
+            "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit.",
             "It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn."
         ],
         "name": {
@@ -4839,7 +4829,7 @@
         "dex_no": 114,
         "classification": "Vine Pok\u00e9mon",
         "dex_entry": [
-            "Many writhing vines cover it, so its true identity remains unknown. The blue vines grow its whole  life long. ",
+            "Many writhing vines cover it, so its true identity remains unknown. The blue vines grow its whole  life long.",
             "It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared."
         ],
         "name": {
@@ -4941,7 +4931,7 @@
         "classification": "Dragon Pok\u00e9mon",
         "dex_entry": [
             "Known to shoot down flying bugs with precision blasts of ink from the surface of the water.",
-            "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees. "
+            "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees."
         ],
         "name": {
             "english": "Horsea",
@@ -4976,7 +4966,7 @@
         "classification": "Dragon Pok\u00e9mon",
         "dex_entry": [
             "Its body bristles with sharp spikes. Carelessly trying to touch it could cause fainting from the spikes.",
-            "It is capable of swimming backwards by rapidly flapping its winglike pectoral fins and stout tail. "
+            "It is capable of swimming backwards by rapidly flapping its winglike pectoral fins and stout tail."
         ],
         "name": {
             "english": "Seadra",
@@ -5318,7 +5308,7 @@
         "classification": "Stagbeetle Pok\u00e9mon",
         "dex_entry": [
             "It grips prey with its pincers until the prey is torn in half. What it can't tear, it tosses far.",
-            "It swings its long pincer horns wildly to attack.  During cold periods, it hides deep in forests. "
+            "It swings its long pincer horns wildly to attack.  During cold periods, it hides deep in forests."
         ],
         "name": {
             "english": "Pinsir",
@@ -5351,7 +5341,7 @@
         "classification": "Stagbeetle Pok\u00e9mon",
         "dex_entry": [
             "It grips prey with its pincers until the prey is torn in half. What it can't tear, it tosses far.",
-            "It swings its long pincer horns wildly to attack.  During cold periods, it hides deep in forests. "
+            "It swings its long pincer horns wildly to attack.  During cold periods, it hides deep in forests."
         ],
         "name": {
             "english": "Mega Pinsir",
@@ -5798,7 +5788,7 @@
         "classification": "Spiral Pok\u00e9mon",
         "dex_entry": [
             "Its tentacles are highly developed as if they are hands and feet. As soon as it ensnares prey, it bites.",
-            "Once wrapped around its prey, it never lets go. It eats the prey by tearing at it with sharp fangs. "
+            "Once wrapped around its prey, it never lets go. It eats the prey by tearing at it with sharp fangs."
         ],
         "name": {
             "english": "Omastar",
@@ -5832,7 +5822,7 @@
         "classification": "Shellfish Pok\u00e9mon",
         "dex_entry": [
             "It is thought to have inhabited beaches 300 million years ago. It is protected by a stiff shell.",
-            "This Pok\u00e9mon was regenerated from the fossil of an ancient creature. It protects itself with a hard shell. "
+            "This Pok\u00e9mon was regenerated from the fossil of an ancient creature. It protects itself with a hard shell."
         ],
         "name": {
             "english": "Kabuto",
@@ -5868,7 +5858,7 @@
         "classification": "Shellfish Pok\u00e9mon",
         "dex_entry": [
             "In the water, it tucks in its limbs to become more compact, then it wiggles its shell to swim fast.",
-            "A slim and fast swimmer. It slices its prey with its sharp sickles and drinks the body fluids. "
+            "A slim and fast swimmer. It slices its prey with its sharp sickles and drinks the body fluids."
         ],
         "name": {
             "english": "Kabutops",
@@ -6070,7 +6060,7 @@
         "dex_no": 146,
         "classification": "Flame Pok\u00e9mon",
         "dex_entry": [
-            "It is said to be the legendary bird Pok\u00e9mon of fire. Every flap of its wings creates a dazzling flare of flames. ",
+            "It is said to be the legendary bird Pok\u00e9mon of fire. Every flap of its wings creates a dazzling flare of flames.",
             "One of the legendary bird Pok\u00e9mon. It is said that its appearance indicates the coming of spring."
         ],
         "name": {
@@ -6308,7 +6298,7 @@
         "classification": "New Species Pok\u00e9mon",
         "dex_entry": [
             "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pok\u00e9mon.",
-            "Its DNA is said to contain the genetic codes of all Pok\u00e9mon, so it can use all kinds of techniques. "
+            "Its DNA is said to contain the genetic codes of all Pok\u00e9mon, so it can use all kinds of techniques."
         ],
         "name": {
             "english": "Mew",
@@ -6340,8 +6330,8 @@
         "dex_no": 152,
         "classification": "Leaf Pok\u00e9mon",
         "dex_entry": [
-            "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up sunrays. ",
-            "It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe. "
+            "A sweet aroma gently wafts from the leaf on its head. It is docile and loves to soak up sunrays.",
+            "It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe."
         ],
         "name": {
             "english": "Chikorita",
@@ -6375,8 +6365,8 @@
         "dex_no": 153,
         "classification": "Leaf Pok\u00e9mon",
         "dex_entry": [
-            "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health. ",
-            "The buds that ring its neck give off a spicy aroma that perks people up. "
+            "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health.",
+            "The buds that ring its neck give off a spicy aroma that perks people up."
         ],
         "name": {
             "english": "Bayleef",
@@ -6410,8 +6400,8 @@
         "dex_no": 154,
         "classification": "Herb Pok\u00e9mon",
         "dex_entry": [
-            "The aroma that rises from its petals contains a substance that calms aggressive feelings. ",
-            "Meganium's breath has the power to revive dead grass and plants. It can make them healthy again. "
+            "The aroma that rises from its petals contains a substance that calms aggressive feelings.",
+            "Meganium's breath has the power to revive dead grass and plants. It can make them healthy again."
         ],
         "name": {
             "english": "Meganium",
@@ -6443,8 +6433,8 @@
         "dex_no": 155,
         "classification": "Fire Mouse Pok\u00e9mon",
         "dex_entry": [
-            "It is timid, and always curls itself up in a ball. If attacked, it flares up its back for protection. ",
-            "It has a timid nature. If it is startled, the flames on its back burn more vigorously. "
+            "It is timid, and always curls itself up in a ball. If attacked, it flares up its back for protection.",
+            "It has a timid nature. If it is startled, the flames on its back burn more vigorously."
         ],
         "name": {
             "english": "Cyndaquil",
@@ -6479,7 +6469,7 @@
         "classification": "Volcano Pok\u00e9mon",
         "dex_entry": [
             "Before battle, it turns its back on its opponent to demonstrate how ferociously its fire blazes",
-            "Be careful if it turns its back during battle. It means that it will attack with the fire on its back. "
+            "Be careful if it turns its back during battle. It means that it will attack with the fire on its back."
         ],
         "name": {
             "english": "Quilava",
@@ -6513,8 +6503,8 @@
         "dex_no": 157,
         "classification": "Volcano Pok\u00e9mon",
         "dex_entry": [
-            "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames. ",
-            "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions. "
+            "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames.",
+            "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions."
         ],
         "name": {
             "english": "Typhlosion",
@@ -6546,8 +6536,8 @@
         "dex_no": 158,
         "classification": "Big Jaw Pok\u00e9mon",
         "dex_entry": [
-            "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves. ",
-            "Its powerful, well-developed jaws are capable of crushing anything. Even its Trainer must be careful. "
+            "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
+            "Its powerful, well-developed jaws are capable of crushing anything. Even its Trainer must be careful."
         ],
         "name": {
             "english": "Totodile",
@@ -6581,8 +6571,8 @@
         "dex_no": 159,
         "classification": "Big Jaw Pok\u00e9mon",
         "dex_entry": [
-            "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth. ",
-            "Once it bites down, it won't let go until it loses its fangs. New fangs quickly grow into place. "
+            "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
+            "Once it bites down, it won't let go until it loses its fangs. New fangs quickly grow into place."
         ],
         "name": {
             "english": "Croconaw",
@@ -6616,8 +6606,8 @@
         "dex_no": 160,
         "classification": "Big Jaw Pok\u00e9mon",
         "dex_entry": [
-            "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey. ",
-            "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up. "
+            "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.",
+            "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up."
         ],
         "name": {
             "english": "Feraligatr",
@@ -7141,7 +7131,7 @@
         "classification": "Spike Ball Pok\u00e9mon",
         "dex_entry": [
             "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
-            "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up. "
+            "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up."
         ],
         "name": {
             "english": "Togepi",
@@ -7176,7 +7166,7 @@
         "classification": "Happiness Pok\u00e9mon",
         "dex_entry": [
             "It grows dispirited if it is not with kind people. It can float in midair without moving its wings.",
-            "They say that it will appear before kindhearted, caring people and shower them with happiness. "
+            "They say that it will appear before kindhearted, caring people and shower them with happiness."
         ],
         "name": {
             "english": "Togetic",
@@ -7726,7 +7716,7 @@
         "classification": "Seed Pok\u00e9mon",
         "dex_entry": [
             "It may plummet from the sky. If attacked by a Spearow, it will violently shake its leaves.",
-            "It lives by drinking only dewdrops from under the leaves of plants. It is said that it eats nothing else. "
+            "It lives by drinking only dewdrops from under the leaves of plants. It is said that it eats nothing else."
         ],
         "name": {
             "english": "Sunkern",
@@ -7761,7 +7751,7 @@
         "classification": "Sun Pok\u00e9mon",
         "dex_entry": [
             "As the hot season approaches, the petals on this Pok\u00e9mon's face become more vivid and lively.",
-            "It gets energy from warm sunlight and is known for its habit of moving in pursuit of it. "
+            "It gets energy from warm sunlight and is known for its habit of moving in pursuit of it."
         ],
         "name": {
             "english": "Sunflora",
@@ -7793,7 +7783,7 @@
         "dex_no": 193,
         "classification": "Clear Wing Pok\u00e9mon",
         "dex_entry": [
-            "Its eyes can see 360 degrees without moving its head. It won't miss prey--even those behind it. ",
+            "Its eyes can see 360 degrees without moving its head. It won't miss prey--even those behind it.",
             "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area."
         ],
         "name": {
@@ -8070,8 +8060,8 @@
         "dex_no": 201,
         "classification": "Symbol Pok\u00e9mon",
         "dex_entry": [
-            "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning. ",
-            "Shaped like ancient writing, it is a huge mystery whether language or Unown came first. "
+            "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning.",
+            "Shaped like ancient writing, it is a huge mystery whether language or Unown came first."
         ],
         "name": {
             "english": "Unown",
@@ -8137,7 +8127,7 @@
         "classification": "Long Neck Pok\u00e9mon",
         "dex_entry": [
             "While it sleeps, the head on is tail keeps watch. The tail doesn't need to sleep.",
-            "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent by biting. "
+            "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent by biting."
         ],
         "name": {
             "english": "Girafarig",
@@ -8206,7 +8196,7 @@
         "classification": "Bagworm Pok\u00e9mon",
         "dex_entry": [
             "It is encased in a steel shell. Its peering eyes are all that can be seen of its mysterious innards.",
-            "It remains immovably rooted to its tree. It scatters pieces of its hard shell to drive its enemies away. "
+            "It remains immovably rooted to its tree. It scatters pieces of its hard shell to drive its enemies away."
         ],
         "name": {
             "english": "Forretress",
@@ -8273,7 +8263,7 @@
         "classification": "Flyscorpion Pok\u00e9mon",
         "dex_entry": [
             "It usually clings to cliffs. When it spots its prey, it spreads its wings and glides down to attack.",
-            "It flies straight at its target's face, then clamps down on the startled victim to inject poison. "
+            "It flies straight at its target's face, then clamps down on the startled victim to inject poison."
         ],
         "name": {
             "english": "Gligar",
@@ -8445,7 +8435,7 @@
         "classification": "Balloon Pok\u00e9mon",
         "dex_entry": [
             "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
-            "The small spikes covering its body developed from scales. They inject a toxin that causes fainting. "
+            "The small spikes covering its body developed from scales. They inject a toxin that causes fainting."
         ],
         "name": {
             "english": "Qwilfish",
@@ -8479,7 +8469,7 @@
         "classification": "Pincer Pok\u00e9mon",
         "dex_entry": [
             "This Pok\u00e9mon's pincers, which contain steel, can crush any hard object it gets ahold of into bits.",
-            "It has a steel-hard body. It intimidates foes by upraising its eye-patterned pincers. "
+            "It has a steel-hard body. It intimidates foes by upraising its eye-patterned pincers."
         ],
         "name": {
             "english": "Scizor",
@@ -8513,7 +8503,7 @@
         "classification": "Pincer Pok\u00e9mon",
         "dex_entry": [
             "This Pok\u00e9mon's pincers, which contain steel, can crush any hard object it gets ahold of into bits.",
-            "It has a steel-hard body. It intimidates foes by upraising its eye-patterned pincers. "
+            "It has a steel-hard body. It intimidates foes by upraising its eye-patterned pincers."
         ],
         "name": {
             "english": "Mega Scizor",
@@ -8547,7 +8537,7 @@
         "classification": "Mold Pok\u00e9mon",
         "dex_entry": [
             "The berries stored in its jar-like shell eventually become a thick, pulpy juice.",
-            "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still. "
+            "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still."
         ],
         "name": {
             "english": "Shuckle",
@@ -8685,7 +8675,7 @@
         "classification": "Little Bear Pok\u00e9mon",
         "dex_entry": [
             "If it finds honey, its crescent mark glows. It always licks its paws because they're soaked with honey.",
-            "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations. "
+            "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations."
         ],
         "name": {
             "english": "Teddiursa",
@@ -8720,7 +8710,7 @@
         "classification": "Hibernator Pok\u00e9mon",
         "dex_entry": [
             "With its ability to distinguish any aroma, it unfailingly finds all food buried deep underground.",
-            "Although it has a large body, it is quite skilled at  climbing trees. It eats and sleeps in the treetops. "
+            "Although it has a large body, it is quite skilled at  climbing trees. It eats and sleeps in the treetops."
         ],
         "name": {
             "english": "Ursaring",
@@ -9236,7 +9226,7 @@
         "classification": "Long Nose Pok\u00e9mon",
         "dex_entry": [
             "As a sign of affection, it bumps with its snout. However, it is so strong, it may send you flying.",
-            "It is strong despite its compact size. It can easily pick up and carry an adult human on its back. "
+            "It is strong despite its compact size. It can easily pick up and carry an adult human on its back."
         ],
         "name": {
             "english": "Phanpy",
@@ -9271,7 +9261,7 @@
         "classification": "Armor Pok\u00e9mon",
         "dex_entry": [
             "It has sharp, hard tusks and a rugged hide. Its Tackle is strong enough to knock down a house.",
-            "The longer and bigger its tusks, the higher its rank in its herd. The tusks take long to grow, "
+            "The longer and bigger its tusks, the higher its rank in its herd. The tusks take long to grow,"
         ],
         "name": {
             "english": "Donphan",
@@ -9338,8 +9328,8 @@
         "dex_no": 234,
         "classification": "Big Horn Pok\u00e9mon",
         "dex_entry": [
-            "Staring at its antlers creates an odd sensation as if one were being drawn into their centers. ",
-            "The curved antlers subtly change the flow of air to create a strange space where reality is distorted. "
+            "Staring at its antlers creates an odd sensation as if one were being drawn into their centers.",
+            "The curved antlers subtly change the flow of air to create a strange space where reality is distorted."
         ],
         "name": {
             "english": "Stantler",
@@ -9405,7 +9395,7 @@
         "classification": "Scuffle Pok\u00e9mon",
         "dex_entry": [
             "It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses.",
-            "To brush up on its fighting skills, it will challenge anyone. It has a very strong competitive spirit. "
+            "To brush up on its fighting skills, it will challenge anyone. It has a very strong competitive spirit."
         ],
         "name": {
             "english": "Tyrogue",
@@ -9648,7 +9638,7 @@
         "dex_no": 243,
         "classification": "Thunder Pok\u00e9mon",
         "dex_entry": [
-            "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning. ",
+            "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning.",
             "This rough Pok\u00e9mon stores energy inside its body, then sweeps across the land, shooting off electricity"
         ],
         "name": {
@@ -9681,8 +9671,8 @@
         "dex_no": 244,
         "classification": "Volcano Pok\u00e9mon",
         "dex_entry": [
-            "A Pok\u00e9mon that races across the land. It is said that one is born every time a new volcano appears. ",
-            "It is said that when it roars, a volcano erupts somewhere around the globe. "
+            "A Pok\u00e9mon that races across the land. It is said that one is born every time a new volcano appears.",
+            "It is said that when it roars, a volcano erupts somewhere around the globe."
         ],
         "name": {
             "english": "Entei",
@@ -9714,8 +9704,8 @@
         "dex_no": 245,
         "classification": "Aurora Pok\u00e9mon",
         "dex_entry": [
-            "It races around the world to purify fouled water. It dashes away with the north wind. ",
-            "Said to be the embodiment of north winds, it can instantly purify filthy, murky water. "
+            "It races around the world to purify fouled water. It dashes away with the north wind.",
+            "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
         ],
         "name": {
             "english": "Suicune",
@@ -9820,7 +9810,7 @@
         "classification": "Armor Pok\u00e9mon",
         "dex_entry": [
             "In just one of its mighty hands, it has the power to make the ground shake and mountains crumble.",
-            "If it rampages, it knocks down mountains and buries  rivers. Maps must be redrawn afterward. "
+            "If it rampages, it knocks down mountains and buries  rivers. Maps must be redrawn afterward."
         ],
         "name": {
             "english": "Tyranitar",
@@ -9854,7 +9844,7 @@
         "classification": "Armor Pok\u00e9mon",
         "dex_entry": [
             "In just one of its mighty hands, it has the power to make the ground shake and mountains crumble.",
-            "If it rampages, it knocks down mountains and buries  rivers. Maps must be redrawn afterward. "
+            "If it rampages, it knocks down mountains and buries  rivers. Maps must be redrawn afterward."
         ],
         "name": {
             "english": "Mega Tyranitar",
@@ -9887,8 +9877,8 @@
         "dex_no": 249,
         "classification": "Diving Pok\u00e9mon",
         "dex_entry": [
-            "It sleeps in a deep-sea trench. If it flaps its wings, it is said to cause a 40-day storm. ",
-            "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm. "
+            "It sleeps in a deep-sea trench. If it flaps its wings, it is said to cause a 40-day storm.",
+            "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm."
         ],
         "name": {
             "english": "Lugia",
@@ -9921,7 +9911,7 @@
         "dex_no": 250,
         "classification": "Rainbow Pok\u00e9mon",
         "dex_entry": [
-            "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies. ",
+            "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies.",
             "It will reveal itself before a pure-hearted Trainer by shining its bright, rainbow-colored wings."
         ],
         "name": {
@@ -9955,8 +9945,8 @@
         "dex_no": 251,
         "classification": "Time Travel Pok\u00e9mon",
         "dex_entry": [
-            "This Pok\u00e9mon wanders across time. Grass and trees flourish in the forests in which it has appeared. ",
-            "It has the power to travel across time, but it is said to appear only in peaceful times. "
+            "This Pok\u00e9mon wanders across time. Grass and trees flourish in the forests in which it has appeared.",
+            "It has the power to travel across time, but it is said to appear only in peaceful times."
         ],
         "name": {
             "english": "Celebi",
@@ -9989,8 +9979,8 @@
         "dex_no": 252,
         "classification": "Wood Gecko Pok\u00e9mon",
         "dex_entry": [
-            "It quickly scales even vertical walls. It senses humidity with its tail to predict the next day's weather. ",
-            "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above. "
+            "It quickly scales even vertical walls. It senses humidity with its tail to predict the next day's weather.",
+            "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above."
         ],
         "name": {
             "english": "Treecko",
@@ -10024,8 +10014,8 @@
         "dex_no": 253,
         "classification": "Wood Gecko Pok\u00e9mon",
         "dex_entry": [
-            "Its strongly developed thigh muscles give it astounding agility and jumping performance. ",
-            "It leaps from tree branch to tree branch quite swiftly. It shows astounding agility. "
+            "Its strongly developed thigh muscles give it astounding agility and jumping performance.",
+            "It leaps from tree branch to tree branch quite swiftly. It shows astounding agility."
         ],
         "name": {
             "english": "Grovyle",
@@ -10059,8 +10049,8 @@
         "dex_no": 254,
         "classification": "Forest Pok\u00e9mon",
         "dex_entry": [
-            "The leaves on its forelegs are as sharp as swords. It agilely leaps about the branches of trees to strike. ",
-            "It agilely leaps about the jungle and uses the sharp leaves on its arms to strike its prey. "
+            "The leaves on its forelegs are as sharp as swords. It agilely leaps about the branches of trees to strike.",
+            "It agilely leaps about the jungle and uses the sharp leaves on its arms to strike its prey."
         ],
         "name": {
             "english": "Sceptile",
@@ -10092,8 +10082,8 @@
         "dex_no": 254,
         "classification": "Forest Pok\u00e9mon",
         "dex_entry": [
-            "The leaves on its forelegs are as sharp as swords. It agilely leaps about the branches of trees to strike. ",
-            "It agilely leaps about the jungle and uses the sharp leaves on its arms to strike its prey. "
+            "The leaves on its forelegs are as sharp as swords. It agilely leaps about the branches of trees to strike.",
+            "It agilely leaps about the jungle and uses the sharp leaves on its arms to strike its prey."
         ],
         "name": {
             "english": "Mega Sceptile",
@@ -10126,7 +10116,7 @@
         "classification": "Chick Pok\u00e9mon",
         "dex_entry": [
             "It has a flame sac inside its belly that perpetually burns. It feels warm if hugged.",
-            "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit. "
+            "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees Fahrenheit."
         ],
         "name": {
             "english": "Torchic",
@@ -10161,7 +10151,7 @@
         "classification": "Young Fowl Pok\u00e9mon",
         "dex_entry": [
             "Its kicking mastery lets it loose 10 kicks per second. It emits sharp creis to intimidate foes.",
-            "During a battle, the hot flame in its body increases. Its kicks have outstanding destructive power. "
+            "During a battle, the hot flame in its body increases. Its kicks have outstanding destructive power."
         ],
         "name": {
             "english": "Combusken",
@@ -10264,8 +10254,8 @@
         "dex_no": 258,
         "classification": "Mud Fish Pok\u00e9mon",
         "dex_entry": [
-            "Its large tail fin propels it through water with powerful acceleration. It is strong in spite of its size. ",
-            "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders. "
+            "Its large tail fin propels it through water with powerful acceleration. It is strong in spite of its size.",
+            "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders."
         ],
         "name": {
             "english": "Mudkip",
@@ -10299,8 +10289,8 @@
         "dex_no": 259,
         "classification": "Mud Fish Pok\u00e9mon",
         "dex_entry": [
-            "It is at its best when on muddy ground with poor footing. It quickly overwhelms foes struggling in mud. ",
-            "Living on muddy ground that provides poor footing has made its legs sturdy. "
+            "It is at its best when on muddy ground with poor footing. It quickly overwhelms foes struggling in mud.",
+            "Living on muddy ground that provides poor footing has made its legs sturdy."
         ],
         "name": {
             "english": "Marshtomp",
@@ -10335,8 +10325,8 @@
         "dex_no": 260,
         "classification": "Mud Fish Pok\u00e9mon",
         "dex_entry": [
-            "Its arms are rock-hard. With one swing, they can batter down its foe. It makes its nest on beautiful beaches. ",
-            "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms. "
+            "Its arms are rock-hard. With one swing, they can batter down its foe. It makes its nest on beautiful beaches.",
+            "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms."
         ],
         "name": {
             "english": "Swampert",
@@ -10369,8 +10359,8 @@
         "dex_no": 260,
         "classification": "Mud Fish Pok\u00e9mon",
         "dex_entry": [
-            "Its arms are rock-hard. With one swing, they can batter down its foe. It makes its nest on beautiful beaches. ",
-            "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms. "
+            "Its arms are rock-hard. With one swing, they can batter down its foe. It makes its nest on beautiful beaches.",
+            "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms."
         ],
         "name": {
             "english": "Mega Swampert",
@@ -10539,7 +10529,7 @@
         "dex_no": 265,
         "classification": "Worm Pok\u00e9mon",
         "dex_entry": [
-            "It loves to eat leaves. If it is attacked by a Starly, it will defend itself with its spiked rear. ",
+            "It loves to eat leaves. If it is attacked by a Starly, it will defend itself with its spiked rear.",
             "It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear."
         ],
         "name": {
@@ -10576,7 +10566,7 @@
         "classification": "Cocoon Pok\u00e9mon",
         "dex_entry": [
             "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.",
-            "It drinks dew that collects on its silk and waits for evolution. Its hard cocoon repels attacks. "
+            "It drinks dew that collects on its silk and waits for evolution. Its hard cocoon repels attacks."
         ],
         "name": {
             "english": "Silcoon",
@@ -10608,7 +10598,7 @@
         "dex_no": 267,
         "classification": "Butterfly Pok\u00e9mon",
         "dex_entry": [
-            "Vibrantly patterned wings are its prominent feature. It sucks sweet flower nectar with its long mouth. ",
+            "Vibrantly patterned wings are its prominent feature. It sucks sweet flower nectar with its long mouth.",
             "It has an aggressive nature. It stabs prey with its long, narrow mouth to drain the prey's fluids."
         ],
         "name": {
@@ -10712,7 +10702,7 @@
         "classification": "Water Weed Pok\u00e9mon",
         "dex_entry": [
             "It looks like an aquatic plant and serves as a ferry to Pok\u00e9mon that can't swim.",
-            "It searches about for clean water. If it does not drink water for too long, the leaf on its head wilts. "
+            "It searches about for clean water. If it does not drink water for too long, the leaf on its head wilts."
         ],
         "name": {
             "english": "Lotad",
@@ -10748,7 +10738,7 @@
         "classification": "Jolly Pok\u00e9mon",
         "dex_entry": [
             "It lives at the water's edge where it is sunny. It sleeps on a bed of water-grass by day and becomes active at night.",
-            "It has a mischievous spirit. If it spots an angler,  it will tug on the fishing line to interfere. "
+            "It has a mischievous spirit. If it spots an angler,  it will tug on the fishing line to interfere."
         ],
         "name": {
             "english": "Lombre",
@@ -10784,7 +10774,7 @@
         "classification": "Carefree Pok\u00e9mon",
         "dex_entry": [
             "If it hears festive music, all its muscles fill with energy. It can't help breaking out into a dance.",
-            "The rhythm of bright, festive music activates  Ludicolo's cells, making it more powerful. "
+            "The rhythm of bright, festive music activates  Ludicolo's cells, making it more powerful."
         ],
         "name": {
             "english": "Ludicolo",
@@ -10818,7 +10808,7 @@
         "classification": "Acorn Pok\u00e9mon",
         "dex_entry": [
             "It attaches itself to a tree branch using the top of its head. Strong winds can sometimes make it fall.",
-            "When it dangles from a tree branch, it looks just like an acorn. It enjoys scaring other Pok\u00e9mon. "
+            "When it dangles from a tree branch, it looks just like an acorn. It enjoys scaring other Pok\u00e9mon."
         ],
         "name": {
             "english": "Seedot",
@@ -10889,7 +10879,7 @@
         "classification": "Wickid Pok\u00e9mon",
         "dex_entry": [
             "A Pok\u00e9mon that was feared as a forest guardian. It can read the foe's mind and take preemptive action.",
-            "By flapping its leafy fan, it can whip up gusts of 100 feet per second that can level houses. "
+            "By flapping its leafy fan, it can whip up gusts of 100 feet per second that can level houses."
         ],
         "name": {
             "english": "Shiftry",
@@ -10959,7 +10949,7 @@
         "classification": "Swallow Pok\u00e9mon",
         "dex_entry": [
             "If its two tail feathers are standing at attention, it is proof of good health. It soars elegantly in the sky.",
-            "It dives at a steep angle as soon as it spots its prey. It catches its prey with sharp claws. "
+            "It dives at a steep angle as soon as it spots its prey. It catches its prey with sharp claws."
         ],
         "name": {
             "english": "Swellow",
@@ -11099,7 +11089,7 @@
         "classification": "Emotion Pok\u00e9mon",
         "dex_entry": [
             "The cheerful spirit of its Trainer gives it energy for  its psychokinetic power. It spins and dances  when happy.",
-            "It has a psychic power that enables it to distort the  space around it and see into the future. "
+            "It has a psychic power that enables it to distort the  space around it and see into the future."
         ],
         "name": {
             "english": "Kirlia",
@@ -11274,7 +11264,7 @@
         "classification": "Mushroom Pok\u00e9mon",
         "dex_entry": [
             "It prefers damp places. By day it remains still in the forest shade. It releases toxic powder from its head.",
-            "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled. "
+            "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled."
         ],
         "name": {
             "english": "Shroomish",
@@ -11342,7 +11332,7 @@
         "dex_no": 287,
         "classification": "Slacker Pok\u00e9mon",
         "dex_entry": [
-            "The way Slakoth lolls around makes anyone who watches it feel like doing the same. ",
+            "The way Slakoth lolls around makes anyone who watches it feel like doing the same.",
             "If it eats just three leaves a day, it is satisfied. Other than that, it sleeps for 20 hours a day."
         ],
         "name": {
@@ -11378,7 +11368,7 @@
         "classification": "Wild Monkey Pok\u00e9mon",
         "dex_entry": [
             "Its hearbeat is fast and its blood so agitated that it can't sit still for one secodn.",
-            "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick. "
+            "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick."
         ],
         "name": {
             "english": "Vigoroth",
@@ -11413,7 +11403,7 @@
         "classification": "Lazy Pok\u00e9mon",
         "dex_entry": [
             "The world's laziest Pok\u00e9mon. When it is lounging, it is actually saving energy for striking back.",
-            "It is the world's most slothful Pok\u00e9mon However, it can exert horrifying power by releasing pent-up energy all at once. "
+            "It is the world's most slothful Pok\u00e9mon However, it can exert horrifying power by releasing pent-up energy all at once."
         ],
         "name": {
             "english": "Slaking",
@@ -11483,7 +11473,7 @@
         "classification": "Ninja Pok\u00e9mon",
         "dex_entry": [
             "Its cry leaves a lasting headache if heard for too long. It moves so quickly that it is almost invisible.",
-            "Because it moves so quickly, it sometimes becomes  unseeable. It congregates around tree sap. "
+            "Because it moves so quickly, it sometimes becomes  unseeable. It congregates around tree sap."
         ],
         "name": {
             "english": "Ninjask",
@@ -11517,7 +11507,7 @@
         "classification": "Shed Pok\u00e9mon",
         "dex_entry": [
             "A discarded bug shell that came to life. Peering into the crack on its back is said to steal one's spirit.",
-            "A most peculiar Pok\u00e9mon that somehow appears in a Pok\u00e9 Ball when a Nincada evolves. "
+            "A most peculiar Pok\u00e9mon that somehow appears in a Pok\u00e9 Ball when a Nincada evolves."
         ],
         "name": {
             "english": "Shedinja",
@@ -11998,7 +11988,7 @@
         "classification": "Iron Armor Pok\u00e9mon",
         "dex_entry": [
             "It usually lives deep in mountains. However, hunger may drive it to eat railroad tracks and cars.",
-            "When it evolves, it sheds the steel carapace that  covered its whole body and develops a new one. "
+            "When it evolves, it sheds the steel carapace that  covered its whole body and develops a new one."
         ],
         "name": {
             "english": "Aron",
@@ -12343,7 +12333,7 @@
         "classification": "Cheering Pok\u00e9mon",
         "dex_entry": [
             "It cheers on friends with pom-poms made of sparks. It drains power from telephone poles.",
-            "It absorbs electricity from telephone poles. It shorts  out its body to create crackling noises. "
+            "It absorbs electricity from telephone poles. It shorts  out its body to create crackling noises."
         ],
         "name": {
             "english": "Plusle",
@@ -12477,7 +12467,7 @@
         "classification": "Thorn Pok\u00e9mon",
         "dex_entry": [
             "It uses the different poisons in each hand separately when it attacks. The stronger its aroma, the healthier it is.",
-            "Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom. "
+            "Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom."
         ],
         "name": {
             "english": "Roselia",
@@ -12751,7 +12741,7 @@
         "classification": "Numb Pok\u00e9mon",
         "dex_entry": [
             "Its humped back stores intensely hot magma. In rain, the magma cools, slowing its movement.",
-            "The magma in its body reaches 2,200 degrees Fahrenheit. Its hump gets smaller when it uses Fire-type moves. "
+            "The magma in its body reaches 2,200 degrees Fahrenheit. Its hump gets smaller when it uses Fire-type moves."
         ],
         "name": {
             "english": "Numel",
@@ -12923,7 +12913,7 @@
         "classification": "Manipulate Pok\u00e9mon",
         "dex_entry": [
             "It uses black pearls to amplify its psychic power. It does a strange dance to control foes' minds.",
-            "It uses black pearls to amplify its psychic power. It does an odd dance to gain control over foes. "
+            "It uses black pearls to amplify its psychic power. It does an odd dance to gain control over foes."
         ],
         "name": {
             "english": "Grumpig",
@@ -13129,7 +13119,7 @@
         "classification": "Scarecrow Pok\u00e9mon",
         "dex_entry": [
             "It becomes active at night, seeking prey that is exhausted from the day's desert heat.",
-            "Packs of them follow travellers through the desert until the travellers can no longer move. "
+            "Packs of them follow travellers through the desert until the travellers can no longer move."
         ],
         "name": {
             "english": "Cacturne",
@@ -13539,8 +13529,8 @@
         "dex_no": 343,
         "classification": "Clay Doll Pok\u00e9mon",
         "dex_entry": [
-            "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads. ",
-            "It moves while spinning around on its single foot. Some BALTOY have been seen spinning on their heads. "
+            "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads.",
+            "It moves while spinning around on its single foot. Some BALTOY have been seen spinning on their heads."
         ],
         "name": {
             "english": "Baltoy",
@@ -13575,8 +13565,8 @@
         "dex_no": 344,
         "classification": "Clay Doll Pok\u00e9mon",
         "dex_entry": [
-            "An ancient clay figurine that came to life as a Pok\u00e9mon from exposure to a mysterious ray of light. ",
-            "It is said that it originates from clay dolls made by an ancient civilization. "
+            "An ancient clay figurine that came to life as a Pok\u00e9mon from exposure to a mysterious ray of light.",
+            "It is said that it originates from clay dolls made by an ancient civilization."
         ],
         "name": {
             "english": "Claydol",
@@ -13610,7 +13600,7 @@
         "classification": "Sea Lily Pok\u00e9mon",
         "dex_entry": [
             "It disguises its tentacles as flowers to attract and catch prey. It became extinct in ancient times.",
-            "It lived on the seafloor 100 million years ago and was reanimated scientifically. "
+            "It lived on the seafloor 100 million years ago and was reanimated scientifically."
         ],
         "name": {
             "english": "Lileep",
@@ -13680,7 +13670,7 @@
         "classification": "Old Shrimp Pok\u00e9mon",
         "dex_entry": [
             "It is a kind of Pok\u00e9mon progenitor. It uses its extending claws to catch prey hiding among rocks on the seafloor.",
-            "A Pok\u00e9mon ancestor that was reanimated from a fossil. It lived in the sea and hunted with claws. "
+            "A Pok\u00e9mon ancestor that was reanimated from a fossil. It lived in the sea and hunted with claws."
         ],
         "name": {
             "english": "Anorith",
@@ -13716,7 +13706,7 @@
         "classification": "Plate Pok\u00e9mon",
         "dex_entry": [
             "Its enormous, retractable claws can cut through most anything. Its entire body is clad in sturdy plates.",
-            "Protected by a hard shell, its body is very sturdy. It skewers prey with its claws to feed. "
+            "Protected by a hard shell, its body is very sturdy. It skewers prey with its claws to feed."
         ],
         "name": {
             "english": "Armaldo",
@@ -13817,8 +13807,8 @@
         "dex_no": 351,
         "classification": "Weather Pok\u00e9mon",
         "dex_entry": [
-            "This Pok\u00e9mon can change its cells, taking different forms based on the temperature and humidity. ",
-            "It has the ability to change its form into the sun, the rain, or a snow cloud, depending on the weather. "
+            "This Pok\u00e9mon can change its cells, taking different forms based on the temperature and humidity.",
+            "It has the ability to change its form into the sun, the rain, or a snow cloud, depending on the weather."
         ],
         "name": {
             "english": "Castform",
@@ -13884,7 +13874,7 @@
         "classification": "Puppet Pok\u00e9mon",
         "dex_entry": [
             "It uses its horn to feed on envy and malice-- or so it's said. It's very active at night.",
-            "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live. "
+            "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live."
         ],
         "name": {
             "english": "Shuppet",
@@ -14055,7 +14045,7 @@
         "classification": "Fruit Pok\u00e9mon",
         "dex_entry": [
             "It flies by flapping its broad leaves and gives the sweet, delicious fruit around its neck to children.",
-            "The bunch of fruit around its neck ripens twice a year and is delicious. It's a highly favored tropical snack. "
+            "The bunch of fruit around its neck ripens twice a year and is delicious. It's a highly favored tropical snack."
         ],
         "name": {
             "english": "Tropius",
@@ -14089,7 +14079,7 @@
         "classification": "Wind Chime Pok\u00e9mon",
         "dex_entry": [
             "It uses the sucker on its head to hang from a tree or from eaves. It can produce seven different tones.",
-            "Emitting ultrasonic cries, it floats on winds to travel great distances. "
+            "Emitting ultrasonic cries, it floats on winds to travel great distances."
         ],
         "name": {
             "english": "Chimecho",
@@ -14258,8 +14248,8 @@
         "dex_no": 362,
         "classification": "Face Pok\u00e9mon",
         "dex_entry": [
-            "To protect itself, it clad its body in an armor of ice, made by freezing moisture in the air. ",
-            "It can instantly freeze moisture in the atmosphere. It uses this power to freeze its foes. "
+            "To protect itself, it clad its body in an armor of ice, made by freezing moisture in the air.",
+            "It can instantly freeze moisture in the atmosphere. It uses this power to freeze its foes."
         ],
         "name": {
             "english": "Glalie",
@@ -14291,8 +14281,8 @@
         "dex_no": 362,
         "classification": "Face Pok\u00e9mon",
         "dex_entry": [
-            "To protect itself, it clad its body in an armor of ice, made by freezing moisture in the air. ",
-            "It can instantly freeze moisture in the atmosphere. It uses this power to freeze its foes. "
+            "To protect itself, it clad its body in an armor of ice, made by freezing moisture in the air.",
+            "It can instantly freeze moisture in the atmosphere. It uses this power to freeze its foes."
         ],
         "name": {
             "english": "Mega Glalie",
@@ -14325,7 +14315,7 @@
         "classification": "Clap Pok\u00e9mon",
         "dex_entry": [
             "They can't swim well yet, and they move much faster by rolling. When they're happy, they clap fins.",
-            "Its body is covered in fluffy fur. The fur keeps it from feeling cold while it is rolling on ice. "
+            "Its body is covered in fluffy fur. The fur keeps it from feeling cold while it is rolling on ice."
         ],
         "name": {
             "english": "Spheal",
@@ -14360,8 +14350,8 @@
         "dex_no": 364,
         "classification": "Ball Roll Pok\u00e9mon",
         "dex_entry": [
-            "It has a very sensitive nose. It touches new things with its nose to examine them. ",
-            "Be it Spheal or Pok\u00e9 Ball, it will spin any round object on its nose with the greatest of ease. "
+            "It has a very sensitive nose. It touches new things with its nose to examine them.",
+            "Be it Spheal or Pok\u00e9 Ball, it will spin any round object on its nose with the greatest of ease."
         ],
         "name": {
             "english": "Sealeo",
@@ -14397,7 +14387,7 @@
         "classification": "Ice Break Pok\u00e9mon",
         "dex_entry": [
             "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.",
-            "It shatters drift ice with its strong tusks. Its thick layer of blubber repels enemy attacks. "
+            "It shatters drift ice with its strong tusks. Its thick layer of blubber repels enemy attacks."
         ],
         "name": {
             "english": "Walrein",
@@ -14431,7 +14421,7 @@
         "classification": "Bivalve Pok\u00e9mon",
         "dex_entry": [
             "When it evolves, it makes a mysterious pearl that amplifies psychic powers when it's held.",
-            "It is protected by a sturdy shell. Once in a lifetime, it makes a magnificent pearl. "
+            "It is protected by a sturdy shell. Once in a lifetime, it makes a magnificent pearl."
         ],
         "name": {
             "english": "Clamperl",
@@ -14810,7 +14800,7 @@
         "classification": "Iron Leg Pok\u00e9mon",
         "dex_entry": [
             "With four linked brains, it's more intelligent than a supercomputer, and it uses calculations to analyze foes.",
-            "Metang combined to form it. With four brains, it has the intelligence of a supercomputer. "
+            "Metang combined to form it. With four brains, it has the intelligence of a supercomputer."
         ],
         "name": {
             "english": "Metagross",
@@ -14844,7 +14834,7 @@
         "classification": "Iron Leg Pok\u00e9mon",
         "dex_entry": [
             "With four linked brains, it's more intelligent than a supercomputer, and it uses calculations to analyze foes.",
-            "Metang combined to form it. With four brains, it has the intelligence of a supercomputer. "
+            "Metang combined to form it. With four brains, it has the intelligence of a supercomputer."
         ],
         "name": {
             "english": "Mega Metagross",
@@ -14877,8 +14867,8 @@
         "dex_no": 377,
         "classification": "Rock Peak Pok\u00e9mon",
         "dex_entry": [
-            "Its entire body is made of rock. If any part chips off in battle, it attaches rocks to repair itself. ",
-            "The same rocks that form its body have been found in ground layers around the world. "
+            "Its entire body is made of rock. If any part chips off in battle, it attaches rocks to repair itself.",
+            "The same rocks that form its body have been found in ground layers around the world."
         ],
         "name": {
             "english": "Regirock",
@@ -14910,8 +14900,8 @@
         "dex_no": 378,
         "classification": "Iceberg Pok\u00e9mon",
         "dex_entry": [
-            "It is said to have slept in a glacier for thousands of years. Its body can't be melted, even by magma. ",
-            "Its body is made of ice from the ice age. It controls frigid air of -328 degrees Fahrenheit. "
+            "It is said to have slept in a glacier for thousands of years. Its body can't be melted, even by magma.",
+            "Its body is made of ice from the ice age. It controls frigid air of -328 degrees Fahrenheit."
         ],
         "name": {
             "english": "Regice",
@@ -14943,8 +14933,8 @@
         "dex_no": 379,
         "classification": "Iron Pok\u00e9mon",
         "dex_entry": [
-            "Tempered by pressure underground over tens of thousands of years, its body cannot be scratched. ",
-            "Its body is said to be harder than any kind of metal. A study has revealed that its body is hollow. "
+            "Tempered by pressure underground over tens of thousands of years, its body cannot be scratched.",
+            "Its body is said to be harder than any kind of metal. A study has revealed that its body is hollow."
         ],
         "name": {
             "english": "Registeel",
@@ -14976,8 +14966,8 @@
         "dex_no": 380,
         "classification": "Eon Pok\u00e9mon",
         "dex_entry": [
-            "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible. ",
-            "Its body is covered with a down that can refract light in such a way that it becomes invisible. "
+            "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible.",
+            "Its body is covered with a down that can refract light in such a way that it becomes invisible."
         ],
         "name": {
             "english": "Latias",
@@ -15010,8 +15000,8 @@
         "dex_no": 380,
         "classification": "Eon Pok\u00e9mon",
         "dex_entry": [
-            "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible. ",
-            "Its body is covered with a down that can refract light in such a way that it becomes invisible. "
+            "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible.",
+            "Its body is covered with a down that can refract light in such a way that it becomes invisible."
         ],
         "name": {
             "english": "Mega Latias",
@@ -15044,8 +15034,8 @@
         "dex_no": 381,
         "classification": "Eon Pok\u00e9mon",
         "dex_entry": [
-            "A highly intelligent Pok\u00e9mon. By folding back its wings in flight, it can overtake jet planes. ",
-            "It understands human speech and is highly intelligent. It is a tender Pok\u00e9mon that dislikes fighting. "
+            "A highly intelligent Pok\u00e9mon. By folding back its wings in flight, it can overtake jet planes.",
+            "It understands human speech and is highly intelligent. It is a tender Pok\u00e9mon that dislikes fighting."
         ],
         "name": {
             "english": "Latios",
@@ -15078,8 +15068,8 @@
         "dex_no": 381,
         "classification": "Eon Pok\u00e9mon",
         "dex_entry": [
-            "A highly intelligent Pok\u00e9mon. By folding back its wings in flight, it can overtake jet planes. ",
-            "It understands human speech and is highly intelligent. It is a tender Pok\u00e9mon that dislikes fighting. "
+            "A highly intelligent Pok\u00e9mon. By folding back its wings in flight, it can overtake jet planes.",
+            "It understands human speech and is highly intelligent. It is a tender Pok\u00e9mon that dislikes fighting."
         ],
         "name": {
             "english": "Mega Latios",
@@ -15112,8 +15102,8 @@
         "dex_no": 382,
         "classification": "Sea Basin Pok\u00e9mon",
         "dex_entry": [
-            "A mythical Pok\u00e9mon said to have swelled the seas with rain and tidal waves. It battled with Groudon ",
-            "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench. "
+            "A mythical Pok\u00e9mon said to have swelled the seas with rain and tidal waves. It battled with Groudon",
+            "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench."
         ],
         "name": {
             "english": "Kyogre",
@@ -15145,8 +15135,8 @@
         "dex_no": 382,
         "classification": "Sea Basin Pok\u00e9mon",
         "dex_entry": [
-            "A mythical Pok\u00e9mon said to have swelled the seas with rain and tidal waves. It battled with Groudon ",
-            "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench. "
+            "A mythical Pok\u00e9mon said to have swelled the seas with rain and tidal waves. It battled with Groudon",
+            "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench."
         ],
         "name": {
             "english": "Primal Kyogre",
@@ -15178,8 +15168,8 @@
         "dex_no": 383,
         "classification": "Continent Pok\u00e9mon",
         "dex_entry": [
-            "Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre ",
-            "It had been asleep in underground magma ever since it fiercely fought Kyogre long ago. "
+            "Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre",
+            "It had been asleep in underground magma ever since it fiercely fought Kyogre long ago."
         ],
         "name": {
             "english": "Groudon",
@@ -15211,8 +15201,8 @@
         "dex_no": 383,
         "classification": "Continent Pok\u00e9mon",
         "dex_entry": [
-            "Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre ",
-            "It had been asleep in underground magma ever since it fiercely fought Kyogre long ago. "
+            "Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre",
+            "It had been asleep in underground magma ever since it fiercely fought Kyogre long ago."
         ],
         "name": {
             "english": "Primal Groudon",
@@ -15244,8 +15234,8 @@
         "dex_no": 384,
         "classification": "Sky High Pok\u00e9mon",
         "dex_entry": [
-            "It lives in the ozone layer far above the clouds and cannot be seen from the ground. ",
-            "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it. "
+            "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
+            "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it."
         ],
         "name": {
             "english": "Rayquaza",
@@ -15278,8 +15268,8 @@
         "dex_no": 384,
         "classification": "Sky High Pok\u00e9mon",
         "dex_entry": [
-            "It lives in the ozone layer far above the clouds and cannot be seen from the ground. ",
-            "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it. "
+            "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
+            "It flies in the ozone layer, way up high in the sky. Until recently, no one had ever seen it."
         ],
         "name": {
             "english": "Mega Rayquaza",
@@ -15312,8 +15302,8 @@
         "dex_no": 385,
         "classification": "Wish Pok\u00e9mon",
         "dex_entry": [
-            "Generations have believed that any wish written on a note on its head will come true when it awakens. ",
-            "It is said to have the ability to grant any wish for just one week every thousand years. "
+            "Generations have believed that any wish written on a note on its head will come true when it awakens.",
+            "It is said to have the ability to grant any wish for just one week every thousand years."
         ],
         "name": {
             "english": "Jirachi",
@@ -15346,8 +15336,8 @@
         "dex_no": 386,
         "classification": "DNA Pok\u00e9mon",
         "dex_entry": [
-            "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pok\u00e9mon. ",
-            "DNA from a space virus mutated and became a Pok\u00e9mon. It appears where auroras are seen. "
+            "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pok\u00e9mon.",
+            "DNA from a space virus mutated and became a Pok\u00e9mon. It appears where auroras are seen."
         ],
         "name": {
             "english": "Deoxys",
@@ -15379,8 +15369,8 @@
         "dex_no": 386,
         "classification": "DNA Pok\u00e9mon",
         "dex_entry": [
-            "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pok\u00e9mon. ",
-            "DNA from a space virus mutated and became a Pok\u00e9mon. It appears where auroras are seen. "
+            "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pok\u00e9mon.",
+            "DNA from a space virus mutated and became a Pok\u00e9mon. It appears where auroras are seen."
         ],
         "name": {
             "english": "Deoxys Attack",
@@ -15412,8 +15402,8 @@
         "dex_no": 386,
         "classification": "DNA Pok\u00e9mon",
         "dex_entry": [
-            "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pok\u00e9mon. ",
-            "DNA from a space virus mutated and became a Pok\u00e9mon. It appears where auroras are seen. "
+            "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pok\u00e9mon.",
+            "DNA from a space virus mutated and became a Pok\u00e9mon. It appears where auroras are seen."
         ],
         "name": {
             "english": "Deoxys Defense",
@@ -15445,8 +15435,8 @@
         "dex_no": 386,
         "classification": "DNA Pok\u00e9mon",
         "dex_entry": [
-            "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pok\u00e9mon. ",
-            "DNA from a space virus mutated and became a Pok\u00e9mon. It appears where auroras are seen. "
+            "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pok\u00e9mon.",
+            "DNA from a space virus mutated and became a Pok\u00e9mon. It appears where auroras are seen."
         ],
         "name": {
             "english": "Deoxys Speed",
@@ -15478,8 +15468,8 @@
         "dex_no": 387,
         "classification": "Tiny Leaf Pok\u00e9mon",
         "dex_entry": [
-            "Photosynthesis occurs across its body under the sun. The shell on its back is actually hardened soil. ",
-            "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty. "
+            "Photosynthesis occurs across its body under the sun. The shell on its back is actually hardened soil.",
+            "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty."
         ],
         "name": {
             "english": "Turtwig",
@@ -15513,8 +15503,8 @@
         "dex_no": 388,
         "classification": "Grove Pok\u00e9mon",
         "dex_entry": [
-            "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell. ",
-            "It knows where pure water wells up. It carries fellow Pok\u00e9mon there on its back. "
+            "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
+            "It knows where pure water wells up. It carries fellow Pok\u00e9mon there on its back."
         ],
         "name": {
             "english": "Grotle",
@@ -15548,8 +15538,8 @@
         "dex_no": 389,
         "classification": "Continent Pok\u00e9mon",
         "dex_entry": [
-            "Ancient people imagined that beneath the ground, a gigantic Torterra dwelled. ",
-            "Small Pok\u00e9mon occasionally gather on its unmoving back to begin building their nests. "
+            "Ancient people imagined that beneath the ground, a gigantic Torterra dwelled.",
+            "Small Pok\u00e9mon occasionally gather on its unmoving back to begin building their nests."
         ],
         "name": {
             "english": "Torterra",
@@ -15582,8 +15572,8 @@
         "dex_no": 390,
         "classification": "Chimp Pok\u00e9mon",
         "dex_entry": [
-            "Its fiery rear end is fueled by gas made in its belly. Even rain can't extinguish the fire. ",
-            "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick. "
+            "Its fiery rear end is fueled by gas made in its belly. Even rain can't extinguish the fire.",
+            "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick."
         ],
         "name": {
             "english": "Chimchar",
@@ -15617,8 +15607,8 @@
         "dex_no": 391,
         "classification": "Playful Pok\u00e9mon",
         "dex_entry": [
-            "It skillfully controls the intensity of the fire on its tail to keep its foes at an ideal distance. ",
-            "It uses ceilings and walls to launch aerial attacks. Its fiery tail is but one weapon. "
+            "It skillfully controls the intensity of the fire on its tail to keep its foes at an ideal distance.",
+            "It uses ceilings and walls to launch aerial attacks. Its fiery tail is but one weapon."
         ],
         "name": {
             "english": "Monferno",
@@ -15653,8 +15643,8 @@
         "dex_no": 392,
         "classification": "Flame Pok\u00e9mon",
         "dex_entry": [
-            "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness. ",
-            "It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style. "
+            "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.",
+            "It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style."
         ],
         "name": {
             "english": "Infernape",
@@ -15687,8 +15677,8 @@
         "dex_no": 393,
         "classification": "Penguin Pok\u00e9mon",
         "dex_entry": [
-            "It doesn't like to be taken care of. It's difficult to bond with since it won't listen to its Trainer. ",
-            "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold. "
+            "It doesn't like to be taken care of. It's difficult to bond with since it won't listen to its Trainer.",
+            "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold."
         ],
         "name": {
             "english": "Piplup",
@@ -15722,8 +15712,8 @@
         "dex_no": 394,
         "classification": "Penguin Pok\u00e9mon",
         "dex_entry": [
-            "It lives alone, away from others. Apparently, every one of them believes it is the most important. ",
-            "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees. "
+            "It lives alone, away from others. Apparently, every one of them believes it is the most important.",
+            "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees."
         ],
         "name": {
             "english": "Prinplup",
@@ -15757,7 +15747,7 @@
         "dex_no": 395,
         "classification": "Emperor Pok\u00e9mon",
         "dex_entry": [
-            "It swims as fast as a jet boat. The edges of its wings are sharp and can slice apart drifting ice. ",
+            "It swims as fast as a jet boat. The edges of its wings are sharp and can slice apart drifting ice.",
             "The three horns that extend from its beak attest to its power. The leader has the biggest horns."
         ],
         "name": {
@@ -15966,8 +15956,8 @@
         "dex_no": 401,
         "classification": "Cricket Pok\u00e9mon",
         "dex_entry": [
-            "It chats with others using the sounds of its colliding antennae. These sounds are fall hallmarks. ",
-            "When its antennae hit each other, it sounds like the music of a xylophone. "
+            "It chats with others using the sounds of its colliding antennae. These sounds are fall hallmarks.",
+            "When its antennae hit each other, it sounds like the music of a xylophone."
         ],
         "name": {
             "english": "Kricketot",
@@ -16001,8 +15991,8 @@
         "dex_no": 402,
         "classification": "Cricket Pok\u00e9mon",
         "dex_entry": [
-            "It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib. ",
-            "It signals its emotions with its melodies. Scientists are studying these melodic patterns. "
+            "It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.",
+            "It signals its emotions with its melodies. Scientists are studying these melodic patterns."
         ],
         "name": {
             "english": "Kricketune",
@@ -16035,7 +16025,7 @@
         "classification": "Flash Pok\u00e9mon",
         "dex_entry": [
             "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
-            "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded. "
+            "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded."
         ],
         "name": {
             "english": "Shinx",
@@ -16070,7 +16060,7 @@
         "classification": "Spark Pok\u00e9mon",
         "dex_entry": [
             "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
-            "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes. "
+            "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes."
         ],
         "name": {
             "english": "Luxio",
@@ -16105,7 +16095,7 @@
         "classification": "Gleam Eyes Pok\u00e9mon",
         "dex_entry": [
             "When its eyes gleam gold, it can spot hiding prey--even those taking shelter behind a wall.",
-            "Luxray's ability to see through objects comes in handy when it's scouting for danger. "
+            "Luxray's ability to see through objects comes in handy when it's scouting for danger."
         ],
         "name": {
             "english": "Luxray",
@@ -16175,7 +16165,7 @@
         "classification": "Bouquet Pok\u00e9mon",
         "dex_entry": [
             "Luring prey with a sweet scent, it uses poison whips on its arms to poison, bind, and finish off the prey.",
-            "With the movements of a dancer, it strikes with whips that are densely lined with poison thorns. "
+            "With the movements of a dancer, it strikes with whips that are densely lined with poison thorns."
         ],
         "name": {
             "english": "Roserade",
@@ -16689,8 +16679,8 @@
         "dex_no": 420,
         "classification": "Cherry Pok\u00e9mon",
         "dex_entry": [
-            "Sunlight colors it red. When the small ball is drained of nutrients, it shrivels to herald evolution. ",
-            "It evolves by sucking the energy out of the small ball where it had been storing nutrients. "
+            "Sunlight colors it red. When the small ball is drained of nutrients, it shrivels to herald evolution.",
+            "It evolves by sucking the energy out of the small ball where it had been storing nutrients."
         ],
         "name": {
             "english": "Cherubi",
@@ -16724,8 +16714,8 @@
         "dex_no": 421,
         "classification": "Blossom Pok\u00e9mon",
         "dex_entry": [
-            "During times of strong sunlight, its bud blooms, its petals open fully, and it becomes very active. ",
-            "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body. "
+            "During times of strong sunlight, its bud blooms, its petals open fully, and it becomes very active.",
+            "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body."
         ],
         "name": {
             "english": "Cherrim",
@@ -16758,7 +16748,7 @@
         "classification": "Sea Slug Pok\u00e9mon",
         "dex_entry": [
             "Beware of pushing strongly on its squishy body, as it makes a mysterious purple fluid ooze out.",
-            "Its shape and coloration vary, depending on its habitat. "
+            "Its shape and coloration vary, depending on its habitat."
         ],
         "name": {
             "english": "Shellos",
@@ -16793,7 +16783,7 @@
         "classification": "Sea Slug Pok\u00e9mon",
         "dex_entry": [
             "When its natural enemy attacks, it oozes purple fluid and escapes.",
-            "It apparently had a huge shell for protection in ancient times. It lives in shallow tidal pools. "
+            "It apparently had a huge shell for protection in ancient times. It lives in shallow tidal pools."
         ],
         "name": {
             "english": "Gastrodon",
@@ -16929,8 +16919,8 @@
         "dex_no": 427,
         "classification": "Rabbit Pok\u00e9mon",
         "dex_entry": [
-            "Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder. ",
-            "When it senses danger, it perks up its ears. On cold nights, it sleeps with its head tucked into its fur. "
+            "Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder.",
+            "When it senses danger, it perks up its ears. On cold nights, it sleeps with its head tucked into its fur."
         ],
         "name": {
             "english": "Buneary",
@@ -16965,7 +16955,7 @@
         "classification": "Rabbit Pok\u00e9mon",
         "dex_entry": [
             "Extremely cautious, it quickly bounds off when it senses danger.",
-            "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs. "
+            "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs."
         ],
         "name": {
             "english": "Lopunny",
@@ -16998,7 +16988,7 @@
         "classification": "Rabbit Pok\u00e9mon",
         "dex_entry": [
             "Extremely cautious, it quickly bounds off when it senses danger.",
-            "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs. "
+            "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs."
         ],
         "name": {
             "english": "Mega Lopunny",
@@ -17097,8 +17087,8 @@
         "dex_no": 431,
         "classification": "Catty Pok\u00e9mon",
         "dex_entry": [
-            "It claws if displeased and purrs when affectionate. Its fickleness is very popular among some. ",
-            "When it's happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon. "
+            "It claws if displeased and purrs when affectionate. Its fickleness is very popular among some.",
+            "When it's happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon."
         ],
         "name": {
             "english": "Glameow",
@@ -17132,8 +17122,8 @@
         "dex_no": 432,
         "classification": "Tiger Cat Pok\u00e9mon",
         "dex_entry": [
-            "It would claim another Pok\u00e9mon's nest as its own if it finds a nest sufficiently comfortable. ",
-            "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails. "
+            "It would claim another Pok\u00e9mon's nest as its own if it finds a nest sufficiently comfortable.",
+            "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails."
         ],
         "name": {
             "english": "Purugly",
@@ -17271,7 +17261,7 @@
         "classification": "Bronze Pok\u00e9mon",
         "dex_entry": [
             "Ancient people believed that the pattern on Bronzor's back contained a mysterious power.",
-            "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related. "
+            "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related."
         ],
         "name": {
             "english": "Bronzor",
@@ -17307,7 +17297,7 @@
         "classification": "Bronze Bell Pok\u00e9mon",
         "dex_entry": [
             "In ages past, this Pok\u00e9mon was revered as a bringer of rain. It was found buried in the ground.",
-            "Ancient people believed that petitioning Bronzong for rain was the way to make crops grow. "
+            "Ancient people believed that petitioning Bronzong for rain was the way to make crops grow."
         ],
         "name": {
             "english": "Bronzong",
@@ -17588,7 +17578,7 @@
         "classification": "Mach Pok\u00e9mon",
         "dex_entry": [
             "When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.",
-            "It flies at speeds equals to a jet fighter plane. It never allows its prey to escape. "
+            "It flies at speeds equals to a jet fighter plane. It never allows its prey to escape."
         ],
         "name": {
             "english": "Garchomp",
@@ -17622,7 +17612,7 @@
         "classification": "Mach Pok\u00e9mon",
         "dex_entry": [
             "When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.",
-            "It flies at speeds equals to a jet fighter plane. It never allows its prey to escape. "
+            "It flies at speeds equals to a jet fighter plane. It never allows its prey to escape."
         ],
         "name": {
             "english": "Mega Garchomp",
@@ -17793,7 +17783,7 @@
         "dex_no": 449,
         "classification": "Hippo Pok\u00e9mon",
         "dex_entry": [
-            "It lives in arid places. Instead of perspiration,  it expels grainy sand from its body. ",
+            "It lives in arid places. Instead of perspiration,  it expels grainy sand from its body.",
             "It enshrouds itself with sand to protect itself from germs. It does not enjoy getting wet."
         ],
         "name": {
@@ -17898,7 +17888,7 @@
         "classification": "Ogre Scorp Pok\u00e9mon",
         "dex_entry": [
             "It takes pride in its strength. Even though it can tear foes apart, it finishes them off with powerful poison.",
-            "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison. "
+            "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison."
         ],
         "name": {
             "english": "Drapion",
@@ -17932,7 +17922,7 @@
         "classification": "Toxic Mouth Pok\u00e9mon",
         "dex_entry": [
             "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.",
-            "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab. "
+            "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab."
         ],
         "name": {
             "english": "Croagunk",
@@ -18344,7 +18334,7 @@
         "classification": "Drill Pok\u00e9mon",
         "dex_entry": [
             "From holes in its palms, it fires out Geodude. Its carapace can withstand volcanic eruptions.",
-            "It puts rocks in holes in its palms and uses its muscles to shoot them. Geodude are shot at rare times. "
+            "It puts rocks in holes in its palms and uses its muscles to shoot them. Geodude are shot at rare times."
         ],
         "name": {
             "english": "Rhyperior",
@@ -18378,7 +18368,7 @@
         "classification": "Vine Pok\u00e9mon",
         "dex_entry": [
             "It ensnares prey by extending arms made of vines. Losing arms to predators does not trouble it.",
-            "Its vines grow so profusely that, in the warm season, you can't even see its eyes. "
+            "Its vines grow so profusely that, in the warm season, you can't even see its eyes."
         ],
         "name": {
             "english": "Tangrowth",
@@ -18477,7 +18467,7 @@
         "classification": "Jubilee Pok\u00e9mon",
         "dex_entry": [
             "As everyone knows, it visits peaceful regions, bringing them gifts of kindness and sweet blessings.",
-            "It shares many blessings with people who respect one another's rights and avoid needless strife. "
+            "It shares many blessings with people who respect one another's rights and avoid needless strife."
         ],
         "name": {
             "english": "Togekiss",
@@ -18712,7 +18702,7 @@
         "classification": "Blade Pok\u00e9mon",
         "dex_entry": [
             "Because it can sense what its foe is thinking, its attacks burst out first, fast, and fierce.",
-            "A master of courtesy and swordsmanship, it fights using extending swords on its elbows. "
+            "A master of courtesy and swordsmanship, it fights using extending swords on its elbows."
         ],
         "name": {
             "english": "Gallade",
@@ -18746,7 +18736,7 @@
         "classification": "Blade Pok\u00e9mon",
         "dex_entry": [
             "Because it can sense what its foe is thinking, its attacks burst out first, fast, and fierce.",
-            "A master of courtesy and swordsmanship, it fights using extending swords on its elbows. "
+            "A master of courtesy and swordsmanship, it fights using extending swords on its elbows."
         ],
         "name": {
             "english": "Mega Gallade",
@@ -19084,8 +19074,8 @@
         "dex_no": 480,
         "classification": "Knowledge Pok\u00e9mon",
         "dex_entry": [
-            "Known as \u00e2\u20ac\u0153The Being of Knowledge.\u00e2\u20ac\u009d It is said that it can wipe out the memory of those who see its eyes. ",
-            "It is said that its emergence gave humans the intelligence to improve their quality of life. "
+            "Known as \u00e2\u20ac\u0153The Being of Knowledge.\u00e2\u20ac\u009d It is said that it can wipe out the memory of those who see its eyes.",
+            "It is said that its emergence gave humans the intelligence to improve their quality of life."
         ],
         "name": {
             "english": "Uxie",
@@ -19117,8 +19107,8 @@
         "dex_no": 481,
         "classification": "Emotion Pok\u00e9mon",
         "dex_entry": [
-            "Known as \u00e2\u20ac\u0153The Being of Emotion.\u00e2\u20ac\u009d It taught humans the nobility of sorrow, pain, and joy. ",
-            "It sleeps at the bottom of a lake. Its spirit is said to leave its body to fly on the lake's surface. "
+            "Known as \u00e2\u20ac\u0153The Being of Emotion.\u00e2\u20ac\u009d It taught humans the nobility of sorrow, pain, and joy.",
+            "It sleeps at the bottom of a lake. Its spirit is said to leave its body to fly on the lake's surface."
         ],
         "name": {
             "english": "Mesprit",
@@ -19150,8 +19140,8 @@
         "dex_no": 482,
         "classification": "Willpower Pok\u00e9mon",
         "dex_entry": [
-            "Known as \u00e2\u20ac\u0153The Being of Willpower.\u00e2\u20ac\u009d It sleeps at the bottom of a lake to keep the world in balance. ",
-            "It is thought that Uxie, Mesprit and Azelf all came from the same egg. "
+            "Known as \u00e2\u20ac\u0153The Being of Willpower.\u00e2\u20ac\u009d It sleeps at the bottom of a lake to keep the world in balance.",
+            "It is thought that Uxie, Mesprit and Azelf all came from the same egg."
         ],
         "name": {
             "english": "Azelf",
@@ -19183,8 +19173,8 @@
         "dex_no": 483,
         "classification": "Temporal Pok\u00e9mon",
         "dex_entry": [
-            "A Pok\u00e9mon spoken of in legend. It is said that time began moving when Dialga was born. ",
-            "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity. "
+            "A Pok\u00e9mon spoken of in legend. It is said that time began moving when Dialga was born.",
+            "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity."
         ],
         "name": {
             "english": "Dialga",
@@ -19217,8 +19207,8 @@
         "dex_no": 484,
         "classification": "Spatial Pok\u00e9mon",
         "dex_entry": [
-            "It is said to live in a gap in the spatial dimension parallel to ours. It appears in mythology. ",
-            "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology. "
+            "It is said to live in a gap in the spatial dimension parallel to ours. It appears in mythology.",
+            "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology."
         ],
         "name": {
             "english": "Palkia",
@@ -19251,8 +19241,8 @@
         "dex_no": 485,
         "classification": "Lava Dome Pok\u00e9mon",
         "dex_entry": [
-            "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls. ",
-            "Boiling blood, like magma, circulates through its body. It makes its dwelling place in volcanic caves. "
+            "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.",
+            "Boiling blood, like magma, circulates through its body. It makes its dwelling place in volcanic caves."
         ],
         "name": {
             "english": "Heatran",
@@ -19285,8 +19275,8 @@
         "dex_no": 486,
         "classification": "Colossal Pok\u00e9mon",
         "dex_entry": [
-            "It is said to have made Pok\u00e9mon that look like itself from a special ice mountain, rocks, and magma. ",
-            "There is an enduring legend that states this Pok\u00e9mon towed continents with ropes. "
+            "It is said to have made Pok\u00e9mon that look like itself from a special ice mountain, rocks, and magma.",
+            "There is an enduring legend that states this Pok\u00e9mon towed continents with ropes."
         ],
         "name": {
             "english": "Regigigas",
@@ -19318,8 +19308,8 @@
         "dex_no": 487,
         "classification": "Renegade Pok\u00e9mon",
         "dex_entry": [
-            "This Pok\u00e9mon is said to live in a world on the reverse side of ours, where common knowledge is distorted and strange. ",
-            "It was banished for its violence. It silently gazed upon the old world from the Distortion World. "
+            "This Pok\u00e9mon is said to live in a world on the reverse side of ours, where common knowledge is distorted and strange.",
+            "It was banished for its violence. It silently gazed upon the old world from the Distortion World."
         ],
         "name": {
             "english": "Giratina Altered",
@@ -19352,8 +19342,8 @@
         "dex_no": 487,
         "classification": "Renegade Pok\u00e9mon",
         "dex_entry": [
-            "This Pok\u00e9mon is said to live in a world on the reverse side of ours, where common knowledge is distorted and strange. ",
-            "It was banished for its violence. It silently gazed upon the old world from the Distortion World. "
+            "This Pok\u00e9mon is said to live in a world on the reverse side of ours, where common knowledge is distorted and strange.",
+            "It was banished for its violence. It silently gazed upon the old world from the Distortion World."
         ],
         "name": {
             "english": "Giratina Origin",
@@ -19386,8 +19376,8 @@
         "dex_no": 488,
         "classification": "Lunar Pok\u00e9mon",
         "dex_entry": [
-            "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon. ",
-            "Those who sleep holding Cresselia's feather are assured of joyful dreams. It is said to represent the crescent moon. "
+            "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
+            "Those who sleep holding Cresselia's feather are assured of joyful dreams. It is said to represent the crescent moon."
         ],
         "name": {
             "english": "Cresselia",
@@ -19419,8 +19409,8 @@
         "dex_no": 489,
         "classification": "Sea Drifter Pok\u00e9mon",
         "dex_entry": [
-            "When the water warms, they inflate the flotation sac on their heads and drift languidly on the sea in packs. ",
-            "It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted. "
+            "When the water warms, they inflate the flotation sac on their heads and drift languidly on the sea in packs.",
+            "It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted."
         ],
         "name": {
             "english": "Phione",
@@ -19454,8 +19444,8 @@
         "dex_no": 490,
         "classification": "Seafaring Pok\u00e9mon",
         "dex_entry": [
-            "It is born with a wondrous power that lets it bond with any kind of Pok\u00e9mon. ",
-            "It starts its life with a wondrous power that permits it to bond with any kind of Pok\u00e9mon. "
+            "It is born with a wondrous power that lets it bond with any kind of Pok\u00e9mon.",
+            "It starts its life with a wondrous power that permits it to bond with any kind of Pok\u00e9mon."
         ],
         "name": {
             "english": "Manaphy",
@@ -19487,8 +19477,8 @@
         "dex_no": 491,
         "classification": "Pitch-Black Pok\u00e9mon",
         "dex_entry": [
-            "It chases people and Pok\u00e9mon from its territory by causing them to experience deep, nightmarish slumbers. ",
-            "It can lull people to sleep and make them dream. It is active during nights of the new moon. "
+            "It chases people and Pok\u00e9mon from its territory by causing them to experience deep, nightmarish slumbers.",
+            "It can lull people to sleep and make them dream. It is active during nights of the new moon."
         ],
         "name": {
             "english": "Darkrai",
@@ -19520,8 +19510,8 @@
         "dex_no": 492,
         "classification": "Gratitude Pok\u00e9mon",
         "dex_entry": [
-            "It can dissolve toxins in the air to instantly transform ruined land into a lush field of flowers. ",
-            "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers. "
+            "It can dissolve toxins in the air to instantly transform ruined land into a lush field of flowers.",
+            "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers."
         ],
         "name": {
             "english": "Shaymin",
@@ -19554,8 +19544,8 @@
         "dex_no": 492,
         "classification": "Gratitude Pok\u00e9mon",
         "dex_entry": [
-            "It can dissolve toxins in the air to instantly transform ruined land into a lush field of flowers. ",
-            "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers. "
+            "It can dissolve toxins in the air to instantly transform ruined land into a lush field of flowers.",
+            "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers."
         ],
         "name": {
             "english": "Shaymin Sky Forme",
@@ -19588,8 +19578,8 @@
         "dex_no": 493,
         "classification": "Alpha Pok\u00e9mon",
         "dex_entry": [
-            "According to the legends of Sinnoh, this Pok\u00e9mon emerged from an egg and shaped all there is in this world. ",
-            "It is told in mythology that this Pok\u00e9mon was born before the universe even existed. "
+            "According to the legends of Sinnoh, this Pok\u00e9mon emerged from an egg and shaped all there is in this world.",
+            "It is told in mythology that this Pok\u00e9mon was born before the universe even existed."
         ],
         "name": {
             "english": "Arceus",
@@ -20173,7 +20163,7 @@
         "classification": "Cruel Pok\u00e9mon",
         "dex_entry": [
             "Their beautiful form comes from the muscles they have developed. They run silently in the night.",
-            "Stealthily, it sneaks up on its target, striking from behind before its victim has a chance to react. "
+            "Stealthily, it sneaks up on its target, striking from behind before its victim has a chance to react."
         ],
         "name": {
             "english": "Liepard",
@@ -20410,7 +20400,7 @@
         "classification": "Dream Eater Pok\u00e9mon",
         "dex_entry": [
             "This Pok\u00e9mon appears before people and Pok\u00e9mon who are having nightmares and eats those dreams.",
-            "It eats the dreams of people and Pok\u00e9mon. When it eats a pleasant dream, it expels pink-colored mist. "
+            "It eats the dreams of people and Pok\u00e9mon. When it eats a pleasant dream, it expels pink-colored mist."
         ],
         "name": {
             "english": "Munna",
@@ -20824,8 +20814,8 @@
         "dex_no": 529,
         "classification": "Mole Pok\u00e9mon",
         "dex_entry": [
-            "It makes its way swiftly through the soil by putting both claws together and rotating at high speed. ",
-            "By spinning its body, it can dig straight through the ground at a speed of 30 mph. "
+            "It makes its way swiftly through the soil by putting both claws together and rotating at high speed.",
+            "By spinning its body, it can dig straight through the ground at a speed of 30 mph."
         ],
         "name": {
             "english": "Drilbur",
@@ -21098,7 +21088,7 @@
         "classification": "Vibration Pok\u00e9mon",
         "dex_entry": [
             "When they vibrate the bumps on their heads, they can make waves in water or earthquake-like vibrations on land.",
-            "It lives in the water and on land. It uses its long, sticky tongue to immobilize its opponents. "
+            "It lives in the water and on land. It uses its long, sticky tongue to immobilize its opponents."
         ],
         "name": {
             "english": "Palpitoad",
@@ -21134,7 +21124,7 @@
         "classification": "Vibration Pok\u00e9mon",
         "dex_entry": [
             "It increases the power of its punches by vibrating the bumps on its fists. It can turn a boulder to rubble with one punch.",
-            "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents. "
+            "They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents."
         ],
         "name": {
             "english": "Seismitoad",
@@ -21412,7 +21402,7 @@
         "classification": "Megapede Pok\u00e9mon",
         "dex_entry": [
             "It clasps its prey with the claws on its neck until it stops moving. Then it finishes it off with deadly poison.",
-            "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails. "
+            "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails."
         ],
         "name": {
             "english": "Scolipede",
@@ -21857,7 +21847,7 @@
         "classification": "Cactus Pok\u00e9mon",
         "dex_entry": [
             "It uses an up-tempo song and dance to drive away the bird Pok\u00e9mon that prey on its flower seeds",
-            "Arid regions are their habitat. They move rhythmically, making a sound similar to maracas. "
+            "Arid regions are their habitat. They move rhythmically, making a sound similar to maracas."
         ],
         "name": {
             "english": "Maractus",
@@ -22614,7 +22604,7 @@
         "classification": "Mitosis Pok\u00e9mon",
         "dex_entry": [
             "Since they have two divided brains, at times they suddenly try to take two different actions at once.",
-            "When their two divided brains think the same thoughts, their psychic power is maximized. "
+            "When their two divided brains think the same thoughts, their psychic power is maximized."
         ],
         "name": {
             "english": "Duosion",
@@ -22649,7 +22639,7 @@
         "classification": "Multiplying Pok\u00e9mon",
         "dex_entry": [
             "They use psychic power to control their arms, which are made of a special liquid. They can crush boulders psychically.",
-            "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power. "
+            "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power."
         ],
         "name": {
             "english": "Reuniclus",
@@ -22718,7 +22708,7 @@
         "classification": "White Bird Pok\u00e9mon",
         "dex_entry": [
             "Despite their elegant appearance, they can flap their wings strongly and fly for thousands of miles.",
-            "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock. "
+            "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock."
         ],
         "name": {
             "english": "Swanna",
@@ -22891,7 +22881,7 @@
         "classification": "Season Pok\u00e9mon",
         "dex_entry": [
             "They migrate according to the seasons. People can tell the season by looking at Sawsbuck's horns",
-            "They migrate according to the seasons, so some people call Sawsbuck the harbingers of spring. "
+            "They migrate according to the seasons, so some people call Sawsbuck the harbingers of spring."
         ],
         "name": {
             "english": "Sawsbuck",
@@ -22959,7 +22949,7 @@
         "classification": "Clamping Pok\u00e9mon",
         "dex_entry": [
             "These mysterious Pok\u00e9mon evolve when they receive electrical stimulation while they are in the same place as Shelmet.",
-            "For some reason they evolve when they receive electrical energy while they are attacking Shelmet. "
+            "For some reason they evolve when they receive electrical energy while they are attacking Shelmet."
         ],
         "name": {
             "english": "Karrablast",
@@ -23237,7 +23227,7 @@
         "classification": "EleSpider Pok\u00e9mon",
         "dex_entry": [
             "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.",
-            "When attacked, they create an electric barrier by spitting out many electrically charged threads. "
+            "When attacked, they create an electric barrier by spitting out many electrically charged threads."
         ],
         "name": {
             "english": "Galvantula",
@@ -23411,7 +23401,7 @@
         "classification": "Gear Pok\u00e9mon",
         "dex_entry": [
             "The gear with the red core is rotated at high speed for a rapid energy charge.",
-            "Its red core functions as an energy tank. It fires the charged energy through its spikes into an area. "
+            "Its red core functions as an energy tank. It fires the charged energy through its spikes into an area."
         ],
         "name": {
             "english": "Klinklang",
@@ -23720,7 +23710,7 @@
         "dex_no": 610,
         "classification": "Tusk Pok\u00e9mon",
         "dex_entry": [
-            "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp. ",
+            "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
             "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly."
         ],
         "name": {
@@ -23755,7 +23745,7 @@
         "dex_no": 611,
         "classification": "Axe Jaw Pok\u00e9mon",
         "dex_entry": [
-            "Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent. ",
+            "Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent.",
             "A broken tusk will not grow back, so it diligently sharpens its tusks on river rocks after the end of a battle."
         ],
         "name": {
@@ -24197,7 +24187,7 @@
         "dex_no": 624,
         "classification": "Sharp Blade Pok\u00e9mon",
         "dex_entry": [
-            "Blades comprise this Pok\u00e9mon's entire body.  If battling dulls the blades, it sharpens them on stones by the river. ",
+            "Blades comprise this Pok\u00e9mon's entire body.  If battling dulls the blades, it sharpens them on stones by the river.",
             "Ignoring their injuries, groups attack by sinking the blades that cover their bodies into their prey."
         ],
         "name": {
@@ -24544,7 +24534,7 @@
         "classification": "Hostile Pok\u00e9mon",
         "dex_entry": [
             "The two heads do not get along. Whichever head eats more than the other gets to be the leader.",
-            "After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along. "
+            "After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along."
         ],
         "name": {
             "english": "Zweilous",
@@ -25398,7 +25388,7 @@
         "classification": "Fox Pok\u00e9mon",
         "dex_entry": [
             "Eating a twig fills it with energy,  and its roomy ears give vent to air  hotter than 390 degrees Fahrenheit.",
-            "As it walks, it munches on a twig in place of a snack. It intimidates opponents by puffing hot air out of its ears. "
+            "As it walks, it munches on a twig in place of a snack. It intimidates opponents by puffing hot air out of its ears."
         ],
         "name": {
             "english": "Fennekin",
@@ -26951,7 +26941,7 @@
         "dex_no": 694,
         "classification": "Generator Pok\u00e9mon",
         "dex_entry": [
-            "They make their home in deserts. They can  generate their energy from basking in the sun,  so eating food is not a requirement. ",
+            "They make their home in deserts. They can  generate their energy from basking in the sun,  so eating food is not a requirement.",
             "The frills on either side of its head have cells that generate electricity when exposed to sunlight."
         ],
         "name": {
@@ -27982,7 +27972,7 @@
         "dex_no": 718,
         "classification": "Order Pok\u00e9mon",
         "dex_entry": [
-            "When the Kalos region's ecosystem falls into disarray, it appears and reveals its secret power.  ",
+            "When the Kalos region's ecosystem falls into disarray, it appears and reveals its secret power. ",
             "It's hypothesized that it's monitoring those who destroy the ecosystem from deep in the cave where it lives."
         ],
         "name": {
@@ -28016,7 +28006,7 @@
         "dex_no": 718,
         "classification": "Order Pok\u00e9mon",
         "dex_entry": [
-            "When the Kalos region's ecosystem falls into disarray, it appears and reveals its secret power.  ",
+            "When the Kalos region's ecosystem falls into disarray, it appears and reveals its secret power. ",
             "It's hypothesized that it's monitoring those who destroy the ecosystem from deep in the cave where it lives."
         ],
         "name": {
@@ -28050,7 +28040,7 @@
         "dex_no": 718,
         "classification": "Order Pok\u00e9mon",
         "dex_entry": [
-            "When the Kalos region's ecosystem falls into disarray, it appears and reveals its secret power.  ",
+            "When the Kalos region's ecosystem falls into disarray, it appears and reveals its secret power. ",
             "It's hypothesized that it's monitoring those who destroy the ecosystem from deep in the cave where it lives."
         ],
         "name": {
