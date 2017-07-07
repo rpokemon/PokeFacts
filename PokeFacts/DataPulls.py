@@ -24,23 +24,34 @@ except ImportError:
 
 class DataPulls():
 
-    def __init__(self, scriptpath):
-        self.scriptpath = scriptpath
-        self.reload()
+    def __init__(self, scriptpath=None, store=None, reloadFunc=None):
+        self.store = None
+        self.reloadFunc = None
+        self.scriptpath = None
+
+        if store:
+            self.store = store
+            self.reloadFunc = reloadFunc
+        elif scriptpath:
+            self.scriptpath = scriptpath
+            self.reload()
 
     # reload - should reload the data to pull from
     def reload(self):
-        self.store = ItemStore(Config.DATA_CONF)
+        if self.reloadFunc:
+            self.reloadFunc()
+        elif self.scriptpath:
+            self.store = ItemStore(Config.DATA_CONF)
 
-        for file in Config.DATA_FILES:
-            file = self.scriptpath + '/' + file.lstrip('/')
-            with codecs.open(file, "r", "utf-8") as data_file:
-                self.store.addItems(json.load(data_file))
+            for file in Config.DATA_FILES:
+                file = self.scriptpath + '/' + file.lstrip('/')
+                with codecs.open(file, "r", "utf-8") as data_file:
+                    self.store.addItems(json.load(data_file))
 
-        for file in Config.DATA_SYNONYM_FILES:
-            file = self.scriptpath + '/' + file.lstrip('/')
-            with codecs.open(file, "r", "utf-8") as data_file:
-                self.store.addSynonyms(json.load(data_file))
+            for file in Config.DATA_SYNONYM_FILES:
+                file = self.scriptpath + '/' + file.lstrip('/')
+                with codecs.open(file, "r", "utf-8") as data_file:
+                    self.store.addSynonyms(json.load(data_file))
 
 
     # getInfo - returns information for the given identifier

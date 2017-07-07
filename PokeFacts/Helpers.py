@@ -159,6 +159,9 @@ class Helpers():
 
     # Is the bot the parent of the given comment?
     def isBotTheParent(self, comment):
+        if not self.reddit:
+            return False
+            
         try:
             parentComment = self.reddit.comment(id=comment.parent_id)
 
@@ -174,6 +177,9 @@ class Helpers():
             return False
 
     def isBotModeratorOf(self, subreddit, must_have_perms = []):
+        if not self.reddit:
+            return False
+
         if type(subreddit) == str:
             subreddit = self.reddit.subreddit(subreddit)
             
