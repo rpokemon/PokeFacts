@@ -43,7 +43,6 @@ class Management():
 
     def bot_reloadConfig(self):
         try:
-            self.main.logger.info('Reloading config...')
             self.main.reloadConfig()
             self.main.logger.info('Config reloaded.')
             return True
