@@ -265,7 +265,7 @@ class CallResponse():
                 if comment is None:
                     break
                 if not self.process(comment):
-                    self.logger.debug('       Broke out of comments loop', amount)
+                    self.logger.debug('-----> Broke out of comments loop ' + str(amount))
                     break
                 amount += 1
         
@@ -277,7 +277,7 @@ class CallResponse():
                 if submission is None:
                     break
                 if not self.process(submission):
-                    self.logger.debug('       Broke out of submissions loop', amount)
+                    self.logger.debug('-----> Broke out of submissions loop ' + str(amount))
                     break
                 amount += 1
 
@@ -289,7 +289,7 @@ class CallResponse():
                 if edited_thing is None:
                     break
                 if not self.process(edited_thing):
-                    self.logger.debug('       Broke out of edited loop', amount)
+                    self.logger.debug('-----> Broke out of edited loop' + str(amount))
                     break
                 amount += 1
                     
