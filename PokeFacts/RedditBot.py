@@ -289,7 +289,7 @@ class CallResponse():
                 if edited_thing is None:
                     break
                 if not self.process(edited_thing):
-                    self.logger.debug('-----> Broke out of edited loop' + str(amount))
+                    self.logger.debug('-----> Broke out of edited loop ' + str(amount))
                     break
                 amount += 1
                     
