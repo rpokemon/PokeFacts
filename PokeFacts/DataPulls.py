@@ -286,9 +286,9 @@ class ClusterSearchHelper():
             if ratio_candidate >= 0.9:
                 return term_candidate, cluster
 
-            # ignore if likelyhood is less than 50%
+            # ignore if likelyhood is less than 70%
             # (too low to consider)
-            if ratio_candidate < 0.50:
+            if ratio_candidate <= 0.7:
                 continue
 
             if ratio_candidate > likely_ratio:
