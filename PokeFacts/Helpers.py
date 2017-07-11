@@ -28,6 +28,10 @@ class Helpers():
         self.reddit = praw_reddit
 
     def isValidThing(self, thing):
+        # don't reply to banned/suspended users
+        if thing.author is None:
+            return False
+        
         # the bot shouldn't reply to itself
         if thing.author.name == Config.USERNAME:
             return False
