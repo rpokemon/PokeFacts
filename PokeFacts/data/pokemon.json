@@ -29108,6 +29108,39 @@
         "term": "lycanroc midnight night moon"
     },
     {
+        "dex_no": 745,
+        "classification": "Wolf Pok\u00e9mon",
+        "dex_entry": [
+            "Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons.",
+            "When properly raised from a young age, it will become a trustworthy partner that will absolutely never betray its Trainer."
+        ],
+        "name": {
+            "english": "Lycanroc Dusk",
+            "japanese": "Lugarugan",
+            "kana": "\u30eb\u30ac\u30eb\u30ac\u30f3"
+        },
+        "evolutions": [],
+        "base_stats": [
+            75,
+            117,
+            65,
+            55,
+            65,
+            110
+        ],
+        "types": [
+            "Rock"
+        ],
+        "abilities": [
+            "Tough Claws",
+            null,
+            null
+        ],
+        "basename": "lycanroc",
+        "type": "pokemon",
+        "term": "lycanroc duck event"
+    },
+    {
         "dex_no": 746,
         "classification": "Small Fry Pok\u00e9mon",
         "dex_entry": [
@@ -31059,6 +31092,108 @@
         "term": "necrozma"
     },
     {
+        "dex_no": 800,
+        "classification": "Prism Pok\u00e9mon",
+        "dex_entry": [
+            "Reminiscent of the Ultra Beasts, this life-form, apparently asleep underground, is thought to have come from another world in ancient times.",
+            "Light is apparently the source of its energy. It has an extraordinarily vicious disposition and is constantly firing off laser beams."
+        ],
+        "name": {
+            "english": "Dusk Mane Necrozma",
+            "japanese": "Necrozma",
+            "kana": "\u30cd\u30af\u30ed\u30ba\u30de"
+        },
+        "evolutions": [],
+        "base_stats": [
+            97,
+            153,
+            127,
+            113,
+            109,
+            77
+        ],
+        "types": [
+            "Psychic",
+            "Steel"
+        ],
+        "abilities": [
+            "Prism Armor",
+            null,
+            null
+        ],
+        "basename": "necrozma",
+        "type": "pokemon",
+        "term": "necrozma sun dusk mane"
+    },
+    {
+        "dex_no": 800,
+        "classification": "Prism Pok\u00e9mon",
+        "dex_entry": [
+            "Reminiscent of the Ultra Beasts, this life-form, apparently asleep underground, is thought to have come from another world in ancient times.",
+            "Light is apparently the source of its energy. It has an extraordinarily vicious disposition and is constantly firing off laser beams."
+        ],
+        "name": {
+            "english": "Dawn Wings Necrozma",
+            "japanese": "Necrozma",
+            "kana": "\u30cd\u30af\u30ed\u30ba\u30de"
+        },
+        "evolutions": [],
+        "base_stats": [
+            97,
+            113,
+            109,
+            157,
+            127,
+            77
+        ],
+        "types": [
+            "Psychic",
+            "Ghost"
+        ],
+        "abilities": [
+            "Prism Armor",
+            null,
+            null
+        ],
+        "basename": "necrozma",
+        "type": "pokemon",
+        "term": "necrozma moon dawn wings"
+    },
+    {
+        "dex_no": 800,
+        "classification": "Prism Pok\u00e9mon",
+        "dex_entry": [
+            "Reminiscent of the Ultra Beasts, this life-form, apparently asleep underground, is thought to have come from another world in ancient times.",
+            "Light is apparently the source of its energy. It has an extraordinarily vicious disposition and is constantly firing off laser beams."
+        ],
+        "name": {
+            "english": "Ultra Necrozma",
+            "japanese": "Necrozma",
+            "kana": "\u30cd\u30af\u30ed\u30ba\u30de"
+        },
+        "evolutions": [],
+        "base_stats": [
+            97,
+            167,
+            97,
+            167,
+            97,
+            129
+        ],
+        "types": [
+            "Psychic",
+            "Dragon"
+        ],
+        "abilities": [
+            "Neuroforce",
+            null,
+            null
+        ],
+        "basename": "necrozma",
+        "type": "pokemon",
+        "term": "necrozma ultra"
+    },
+    {
         "dex_no": 801,
         "classification": "Artificial Pok\u00e9mon",
         "dex_entry": [
@@ -31125,5 +31260,175 @@
         "basename": "marshadow",
         "type": "pokemon",
         "term": "marshadow"
+    },
+    {
+        "dex_no": 803,
+        "classification": "Poison Pin Pok\u00e9mon",
+        "dex_entry": [
+            "This Ultra Beast is well enough liked to be chosen as a first partner in its own world.",
+            "An Ultra Beast that lives in a different world, it cackles wildly as it sprays its opponents with poison from the needles on its head."
+        ],
+        "name": {
+            "english": "Poipole",
+            "japanese": "Vevenom",
+            "kana": "\u30D9\u30D9\u30CE\u30E0"
+        },
+        "evolutions": [
+            "Naganadel"
+        ],
+        "base_stats": [
+            67,
+            73,
+            67,
+            73,
+            67,
+            73
+        ],
+        "types": [
+            "Poison"
+        ],
+        "abilities": [
+            "Beast Boost",
+            null,
+            null
+        ],
+        "basename": "poipole",
+        "type": "pokemon",
+        "term": "poipole"
+    },
+    {
+        "dex_no": 804,
+        "classification": "Poison Pin Pok\u00e9mon",
+        "dex_entry": [
+            "It stores hundreds of liters of poisonous liquid inside its body. It is one of the organisms known as UBs.",
+            "One kind of Ultra Beast, it fires a glowing, venomous liquid from its needles. This liquid is also immensely adhesive."
+        ],
+        "name": {
+            "english": "Naganadel",
+            "japanese": "Agoyon",
+            "kana": "\u30A2\u30FC\u30B4\u30E8\u30F3"
+        },
+        "evolutions": [],
+        "base_stats": [
+            73,
+            73,
+            73,
+            127,
+            73,
+            121
+        ],
+        "types": [
+            "Poison",
+            "Dragon"
+        ],
+        "abilities": [
+            "Beast Boost",
+            null,
+            null
+        ],
+        "basename": "naganadel",
+        "type": "pokemon",
+        "term": "naganadel"
+    },
+    {
+        "dex_no": 805,
+        "classification": "Rampart Pok\u00e9mon",
+        "dex_entry": [
+            "It appeared from an Ultra Wormhole. Each one appears to be made up of many life-forms stacked one on top of each other.",
+            "When stone walls started moving and attacking, the brute’s true identity was this mysterious life-form, which brings to mind an Ultra Beast."
+        ],
+        "name": {
+            "english": "Stakataka",
+            "japanese": "Tsundetsunde",
+            "kana": "\u30C4\u30F3\u30C7\u30C4\u30F3\u30C7"
+        },
+        "evolutions": [],
+        "base_stats": [
+            61,
+            131,
+            211,
+            53,
+            101,
+            13
+        ],
+        "types": [
+            "Rock",
+            "Steel"
+        ],
+        "abilities": [
+            "Beast Boost",
+            null,
+            null
+        ],
+        "basename": "stakataka",
+        "type": "pokemon",
+        "term": "stakataka"
+    },
+    {
+        "dex_no": 806,
+        "classification": "Fireworks Pok\u00e9mon",
+        "dex_entry": [
+            "It slithers toward people. Then, without warning, it triggers the explosion of its own head. It’s apparently one kind of Ultra Beast.",
+            "A UB that appeared from an Ultra Wormhole, it causes explosions, then takes advantage of opponents’ surprise to rob them of their vitality."
+        ],
+        "name": {
+            "english": "Blacephalon",
+            "japanese": "Zugadon",
+            "kana": "\u30BA\u30AC\u30C9\u30FC\u30F3"
+        },
+        "evolutions": [],
+        "base_stats": [
+            53,
+            127,
+            53,
+            151,
+            79,
+            107
+        ],
+        "types": [
+            "Fire",
+            "Ghost"
+        ],
+        "abilities": [
+            "Beast Boost",
+            null,
+            null
+        ],
+        "basename": "blacephalon",
+        "type": "pokemon",
+        "term": "blacephalon"
+    },
+    {
+        "dex_no": 807,
+        "classification": "Thunderclap Pok\u00e9mon",
+        "dex_entry": [
+            "It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they’ll be electrocuted by the flying sparks.",
+            "It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws."
+        ],
+        "name": {
+            "english": "Zeraora",
+            "japanese": "Zeraora",
+            "kana": "\u30BC\u30E9\u30AA\u30E9"
+        },
+        "evolutions": [],
+        "base_stats": [
+            88,
+            112,
+            75,
+            102,
+            80,
+            143
+        ],
+        "types": [
+            "Electric"
+        ],
+        "abilities": [
+            "Volt Absorb",
+            null,
+            null
+        ],
+        "basename": "zeraora",
+        "type": "pokemon",
+        "term": "zeraora"
     }
 ]

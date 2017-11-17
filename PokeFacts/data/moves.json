@@ -297,6 +297,17 @@
         "term": "charm"
     },
     {
+        "name": "Clangorous Soulblaze",
+        "typing": "dragon",
+        "category": "special",
+        "pp": "1",
+        "power": "185",
+        "accuracy": null,
+        "description": "After obtaining Z-Power, the user, Kommo-o, attacks the opposing Pok\u00e9mon with full force. This move boosts the user's stats.",
+        "type": "move",
+        "term": "clangorous soulblaze"
+    },
+    {
         "name": "Coil",
         "typing": "poison",
         "category": "status",
@@ -1122,13 +1133,24 @@
         "term": "leech seed"
     },
     {
+        "name": "Let's Snuggle Forever ",
+        "typing": "fairy",
+        "category": "physical",
+        "pp": "1",
+        "power": "190",
+        "accuracy": null,
+        "description": "The user gives opposing Pok\u00e9mon an intimidating leer that lowers the Defense stat.",
+        "type": "move",
+        "term": "let's snuggle forever "
+    },
+    {
         "name": "Leer",
         "typing": "normal",
         "category": "status",
         "pp": "30",
         "power": null,
         "accuracy": "100",
-        "description": "The user gives opposing Pok\u00e9mon an intimidating leer that lowers the Defense stat.",
+        "description": "After obtaining Z-Power, the user, Mimikyu, punches the target with full force.",
         "type": "move",
         "term": "leer"
     },
@@ -1142,6 +1164,17 @@
         "description": "A wondrous wall of light is put up to reduce damage from special attacks for five turns.",
         "type": "move",
         "term": "light screen"
+    },
+    {
+        "name": "Light That Burns The Sky",
+        "typing": "psychic",
+        "category": "special",
+        "pp": "1",
+        "power": "200",
+        "accuracy": null,
+        "description": "This attack inflicts Attack or Sp. Atk damage whichever stat is higher for the user, Necrozma. This move ignores the target's Ability.",
+        "type": "move",
+        "term": "light that burns the sky"
     },
     {
         "name": "Lock-On",
@@ -1287,6 +1320,17 @@
         "term": "memento"
     },
     {
+        "name": "Menacing Moonraze Maelstrom",
+        "typing": "ghost",
+        "category": "special",
+        "pp": "1",
+        "power": "200",
+        "accuracy": null,
+        "description": "After obtaining Z-Power, the user, Lunala, attacks the target with full force. This move can ignore the effect of the target's Ability.",
+        "type": "move",
+        "term": "menacing moonraze maelstrom"
+    },
+    {
         "name": "Metal Sound",
         "typing": "steel",
         "category": "status",
@@ -1329,6 +1373,17 @@
         "description": "The user copies the target's last move. The move can be used during battle until the Pok\u00e9mon is switched out.",
         "type": "move",
         "term": "mimic"
+    },
+    {
+        "name": "Mind Blown",
+        "typing": "fire",
+        "category": "special",
+        "pp": "5",
+        "power": 150,
+        "accuracy": 100,
+        "description": "The user attacks everything around it by causing its own head to explode. This also damages the user.",
+        "type": "move",
+        "term": "mind blown"
     },
     {
         "name": "Mind Reader",
@@ -1881,6 +1936,17 @@
         "term": "screech"
     },
     {
+        "name": "Searing Sunraze Smash",
+        "typing": "steel",
+        "category": "physical",
+        "pp": "1",
+        "power": "200",
+        "accuracy": null,
+        "description": "After obtaining Z-Power, the user, Solgaleo, attacks the target with full force. This move can ignore the effect of the target's Ability.",
+        "type": "move",
+        "term": "searing sunraze smash"
+    },
+    {
         "name": "Sharpen",
         "typing": "normal",
         "category": "status",
@@ -2107,9 +2173,20 @@
         "pp": "40",
         "power": null,
         "accuracy": null,
-        "description": "The user just flops and splashes around to no effect at all...",
+        "description": "After obtaining Z-Power, the user, Lycanroc, attacks the target with full force. This move negates the effect on the battlefield.",
         "type": "move",
         "term": "splash"
+    },
+    {
+        "name": "Splintered Stormshards",
+        "typing": "rock",
+        "category": "physical",
+        "pp": "1",
+        "power": "190",
+        "accuracy": null,
+        "description": "The user just flops and splashes around to no effect at all...",
+        "type": "move",
+        "term": "splintered stormshards"
     },
     {
         "name": "Spore",
@@ -4543,6 +4620,17 @@
         "term": "phantom force"
     },
     {
+        "name": "Photon Geyser",
+        "typing": "physic",
+        "category": "special",
+        "pp": "5",
+        "power": "100",
+        "accuracy": "100",
+        "description": "The user attacks a target with a pillar of light. This move inflicts Attack or Sp. Atk damage whichever stat is higher for the user.",
+        "type": "move",
+        "term": "photon geyser"
+    },
+    {
         "name": "Pin Missile",
         "typing": "bug",
         "category": "physical",
@@ -4552,6 +4640,17 @@
         "description": "Sharp spikes are shot at the target in rapid succession. They hit two to five times in a row.",
         "type": "move",
         "term": "pin missile"
+    },
+    {
+        "name": "Plasma Fists",
+        "typing": "electric",
+        "category": "physical",
+        "pp": "15",
+        "power": "100",
+        "accuracy": "100",
+        "description": "The user attacks with electrically charged fists. This move changes Normal-type moves to Electric-type moves.",
+        "type": "move",
+        "term": "plasma fists"
     },
     {
         "name": "Play Rough",
