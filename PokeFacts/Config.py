@@ -124,6 +124,7 @@ MATCH_STRING += '(' + '|'.join(re.escape(item) for item in MATCH_PAIR_PREFIXES) 
 MATCH_STRING += MATCH_PAIR_VALUE
 MATCH_STRING += '(' + '|'.join(re.escape(item) for item in MATCH_PAIR_SUFFIXES) + ')'
 MATCH_STRING += '|'
+MATCH_STRING += r"(?:^|\s+)"
 MATCH_STRING += '(' + '|'.join(re.escape(item) for item in MATCH_STANDALONE_PREFIXES) + ')'
 MATCH_STRING += MATCH_STANDALONE_VALUE
 if not type(SUBREDDITS) == list or len(SUBREDDITS) == 0 or "all" in SUBREDDITS:
