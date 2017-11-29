@@ -1,3080 +1,3266 @@
 [
     {
-        "name": "Beast Ball",
         "description": "A special Pok\u00e9 Ball designed to catch Ultra Beasts. It has a low success rate for catching others.",
+        "name": "Beast Ball",
         "term": "beast ball",
         "type": "item"
     },
     {
-        "name": "Cherish Ball",
         "description": "A quite rare Pok\u00e9 Ball that has been crafted in order to commemorate a special occasion of some sort.",
+        "name": "Cherish Ball",
         "term": "cherish ball",
         "type": "item"
     },
     {
-        "name": "Dive Ball",
         "description": "A somewhat different Pok\u00e9 Ball that works especially well when catching Pok\u00e9mon that live underwater.",
+        "name": "Dive Ball",
         "term": "dive ball",
         "type": "item"
     },
     {
-        "name": "Dusk Ball",
         "description": "A somewhat different Pok\u00e9 Ball that makes it easier to catch wild Pok\u00e9mon at night or in dark places like caves.",
+        "name": "Dusk Ball",
         "term": "dusk ball",
         "type": "item"
     },
     {
-        "name": "Fast Ball",
         "description": "A Pok\u00e9 Ball that makes it easier to catch Pok\u00e9mon that are usually very quick to run away.",
+        "name": "Fast Ball",
         "term": "fast ball",
         "type": "item"
     },
     {
-        "name": "Friend Ball",
         "description": "A strange Pok\u00e9 Ball that will make the wild Pok\u00e9mon caught with it more friendly toward you immediately.",
+        "name": "Friend Ball",
         "term": "friend ball",
         "type": "item"
     },
     {
-        "name": "Great Ball",
         "description": "A good, high-performance Pok\u00e9 Ball that provides a higher Pok\u00e9mon catch rate than a standard Pok\u00e9 Ball.",
+        "name": "Great Ball",
         "term": "great ball",
         "type": "item"
     },
     {
-        "name": "Heal Ball",
         "description": "A remedial Pok\u00e9 Ball that restores the HP of a Pok\u00e9mon caught with it and eliminates any status conditions.",
+        "name": "Heal Ball",
         "term": "heal ball",
         "type": "item"
     },
     {
-        "name": "Heavy Ball",
         "description": "A Pok\u00e9 Ball that is better than usual at catching very heavy Pok\u00e9mon.",
+        "name": "Heavy Ball",
         "term": "heavy ball",
         "type": "item"
     },
     {
-        "name": "Level Ball",
         "description": "A Pok\u00e9 Ball that makes it easier to catch Pok\u00e9mon that are at a lower level than your own Pok\u00e9mon.",
+        "name": "Level Ball",
         "term": "level ball",
         "type": "item"
     },
     {
-        "name": "Love Ball",
         "description": "A Pok\u00e9 Ball that works best when catching a Pok\u00e9mon that is of the opposite gender of your Pok\u00e9mon.",
+        "name": "Love Ball",
         "term": "love ball",
         "type": "item"
     },
     {
-        "name": "Lure Ball",
         "description": "A Pok\u00e9 Ball that is good for catching Pok\u00e9mon that you reel in with a Rod while out fishing.",
+        "name": "Lure Ball",
         "term": "lure ball",
         "type": "item"
     },
     {
-        "name": "Luxury Ball",
         "description": "A particularly comfortable Pok\u00e9 Ball that makes a wild Pok\u00e9mon quickly grow friendlier after being caught.",
+        "name": "Luxury Ball",
         "term": "luxury ball",
         "type": "item"
     },
     {
-        "name": "Master Ball",
         "description": "The best Pok\u00e9 Ball with the ultimate level of performance. With it, you will catch any wild Pok\u00e9mon without fail.",
+        "name": "Master Ball",
         "term": "master ball",
         "type": "item"
     },
     {
-        "name": "Moon Ball",
         "description": "A Pok\u00e9 Ball that will make it easier to catch Pok\u00e9mon that can evolve using a Moon Stone.",
+        "name": "Moon Ball",
         "term": "moon ball",
         "type": "item"
     },
     {
-        "name": "Nest Ball",
         "description": "A somewhat different Pok\u00e9 Ball that becomes more effective the lower the level of the wild Pok\u00e9mon.",
+        "name": "Nest Ball",
         "term": "nest ball",
         "type": "item"
     },
     {
-        "name": "Net Ball",
         "description": "A somewhat different Pok\u00e9 Ball that is more effective when attempting to catch Water- or Bug-type Pok\u00e9mon.",
+        "name": "Net Ball",
         "term": "net ball",
         "type": "item"
     },
     {
-        "name": "Pok\u00e9 Ball",
         "description": "A device for catching wild Pok\u00e9mon. It's thrown like a ball at a Pok\u00e9mon, comfortably encapsulating its target.",
+        "name": "Pok\u00e9 Ball",
         "term": "poke ball",
         "type": "item"
     },
     {
-        "name": "Premier Ball",
         "description": "A somewhat rare Pok\u00e9 Ball that was made as a commemorative item used to celebrate an event of some sort.",
+        "name": "Premier Ball",
         "term": "premier ball",
         "type": "item"
     },
     {
-        "name": "Quick Ball",
         "description": "A somewhat different Pok\u00e9 Ball that has a more successful catch rate if used at the start of a wild encounter.",
+        "name": "Quick Ball",
         "term": "quick ball",
         "type": "item"
     },
     {
-        "name": "Repeat Ball",
         "description": "A somewhat different Pok\u00e9 Ball that works especially well on a Pok\u00e9mon species that has been caught before.",
+        "name": "Repeat Ball",
         "term": "repeat ball",
         "type": "item"
     },
     {
-        "name": "Timer Ball",
         "description": "A somewhat different Pok\u00e9 Ball that becomes progressively more effective the more turns that are taken in battle.",
+        "name": "Timer Ball",
         "term": "timer ball",
         "type": "item"
     },
     {
-        "name": "Ultra Ball",
         "description": "An ultra-high-performance Pok\u00e9 Ball that provides a higher success rate for catching Pok\u00e9mon than a Great Ball.",
+        "name": "Ultra Ball",
         "term": "ultra ball",
         "type": "item"
     },
     {
-        "name": "Dawn Stone",
         "description": "A peculiar stone that can make certain species of Pok\u00e9mon evolve. It sparkles like a glittering eye.",
+        "name": "Dawn Stone",
         "term": "dawn stone",
         "type": "item"
     },
     {
-        "name": "Deep Sea Scale",
         "description": "An item to be held by Clamperl. This scale shines with a faint pink and raises the holder's Sp. Def stat.",
+        "name": "Deep Sea Scale",
         "term": "deep sea scale",
         "type": "item"
     },
     {
-        "name": "Deep Sea Tooth",
         "description": "An item to be held by Clamperl. This fang gleams a sharp silver and raises the holder's Sp. Atk stat.",
+        "name": "Deep Sea Tooth",
         "term": "deep sea tooth",
         "type": "item"
     },
     {
-        "name": "Dragon Scale",
         "description": "A very tough and inflexible scale. Dragon-type Pok\u00e9mon may be holding this item when caught.",
+        "name": "Dragon Scale",
         "term": "dragon scale",
         "type": "item"
     },
     {
-        "name": "Dubious Disc",
         "description": "A transparent device overflowing with dubious data. Its producer is unknown.",
+        "name": "Dubious Disc",
         "term": "dubious disc",
         "type": "item"
     },
     {
-        "name": "Dusk Stone",
         "description": "A peculiar stone that can make certain species of Pok\u00e9mon evolve. It holds shadows as dark as can be.",
+        "name": "Dusk Stone",
         "term": "dusk stone",
         "type": "item"
     },
     {
-        "name": "Electirizer",
         "description": "A box packed with a tremendous amount of electric energy. It's loved by a certain Pok\u00e9mon.",
+        "name": "Electirizer",
         "term": "electirizer",
         "type": "item"
     },
     {
-        "name": "Fire Stone",
         "description": "A peculiar stone that can make certain species of Pok\u00e9mon evolve. The stone has a fiery orange heart.",
+        "name": "Fire Stone",
         "term": "fire stone",
         "type": "item"
     },
     {
-        "name": "Ice Stone",
         "description": "A peculiar stone that can make certain species of Pok\u00e9mon evolve. It has an unmistakable snowflake pattern.",
+        "name": "Ice Stone",
         "term": "ice stone",
         "type": "item"
     },
     {
-        "name": "King's Rock",
         "description": "An item to be held by a Pok\u00e9mon. When the holder successfully inflicts damage, the target may also flinch.",
+        "name": "King's Rock",
         "term": "king's rock",
         "type": "item"
     },
     {
-        "name": "Leaf Stone",
         "description": "A peculiar stone that can make certain species of Pok\u00e9mon evolve. It has an unmistakable leaf pattern.",
+        "name": "Leaf Stone",
         "term": "leaf stone",
         "type": "item"
     },
     {
-        "name": "Magmarizer",
         "description": "A box packed with a tremendous amount of magma energy. It's loved by a certain Pok\u00e9mon.",
+        "name": "Magmarizer",
         "term": "magmarizer",
         "type": "item"
     },
     {
-        "name": "Metal Coat",
         "description": "An item to be held by a Pok\u00e9mon. It's a special metallic film that can boost the power of Steel-type moves.",
+        "name": "Metal Coat",
         "term": "metal coat",
         "type": "item"
     },
     {
-        "name": "Moon Stone",
         "description": "A peculiar stone that can make certain species of Pok\u00e9mon evolve. It is as black as the night sky.",
+        "name": "Moon Stone",
         "term": "moon stone",
         "type": "item"
     },
     {
-        "name": "Oval Stone",
         "description": "A peculiar stone that can make certain species of Pok\u00e9mon evolve. It's as round as a Pok\u00e9mon Egg.",
+        "name": "Oval Stone",
         "term": "oval stone",
         "type": "item"
     },
     {
-        "name": "Prism Scale",
         "description": "A mysterious scale that causes a certain Pok\u00e9mon to evolve. It shines in rainbow colors.",
+        "name": "Prism Scale",
         "term": "prism scale",
         "type": "item"
     },
     {
-        "name": "Protector",
         "description": "A protective item of some sort. It is extremely stiff and heavy. It's loved by a certain Pok\u00e9mon.",
+        "name": "Protector",
         "term": "protector",
         "type": "item"
     },
     {
-        "name": "Razor Claw",
         "description": "An item to be held by a Pok\u00e9mon. This sharply hooked claw increases the holder's critical-hit ratio.",
+        "name": "Razor Claw",
         "term": "razor claw",
         "type": "item"
     },
     {
-        "name": "Razor Fang",
         "description": "An item to be held by a Pok\u00e9mon. When the holder successfully inflicts damage, the target may also flinch.",
+        "name": "Razor Fang",
         "term": "razor fang",
         "type": "item"
     },
     {
-        "name": "Reaper Cloth",
         "description": "A cloth imbued with horrifyingly strong spiritual energy. It's loved by a certain Pok\u00e9mon.",
+        "name": "Reaper Cloth",
         "term": "reaper cloth",
         "type": "item"
     },
     {
-        "name": "Sachet",
         "description": "A sachet filled with fragrant perfumes that are just slightly too overwhelming. Yet it's loved by a certain Pok\u00e9mon.",
+        "name": "Sachet",
         "term": "sachet",
         "type": "item"
     },
     {
-        "name": "Shiny Stone",
         "description": "A peculiar stone that can make certain species of Pok\u00e9mon evolve. It shines with a dazzling light.",
+        "name": "Shiny Stone",
         "term": "shiny stone",
         "type": "item"
     },
     {
-        "name": "Sun Stone",
         "description": "A peculiar stone that can make certain species of Pok\u00e9mon evolve. It burns as red as the evening sun.",
+        "name": "Sun Stone",
         "term": "sun stone",
         "type": "item"
     },
     {
-        "name": "Thunderstone",
         "description": "A peculiar stone that can make certain species of Pok\u00e9mon evolve. It has a distinct thunderbolt pattern.",
+        "name": "Thunderstone",
         "term": "thunderstone",
         "type": "item"
     },
     {
-        "name": "Up-Grade",
         "description": "A transparent device somehow filled with all sorts of data. It was produced by Silph Co.",
+        "name": "Up-Grade",
         "term": "up-grade",
         "type": "item"
     },
     {
-        "name": "Water Stone",
         "description": "A peculiar stone that can make certain species of Pok\u00e9mon evolve. It is the blue of a pool of clear water.",
+        "name": "Water Stone",
         "term": "water stone",
         "type": "item"
     },
     {
-        "name": "Whipped Dream",
         "description": "A soft and sweet treat made of fluffy, puffy, whipped, and whirled cream. It's loved by a certain Pok\u00e9mon.",
+        "name": "Whipped Dream",
         "term": "whipped dream",
         "type": "item"
     },
     {
-        "name": "Ability Capsule",
         "description": "A capsule that allows a Pok\u00e9mon with two Abilities to switch between these Abilities when it is used.",
+        "name": "Ability Capsule",
         "term": "ability capsule",
         "type": "item"
     },
     {
-        "name": "Adrenaline Orb",
         "description": "Using it makes wild Pok\u00e9mon more likely to call for help. If held by a Pok\u00e9mon, it boosts Speed when intimidated. It can be used only once.",
+        "name": "Adrenaline Orb",
         "term": "adrenaline orb",
         "type": "item"
     },
     {
-        "name": "Amaze Mulch",
         "description": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.",
+        "name": "Amaze Mulch",
         "term": "amaze mulch",
         "type": "item"
     },
     {
-        "name": "BalmMushroom",
         "description": "A rare mushroom that gives off a nice fragrance. It can be sold at a high price to shops.",
+        "name": "BalmMushroom",
         "term": "balmmushroom",
         "type": "item"
     },
     {
-        "name": "Big Mushroom",
         "description": "A very large and rare mushroom. It's popular with a certain class of collectors and sought out by them.",
+        "name": "Big Mushroom",
         "term": "big mushroom",
         "type": "item"
     },
     {
-        "name": "Big Nugget",
         "description": "A big nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops.",
+        "name": "Big Nugget",
         "term": "big nugget",
         "type": "item"
     },
     {
-        "name": "Big Pearl",
         "description": "A rather large pearl that has a very nice silvery sheen. It can be sold to shops for a high price.",
+        "name": "Big Pearl",
         "term": "big pearl",
         "type": "item"
     },
     {
-        "name": "Black Flute",
         "description": "A flute made from black glass. It makes it easier to encounter strong Pok\u00e9mon in the place you use it.",
+        "name": "Black Flute",
         "term": "black flute",
         "type": "item"
     },
     {
-        "name": "Blue Flute",
         "description": "A flute made from blue glass that awakens sleeping Pok\u00e9mon.",
+        "name": "Blue Flute",
         "term": "blue flute",
         "type": "item"
     },
     {
-        "name": "Blue Shard",
         "description": "A small blue shard. It appears to be a fragment of some sort of implement made long ago.",
+        "name": "Blue Shard",
         "term": "blue shard",
         "type": "item"
     },
     {
-        "name": "Boost Mulch",
         "description": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.",
+        "name": "Boost Mulch",
         "term": "boost mulch",
         "type": "item"
     },
     {
-        "name": "Bottle Cap",
         "description": "A beautiful bottle cap that gives off a silver gleam. Some people are happy to receive one.",
+        "name": "Bottle Cap",
         "term": "bottle cap",
         "type": "item"
     },
     {
-        "name": "Comet Shard",
         "description": "A shard that fell to the ground when a comet approached. It can be sold at a high price to shops.",
+        "name": "Comet Shard",
         "term": "comet shard",
         "type": "item"
     },
     {
-        "name": "Common Stone",
         "description": "A perfectly normal stone that might appear to be valuable to some. It's all in the eye of the beholder.",
+        "name": "Common Stone",
         "term": "common stone",
         "type": "item"
     },
     {
-        "name": "Damp Mulch",
         "description": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.",
+        "name": "Damp Mulch",
         "term": "damp mulch",
         "type": "item"
     },
     {
-        "name": "Escape Rope",
         "description": "A long and durable rope. Use it to escape instantly from a cave or a dungeon.",
+        "name": "Escape Rope",
         "term": "escape rope",
         "type": "item"
     },
     {
-        "name": "Fluffy Tail",
         "description": "A toy that attracts the attention of a Pok\u00e9mon. It guarantees escape from any battle with wild Pok\u00e9mon.",
+        "name": "Fluffy Tail",
         "term": "fluffy tail",
         "type": "item"
     },
     {
-        "name": "Gold Bottle Cap",
         "description": "A beautiful bottle cap that gives off a golden gleam. Some people are happy to receive one.",
+        "name": "Gold Bottle Cap",
         "term": "gold bottle cap",
         "type": "item"
     },
     {
-        "name": "Gooey Mulch",
         "description": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.",
+        "name": "Gooey Mulch",
         "term": "gooey mulch",
         "type": "item"
     },
     {
-        "name": "Green Shard",
         "description": "A small green shard. It appears to be a fragment of some sort of implement made long ago.",
+        "name": "Green Shard",
         "term": "green shard",
         "type": "item"
     },
     {
-        "name": "Growth Mulch",
         "description": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.",
+        "name": "Growth Mulch",
         "term": "growth mulch",
         "type": "item"
     },
     {
-        "name": "Heart Scale",
         "description": "A pretty, heart-shaped scale that is extremely rare. Some people are happy to receive one.",
+        "name": "Heart Scale",
         "term": "heart scale",
         "type": "item"
     },
     {
-        "name": "Honey",
         "description": "A sweet honey with a lush aroma that attracts wild Pok\u00e9mon when it is used in tall grass, in caves, or on special trees.",
+        "name": "Honey",
         "term": "honey",
         "type": "item"
     },
     {
-        "name": "Max Repel",
         "description": "An item that prevents any low-level wild Pok\u00e9mon from jumping out at you for a while. It lasts longer than Super Repel.",
+        "name": "Max Repel",
         "term": "max repel",
         "type": "item"
     },
     {
-        "name": "Nugget",
         "description": "A nugget of the purest gold that gives off a lustrous gleam in direct light. It can be sold at a high price to shops.",
+        "name": "Nugget",
         "term": "nugget",
         "type": "item"
     },
     {
-        "name": "Odd Keystone",
         "description": "A vital item that is needed to keep a stone tower from collapsing. Voices can be heard from it occasionally.",
+        "name": "Odd Keystone",
         "term": "odd keystone",
         "type": "item"
     },
     {
-        "name": "Pearl",
         "description": "A rather small pearl that has a very nice silvery sheen to it. It can be sold cheaply to shops.",
+        "name": "Pearl",
         "term": "pearl",
         "type": "item"
     },
     {
-        "name": "Pearl String",
         "description": "Very large pearls that sparkle in a pretty silver color. They can be sold at a high price to shops.",
+        "name": "Pearl String",
         "term": "pearl string",
         "type": "item"
     },
     {
-        "name": "Pink Nectar",
         "description": "The flower nectar obtained at the flowering shrubs on Royal Avenue. It changes the form of certain species of Pok\u00e9mon.",
+        "name": "Pink Nectar",
         "term": "pink nectar",
         "type": "item"
     },
     {
-        "name": "Pok\u00e9 Doll",
         "description": "A doll that attracts the attention of a Pok\u00e9mon. It guarantees escape from any battle with wild Pok\u00e9mon.",
+        "name": "Pok\u00e9 Doll",
         "term": "pok\u00e3\u00a9 doll",
         "type": "item"
     },
     {
-        "name": "Pok\u00e9 Toy",
         "description": "A toy that attracts the attention of a Pok\u00e9mon. It guarantees escape from any battle with wild Pok\u00e9mon.",
+        "name": "Pok\u00e9 Toy",
         "term": "pok\u00e3\u00a9 toy",
         "type": "item"
     },
     {
-        "name": "Pretty Wing",
         "description": "Though this feather is beautiful, it's just a regular feather and has no effect on Pok\u00e9mon.",
+        "name": "Pretty Wing",
         "term": "pretty wing",
         "type": "item"
     },
     {
-        "name": "Purple Nectar",
         "description": "A flower nectar obtained at Poni Meadow. It changes the form of certain species of Pok\u00e9mon.",
+        "name": "Purple Nectar",
         "term": "purple nectar",
         "type": "item"
     },
     {
-        "name": "Rare Bone",
         "description": "A rare bone that is extremely valuable for the study of Pok\u00e9mon archeology. It can be sold for a high price to shops.",
+        "name": "Rare Bone",
         "term": "rare bone",
         "type": "item"
     },
     {
-        "name": "Red Flute",
         "description": "A flute made from red glass that snaps Pok\u00e9mon out of infatuation.",
+        "name": "Red Flute",
         "term": "red flute",
         "type": "item"
     },
     {
-        "name": "Red Nectar",
         "description": "A flower nectar obtained at Ula'ula Meadow. It changes the form of certain species of Pok\u00e9mon.",
+        "name": "Red Nectar",
         "term": "red nectar",
         "type": "item"
     },
     {
-        "name": "Red Shard",
         "description": "A small red shard. It appears to be a fragment of some sort of implement made long ago.",
+        "name": "Red Shard",
         "term": "red shard",
         "type": "item"
     },
     {
-        "name": "Repel",
         "description": "An item that prevents any low-level wild Pok\u00e9mon from jumping out at you for a while.",
+        "name": "Repel",
         "term": "repel",
         "type": "item"
     },
     {
-        "name": "Rich Mulch",
         "description": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.",
+        "name": "Rich Mulch",
         "term": "rich mulch",
         "type": "item"
     },
     {
-        "name": "Shoal Salt",
         "description": "Salt that you found inside Shoal Cave.",
+        "name": "Shoal Salt",
         "term": "shoal salt",
         "type": "item"
     },
     {
-        "name": "Shoal Shell",
         "description": "A seashell that you found inside Shoal Cave.",
+        "name": "Shoal Shell",
         "term": "shoal shell",
         "type": "item"
     },
     {
-        "name": "Stable Mulch",
         "description": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.",
+        "name": "Stable Mulch",
         "term": "stable mulch",
         "type": "item"
     },
     {
-        "name": "Star Piece",
         "description": "A small shard of a beautiful gem that demonstrates a distinctly red sparkle. It can be sold at a high price to shops.",
+        "name": "Star Piece",
         "term": "star piece",
         "type": "item"
     },
     {
-        "name": "Stardust",
         "description": "Lovely red sand that flows between the fingers with a loose, silky feel. It can be sold at a low price to shops.",
+        "name": "Stardust",
         "term": "stardust",
         "type": "item"
     },
     {
-        "name": "Strange Souvenir",
         "description": "An ornament depicting a mysterious Pok\u00e9mon that has been venerated as a guardian deity for an extremely long time in the Alola region.",
+        "name": "Strange Souvenir",
         "term": "strange souvenir",
         "type": "item"
     },
     {
-        "name": "Super Repel",
         "description": "An item that prevents any low-level wild Pok\u00e9mon from jumping out at you for a while. It lasts longer than Repel.",
+        "name": "Super Repel",
         "term": "super repel",
         "type": "item"
     },
     {
-        "name": "Surprise Mulch",
         "description": "A fertilizer for growing Berries. However, it appears to be unsuitable for the soil in the Hoenn region and has no effect.",
+        "name": "Surprise Mulch",
         "term": "surprise mulch",
         "type": "item"
     },
     {
-        "name": "TinyMushroom",
         "description": "A very small and rare mushroom. It's popular with a certain class of collectors and sought out by them.",
+        "name": "TinyMushroom",
         "term": "tinymushroom",
         "type": "item"
     },
     {
-        "name": "White Flute",
         "description": "A flute made from white glass. It makes it easier to encounter weak Pok\u00e9mon in the place you use it.",
+        "name": "White Flute",
         "term": "white flute",
         "type": "item"
     },
     {
-        "name": "Yellow Flute",
         "description": "A flute made from yellow glass that snaps Pok\u00e9mon out of confusion.",
+        "name": "Yellow Flute",
         "term": "yellow flute",
         "type": "item"
     },
     {
-        "name": "Yellow Nectar",
         "description": "A flower nectar obtained at Melemele Meadow. It changes the form of certain species of Pok\u00e9mon.",
+        "name": "Yellow Nectar",
         "term": "yellow nectar",
         "type": "item"
     },
     {
-        "name": "Yellow Shard",
         "description": "A small yellow shard. It appears to be a fragment of some sort of implement made long ago.",
+        "name": "Yellow Shard",
         "term": "yellow shard",
         "type": "item"
     },
     {
-        "name": "Antidote",
         "description": "A spray-type medicine for poisoning. It can be used once to lift the effects of being poisoned from a Pok\u00e9mon.",
+        "name": "Antidote",
         "term": "antidote",
         "type": "item"
     },
     {
-        "name": "Awakening",
         "description": "A spray-type medicine used against sleep. It can be used once to rouse a Pok\u00e9mon from the clutches of sleep.",
+        "name": "Awakening",
         "term": "awakening",
         "type": "item"
     },
     {
-        "name": "Berry Juice",
         "description": "A 100 percent pure juice made of Berries. When consumed, it restores 20 HP to an injured Pok\u00e9mon.",
+        "name": "Berry Juice",
         "term": "berry juice",
         "type": "item"
     },
     {
-        "name": "Big Malasada",
         "description": "The Alola region's local specialty fried bread. It can be used once to heal all the status conditions of a Pok\u00e9mon.",
+        "name": "Big Malasada",
         "term": "big malasada",
         "type": "item"
     },
     {
-        "name": "Burn Heal",
         "description": "A spray-type medicine for treating burns. It can be used once to heal a Pok\u00e9mon suffering from a burn.",
+        "name": "Burn Heal",
         "term": "burn heal",
         "type": "item"
     },
     {
-        "name": "Casteliacone",
         "description": "Castelia City's specialty, soft-serve ice cream. It can be used once to heal all the status conditions of a Pok\u00e9mon.",
+        "name": "Casteliacone",
         "term": "casteliacone",
         "type": "item"
     },
     {
-        "name": "Elixir",
         "description": "This medicine can restore 10 PP to each of the moves that have been learned by a Pok\u00e9mon.",
+        "name": "Elixir",
         "term": "elixir",
         "type": "item"
     },
     {
-        "name": "EnergyPowder",
         "description": "A very bitter medicinal powder. When consumed, it restores up to 60 HP to an injured Pok\u00e9mon.",
+        "name": "EnergyPowder",
         "term": "energypowder",
         "type": "item"
     },
     {
-        "name": "Energy Root",
         "description": "An extremely bitter medicinal root. When consumed, it restores up to 120 HP to an injured Pok\u00e9mon.",
+        "name": "Energy Root",
         "term": "energy root",
         "type": "item"
     },
     {
-        "name": "Ether",
         "description": "This medicine can restore 10 PP to a single selected move that has been learned by a Pok\u00e9mon.",
+        "name": "Ether",
         "term": "ether",
         "type": "item"
     },
     {
-        "name": "Fresh Water",
         "description": "Water with a high mineral content. When consumed, it restores up to 30 HP to an injured Pok\u00e9mon.",
+        "name": "Fresh Water",
         "term": "fresh water",
         "type": "item"
     },
     {
-        "name": "Full Heal",
         "description": "A spray-type medicine that is broadly effective. It can be used once to heal all the status conditions of a Pok\u00e9mon.",
+        "name": "Full Heal",
         "term": "full heal",
         "type": "item"
     },
     {
-        "name": "Full Restore",
         "description": "A medicine that can be used to fully restore the HP of a single Pok\u00e9mon and heal any status conditions it has.",
+        "name": "Full Restore",
         "term": "full restore",
         "type": "item"
     },
     {
-        "name": "Heal Powder",
         "description": "A very bitter medicinal powder. It can be used once to heal all the status conditions of a Pok\u00e9mon.",
+        "name": "Heal Powder",
         "term": "heal powder",
         "type": "item"
     },
     {
-        "name": "Hyper Potion",
         "description": "A spray-type medicine for treating wounds. It can be used to restore 120 HP to an injured Pok\u00e9mon.",
+        "name": "Hyper Potion",
         "term": "hyper potion",
         "type": "item"
     },
     {
-        "name": "Ice Heal",
         "description": "A spray-type medicine for freezing. It can be used once to defrost a Pok\u00e9mon that has been frozen solid.",
+        "name": "Ice Heal",
         "term": "ice heal",
         "type": "item"
     },
     {
-        "name": "Lava Cookie",
         "description": "Lavaridge Town's local specialty. It can be used once to heal all the status conditions of a Pok\u00e9mon.",
+        "name": "Lava Cookie",
         "term": "lava cookie",
         "type": "item"
     },
     {
-        "name": "Lemonade",
         "description": "A very sweet and refreshing drink. When consumed, it restores up to 70 HP to an injured Pok\u00e9mon.",
+        "name": "Lemonade",
         "term": "lemonade",
         "type": "item"
     },
     {
-        "name": "Lumiose Galette",
         "description": "A popular treat in Lumiose City. It can be used once to heal all the status conditions of a Pok\u00e9mon.",
+        "name": "Lumiose Galette",
         "term": "lumiose galette",
         "type": "item"
     },
     {
-        "name": "Max Elixir",
         "description": "This medicine can fully restore the PP of all of the moves that have been learned by a Pok\u00e9mon.",
+        "name": "Max Elixir",
         "term": "max elixir",
         "type": "item"
     },
     {
-        "name": "Max Ether",
         "description": "This medicine can fully restore the PP of a single selected move that has been learned by a Pok\u00e9mon.",
+        "name": "Max Ether",
         "term": "max ether",
         "type": "item"
     },
     {
-        "name": "Max Potion",
         "description": "A spray-type medicine for treating wounds. It will completely restore the max HP of a single Pok\u00e9mon.",
+        "name": "Max Potion",
         "term": "max potion",
         "type": "item"
     },
     {
-        "name": "Max Revive",
         "description": "A medicine that can revive fainted Pok\u00e9mon. It also fully restores a fainted Pok\u00e9mon's maximum HP.",
+        "name": "Max Revive",
         "term": "max revive",
         "type": "item"
     },
     {
-        "name": "Moomoo Milk",
         "description": "A bottle of highly nutritious milk. When consumed, it restores up to 100 HP to an injured Pok\u00e9mon.",
+        "name": "Moomoo Milk",
         "term": "moomoo milk",
         "type": "item"
     },
     {
-        "name": "Old Gateau",
         "description": "The Old Chateau's hidden specialty. It can be used once to heal all the status conditions of a Pok\u00e9mon.",
+        "name": "Old Gateau",
         "term": "old gateau",
         "type": "item"
     },
     {
-        "name": "Parlyze Heal",
         "description": "A spray-type medicine for paralysis. It can be used once to free a Pok\u00e9mon that has been paralyzed.",
+        "name": "Parlyze Heal",
         "term": "parlyze heal",
         "type": "item"
     },
     {
-        "name": "Potion",
         "description": "A spray-type medicine for treating wounds. It can be used to restore 20 HP to an injured Pok\u00e9mon.",
+        "name": "Potion",
         "term": "potion",
         "type": "item"
     },
     {
-        "name": "Rage Candy Bar",
         "description": "Mahogany Town's famous candy. It can be used once to heal all the status conditions of a Pok\u00e9mon.",
+        "name": "Rage Candy Bar",
         "term": "rage candy bar",
         "type": "item"
     },
     {
-        "name": "Revival Herb",
         "description": "A terribly bitter medicinal herb. It revives a fainted Pok\u00e9mon and fully restores its maximum HP.",
+        "name": "Revival Herb",
         "term": "revival herb",
         "type": "item"
     },
     {
-        "name": "Revive",
         "description": "A medicine that can revive fainted Pok\u00e9mon. It also restores half of a fainted Pok\u00e9mon's maximum HP.",
+        "name": "Revive",
         "term": "revive",
         "type": "item"
     },
     {
-        "name": "Sacred Ash",
         "description": "This rare ash can revive all fainted Pok\u00e9mon in a party. In doing so, it also fully restores their maximum HP.",
+        "name": "Sacred Ash",
         "term": "sacred ash",
         "type": "item"
     },
     {
-        "name": "Shalour Sable",
         "description": "Shalour City's famous shortbread. It can be used once to heal all the status conditions of a Pok\u00e9mon.",
+        "name": "Shalour Sable",
         "term": "shalour sable",
         "type": "item"
     },
     {
-        "name": "Soda Pop",
         "description": "A highly carbonated soda drink. When consumed, it restores up to 50 HP to an injured Pok\u00e9mon.",
+        "name": "Soda Pop",
         "term": "soda pop",
         "type": "item"
     },
     {
-        "name": "Super Potion",
         "description": "A spray-type medicine for treating wounds. It can be used to restore 60 HP to an injured Pok\u00e9mon.",
+        "name": "Super Potion",
         "term": "super potion",
         "type": "item"
     },
     {
-        "name": "Sweet Heart",
         "description": "A piece of cloyingly sweet chocolate. When consumed, it restores 20 HP to an injured Pok\u00e9mon.",
+        "name": "Sweet Heart",
         "term": "sweet heart",
         "type": "item"
     },
     {
-        "name": "Dire Hit",
         "description": "An item that raises the critical-hit ratio greatly. It can be used only once and wears off if the Pok\u00e9mon is withdrawn.",
+        "name": "Dire Hit",
         "term": "dire hit",
         "type": "item"
     },
     {
-        "name": "Guard Spec.",
         "description": "An item that prevents stat reduction among the Trainer's party Pok\u00e9mon for five turns after it is used in battle.",
+        "name": "Guard Spec.",
         "term": "guard spec.",
         "type": "item"
     },
     {
-        "name": "X Accuracy",
         "description": "An item that sharply boosts the accuracy of a Pok\u00e9mon during a battle. It wears off once the Pok\u00e9mon is withdrawn.",
+        "name": "X Accuracy",
         "term": "x accuracy",
         "type": "item"
     },
     {
-        "name": "X Attack",
         "description": "An item that sharply boosts the Attack stat of a Pok\u00e9mon during a battle. It wears off once the Pok\u00e9mon is withdrawn.",
+        "name": "X Attack",
         "term": "x attack",
         "type": "item"
     },
     {
-        "name": "X Defense",
         "description": "An item that sharply boosts the Defense stat of a Pok\u00e9mon during a battle. It wears off once the Pok\u00e9mon is withdrawn.",
+        "name": "X Defense",
         "term": "x defense",
         "type": "item"
     },
     {
-        "name": "X Special",
         "description": "An item that sharply boosts the Sp. Atk stat of a Pok\u00e9mon during a battle. It wears off once the Pok\u00e9mon is withdrawn.",
+        "name": "X Special",
         "term": "x special",
         "type": "item"
     },
     {
-        "name": "X Sp. Def",
         "description": "An item that sharply boosts the Sp. Def stat of a Pok\u00e9mon during a battle. It wears off once the Pok\u00e9mon is withdrawn.",
+        "name": "X Sp. Def",
         "term": "x sp. def",
         "type": "item"
     },
     {
-        "name": "X Speed",
         "description": "An item that sharply boosts the Speed stat of a Pok\u00e9mon during a battle. It wears off once the Pok\u00e9mon is withdrawn.",
+        "name": "X Speed",
         "term": "x speed",
         "type": "item"
     },
     {
-        "name": "Armor Fossil",
         "description": "A fossil from a prehistoric Pok\u00e9mon that once lived on the land. It looks to be from some kind of protective collar.",
+        "name": "Armor Fossil",
         "term": "armor fossil",
         "type": "item"
     },
     {
-        "name": "Claw Fossil",
         "description": "A fossil from a prehistoric Pok\u00e9mon that once lived in the sea. It appears to be a fragment of a claw.",
+        "name": "Claw Fossil",
         "term": "claw fossil",
         "type": "item"
     },
     {
-        "name": "Cover Fossil",
         "description": "A fossil from a prehistoric Pok\u00e9mon that once lived in the sea. It appears as though it could be part of its back.",
+        "name": "Cover Fossil",
         "term": "cover fossil",
         "type": "item"
     },
     {
-        "name": "Dome Fossil",
         "description": "A fossil from a prehistoric Pok\u00e9mon that once lived in the sea. It could be a shell or carapace.",
+        "name": "Dome Fossil",
         "term": "dome fossil",
         "type": "item"
     },
     {
-        "name": "Helix Fossil",
         "description": "A fossil from a prehistoric Pok\u00e9mon that once lived in the sea. It might be a piece of a seashell.",
+        "name": "Helix Fossil",
         "term": "helix fossil",
         "type": "item"
     },
     {
-        "name": "Jaw Fossil",
         "description": "A fossil from a prehistoric Pok\u00e9mon that once lived on the land. It looks as if it could be a piece of a large jaw.",
+        "name": "Jaw Fossil",
         "term": "jaw fossil",
         "type": "item"
     },
     {
-        "name": "Old Amber",
         "description": "A piece of amber that still contains the genetic material of an ancient Pok\u00e9mon. It's clear with a tawny, reddish tint.",
+        "name": "Old Amber",
         "term": "old amber",
         "type": "item"
     },
     {
-        "name": "Plume Fossil",
         "description": "A fossil from a prehistoric Pok\u00e9mon that once lived in the sky. It looks as if it could come from part of its wing.",
+        "name": "Plume Fossil",
         "term": "plume fossil",
         "type": "item"
     },
     {
-        "name": "Root Fossil",
         "description": "A fossil from a prehistoric Pok\u00e9mon that once lived in the sea. It looks as if it could be part of a plant's root.",
+        "name": "Root Fossil",
         "term": "root fossil",
         "type": "item"
     },
     {
-        "name": "Sail Fossil",
         "description": "A fossil from a prehistoric Pok\u00e9mon that once lived on the land. It looks like the impression from a skin sail.",
+        "name": "Sail Fossil",
         "term": "sail fossil",
         "type": "item"
     },
     {
-        "name": "Skull Fossil",
         "description": "A fossil from a prehistoric Pok\u00e9mon that once lived on the land. It appears as though it's part of a head.",
+        "name": "Skull Fossil",
         "term": "skull fossil",
         "type": "item"
     },
     {
-        "name": "Aguav Berry",
         "description": "If held by a Pok\u00e9mon, it restores the user's HP in a pinch, but it will cause confusion if the user hates the taste.",
+        "name": "Aguav Berry",
         "term": "aguav berry",
         "type": "item"
     },
     {
-        "name": "Apicot Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, its Sp. Def stat will increase when it's in a pinch.",
+        "name": "Apicot Berry",
         "term": "apicot berry",
         "type": "item"
     },
     {
-        "name": "Aspear Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, it can recover from being frozen on its own in battle.",
+        "name": "Aspear Berry",
         "term": "aspear berry",
         "type": "item"
     },
     {
-        "name": "Babiri Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one supereffective Steel-type attack.",
+        "name": "Babiri Berry",
         "term": "babiri berry",
         "type": "item"
     },
     {
-        "name": "Belue Berry",
         "description": "Used to make Pok\u00e9blocks that will enhance your Beauty, this Berry is rare in other regions.",
+        "name": "Belue Berry",
         "term": "belue berry",
         "type": "item"
     },
     {
-        "name": "Bluk Berry",
         "description": "Used to make Pok\u00e9blocks that will enhance your Beauty. Its blue flesh is sour when eaten.",
+        "name": "Bluk Berry",
         "term": "bluk berry",
         "type": "item"
     },
     {
-        "name": "Charti Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one supereffective Rock-type attack.",
+        "name": "Charti Berry",
         "term": "charti berry",
         "type": "item"
     },
     {
-        "name": "Cheri Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, it can recover from paralysis on its own in battle.",
+        "name": "Cheri Berry",
         "term": "cheri berry",
         "type": "item"
     },
     {
-        "name": "Chesto Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, it can recover from sleep on its own in battle.",
+        "name": "Chesto Berry",
         "term": "chesto berry",
         "type": "item"
     },
     {
-        "name": "Chilan Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one Normal-type attack.",
+        "name": "Chilan Berry",
         "term": "chilan berry",
         "type": "item"
     },
     {
-        "name": "Chople Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one supereffective Fighting-type attack.",
+        "name": "Chople Berry",
         "term": "chople berry",
         "type": "item"
     },
     {
-        "name": "Coba Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one supereffective Flying-type attack.",
+        "name": "Coba Berry",
         "term": "coba berry",
         "type": "item"
     },
     {
-        "name": "Colbur Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one supereffective Dark-type attack.",
+        "name": "Colbur Berry",
         "term": "colbur berry",
         "type": "item"
     },
     {
-        "name": "Cornn Berry",
         "description": "Used to make Pok\u00e9blocks that will enhance your Beauty, this Berry is rare in other regions.",
+        "name": "Cornn Berry",
         "term": "cornn berry",
         "type": "item"
     },
     {
-        "name": "Custap Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, it will be able to move first just once when it's in a pinch.",
+        "name": "Custap Berry",
         "term": "custap berry",
         "type": "item"
     },
     {
-        "name": "Durin Berry",
         "description": "Used to make Pok\u00e9blocks that will enhance your Cleverness, this Berry is rare in other regions.",
+        "name": "Durin Berry",
         "term": "durin berry",
         "type": "item"
     },
     {
-        "name": "Enigma Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, being hit by a supereffective attack will restore its HP.",
+        "name": "Enigma Berry",
         "term": "enigma berry",
         "type": "item"
     },
     {
-        "name": "Figy Berry",
         "description": "If held by a Pok\u00e9mon, it restores the user's HP in a pinch, but it will cause confusion if the user hates the taste.",
+        "name": "Figy Berry",
         "term": "figy berry",
         "type": "item"
     },
     {
-        "name": "Ganlon Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, its Defense stat will increase when it's in a pinch.",
+        "name": "Ganlon Berry",
         "term": "ganlon berry",
         "type": "item"
     },
     {
-        "name": "Grepa Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. Using it on a Pok\u00e9mon makes it more friendly but lowers its base Sp. Def.",
+        "name": "Grepa Berry",
         "term": "grepa berry",
         "type": "item"
     },
     {
-        "name": "Haban Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one supereffective Dragon-type attack.",
+        "name": "Haban Berry",
         "term": "haban berry",
         "type": "item"
     },
     {
-        "name": "Hondew Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. Using it on a Pok\u00e9mon makes it more friendly but lowers its base Sp. Atk.",
+        "name": "Hondew Berry",
         "term": "hondew berry",
         "type": "item"
     },
     {
-        "name": "Iapapa Berry",
         "description": "If held by a Pok\u00e9mon, it restores the user's HP in a pinch, but it will cause confusion if the user hates the taste.",
+        "name": "Iapapa Berry",
         "term": "iapapa berry",
         "type": "item"
     },
     {
-        "name": "Jaboca Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a physical attack hits the Pok\u00e9mon holding it, the attacker will also be hurt.",
+        "name": "Jaboca Berry",
         "term": "jaboca berry",
         "type": "item"
     },
     {
-        "name": "Kasib Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one supereffective Ghost-type attack.",
+        "name": "Kasib Berry",
         "term": "kasib berry",
         "type": "item"
     },
     {
-        "name": "Kebia Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one supereffective Poison-type attack.",
+        "name": "Kebia Berry",
         "term": "kebia berry",
         "type": "item"
     },
     {
-        "name": "Kee Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will increase the holder's Defense if it's hit with a physical move.",
+        "name": "Kee Berry",
         "term": "kee berry",
         "type": "item"
     },
     {
-        "name": "Kelpsy Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. Using it on a Pok\u00e9mon makes it more friendly but lowers its base Attack.",
+        "name": "Kelpsy Berry",
         "term": "kelpsy berry",
         "type": "item"
     },
     {
-        "name": "Lansat Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, its critical-hit ratio will increase when it's in a pinch.",
+        "name": "Lansat Berry",
         "term": "lansat berry",
         "type": "item"
     },
     {
-        "name": "Leppa Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, it can restore 10 PP to a depleted move during battle.",
+        "name": "Leppa Berry",
         "term": "leppa berry",
         "type": "item"
     },
     {
-        "name": "Liechi Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, its Attack stat will increase when it's in a pinch.",
+        "name": "Liechi Berry",
         "term": "liechi berry",
         "type": "item"
     },
     {
-        "name": "Lum Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, it can recover from any status condition during battle.",
+        "name": "Lum Berry",
         "term": "lum berry",
         "type": "item"
     },
     {
-        "name": "Mago Berry",
         "description": "If held by a Pok\u00e9mon, it restores the user's HP in a pinch, but it will cause confusion if the user hates the taste.",
+        "name": "Mago Berry",
         "term": "mago berry",
         "type": "item"
     },
     {
-        "name": "Magost Berry",
         "description": "Used to make Pok\u00e9blocks that will enhance your Cuteness, this Berry is rare in other regions.",
+        "name": "Magost Berry",
         "term": "magost berry",
         "type": "item"
     },
     {
-        "name": "Maranga Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will increase the holder's Sp. Def if it's hit with a special move.",
+        "name": "Maranga Berry",
         "term": "maranga berry",
         "type": "item"
     },
     {
-        "name": "Micle Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, its accuracy will increase just once when it's in a pinch.",
+        "name": "Micle Berry",
         "term": "micle berry",
         "type": "item"
     },
     {
-        "name": "Nanab Berry",
         "description": "Used to make Pok\u00e9blocks that will enhance your Cuteness. Its pink flesh is sweet when eaten.",
+        "name": "Nanab Berry",
         "term": "nanab berry",
         "type": "item"
     },
     {
-        "name": "Nomel Berry",
         "description": "Used to make Pok\u00e9blocks that will enhance your Toughness, this Berry is rare in other regions.",
+        "name": "Nomel Berry",
         "term": "nomel berry",
         "type": "item"
     },
     {
-        "name": "Occa Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one supereffective Fire-type attack.",
+        "name": "Occa Berry",
         "term": "occa berry",
         "type": "item"
     },
     {
-        "name": "Oran Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, it can restore its own HP by 10 points during battle.",
+        "name": "Oran Berry",
         "term": "oran berry",
         "type": "item"
     },
     {
-        "name": "Pamtre Berry",
         "description": "Used to make Pok\u00e9blocks that will enhance your Beauty, this Berry is rare in other regions.",
+        "name": "Pamtre Berry",
         "term": "pamtre berry",
         "type": "item"
     },
     {
-        "name": "Passho Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one supereffective Water-type attack.",
+        "name": "Passho Berry",
         "term": "passho berry",
         "type": "item"
     },
     {
-        "name": "Payapa Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one supereffective Psychic-type attack.",
+        "name": "Payapa Berry",
         "term": "payapa berry",
         "type": "item"
     },
     {
-        "name": "Pecha Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, it can recover from poisoning on its own in battle.",
+        "name": "Pecha Berry",
         "term": "pecha berry",
         "type": "item"
     },
     {
-        "name": "Persim Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, it can recover from confusion on its own in battle.",
+        "name": "Persim Berry",
         "term": "persim berry",
         "type": "item"
     },
     {
-        "name": "Petaya Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, its Sp. Atk stat will increase when it's in a pinch.",
+        "name": "Petaya Berry",
         "term": "petaya berry",
         "type": "item"
     },
     {
-        "name": "Pinap Berry",
         "description": "Used to make Pok\u00e9blocks that will enhance your Toughness. Its yellow flesh is sour when eaten.",
+        "name": "Pinap Berry",
         "term": "pinap berry",
         "type": "item"
     },
     {
-        "name": "Pomeg Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. Using it on a Pok\u00e9mon makes it more friendly but lowers its base HP.",
+        "name": "Pomeg Berry",
         "term": "pomeg berry",
         "type": "item"
     },
     {
-        "name": "Qualot Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. Using it on a Pok\u00e9mon makes it more friendly but lowers its base Defense.",
+        "name": "Qualot Berry",
         "term": "qualot berry",
         "type": "item"
     },
     {
-        "name": "Rabuta Berry",
         "description": "Used to make Pok\u00e9blocks that will enhance your Cleverness, this Berry is rare in other regions.",
+        "name": "Rabuta Berry",
         "term": "rabuta berry",
         "type": "item"
     },
     {
-        "name": "Rawst Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, it can recover from a burn on its own in battle.",
+        "name": "Rawst Berry",
         "term": "rawst berry",
         "type": "item"
     },
     {
-        "name": "Razz Berry",
         "description": "Used to make Pok\u00e9blocks that will enhance your Coolness. Its red flesh is spicy when eaten.",
+        "name": "Razz Berry",
         "term": "razz berry",
         "type": "item"
     },
     {
-        "name": "Rindo Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one supereffective Grass-type attack.",
+        "name": "Rindo Berry",
         "term": "rindo berry",
         "type": "item"
     },
     {
-        "name": "Roseli Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one supereffective Fairy-type attack.",
+        "name": "Roseli Berry",
         "term": "roseli berry",
         "type": "item"
     },
     {
-        "name": "Rowap Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a special attack hits the Pok\u00e9mon holding it, the attacker will also be hurt.",
+        "name": "Rowap Berry",
         "term": "rowap berry",
         "type": "item"
     },
     {
-        "name": "Salac Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, its Speed stat will increase when it's in a pinch.",
+        "name": "Salac Berry",
         "term": "salac berry",
         "type": "item"
     },
     {
-        "name": "Shuca Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one supereffective Ground-type attack.",
+        "name": "Shuca Berry",
         "term": "shuca berry",
         "type": "item"
     },
     {
-        "name": "Sitrus Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, it can restore its own HP by a small amount during battle.",
+        "name": "Sitrus Berry",
         "term": "sitrus berry",
         "type": "item"
     },
     {
-        "name": "Spelon Berry",
         "description": "Used to make Pok\u00e9blocks that will enhance your Cuteness, this Berry is rare in other regions.",
+        "name": "Spelon Berry",
         "term": "spelon berry",
         "type": "item"
     },
     {
-        "name": "Starf Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. If a Pok\u00e9mon holds one, one of its stats will sharply increase when it's in a pinch.",
+        "name": "Starf Berry",
         "term": "starf berry",
         "type": "item"
     },
     {
-        "name": "Tamato Berry",
         "description": "A Berry to be consumed by Pok\u00e9mon. Using it on a Pok\u00e9mon makes it more friendly but lowers its base Speed.",
+        "name": "Tamato Berry",
         "term": "tamato berry",
         "type": "item"
     },
     {
-        "name": "Tanga Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one supereffective Bug-type attack.",
+        "name": "Tanga Berry",
         "term": "tanga berry",
         "type": "item"
     },
     {
-        "name": "Wacan Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one supereffective Electric-type attack.",
+        "name": "Wacan Berry",
         "term": "wacan berry",
         "type": "item"
     },
     {
-        "name": "Watmel Berry",
         "description": "Used to make Pok\u00e9blocks that will enhance your Cleverness, this Berry is rare in other regions.",
+        "name": "Watmel Berry",
         "term": "watmel berry",
         "type": "item"
     },
     {
-        "name": "Wepear Berry",
         "description": "Used to make Pok\u00e9blocks that will enhance your Cleverness. Its green flesh is bitter when eaten.",
+        "name": "Wepear Berry",
         "term": "wepear berry",
         "type": "item"
     },
     {
-        "name": "Wiki Berry",
         "description": "If held by a Pok\u00e9mon, it restores the user's HP in a pinch, but it will cause confusion if the user hates the taste.",
+        "name": "Wiki Berry",
         "term": "wiki berry",
         "type": "item"
     },
     {
-        "name": "Yache Berry",
         "description": "If held by a Pok\u00e9mon, this Berry will lessen the damage taken from one supereffective Ice-type attack.",
+        "name": "Yache Berry",
         "term": "yache berry",
         "type": "item"
     },
     {
-        "name": "Absorb Bulb",
         "description": "An item to be held by a Pok\u00e9mon. It boosts Sp. Atk if hit with a Water-type attack. It can only be used once.",
+        "name": "Absorb Bulb",
         "term": "absorb bulb",
         "type": "item"
     },
     {
-        "name": "Adamant Orb",
         "description": "A brightly gleaming orb to be held by Dialga. It boosts the power of Dragon- and Steel-type moves when it is held.",
+        "name": "Adamant Orb",
         "term": "adamant orb",
         "type": "item"
     },
     {
-        "name": "Air Balloon",
         "description": "An item to be held by a Pok\u00e9mon. The holder will float in the air until hit. Once hit, this item will burst.",
+        "name": "Air Balloon",
         "term": "air balloon",
         "type": "item"
     },
     {
-        "name": "Amulet Coin",
         "description": "An item to be held by a Pok\u00e9mon. It doubles any prize money received if the holding Pok\u00e9mon joins a battle.",
+        "name": "Amulet Coin",
         "term": "amulet coin",
         "type": "item"
     },
     {
-        "name": "Assault Vest",
         "description": "An item to be held by a Pok\u00e9mon. This offensive vest raises Sp. Def but prevents the use of status moves.",
+        "name": "Assault Vest",
         "term": "assault vest",
         "type": "item"
     },
     {
-        "name": "Big Root",
         "description": "An item to be held by a Pok\u00e9mon. It boosts the amount of HP the holder recovers from  HP-stealing moves.",
+        "name": "Big Root",
         "term": "big root",
         "type": "item"
     },
     {
-        "name": "Binding Band",
         "description": "An item to be held by a Pok\u00e9mon. A band that increases the power of binding moves used by the holder.",
+        "name": "Binding Band",
         "term": "binding band",
         "type": "item"
     },
     {
-        "name": "Black Belt",
         "description": "An item to be held by a Pok\u00e9mon. This belt helps the wearer to focus and boosts the power of Fighting-type moves.",
+        "name": "Black Belt",
         "term": "black belt",
         "type": "item"
     },
     {
-        "name": "Black Glasses",
         "description": "An item to be held by a Pok\u00e9mon. A pair of shady-looking glasses that boost the power of Dark-type moves.",
+        "name": "Black Glasses",
         "term": "black glasses",
         "type": "item"
     },
     {
-        "name": "Black Sludge",
         "description": "An item to be held by a Pok\u00e9mon. It gradually restores HP to Poison-type Pok\u00e9mon. It damages any other type.",
+        "name": "Black Sludge",
         "term": "black sludge",
         "type": "item"
     },
     {
-        "name": "Blue Orb",
         "description": "A shiny blue orb that is said to have a legend tied to it. It's known to have a deep connection with the Hoenn region.",
+        "name": "Blue Orb",
         "term": "blue orb",
         "type": "item"
     },
     {
-        "name": "Blue Scarf",
         "description": "An item to be held by a Pok\u00e9mon. During a contest, it raises the Beauty aspect of the Pok\u00e9mon holding it.",
+        "name": "Blue Scarf",
         "term": "blue scarf",
         "type": "item"
     },
     {
-        "name": "BrightPowder",
         "description": "An item to be held by a Pok\u00e9mon. It casts a tricky glare that lowers the opposing Pok\u00e9mon's accuracy.",
+        "name": "BrightPowder",
         "term": "brightpowder",
         "type": "item"
     },
     {
-        "name": "Bug Gem",
         "description": "A gem with an insect-like essence. When held, it strengthens the power of a Bug-type move one time.",
+        "name": "Bug Gem",
         "term": "bug gem",
         "type": "item"
     },
     {
-        "name": "Bug Memory",
         "description": "A memory disc that contains Bug-type data. It changes the type of the holder if held by a certain species of Pok\u00e9mon.",
+        "name": "Bug Memory",
         "term": "bug memory",
         "type": "item"
     },
     {
-        "name": "Burn Drive",
         "description": "A cassette to be held by Genesect. It changes Genesect's Techno Blast move so it becomes Fire type.",
+        "name": "Burn Drive",
         "term": "burn drive",
         "type": "item"
     },
     {
-        "name": "Cell Battery",
         "description": "An item to be held by a Pok\u00e9mon. It boosts Attack if hit with an Electric-type attack. It can only be used once.",
+        "name": "Cell Battery",
         "term": "cell battery",
         "type": "item"
     },
     {
-        "name": "Charcoal",
         "description": "An item to be held by a Pok\u00e9mon. It's a combustible fuel that boosts the power of Fire-type moves.",
+        "name": "Charcoal",
         "term": "charcoal",
         "type": "item"
     },
     {
-        "name": "Chill Drive",
         "description": "A cassette to be held by Genesect. It changes Genesect's Techno Blast move so it becomes Ice type.",
+        "name": "Chill Drive",
         "term": "chill drive",
         "type": "item"
     },
     {
-        "name": "Choice Band",
         "description": "An item to be held by a Pok\u00e9mon. This curious headband boosts Attack but only allows the use of one move.",
+        "name": "Choice Band",
         "term": "choice band",
         "type": "item"
     },
     {
-        "name": "Choice Scarf",
         "description": "An item to be held by a Pok\u00e9mon. This curious scarf boosts Speed but only allows the use of one move.",
+        "name": "Choice Scarf",
         "term": "choice scarf",
         "type": "item"
     },
     {
-        "name": "Choice Specs",
         "description": "An item to be held by a Pok\u00e9mon. These curious glasses boost Sp. Atk but only allow the use of one move.",
+        "name": "Choice Specs",
         "term": "choice specs",
         "type": "item"
     },
     {
-        "name": "Cleanse Tag",
         "description": "An item to be held by a Pok\u00e9mon. It helps keep wild Pok\u00e9mon away if the holder is the head of the party.",
+        "name": "Cleanse Tag",
         "term": "cleanse tag",
         "type": "item"
     },
     {
-        "name": "Damp Rock",
         "description": "An item to be held by a Pok\u00e9mon. It extends the duration of the move Rain Dance when used by the holder.",
+        "name": "Damp Rock",
         "term": "damp rock",
         "type": "item"
     },
     {
-        "name": "Dark Gem",
         "description": "A gem with an essence of darkness. When held, it strengthens the power of a Dark-type move one time.",
+        "name": "Dark Gem",
         "term": "dark gem",
         "type": "item"
     },
     {
-        "name": "Dark Memory",
         "description": "A memory disc that contains Dark-type data. It changes the type of the holder if held by a certain species of Pok\u00e9mon.",
+        "name": "Dark Memory",
         "term": "dark memory",
         "type": "item"
     },
     {
-        "name": "Deep Sea Scale",
         "description": "An item to be held by Clamperl. This scale shines with a faint pink and raises the holder's Sp. Def stat.",
+        "name": "Deep Sea Scale",
         "term": "deep sea scale",
         "type": "item"
     },
     {
-        "name": "Deep Sea Tooth",
         "description": "An item to be held by Clamperl. This fang gleams a sharp silver and raises the holder's Sp. Atk stat.",
+        "name": "Deep Sea Tooth",
         "term": "deep sea tooth",
         "type": "item"
     },
     {
-        "name": "Destiny Knot",
         "description": "An item to be held by a Pok\u00e9mon. If the holder becomes infatuated, the opposing Pok\u00e9mon will be, too.",
+        "name": "Destiny Knot",
         "term": "destiny knot",
         "type": "item"
     },
     {
-        "name": "Douse Drive",
         "description": "A cassette to be held by Genesect. It changes Genesect's Techno Blast move so it becomes Water type.",
+        "name": "Douse Drive",
         "term": "douse drive",
         "type": "item"
     },
     {
-        "name": "Draco Plate",
         "description": "An item to be held by a Pok\u00e9mon. It's a stone tablet that boosts the power of Dragon-type moves.",
+        "name": "Draco Plate",
         "term": "draco plate",
         "type": "item"
     },
     {
-        "name": "Dragon Fang",
         "description": "An item to be held by a Pok\u00e9mon. This hard and sharp fang boosts the power of Dragon-type moves.",
+        "name": "Dragon Fang",
         "term": "dragon fang",
         "type": "item"
     },
     {
-        "name": "Dragon Gem",
         "description": "A gem with a draconic essence. When held, it strengthens the power of a Dragon-type move one time.",
+        "name": "Dragon Gem",
         "term": "dragon gem",
         "type": "item"
     },
     {
-        "name": "Dragon Memory",
         "description": "A memory disc that contains Dragon-type data. It changes the type of the holder if held by a certain species of Pok\u00e9mon.",
+        "name": "Dragon Memory",
         "term": "dragon memory",
         "type": "item"
     },
     {
-        "name": "Dread Plate",
         "description": "An item to be held by a Pok\u00e9mon. It's a stone tablet that boosts the power of Dark-type moves.",
+        "name": "Dread Plate",
         "term": "dread plate",
         "type": "item"
     },
     {
-        "name": "Dubious Disc",
         "description": "A transparent device overflowing with dubious data. Its producer is unknown.",
+        "name": "Dubious Disc",
         "term": "dubious disc",
         "type": "item"
     },
     {
-        "name": "Exp. Share",
         "description": "Turning on this special device will allow all the Pok\u00e9mon on your team to receive Exp. Points from battles.",
+        "name": "Exp. Share",
         "term": "exp. share",
         "type": "item"
     },
     {
-        "name": "Earth Plate",
         "description": "An item to be held by a Pok\u00e9mon. It's a stone tablet that boosts the power of Ground-type moves.",
+        "name": "Earth Plate",
         "term": "earth plate",
         "type": "item"
     },
     {
-        "name": "Eject Button",
         "description": "An item to be held by a Pok\u00e9mon. If the holder is hit by an attack, it will be switched out of battle.",
+        "name": "Eject Button",
         "term": "eject button",
         "type": "item"
     },
     {
-        "name": "Electirizer",
         "description": "A box packed with a tremendous amount of electric energy. It's loved by a certain Pok\u00e9mon.",
+        "name": "Electirizer",
         "term": "electirizer",
         "type": "item"
     },
     {
-        "name": "Electric Gem",
         "description": "A gem with an essence of electricity. When held, it strengthens the power of an Electric-type move one time.",
+        "name": "Electric Gem",
         "term": "electric gem",
         "type": "item"
     },
     {
-        "name": "Electric Memory",
         "description": "A memory disc that contains Electric-type data. It changes the type of the holder if held by a certain species of Pok\u00e9mon.",
+        "name": "Electric Memory",
         "term": "electric memory",
         "type": "item"
     },
     {
-        "name": "Electric Seed",
         "description": "An item to be held by a Pok\u00e9mon. It boosts Defense on Electric Terrain. It can only be used once.",
+        "name": "Electric Seed",
         "term": "electric seed",
         "type": "item"
     },
     {
-        "name": "Everstone",
         "description": "An item to be held by a Pok\u00e9mon. A Pok\u00e9mon holding this peculiar stone is prevented from evolving.",
+        "name": "Everstone",
         "term": "everstone",
         "type": "item"
     },
     {
-        "name": "Eviolite",
         "description": "A mysterious Evolutionary lump. When held by a Pok\u00e9mon that can still evolve, it raises both Defense and Sp. Def.",
+        "name": "Eviolite",
         "term": "eviolite",
         "type": "item"
     },
     {
-        "name": "Expert Belt",
         "description": "An item to be held by a Pok\u00e9mon. It's a well-worn belt that slightly boosts the power of supereffective moves.",
+        "name": "Expert Belt",
         "term": "expert belt",
         "type": "item"
     },
     {
-        "name": "Fairy Gem",
         "description": "A gem with an essence of the fey. When held, it strengthens the power of a Fairy-type move one time.",
+        "name": "Fairy Gem",
         "term": "fairy gem",
         "type": "item"
     },
     {
-        "name": "Fairy Memory",
         "description": "A memory disc that contains Fairy-type data. It changes the type of the holder if held by a certain species of Pok\u00e9mon.",
+        "name": "Fairy Memory",
         "term": "fairy memory",
         "type": "item"
     },
     {
-        "name": "Fighting Gem",
         "description": "A gem with an essence of combat. When held, it strengthens the power of a Fighting-type move one time.",
+        "name": "Fighting Gem",
         "term": "fighting gem",
         "type": "item"
     },
     {
-        "name": "Fighting Memory",
         "description": "A memory disc that contains Fighting-type data. It changes the type of the holder if held by a certain species of Pok\u00e9mon.",
+        "name": "Fighting Memory",
         "term": "fighting memory",
         "type": "item"
     },
     {
-        "name": "Fire Gem",
         "description": "A gem with an essence of fire. When held, it strengthens the power of a Fire-type move one time.",
+        "name": "Fire Gem",
         "term": "fire gem",
         "type": "item"
     },
     {
-        "name": "Fire Memory",
         "description": "A memory disc that contains Fire-type data. It changes the type of the holder if held by a certain species of Pok\u00e9mon.",
+        "name": "Fire Memory",
         "term": "fire memory",
         "type": "item"
     },
     {
-        "name": "Fist Plate",
         "description": "An item to be held by a Pok\u00e9mon. It's a stone tablet that boosts the power of Fighting-type moves.",
+        "name": "Fist Plate",
         "term": "fist plate",
         "type": "item"
     },
     {
-        "name": "Flame Orb",
         "description": "An item to be held by a Pok\u00e9mon. It's a bizarre orb that will afflict the holder with a burn during battle.",
+        "name": "Flame Orb",
         "term": "flame orb",
         "type": "item"
     },
     {
-        "name": "Flame Plate",
         "description": "An item to be held by a Pok\u00e9mon. It's a stone tablet that boosts the power of Fire-type moves.",
+        "name": "Flame Plate",
         "term": "flame plate",
         "type": "item"
     },
     {
-        "name": "Float Stone",
         "description": "An item to be held by a Pok\u00e9mon. This very light stone reduces the weight of a Pok\u00e9mon when held.",
+        "name": "Float Stone",
         "term": "float stone",
         "type": "item"
     },
     {
-        "name": "Flying Gem",
         "description": "A gem with an essence of air. When held, it strengthens the power of a Flying-type move one time.",
+        "name": "Flying Gem",
         "term": "flying gem",
         "type": "item"
     },
     {
-        "name": "Flying Memory",
         "description": "A memory disc that contains Flying-type data. It changes the type of the holder if held by a certain species of Pok\u00e9mon.",
+        "name": "Flying Memory",
         "term": "flying memory",
         "type": "item"
     },
     {
-        "name": "Focus Band",
         "description": "An item to be held by a Pok\u00e9mon. The holder may endure a potential KO attack, leaving it with just 1 HP.",
+        "name": "Focus Band",
         "term": "focus band",
         "type": "item"
     },
     {
-        "name": "Focus Sash",
         "description": "An item to be held by a Pok\u00e9mon. If the holder has full HP, it will endure a potential KO attack with 1 HP. The item then disappears.",
+        "name": "Focus Sash",
         "term": "focus sash",
         "type": "item"
     },
     {
-        "name": "Full Incense",
         "description": "An item to be held by a Pok\u00e9mon. This exotic-smelling incense makes the holder bloated and slow moving.",
+        "name": "Full Incense",
         "term": "full incense",
         "type": "item"
     },
     {
-        "name": "Ghost Gem",
         "description": "A gem with a spectral essence. When held, it strengthens the power of a Ghost-type move one time.",
+        "name": "Ghost Gem",
         "term": "ghost gem",
         "type": "item"
     },
     {
-        "name": "Ghost Memory",
         "description": "A memory disc that contains Ghost-type data. It changes the type of the holder if held by a certain species of Pok\u00e9mon.",
+        "name": "Ghost Memory",
         "term": "ghost memory",
         "type": "item"
     },
     {
-        "name": "Grass Gem",
         "description": "A gem with an essence of nature. When held, it strengthens the power of a Grass-type move one time.",
+        "name": "Grass Gem",
         "term": "grass gem",
         "type": "item"
     },
     {
-        "name": "Grass Memory",
         "description": "A memory disc that contains Grass-type data. It changes the type of the holder if held by a certain species of Pok\u00e9mon.",
+        "name": "Grass Memory",
         "term": "grass memory",
         "type": "item"
     },
     {
-        "name": "Grassy Seed",
         "description": "An item to be held by a Pok\u00e9mon. It boosts Defense on Grassy Terrain. It can only be used once.",
+        "name": "Grassy Seed",
         "term": "grassy seed",
         "type": "item"
     },
     {
-        "name": "Green Scarf",
         "description": "An item to be held by a Pok\u00e9mon. During a contest, it raises the Clever aspect of the Pok\u00e9mon holding it.",
+        "name": "Green Scarf",
         "term": "green scarf",
         "type": "item"
     },
     {
-        "name": "Grip Claw",
         "description": "An item to be held by a Pok\u00e9mon. It extends the duration of multi-turn attacks like Bind and Wrap.",
+        "name": "Grip Claw",
         "term": "grip claw",
         "type": "item"
     },
     {
-        "name": "Griseous Orb",
         "description": "A glowing orb to be held by Giratina. It boosts the power of Dragon- and Ghost-type moves when it is held.",
+        "name": "Griseous Orb",
         "term": "griseous orb",
         "type": "item"
     },
     {
-        "name": "Ground Gem",
         "description": "A gem with an essence of land. When held, it strengthens the power of a Ground-type move one time.",
+        "name": "Ground Gem",
         "term": "ground gem",
         "type": "item"
     },
     {
-        "name": "Ground Memory",
         "description": "A memory disc that contains Ground-type data. It changes the type of the holder if held by a certain species of Pok\u00e9mon.",
+        "name": "Ground Memory",
         "term": "ground memory",
         "type": "item"
     },
     {
-        "name": "Hard Stone",
         "description": "An item to be held by a Pok\u00e9mon. It's a durable stone that boosts the power of Rock-type moves.",
+        "name": "Hard Stone",
         "term": "hard stone",
         "type": "item"
     },
     {
-        "name": "Heat Rock",
         "description": "An item to be held by a Pok\u00e9mon. It extends the duration of the move Sunny Day when used by the holder.",
+        "name": "Heat Rock",
         "term": "heat rock",
         "type": "item"
     },
     {
-        "name": "Ice Gem",
         "description": "A gem with an essence of ice. When held, it strengthens the power of an Ice-type move one time.",
+        "name": "Ice Gem",
         "term": "ice gem",
         "type": "item"
     },
     {
-        "name": "Ice Memory",
         "description": "A memory disc that contains Ice-type data. It changes the type of the holder if held by a certain species of Pok\u00e9mon.",
+        "name": "Ice Memory",
         "term": "ice memory",
         "type": "item"
     },
     {
-        "name": "Icicle Plate",
         "description": "An item to be held by a Pok\u00e9mon. It's a stone tablet that boosts the power of Ice-type moves.",
+        "name": "Icicle Plate",
         "term": "icicle plate",
         "type": "item"
     },
     {
-        "name": "Icy Rock",
         "description": "An item to be held by a Pok\u00e9mon. It extends the duration of the move Hail when used by the holder.",
+        "name": "Icy Rock",
         "term": "icy rock",
         "type": "item"
     },
     {
-        "name": "Insect Plate",
         "description": "An item to be held by a Pok\u00e9mon. It's a stone tablet that boosts the power of Bug-type moves.",
+        "name": "Insect Plate",
         "term": "insect plate",
         "type": "item"
     },
     {
-        "name": "Iron Ball",
         "description": "An item to be held by a Pok\u00e9mon. It lowers Speed and allows Ground-type moves to hit Flying-type and levitating holders.",
+        "name": "Iron Ball",
         "term": "iron ball",
         "type": "item"
     },
     {
-        "name": "Iron Plate",
         "description": "An item to be held by a Pok\u00e9mon. It's a stone tablet that boosts the power of Steel-type moves.",
+        "name": "Iron Plate",
         "term": "iron plate",
         "type": "item"
     },
     {
-        "name": "King's Rock",
         "description": "An item to be held by a Pok\u00e9mon. When the holder successfully inflicts damage, the target may also flinch.",
+        "name": "King's Rock",
         "term": "king's rock",
         "type": "item"
     },
     {
-        "name": "Lagging Tail",
         "description": "An item to be held by a Pok\u00e9mon. It is tremendously heavy and makes the holder move slower than usual.",
+        "name": "Lagging Tail",
         "term": "lagging tail",
         "type": "item"
     },
     {
-        "name": "Lax Incense",
         "description": "An item to be held by a Pok\u00e9mon. The beguiling aroma of this incense may cause attacks to miss its holder.",
+        "name": "Lax Incense",
         "term": "lax incense",
         "type": "item"
     },
     {
-        "name": "Leftovers",
         "description": "An item to be held by a Pok\u00e9mon. The holder's HP is slowly but steadily restored throughout every battle.",
+        "name": "Leftovers",
         "term": "leftovers",
         "type": "item"
     },
     {
-        "name": "Life Orb",
         "description": "An item to be held by a Pok\u00e9mon. It boosts the power of moves, but at the cost of some HP on each hit.",
+        "name": "Life Orb",
         "term": "life orb",
         "type": "item"
     },
     {
-        "name": "Light Ball",
         "description": "An item to be held by Pikachu. It's a puzzling orb that boosts its Attack and Sp. Atk stats.",
+        "name": "Light Ball",
         "term": "light ball",
         "type": "item"
     },
     {
-        "name": "Light Clay",
         "description": "An item to be held by a Pok\u00e9mon. Protective moves like Light Screen and Reflect will be effective longer.",
+        "name": "Light Clay",
         "term": "light clay",
         "type": "item"
     },
     {
-        "name": "Luck Incense",
         "description": "An item to be held by a Pok\u00e9mon. It doubles any prize money received if the holding Pok\u00e9mon joins a battle.",
+        "name": "Luck Incense",
         "term": "luck incense",
         "type": "item"
     },
     {
-        "name": "Lucky Egg",
         "description": "An item to be held by a Pok\u00e9mon. It's an egg filled with happiness that earns extra Exp. Points in battle.",
+        "name": "Lucky Egg",
         "term": "lucky egg",
         "type": "item"
     },
     {
-        "name": "Lucky Punch",
         "description": "An item to be held by Chansey. This pair of lucky boxing gloves will boost Chansey's critical-hit ratio.",
+        "name": "Lucky Punch",
         "term": "lucky punch",
         "type": "item"
     },
     {
-        "name": "Luminous Moss",
         "description": "An item to be held by a Pok\u00e9mon. It boosts Sp. Def if hit with a Water-type attack. It can only be used once.",
+        "name": "Luminous Moss",
         "term": "luminous moss",
         "type": "item"
     },
     {
-        "name": "Lustrous Orb",
         "description": "A beautifully glowing orb to be held by Palkia. It boosts the power of Dragon- and Water-type moves when it is held.",
+        "name": "Lustrous Orb",
         "term": "lustrous orb",
         "type": "item"
     },
     {
-        "name": "Macho Brace",
         "description": "An item to be held by a Pok\u00e9mon. This stiff, heavy brace helps Pok\u00e9mon grow strong but cuts Speed in battle.",
+        "name": "Macho Brace",
         "term": "macho brace",
         "type": "item"
     },
     {
-        "name": "Magmarizer",
         "description": "A box packed with a tremendous amount of magma energy. It's loved by a certain Pok\u00e9mon.",
+        "name": "Magmarizer",
         "term": "magmarizer",
         "type": "item"
     },
     {
-        "name": "Magnet",
         "description": "An item to be held by a Pok\u00e9mon. It's a powerful magnet that boosts the power of Electric-type moves.",
+        "name": "Magnet",
         "term": "magnet",
         "type": "item"
     },
     {
-        "name": "Meadow Plate",
         "description": "An item to be held by a Pok\u00e9mon. It's a stone tablet that boosts the power of Grass-type moves.",
+        "name": "Meadow Plate",
         "term": "meadow plate",
         "type": "item"
     },
     {
-        "name": "Mental Herb",
         "description": "An item to be held by a Pok\u00e9mon. The holder shakes off move-binding effects to move freely. It can be used only once.",
+        "name": "Mental Herb",
         "term": "mental herb",
         "type": "item"
     },
     {
-        "name": "Metal Coat",
         "description": "An item to be held by a Pok\u00e9mon. It's a special metallic film that can boost the power of Steel-type moves.",
+        "name": "Metal Coat",
         "term": "metal coat",
         "type": "item"
     },
     {
-        "name": "Metal Powder",
         "description": "An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts the Defense stat.",
+        "name": "Metal Powder",
         "term": "metal powder",
         "type": "item"
     },
     {
-        "name": "Metronome",
         "description": "An item to be held by a Pok\u00e9mon. It boosts moves used consecutively, but only until a different move is used.",
+        "name": "Metronome",
         "term": "metronome",
         "type": "item"
     },
     {
-        "name": "Mind Plate",
         "description": "An item to be held by a Pok\u00e9mon. It's a stone tablet that boosts the power of Psychic-type moves.",
+        "name": "Mind Plate",
         "term": "mind plate",
         "type": "item"
     },
     {
-        "name": "Miracle Seed",
         "description": "An item to be held by a Pok\u00e9mon. It's a seed imbued with life force that boosts the power of Grass-type moves.",
+        "name": "Miracle Seed",
         "term": "miracle seed",
         "type": "item"
     },
     {
-        "name": "Misty Seed",
         "description": "An item to be held by a Pok\u00e9mon. It boosts Sp. Def on Misty Terrain. It can only be used once.",
+        "name": "Misty Seed",
         "term": "misty seed",
         "type": "item"
     },
     {
-        "name": "Muscle Band",
         "description": "An item to be held by a Pok\u00e9mon. This headband exudes strength, slightly boosting the power of physical moves.",
+        "name": "Muscle Band",
         "term": "muscle band",
         "type": "item"
     },
     {
-        "name": "Mystic Water",
         "description": "An item to be held by a Pok\u00e9mon. This teardrop-shaped gem boosts the power of Water-type moves.",
+        "name": "Mystic Water",
         "term": "mystic water",
         "type": "item"
     },
     {
-        "name": "Never-Melt Ice",
         "description": "An item to be held by a Pok\u00e9mon. It's a heat- repelling piece of ice that boosts the power of  Ice-type moves.",
+        "name": "Never-Melt Ice",
         "term": "never-melt ice",
         "type": "item"
     },
     {
-        "name": "Normal Gem",
         "description": "A gem with an ordinary essence. When held, it strengthens the power of a Normal-type move one time.",
+        "name": "Normal Gem",
         "term": "normal gem",
         "type": "item"
     },
     {
-        "name": "Odd Incense",
         "description": "An item to be held by a Pok\u00e9mon. This exotic-smelling incense boosts the power of Psychic-type moves.",
+        "name": "Odd Incense",
         "term": "odd incense",
         "type": "item"
     },
     {
-        "name": "Pink Scarf",
         "description": "An item to be held by a Pok\u00e9mon. During a contest, it raises the Cute aspect of the Pok\u00e9mon holding it.",
+        "name": "Pink Scarf",
         "term": "pink scarf",
         "type": "item"
     },
     {
-        "name": "Pixie Plate",
         "description": "An item to be held by a Pok\u00e9mon. It's a stone tablet that boosts the power of Fairy-type moves.",
+        "name": "Pixie Plate",
         "term": "pixie plate",
         "type": "item"
     },
     {
-        "name": "Poison Barb",
         "description": "An item to be held by a Pok\u00e9mon. This small, poisonous barb boosts the power of Poison-type moves.",
+        "name": "Poison Barb",
         "term": "poison barb",
         "type": "item"
     },
     {
-        "name": "Poison Gem",
         "description": "A gem with an essence of poison. When held, it strengthens the power of a Poison-type move one time.",
+        "name": "Poison Gem",
         "term": "poison gem",
         "type": "item"
     },
     {
-        "name": "Poison Memory",
         "description": "A memory disc that contains Poison-type data. It changes the type of the holder if held by a certain species of Pok\u00e9mon.",
+        "name": "Poison Memory",
         "term": "poison memory",
         "type": "item"
     },
     {
-        "name": "Power Anklet",
         "description": "An item to be held by a Pok\u00e9mon. It reduces Speed but allows the holder's Speed stat to grow more after battling.",
+        "name": "Power Anklet",
         "term": "power anklet",
         "type": "item"
     },
     {
-        "name": "Power Band",
         "description": "An item to be held by a Pok\u00e9mon. It reduces Speed but allows the holder's Sp. Def stat to grow more after battling.",
+        "name": "Power Band",
         "term": "power band",
         "type": "item"
     },
     {
-        "name": "Power Belt",
         "description": "An item to be held by a Pok\u00e9mon. It reduces Speed but allows the holder's Defense stat to grow more after battling.",
+        "name": "Power Belt",
         "term": "power belt",
         "type": "item"
     },
     {
-        "name": "Power Bracer",
         "description": "An item to be held by a Pok\u00e9mon. It reduces Speed but allows the holder's Attack stat to grow more after battling.",
+        "name": "Power Bracer",
         "term": "power bracer",
         "type": "item"
     },
     {
-        "name": "Power Herb",
         "description": "A single-use item to be held by a Pok\u00e9mon. It allows the holder to immediately use a move that normally requires a turn to charge.",
+        "name": "Power Herb",
         "term": "power herb",
         "type": "item"
     },
     {
-        "name": "Power Lens",
         "description": "An item to be held by a Pok\u00e9mon. It reduces Speed but allows the holder's Sp. Atk stat to grow more after battling.",
+        "name": "Power Lens",
         "term": "power lens",
         "type": "item"
     },
     {
-        "name": "Power Weight",
         "description": "An item to be held by a Pok\u00e9mon. It reduces Speed but allows the holder's maximum HP to grow more after battling.",
+        "name": "Power Weight",
         "term": "power weight",
         "type": "item"
     },
     {
-        "name": "Protective Pads",
         "description": "An item to be held by a Pok\u00e9mon. These pads protect the holder from effects caused by making direct contact with the target.",
+        "name": "Protective Pads",
         "term": "protective pads",
         "type": "item"
     },
     {
-        "name": "Protector",
         "description": "A protective item of some sort. It is extremely stiff and heavy. It's loved by a certain Pok\u00e9mon.",
+        "name": "Protector",
         "term": "protector",
         "type": "item"
     },
     {
-        "name": "Psychic Gem",
         "description": "A gem with an essence of the mind. When held, it strengthens the power of a Psychic-type move one time.",
+        "name": "Psychic Gem",
         "term": "psychic gem",
         "type": "item"
     },
     {
-        "name": "Psychic Memory",
         "description": "A memory disc that contains Psychic-type data. It changes the type of the holder if held by a certain species of Pok\u00e9mon.",
+        "name": "Psychic Memory",
         "term": "psychic memory",
         "type": "item"
     },
     {
-        "name": "Psychic Seed",
         "description": "An item to be held by a Pok\u00e9mon. It boosts Sp. Def on Psychic Terrain. It can only be used once.",
+        "name": "Psychic Seed",
         "term": "psychic seed",
         "type": "item"
     },
     {
-        "name": "Pure Incense",
         "description": "An item to be held by a Pok\u00e9mon. It helps keep wild Pok\u00e9mon away if the holder is the head of the party.",
+        "name": "Pure Incense",
         "term": "pure incense",
         "type": "item"
     },
     {
-        "name": "Quick Claw",
         "description": "An item to be held by a Pok\u00e9mon. This light, sharp claw lets the bearer move first occasionally.",
+        "name": "Quick Claw",
         "term": "quick claw",
         "type": "item"
     },
     {
-        "name": "Quick Powder",
         "description": "An item to be held by Ditto. Extremely fine yet hard, this odd powder boosts the Speed stat.",
+        "name": "Quick Powder",
         "term": "quick powder",
         "type": "item"
     },
     {
-        "name": "Razor Claw",
         "description": "An item to be held by a Pok\u00e9mon. This sharply hooked claw increases the holder's critical-hit ratio.",
+        "name": "Razor Claw",
         "term": "razor claw",
         "type": "item"
     },
     {
-        "name": "Razor Fang",
         "description": "An item to be held by a Pok\u00e9mon. When the holder successfully inflicts damage, the target may also flinch.",
+        "name": "Razor Fang",
         "term": "razor fang",
         "type": "item"
     },
     {
-        "name": "Reaper Cloth",
         "description": "A cloth imbued with horrifyingly strong spiritual energy. It's loved by a certain Pok\u00e9mon.",
+        "name": "Reaper Cloth",
         "term": "reaper cloth",
         "type": "item"
     },
     {
-        "name": "Red Card",
         "description": "An item to be held by a Pok\u00e9mon. When the holder is hit by an attack, the attacker is removed from battle.",
+        "name": "Red Card",
         "term": "red card",
         "type": "item"
     },
     {
-        "name": "Red Orb",
         "description": "A shiny red orb that is said to have a legend tied to it. It's known to have a deep connection with the Hoenn region.",
+        "name": "Red Orb",
         "term": "red orb",
         "type": "item"
     },
     {
-        "name": "Red Scarf",
         "description": "An item to be held by a Pok\u00e9mon. During a contest, it raises the Cool aspect of the Pok\u00e9mon holding it.",
+        "name": "Red Scarf",
         "term": "red scarf",
         "type": "item"
     },
     {
-        "name": "Ring Target",
         "description": "An item to be held by a Pok\u00e9mon. Moves that normally have no effect will land on a Pok\u00e9mon holding it.",
+        "name": "Ring Target",
         "term": "ring target",
         "type": "item"
     },
     {
-        "name": "Rock Gem",
         "description": "A gem with an essence of rock. When held, it strengthens the power of a Rock-type move one time.",
+        "name": "Rock Gem",
         "term": "rock gem",
         "type": "item"
     },
     {
-        "name": "Rock Incense",
         "description": "An item to be held by a Pok\u00e9mon. This exotic-smelling incense boosts the power of Rock-type moves.",
+        "name": "Rock Incense",
         "term": "rock incense",
         "type": "item"
     },
     {
-        "name": "Rock Memory",
         "description": "A memory disc that contains Rock-type data. It changes the type of the holder if held by a certain species of Pok\u00e9mon.",
+        "name": "Rock Memory",
         "term": "rock memory",
         "type": "item"
     },
     {
-        "name": "Rocky Helmet",
         "description": "An item to be held by a Pok\u00e9mon. If the holder is hit, the attacker will also be damaged upon contact.",
+        "name": "Rocky Helmet",
         "term": "rocky helmet",
         "type": "item"
     },
     {
-        "name": "Rose Incense",
         "description": "An item to be held by a Pok\u00e9mon. This exotic-smelling incense boosts the power of Grass-type moves.",
+        "name": "Rose Incense",
         "term": "rose incense",
         "type": "item"
     },
     {
-        "name": "Safety Goggles",
         "description": "An item to be held by a Pok\u00e9mon. These goggles protect the holder from both weather-related damage and powder.",
+        "name": "Safety Goggles",
         "term": "safety goggles",
         "type": "item"
     },
     {
-        "name": "Scope Lens",
         "description": "An item to be held by a Pok\u00e9mon. It's a lens for scoping out weak points. It boosts the holder's critical-hit ratio.",
+        "name": "Scope Lens",
         "term": "scope lens",
         "type": "item"
     },
     {
-        "name": "Sea Incense",
         "description": "An item to be held by a Pok\u00e9mon. This incense has a curious aroma that boosts the power of Water-type moves.",
+        "name": "Sea Incense",
         "term": "sea incense",
         "type": "item"
     },
     {
-        "name": "Sharp Beak",
         "description": "An item to be held by a Pok\u00e9mon. It's a long, sharp beak that boosts the power of Flying-type moves.",
+        "name": "Sharp Beak",
         "term": "sharp beak",
         "type": "item"
     },
     {
-        "name": "Shed Shell",
         "description": "An item to be held by a Pok\u00e9mon. This discarded carapace enables the holder to switch out of battle without fail.",
+        "name": "Shed Shell",
         "term": "shed shell",
         "type": "item"
     },
     {
-        "name": "Shell Bell",
         "description": "An item to be held by a Pok\u00e9mon. The holder regains a little HP every time it inflicts damage on others.",
+        "name": "Shell Bell",
         "term": "shell bell",
         "type": "item"
     },
     {
-        "name": "Shock Drive",
         "description": "A cassette to be held by Genesect. It changes Genesect's Techno Blast move so it becomes Electric type.",
+        "name": "Shock Drive",
         "term": "shock drive",
         "type": "item"
     },
     {
-        "name": "Silk Scarf",
         "description": "An item to be held by a Pok\u00e9mon. It's a sumptuous scarf that boosts the power of Normal-type moves.",
+        "name": "Silk Scarf",
         "term": "silk scarf",
         "type": "item"
     },
     {
-        "name": "SilverPowder",
         "description": "An item to be held by a Pok\u00e9mon. It's a shiny, silver powder that will boost the power of Bug-type moves.",
+        "name": "SilverPowder",
         "term": "silverpowder",
         "type": "item"
     },
     {
-        "name": "Sky Plate",
         "description": "An item to be held by a Pok\u00e9mon. It's a stone tablet that boosts the power of Flying-type moves.",
+        "name": "Sky Plate",
         "term": "sky plate",
         "type": "item"
     },
     {
-        "name": "Smoke Ball",
         "description": "An item to be held by a Pok\u00e9mon. It enables the holder to flee from any wild Pok\u00e9mon encounter without fail.",
+        "name": "Smoke Ball",
         "term": "smoke ball",
         "type": "item"
     },
     {
-        "name": "Smooth Rock",
         "description": "An item to be held by a Pok\u00e9mon. It extends the duration of the move Sandstorm when used by the holder.",
+        "name": "Smooth Rock",
         "term": "smooth rock",
         "type": "item"
     },
     {
-        "name": "Snowball",
         "description": "An item to be held by a Pok\u00e9mon. It boosts Attack if hit with an Ice-type attack. It can only be used once.",
+        "name": "Snowball",
         "term": "snowball",
         "type": "item"
     },
     {
-        "name": "Soft Sand",
         "description": "An item to be held by a Pok\u00e9mon. It's a loose, silky sand that boosts the power of Ground-type moves.",
+        "name": "Soft Sand",
         "term": "soft sand",
         "type": "item"
     },
     {
-        "name": "Soothe Bell",
         "description": "An item to be held by a Pok\u00e9mon. The comforting chime of this bell calms the holder, making it friendly.",
+        "name": "Soothe Bell",
         "term": "soothe bell",
         "type": "item"
     },
     {
-        "name": "Soul Dew",
         "description": "A wondrous orb to be held by either Latios or Latias. It raises the power of Psychic- and Dragon-type moves.",
+        "name": "Soul Dew",
         "term": "soul dew",
         "type": "item"
     },
     {
-        "name": "Spell Tag",
         "description": "An item to be held by a Pok\u00e9mon. It's a sinister, eerie tag that boosts the power of Ghost-type moves.",
+        "name": "Spell Tag",
         "term": "spell tag",
         "type": "item"
     },
     {
-        "name": "Splash Plate",
         "description": "An item to be held by a Pok\u00e9mon. It's a stone tablet that boosts the power of Water-type moves.",
+        "name": "Splash Plate",
         "term": "splash plate",
         "type": "item"
     },
     {
-        "name": "Spooky Plate",
         "description": "An item to be held by a Pok\u00e9mon. It's a stone tablet that boosts the power of Ghost-type moves.",
+        "name": "Spooky Plate",
         "term": "spooky plate",
         "type": "item"
     },
     {
-        "name": "Steel Gem",
         "description": "A gem with an essence of steel. When held, it strengthens the power of a Steel-type move one time.",
+        "name": "Steel Gem",
         "term": "steel gem",
         "type": "item"
     },
     {
-        "name": "Steel Memory",
         "description": "A memory disc that contains Steel-type data. It changes the type of the holder if held by a certain species of Pok\u00e9mon.",
+        "name": "Steel Memory",
         "term": "steel memory",
         "type": "item"
     },
     {
-        "name": "Stick",
         "description": "An item to be held by Farfetch'd. This very long and stiff stalk of leek boosts its critical-hit ratio.",
+        "name": "Stick",
         "term": "stick",
         "type": "item"
     },
     {
-        "name": "Sticky Barb",
         "description": "An item to be held by a Pok\u00e9mon. It damages the holder every turn and may latch on to Pok\u00e9mon that touch the holder.",
+        "name": "Sticky Barb",
         "term": "sticky barb",
         "type": "item"
     },
     {
-        "name": "Stone Plate",
         "description": "An item to be held by a Pok\u00e9mon. It's a stone tablet that boosts the power of Rock-type moves.",
+        "name": "Stone Plate",
         "term": "stone plate",
         "type": "item"
     },
     {
-        "name": "Terrain Extender",
         "description": "An item to be held by a Pok\u00e9mon. It extends the duration of the terrain caused by the holder's move or Ability.",
+        "name": "Terrain Extender",
         "term": "terrain extender",
         "type": "item"
     },
     {
-        "name": "Thick Club",
         "description": "An item to be held by Cubone or Marowak. It's a hard bone of some sort that boosts the Attack stat.",
+        "name": "Thick Club",
         "term": "thick club",
         "type": "item"
     },
     {
-        "name": "Toxic Orb",
         "description": "An item to be held by a Pok\u00e9mon. It's a bizarre orb that will badly poison the holder during battle.",
+        "name": "Toxic Orb",
         "term": "toxic orb",
         "type": "item"
     },
     {
-        "name": "Toxic Plate",
         "description": "An item to be held by a Pok\u00e9mon. It's a stone tablet that boosts the power of Poison-type moves.",
+        "name": "Toxic Plate",
         "term": "toxic plate",
         "type": "item"
     },
     {
-        "name": "TwistedSpoon",
         "description": "An item to be held by a Pok\u00e9mon. This spoon is imbued with telekinetic power and boosts Psychic-type moves.",
+        "name": "TwistedSpoon",
         "term": "twistedspoon",
         "type": "item"
     },
     {
-        "name": "Water Gem",
         "description": "A gem with an essence of water. When held, it strengthens the power of a Water-type move one time.",
+        "name": "Water Gem",
         "term": "water gem",
         "type": "item"
     },
     {
-        "name": "Water Memory",
         "description": "A memory disc that contains Water-type data. It changes the type of the holder if held by a certain species of Pok\u00e9mon.",
+        "name": "Water Memory",
         "term": "water memory",
         "type": "item"
     },
     {
-        "name": "Wave Incense",
         "description": "An item to be held by a Pok\u00e9mon. This incense has a curious aroma that boosts the power of Water-type moves.",
+        "name": "Wave Incense",
         "term": "wave incense",
         "type": "item"
     },
     {
-        "name": "Weakness Policy",
         "description": "An item to be held by a Pok\u00e9mon. Attack and Sp. Atk sharply increase if the holder is hit with a move it's weak to.",
+        "name": "Weakness Policy",
         "term": "weakness policy",
         "type": "item"
     },
     {
-        "name": "White Herb",
         "description": "An item to be held by a Pok\u00e9mon. It will restore any lowered stat in battle. It can be used only once.",
+        "name": "White Herb",
         "term": "white herb",
         "type": "item"
     },
     {
-        "name": "Wide Lens",
         "description": "An item to be held by a Pok\u00e9mon. It's a magnifying lens that slightly boosts the accuracy of moves.",
+        "name": "Wide Lens",
         "term": "wide lens",
         "type": "item"
     },
     {
-        "name": "Wise Glasses",
         "description": "An item to be held by a Pok\u00e9mon. This thick pair of glasses slightly boosts the power of special moves.",
+        "name": "Wise Glasses",
         "term": "wise glasses",
         "type": "item"
     },
     {
-        "name": "Yellow Scarf",
         "description": "An item to be held by a Pok\u00e9mon. During a contest, it raises the Tough aspect of the Pok\u00e9mon holding it.",
+        "name": "Yellow Scarf",
         "term": "yellow scarf",
         "type": "item"
     },
     {
-        "name": "Zap Plate",
         "description": "An item to be held by a Pok\u00e9mon. It's a stone tablet that boosts the power of Electric-type moves.",
+        "name": "Zap Plate",
         "term": "zap plate",
         "type": "item"
     },
     {
-        "name": "Zoom Lens",
         "description": "An item to be held by a Pok\u00e9mon. If the holder moves after its target moves, its accuracy will be boosted.",
+        "name": "Zoom Lens",
         "term": "zoom lens",
         "type": "item"
     },
     {
-        "name": "Calcium",
         "description": "A nutritious drink for Pok\u00e9mon. When consumed, it raises the base Sp. Atk stat of a single Pok\u00e9mon.",
+        "name": "Calcium",
         "term": "calcium",
         "type": "item"
     },
     {
-        "name": "Carbos",
         "description": "A nutritious drink for Pok\u00e9mon. When consumed, it raises the base Speed stat of a single Pok\u00e9mon.",
+        "name": "Carbos",
         "term": "carbos",
         "type": "item"
     },
     {
-        "name": "Clever Wing",
         "description": "An item for use on a Pok\u00e9mon. It slightly increases the base Sp. Def stat of a single Pok\u00e9mon.",
+        "name": "Clever Wing",
         "term": "clever wing",
         "type": "item"
     },
     {
-        "name": "Genius Wing",
         "description": "An item for use on a Pok\u00e9mon. It slightly increases the base Sp. Atk stat of a single Pok\u00e9mon.",
+        "name": "Genius Wing",
         "term": "genius wing",
         "type": "item"
     },
     {
-        "name": "HP Up",
         "description": "A nutritious drink for Pok\u00e9mon. When consumed, it raises the base HP of a single Pok\u00e9mon.",
+        "name": "HP Up",
         "term": "hp up",
         "type": "item"
     },
     {
-        "name": "Health Wing",
         "description": "An item for use on a Pok\u00e9mon. It slightly increases the base HP of a single Pok\u00e9mon.",
+        "name": "Health Wing",
         "term": "health wing",
         "type": "item"
     },
     {
-        "name": "Iron",
         "description": "A nutritious drink for Pok\u00e9mon. When consumed, it raises the base Defense stat of a single Pok\u00e9mon.",
+        "name": "Iron",
         "term": "iron",
         "type": "item"
     },
     {
-        "name": "Muscle Wing",
         "description": "An item for use on a Pok\u00e9mon. It slightly increases the base Attack stat of a single Pok\u00e9mon.",
+        "name": "Muscle Wing",
         "term": "muscle wing",
         "type": "item"
     },
     {
-        "name": "PP Max",
         "description": "A medicine that can optimally raise the maximum PP of a single move that has been learned by the target Pok\u00e9mon.",
+        "name": "PP Max",
         "term": "pp max",
         "type": "item"
     },
     {
-        "name": "PP Up",
         "description": "A medicine that can slightly raise the maximum PP of a single move that has been learned by the target Pok\u00e9mon.",
+        "name": "PP Up",
         "term": "pp up",
         "type": "item"
     },
     {
-        "name": "Protein",
         "description": "A nutritious drink for Pok\u00e9mon. When consumed, it raises the base Attack stat of a single Pok\u00e9mon.",
+        "name": "Protein",
         "term": "protein",
         "type": "item"
     },
     {
-        "name": "Rare Candy",
         "description": "A candy that is packed with energy. When consumed, it will instantly raise the level of a single Pok\u00e9mon by one.",
+        "name": "Rare Candy",
         "term": "rare candy",
         "type": "item"
     },
     {
-        "name": "Resist Wing",
         "description": "An item for use on a Pok\u00e9mon. It slightly increases the base Defense stat of a single Pok\u00e9mon.",
+        "name": "Resist Wing",
         "term": "resist wing",
         "type": "item"
     },
     {
-        "name": "Swift Wing",
         "description": "An item for use on a Pok\u00e9mon. It slightly increases the base Speed stat of a single Pok\u00e9mon.",
+        "name": "Swift Wing",
         "term": "swift wing",
         "type": "item"
     },
     {
-        "name": "Zinc",
         "description": "A nutritious drink for Pok\u00e9mon. When consumed, it raises the base Sp. Def stat of a single Pok\u00e9mon.",
+        "name": "Zinc",
         "term": "zinc",
         "type": "item"
     },
     {
-        "name": "Abomasite",
         "description": "One of a variety of mysterious Mega Stones. Have Abomasnow hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Abomasite",
         "term": "abomasite",
         "type": "item"
     },
     {
-        "name": "Absolite",
         "description": "One of a variety of mysterious Mega Stones. Have Absol hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Absolite",
         "term": "absolite",
         "type": "item"
     },
     {
-        "name": "Aerodactylite",
         "description": "One of a variety of mysterious Mega Stones. Have Aerodactyl hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Aerodactylite",
         "term": "aerodactylite",
         "type": "item"
     },
     {
-        "name": "Aggronite",
         "description": "One of a variety of mysterious Mega Stones. Have Aggron hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Aggronite",
         "term": "aggronite",
         "type": "item"
     },
     {
-        "name": "Alakazite",
         "description": "One of a variety of mysterious Mega Stones. Have Alakazam hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Alakazite",
         "term": "alakazite",
         "type": "item"
     },
     {
-        "name": "Altarianite",
         "description": "One of a variety of mysterious Mega Stones. Have Altaria hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Altarianite",
         "term": "altarianite",
         "type": "item"
     },
     {
-        "name": "Ampharosite",
         "description": "One of a variety of mysterious Mega Stones. Have Ampharos hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Ampharosite",
         "term": "ampharosite",
         "type": "item"
     },
     {
-        "name": "Audinite",
         "description": "One of a variety of mysterious Mega Stones. Have Audino hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Audinite",
         "term": "audinite",
         "type": "item"
     },
     {
-        "name": "Banettite",
         "description": "One of a variety of mysterious Mega Stones. Have Banette hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Banettite",
         "term": "banettite",
         "type": "item"
     },
     {
-        "name": "Beedrillite",
         "description": "One of a variety of mysterious Mega Stones. Have Beedrill hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Beedrillite",
         "term": "beedrillite",
         "type": "item"
     },
     {
-        "name": "Blastoisinite",
         "description": "One of a variety of mysterious Mega Stones. Have Blastoise hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Blastoisinite",
         "term": "blastoisinite",
         "type": "item"
     },
     {
-        "name": "Blazikenite",
         "description": "One of a variety of mysterious Mega Stones. Have Blaziken hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Blazikenite",
         "term": "blazikenite",
         "type": "item"
     },
     {
-        "name": "Cameruptite",
         "description": "One of a variety of mysterious Mega Stones. Have Camerupt hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Cameruptite",
         "term": "cameruptite",
         "type": "item"
     },
     {
-        "name": "Charizardite X",
         "description": "One of a variety of mysterious Mega Stones. Have Charizard hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Charizardite X",
         "term": "charizardite x",
         "type": "item"
     },
     {
-        "name": "Charizardite Y",
         "description": "One of a variety of mysterious Mega Stones. Have Charizard hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Charizardite Y",
         "term": "charizardite y",
         "type": "item"
     },
     {
-        "name": "Diancite",
         "description": "One of a variety of mysterious Mega Stones. Have Diancie hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Diancite",
         "term": "diancite",
         "type": "item"
     },
     {
-        "name": "Galladite",
         "description": "One of a variety of mysterious Mega Stones. Have Gallade hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Galladite",
         "term": "galladite",
         "type": "item"
     },
     {
-        "name": "Garchompite",
         "description": "One of a variety of mysterious Mega Stones. Have Garchomp hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Garchompite",
         "term": "garchompite",
         "type": "item"
     },
     {
-        "name": "Gardevoirite",
         "description": "One of a variety of mysterious Mega Stones. Have Gardevoir hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Gardevoirite",
         "term": "gardevoirite",
         "type": "item"
     },
     {
-        "name": "Gengarite",
         "description": "One of a variety of mysterious Mega Stones. Have Gengar hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Gengarite",
         "term": "gengarite",
         "type": "item"
     },
     {
-        "name": "Glalitite",
         "description": "One of a variety of mysterious Mega Stones. Have Glalie hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Glalitite",
         "term": "glalitite",
         "type": "item"
     },
     {
-        "name": "Gyaradosite",
         "description": "One of a variety of mysterious Mega Stones. Have Gyarados hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Gyaradosite",
         "term": "gyaradosite",
         "type": "item"
     },
     {
-        "name": "Heracronite",
         "description": "One of a variety of mysterious Mega Stones. Have Heracross hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Heracronite",
         "term": "heracronite",
         "type": "item"
     },
     {
-        "name": "Houndoominite",
         "description": "One of a variety of mysterious Mega Stones. Have Houndoom hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Houndoominite",
         "term": "houndoominite",
         "type": "item"
     },
     {
-        "name": "Kangaskhanite",
         "description": "One of a variety of mysterious Mega Stones. Have Kangaskhan hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Kangaskhanite",
         "term": "kangaskhanite",
         "type": "item"
     },
     {
-        "name": "Latiasite",
         "description": "One of a variety of mysterious Mega Stones. Have Latias hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Latiasite",
         "term": "latiasite",
         "type": "item"
     },
     {
-        "name": "Latiosite",
         "description": "One of a variety of mysterious Mega Stones. Have Latios hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Latiosite",
         "term": "latiosite",
         "type": "item"
     },
     {
-        "name": "Lopunnite",
         "description": "One of a variety of mysterious Mega Stones. Have Lopunny hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Lopunnite",
         "term": "lopunnite",
         "type": "item"
     },
     {
-        "name": "Lucarionite",
         "description": "One of a variety of mysterious Mega Stones. Have Lucario hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Lucarionite",
         "term": "lucarionite",
         "type": "item"
     },
     {
-        "name": "Manectite",
         "description": "One of a variety of mysterious Mega Stones. Have Manectric hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Manectite",
         "term": "manectite",
         "type": "item"
     },
     {
-        "name": "Mawilite",
         "description": "One of a variety of mysterious Mega Stones. Have Mawile hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Mawilite",
         "term": "mawilite",
         "type": "item"
     },
     {
-        "name": "Medichamite",
         "description": "One of a variety of mysterious Mega Stones. Have Medicham hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Medichamite",
         "term": "medichamite",
         "type": "item"
     },
     {
-        "name": "Metagrossite",
         "description": "One of a variety of mysterious Mega Stones. Have Metagross hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Metagrossite",
         "term": "metagrossite",
         "type": "item"
     },
     {
-        "name": "Mewtwonite X",
         "description": "One of a variety of mysterious Mega Stones. Have Mewtwo hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Mewtwonite X",
         "term": "mewtwonite x",
         "type": "item"
     },
     {
-        "name": "Mewtwonite Y",
         "description": "One of a variety of mysterious Mega Stones. Have Mewtwo hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Mewtwonite Y",
         "term": "mewtwonite y",
         "type": "item"
     },
     {
-        "name": "Pidgeotite",
         "description": "One of a variety of mysterious Mega Stones. Have Pidgeot hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Pidgeotite",
         "term": "pidgeotite",
         "type": "item"
     },
     {
-        "name": "Pinsirite",
         "description": "One of a variety of mysterious Mega Stones. Have Pinsir hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Pinsirite",
         "term": "pinsirite",
         "type": "item"
     },
     {
-        "name": "Sablenite",
         "description": "One of a variety of mysterious Mega Stones. Have Sableye hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Sablenite",
         "term": "sablenite",
         "type": "item"
     },
     {
-        "name": "Salamencite",
         "description": "One of a variety of mysterious Mega Stones. Have Salamence hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Salamencite",
         "term": "salamencite",
         "type": "item"
     },
     {
-        "name": "Sceptilite",
         "description": "One of a variety of mysterious Mega Stones. Have Sceptile hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Sceptilite",
         "term": "sceptilite",
         "type": "item"
     },
     {
-        "name": "Scizorite",
         "description": "One of a variety of mysterious Mega Stones. Have Scizor hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Scizorite",
         "term": "scizorite",
         "type": "item"
     },
     {
-        "name": "Sharpedonite",
         "description": "One of a variety of mysterious Mega Stones. Have Sharpedo hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Sharpedonite",
         "term": "sharpedonite",
         "type": "item"
     },
     {
-        "name": "Slowbronite",
         "description": "One of a variety of mysterious Mega Stones. Have Slowbro hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Slowbronite",
         "term": "slowbronite",
         "type": "item"
     },
     {
-        "name": "Steelixite",
         "description": "One of a variety of mysterious Mega Stones. Have Steelix hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Steelixite",
         "term": "steelixite",
         "type": "item"
     },
     {
-        "name": "Swampertite",
         "description": "One of a variety of mysterious Mega Stones. Have Swampert hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Swampertite",
         "term": "swampertite",
         "type": "item"
     },
     {
-        "name": "Tyranitarite",
         "description": "One of a variety of mysterious Mega Stones. Have Tyranitar hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Tyranitarite",
         "term": "tyranitarite",
         "type": "item"
     },
     {
-        "name": "Venusaurite",
         "description": "One of a variety of mysterious Mega Stones. Have Venusaur hold it, and this stone will enable it to Mega Evolve during battle.",
+        "name": "Venusaurite",
         "term": "venusaurite",
         "type": "item"
     },
     {
-        "name": "Aloraichium Z",
         "description": "It converts Z-Power into crystals that upgrade Alolan Raichu's Thunderbolt to an exclusive Z-Move.",
+        "name": "Aloraichium Z",
         "term": "aloraichium z",
         "type": "item"
     },
     {
-        "name": "Buginium Z",
         "description": "It converts Z-Power into crystals that upgrade Bug-type moves to Bug-type Z-Moves.",
+        "name": "Buginium Z",
         "term": "buginium z",
         "type": "item"
     },
     {
-        "name": "Darkinium Z",
         "description": "It converts Z-Power into crystals that upgrade Dark-type moves to Dark-type Z-Moves.",
+        "name": "Darkinium Z",
         "term": "darkinium z",
         "type": "item"
     },
     {
-        "name": "Decidium Z",
         "description": "It converts Z-Power into crystals that upgrade Decidueye's Spirit Shackle to an exclusive Z-Move.",
+        "name": "Decidium Z",
         "term": "decidium z",
         "type": "item"
     },
     {
-        "name": "Dragonium Z",
         "description": "It converts Z-Power into crystals that upgrade Dragon-type moves to Dragon-type Z-Moves.",
+        "name": "Dragonium Z",
         "term": "dragonium z",
         "type": "item"
     },
     {
-        "name": "Eevium Z",
         "description": "It converts Z-Power into crystals that upgrade Eevee's Last Resort to an exclusive Z-Move.",
+        "name": "Eevium Z",
         "term": "eevium z",
         "type": "item"
     },
     {
-        "name": "Electrium Z",
         "description": "It converts Z-Power into crystals that upgrade Electric-type moves to Electric-type Z-Moves.",
+        "name": "Electrium Z",
         "term": "electrium z",
         "type": "item"
     },
     {
-        "name": "Fairium Z",
         "description": "It converts Z-Power into crystals that upgrade Fairy-type moves to Fairy-type Z-Moves.",
+        "name": "Fairium Z",
         "term": "fairium z",
         "type": "item"
     },
     {
-        "name": "Fightinium Z",
         "description": "It converts Z-Power into crystals that upgrade Fighting-type moves to Fighting-type Z-Moves.",
+        "name": "Fightinium Z",
         "term": "fightinium z",
         "type": "item"
     },
     {
-        "name": "Firium Z",
         "description": "It converts Z-Power into crystals that upgrade Fire-type moves to Fire-type Z-Moves.",
+        "name": "Firium Z",
         "term": "firium z",
         "type": "item"
     },
     {
-        "name": "Flyinium Z",
         "description": "It converts Z-Power into crystals that upgrade Flying-type moves to Flying-type Z-Moves.",
+        "name": "Flyinium Z",
         "term": "flyinium z",
         "type": "item"
     },
     {
-        "name": "Ghostium Z",
         "description": "It converts Z-Power into crystals that upgrade Ghost-type moves to Ghost-type Z-Moves.",
+        "name": "Ghostium Z",
         "term": "ghostium z",
         "type": "item"
     },
     {
-        "name": "Grassium Z",
         "description": "It converts Z-Power into crystals that upgrade Grass-type moves to Grass-type Z-Moves.",
+        "name": "Grassium Z",
         "term": "grassium z",
         "type": "item"
     },
     {
-        "name": "Groundium Z",
         "description": "It converts Z-Power into crystals that upgrade Ground-type moves to Ground-type Z-Moves.",
+        "name": "Groundium Z",
         "term": "groundium z",
         "type": "item"
     },
     {
-        "name": "Icium Z",
         "description": "It converts Z-Power into crystals that upgrade Ice-type moves to Ice-type Z-Moves.",
+        "name": "Icium Z",
         "term": "icium z",
         "type": "item"
     },
     {
-        "name": "Incinium Z",
         "description": "It converts Z-Power into crystals that upgrade Incineroar's Darkest Lariat to an exclusive Z-Move.",
+        "name": "Incinium Z",
         "term": "incinium z",
         "type": "item"
     },
     {
-        "name": "Marshadium Z",
         "description": "It converts Z-Power into crystals that upgrade Marshadow's Spectral Thief to an exclusive Z-Move.",
+        "name": "Marshadium Z",
         "term": "marshadium z",
         "type": "item"
     },
     {
-        "name": "Mewnium Z",
         "description": "It converts Z-Power into crystals that upgrade Mew's Psychic to an exclusive Z-Move.",
+        "name": "Mewnium Z",
         "term": "mewnium z",
         "type": "item"
     },
     {
-        "name": "Normalium Z",
         "description": "It converts Z-Power into crystals that upgrade Normal-type moves to Normal-type Z-Moves.",
+        "name": "Normalium Z",
         "term": "normalium z",
         "type": "item"
     },
     {
-        "name": "Pikanium Z",
         "description": "It converts Z-Power into crystals that upgrade Pikachu's Volt Tackle to an exclusive Z-Move.",
+        "name": "Pikanium Z",
         "term": "pikanium z",
         "type": "item"
     },
     {
-        "name": "Pikashunium Z",
         "description": "This is a crystallized form of Z-Power. It upgrades a Thunderbolt by Pikachu in a cap to a Z-Move.",
+        "name": "Pikashunium Z",
         "term": "pikashunium z",
         "type": "item"
     },
     {
-        "name": "Poisonium Z",
         "description": "It converts Z-Power into crystals that upgrade Poison-type moves to Poison-type Z-Moves.",
+        "name": "Poisonium Z",
         "term": "poisonium z",
         "type": "item"
     },
     {
-        "name": "Primarium Z",
         "description": "It converts Z-Power into crystals that upgrade Primarina's Sparkling Aria to an exclusive Z-Move.",
+        "name": "Primarium Z",
         "term": "primarium z",
         "type": "item"
     },
     {
-        "name": "Psychium Z",
         "description": "It converts Z-Power into crystals that upgrade Psychic-type moves to Psychic-type Z-Moves.",
+        "name": "Psychium Z",
         "term": "psychium z",
         "type": "item"
     },
     {
-        "name": "Rockium Z",
         "description": "It converts Z-Power into crystals that upgrade Rock-type moves to Rock-type Z-Moves.",
+        "name": "Rockium Z",
         "term": "rockium z",
         "type": "item"
     },
     {
-        "name": "Snorlium Z",
         "description": "It converts Z-Power into crystals that upgrade Snorlax's Giga Impact to an exclusive Z-Move.",
+        "name": "Snorlium Z",
         "term": "snorlium z",
         "type": "item"
     },
     {
-        "name": "Steelium Z",
         "description": "It converts Z-Power into crystals that upgrade Steel-type moves to Steel-type Z-Moves.",
+        "name": "Steelium Z",
         "term": "steelium z",
         "type": "item"
     },
     {
-        "name": "Tapunium Z",
         "description": "It converts Z-Power into crystals that upgrade the tapu's Nature's Madness to an exclusive Z-Move.",
+        "name": "Tapunium Z",
         "term": "tapunium z",
         "type": "item"
     },
     {
-        "name": "Waterium Z",
         "description": "It converts Z-Power into crystals that upgrade Water-type moves to Water-type Z-Moves.",
+        "name": "Waterium Z",
         "term": "waterium z",
         "type": "item"
     },
     {
-        "name": "DNA Splicers",
         "description": "A splicer that fuses Kyurem and a certain Pok\u00e9mon. They are said to have been one in the beginning.",
+        "name": "DNA Splicers",
         "term": "dna splicers",
         "type": "item"
     },
     {
-        "name": "Exp. Share",
         "description": "Turning on this special device will allow all the Pok\u00e9mon on your team to receive Exp. Points from battles.",
+        "name": "Exp. Share",
         "term": "exp. share",
         "type": "item"
     },
     {
-        "name": "Enigmatic Card",
         "description": "A mysterious card. Written on it is a request for you to go to a guest room in an Akala motel on Route 8.",
+        "name": "Enigmatic Card",
         "term": "enigmatic card",
         "type": "item"
     },
     {
-        "name": "Festival Ticket",
         "description": "A ticket that allows you to host a mission in Festival Plaza.",
+        "name": "Festival Ticket",
         "term": "festival ticket",
         "type": "item"
     },
     {
-        "name": "Fishing Rod",
         "description": "A Fishing Rod made by Captain Lana. Cast a line over piles of underwater rocks to fish for wild aquatic Pok\u00e9mon.",
+        "name": "Fishing Rod",
         "term": "fishing rod",
         "type": "item"
     },
     {
-        "name": "Forage Bag",
         "description": "A bag to carry ingredients gathered during Mallow's trial in the jungle.",
+        "name": "Forage Bag",
         "term": "forage bag",
         "type": "item"
     },
     {
-        "name": "Gracidea",
         "description": "A flower sometimes bundled in bouquets to convey gratitude on special occasions like birthdays.",
+        "name": "Gracidea",
         "term": "gracidea",
         "type": "item"
     },
     {
-        "name": "Key Stone",
         "description": "A stone filled with an unexplained power. It makes Pok\u00e9mon that battle with a Mega Stone Mega Evolve.",
+        "name": "Key Stone",
         "term": "key stone",
         "type": "item"
     },
     {
-        "name": "Make-up Bag",
         "description": "A rather chic-looking case for carrying lipsticks.",
+        "name": "Make-up Bag",
         "term": "make-up bag",
         "type": "item"
     },
     {
-        "name": "Moon Flute",
         "description": "It is said that the tones it produces were offered up as an expression of gratitude to the Legendary Pok\u00e9mon of the moon.",
+        "name": "Moon Flute",
         "term": "moon flute",
         "type": "item"
     },
     {
-        "name": "Oval Charm",
         "description": "An oval charm said to increase the chance of Pok\u00e9mon Eggs being found at the Nursery.",
+        "name": "Oval Charm",
         "term": "oval charm",
         "type": "item"
     },
     {
-        "name": "Prison Bottle",
         "description": "A bottle believed to have been used to seal away the power of a certain Pok\u00e9mon long, long ago.",
+        "name": "Prison Bottle",
         "term": "prison bottle",
         "type": "item"
     },
     {
-        "name": "Professor's Mask",
         "description": "The mask that belongs to The Masked Royal.  This pro wrestler apparently sews his mask on a machine himself.",
+        "name": "Professor's Mask",
         "term": "professor's mask",
         "type": "item"
     },
     {
-        "name": "Reveal Glass",
         "description": "A looking glass that reveals the truth. It's a mysterious glass that returns a Pok\u00e9mon to its original shape.",
+        "name": "Reveal Glass",
         "term": "reveal glass",
         "type": "item"
     },
     {
-        "name": "Ride Pager",
         "description": "By entering certain numbers on this pager, you can summon Ride Pok\u00e9mon in an instant.",
+        "name": "Ride Pager",
         "term": "ride pager",
         "type": "item"
     },
     {
-        "name": "Shiny Charm",
         "description": "A shiny charm said to increase the chance of finding a Shiny Pok\u00e9mon in the wild.",
+        "name": "Shiny Charm",
         "term": "shiny charm",
         "type": "item"
     },
     {
-        "name": "Sparkling Stone",
         "description": "A stone entrusted by a Pok\u00e9mon that has been venerated as a guardian deity in the Alola region. There is said to be some secret in how it sparkles.",
+        "name": "Sparkling Stone",
         "term": "sparkling stone",
         "type": "item"
     },
     {
-        "name": "Sun Flute",
         "description": "It is said that the tones it produces were offered up as an expression of gratitude to the Legendary Pok\u00e9mon of the sun.",
+        "name": "Sun Flute",
         "term": "sun flute",
         "type": "item"
     },
     {
-        "name": "Z-Ring",
         "description": "A mysterious ring that enables Pok\u00e9mon to use Z-Power. It requires both the willpower and the physical power of the Trainer wearing it.",
+        "name": "Z-Ring",
         "term": "z-ring",
         "type": "item"
     },
     {
-        "name": "Zygarde Cube",
         "description": "An item to store Zygarde Cores and Cells. You can also use it to teach Zygarde moves.",
+        "name": "Zygarde Cube",
         "term": "zygarde cube",
+        "type": "item"
+    },
+    {
+        "description": "A pressed flower petal you receive from Lana during Mina's trial. The goal is to collect seven different kinds of petals.",
+        "name": "Blue Petal",
+        "term": "blue petal",
+        "type": "item"
+    },
+    {
+        "description": "A pressed flower petal you receive from Mallow during Mina's trial. The goal is to collect seven different kinds of petals.",
+        "name": "Green Petal",
+        "term": "green petal",
+        "type": "item"
+    },
+    {
+        "description": "The Normalium Z you were entrusted with by Ilima. You were asked to place it on the pedestal at the back of Verdant Cavern.",
+        "name": "Ilima's Normalium Z",
+        "term": "ilima's normalium z",
+        "type": "item"
+    },
+    {
+        "description": "It converts Z-Power into crystals that upgrade Kommo-o's Clanging Scales to an exclusive Z-Move.",
+        "name": "Kommonium Z",
+        "term": "kommonium z",
+        "type": "item"
+    },
+    {
+        "description": "A Pok\u00e9 Ball with a Pok\u00e9mon that lost its Trainer inside. It seems to be from Ula'ula Island.",
+        "name": "Left Poke Ball",
+        "term": "left poke ball",
+        "type": "item"
+    },
+    {
+        "description": "It converts Z-Power into crystals that upgrade Lunala's Moongeist Beam to an exclusive Z-Move.",
+        "name": "Lunalium Z",
+        "term": "lunalium z",
+        "type": "item"
+    },
+    {
+        "description": "It converts Z-Power into crystals that upgrade Lycanroc's Stone Edge to an exclusive Z-Move.",
+        "name": "Lycanium Z",
+        "term": "lycanium z",
+        "type": "item"
+    },
+    {
+        "description": "It converts Z-Power into crystals that upgrade Mimikyu's Play Rough to an exclusive Z-Move.",
+        "name": "Mimikium Z",
+        "term": "mimikium z",
+        "type": "item"
+    },
+    {
+        "description": "A machine to fuse Necrozma, which needs light, and Lunala.",
+        "name": "N-Lunarizer",
+        "term": "n-lunarizer",
+        "type": "item"
+    },
+    {
+        "description": "A machine to fuse Necrozma, which needs light, and Solgaleo.",
+        "name": "N-Solarizer",
+        "term": "n-solarizer",
+        "type": "item"
+    },
+    {
+        "description": "A pressed flower petal you receive from Ilima during Mina's trial. The goal is to collect seven different kinds of petals.",
+        "name": "Orange Petal",
+        "term": "orange petal",
+        "type": "item"
+    },
+    {
+        "description": "A pressed flower petal you receive from Mina during Mina's trial. The goal is to collect seven different kinds of petals.",
+        "name": "Pink Petal",
+        "term": "pink petal",
+        "type": "item"
+    },
+    {
+        "description": "A pressed flower petal you receive from Nanu during Mina's trial. The goal is to collect seven different kinds of petals.",
+        "name": "Purple Petal",
+        "term": "purple petal",
+        "type": "item"
+    },
+    {
+        "description": "A flower made of the petals you received from captains. It's proof that your growth has been recognized by them.",
+        "name": "Rainbow Flower",
+        "term": "rainbow flower",
+        "type": "item"
+    },
+    {
+        "description": "A pressed flower petal you receive from Kiawe during Mina's trial. The goal is to collect seven different kinds of petals.",
+        "name": "Red Petal",
+        "term": "red petal",
+        "type": "item"
+    },
+    {
+        "description": "One of the Rotom Powers. It reduces the prices of products at Pok\u00e9 Marts by half.",
+        "name": "Roto Bargain",
+        "term": "roto bargain",
+        "type": "item"
+    },
+    {
+        "description": "One of the Rotom Powers. It raises all stats of your battling Pok\u00e9mon.",
+        "name": "Roto Boost",
+        "term": "roto boost",
+        "type": "item"
+    },
+    {
+        "description": "One of the Rotom Powers. It increases the chance to catch Pok\u00e9mon a lot.",
+        "name": "Roto Catch",
+        "term": "roto catch",
+        "type": "item"
+    },
+    {
+        "description": "One of the Rotom Powers. It increases the chance of encountering high-level wild Pok\u00e9mon a lot for a certain period of time.",
+        "name": "Roto Encounter",
+        "term": "roto encounter",
+        "type": "item"
+    },
+    {
+        "description": "One of the Rotom Powers. It increases the Exp. Points your Pok\u00e9mon receive after battle a little.",
+        "name": "Roto Exp. Points",
+        "term": "roto exp. points",
+        "type": "item"
+    },
+    {
+        "description": "One of the Rotom Powers. It helps Pok\u00e9mon in your party grow friendly faster.",
+        "name": "Roto Friendship",
+        "term": "roto friendship",
+        "type": "item"
+    },
+    {
+        "description": "One of the Rotom Powers. It fully restores the HP of your battling Pok\u00e9mon.",
+        "name": "Roto HP Restore",
+        "term": "roto hp restore",
+        "type": "item"
+    },
+    {
+        "description": "One of the Rotom Powers. It helps Eggs hatch faster.",
+        "name": "Roto Hatch",
+        "term": "roto hatch",
+        "type": "item"
+    },
+    {
+        "description": "One of the Rotom Powers. It fully restores the PP of your battling Pok\u00e9mon.",
+        "name": "Roto PP Restore",
+        "term": "roto pp restore",
+        "type": "item"
+    },
+    {
+        "description": "One of the Rotom Powers. It triples the prize money you receive after battle.",
+        "name": "Roto Prize Money",
+        "term": "roto prize money",
+        "type": "item"
+    },
+    {
+        "description": "One of the Rotom Powers. It prevents you from encountering wild Pok\u00e9mon for a certain period of time.",
+        "name": "Roto Stealth",
+        "term": "roto stealth",
+        "type": "item"
+    },
+    {
+        "description": "It converts Z-Power into crystals that upgrade Solgaleo's Sunsteel Strike to an exclusive Z-Move.",
+        "name": "Solganium Z",
+        "term": "solganium z",
+        "type": "item"
+    },
+    {
+        "description": "A novelty badge that you can receive at the Kantonian Gym. Rumor has it that it imitates the Badge of a Gym somewhere.",
+        "name": "Surge Badge",
+        "term": "surge badge",
+        "type": "item"
+    },
+    {
+        "description": "It's a crystal that turns Necrozma fused with Solgaleo or Lunala into a new form.",
+        "name": "Ultranecrozium Z",
+        "term": "ultranecrozium z",
+        "type": "item"
+    },
+    {
+        "description": "A pressed flower petal you receive from Sophocles during Mina's trial. The goal is to collect seven different kinds of petals.",
+        "name": "Yellow Petal",
+        "term": "yellow petal",
+        "type": "item"
+    },
+    {
+        "description": "A mysterious ring that enables Pok\u00e9mon to use Z-Power. It requires both the willpower and the physical power of the Trainer wearing it.",
+        "name": "Z-Power Ring",
+        "term": "z-power ring",
         "type": "item"
     }
 ]
