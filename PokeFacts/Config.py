@@ -27,9 +27,10 @@ APP_SECRET      = Secrets.APP_SECRET
 # ---------------------
 
 DEVELOPERS      = "/u/kwwxis, /u/Haruka-sama"
-VERSION         = "1.0.0"
+VERSION         = "1.0.1"
 DESCRIPTION     = "Responds to specific text in pokemon subreddits with a response"
 USERAGENT       = USERNAME + ":" + DESCRIPTION + " v" + VERSION + " by " + DEVELOPERS
+DSN             = "https://103153c555104b6695bc06dc10252c62:ffa3fc21a9ed48aaad63b3109f329fec@sentry.io/1197206"
 
 # OPERATOR CONFIG
 # ---------------

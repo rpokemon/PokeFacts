@@ -42,7 +42,7 @@ try:
     from layer7_utilities import Logger
 except ImportError:
     class Logger():
-        def __init__(self, botname, botversion):
+        def __init__(self, DSN, botname, botversion):
             self.botname = botname
             self.botversion = botversion
         def info(self, msg):
@@ -64,7 +64,7 @@ class CallResponse():
         self.startTime  = time.time()
         self.scriptfile = os.path.abspath(__file__)
         self.scriptpath = os.path.dirname(self.scriptfile)
-        self.logger     = Logger(Config.USERNAME, Config.VERSION)
+        self.logger     = Logger(DSN, Config.USERNAME, Config.VERSION)
         
         self.logger.info('Bot started, initializing...')
         self.r = Config.reddit() if reddit is None else reddit
