@@ -64,7 +64,7 @@ class CallResponse():
         self.startTime  = time.time()
         self.scriptfile = os.path.abspath(__file__)
         self.scriptpath = os.path.dirname(self.scriptfile)
-        self.logger     = Logger(DSN, Config.USERNAME, Config.VERSION)
+        self.logger     = Logger(Config.DSN, Config.USERNAME, Config.VERSION)
         
         self.logger.info('Bot started, initializing...')
         self.r = Config.reddit() if reddit is None else reddit
