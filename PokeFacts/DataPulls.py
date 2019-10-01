@@ -52,7 +52,7 @@ class DataPulls():
             for file in config.DATA_SYNONYM_FILES:
                 file = self.scriptpath + '/' + file.lstrip('/')
                 with codecs.open(file, "r", "utf-8") as data_file:
-                    self.store.addSynonyms(json.load(data_file))
+                    self.store.add_synonyms(json.load(data_file))
 
     # get_info - returns information for the given identifier
     # the result of this function will be used as the elements
@@ -174,11 +174,11 @@ class ItemStore():
 
     def add_synonyms(self, synonyms):
         for old_word, new_word in synonyms.items():
-            self.addSynonym(old_word, new_word)
+            self.add_synonym(old_word, new_word)
 
     # only works with single words, not phrases
     def add_synonym(self, old_word, new_word):
-        self.index.addSynonym(old_word, new_word)
+        self.index.add_synonym(old_word, new_word)
 
 
 class ItemCluster():
