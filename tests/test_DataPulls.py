@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 
-import codecs, json
-from PokeFacts import DataPulls
+import codecs
+import json
+from pokefacts import datapulls
+
 
 class TestDataPulls(object):
     def test_ItemStore(self):
-        store = DataPulls.ItemStore({'term_property': 'term'})
+        store = datapulls.ItemStore({'term_property': 'term'})
 
         with codecs.open('tests/test_data.json', "r", "utf-8") as data_file:
-            store.addItems(json.load(data_file))
+            store.add_items(json.load(data_file))
 
         assert store.search("charizard").get()['placeholder'] == 1
         assert store.search("charzard").get()['placeholder'] == 1
@@ -19,5 +21,5 @@ class TestDataPulls(object):
         assert store.search("venusaur mega").get()['placeholder'] == 4
         assert store.search("bulbasaur").get()['placeholder'] == 5
         assert store.search("bulbsaur").get('placeholder') == 5
-        
-        assert store.search("foobar").isEmpty() == True
+
+        assert store.search("foobar").is_empty()

@@ -59,8 +59,8 @@ The moderators of /r/pokemon!
 
 ### Correcting errata/missing information
 
-The information used by bot are located in `PokeFacts/data/pokemon.json`,
-`PokeFacts/data/items.json`, `PokeFacts/data/moves.json`, and `PokeFacts/data/abilities.json`.
+The information used by bot are located in `pokefacts/data/pokemon.json`,
+`pokefacts/data/items.json`, `pokefacts/data/moves.json`, and `pokefacts/data/abilities.json`.
 Feel free to submit a pull request if you know how, or otherwise submit an issue
 or [modmail us on Reddit](https://www.reddit.com/message/compose?to=%2Fr%2Fpokemon).
 
@@ -68,14 +68,14 @@ or [modmail us on Reddit](https://www.reddit.com/message/compose?to=%2Fr%2Fpokem
 
 Requires PRAW, Python 3, and psutil. Using the latest versions is recommended.
 If you'd like to test it out for yourself, you'll need to configure the
-`PokeFacts/Config.py` and create a `PokeFacts/Secrets.py` file containing
+`pokefacts/config.py` and create a `pokefacts/secrets.py` file containing
 two variables: `PASSWORD` and `APP_SECRET` which are respectively the reddit
 account password and OAuth app secret.
 
 If you'd like to modify the code to use for your own subreddit, the only
-files you need to change are `PokeFacts/Responder.py` and `PokeFacts/Config.py`.
-The rest of the code is pretty general. The `Responder.py` file only needs the
-`getResponse(item, is_last)` function where 'item' is a DataPulls.Item object.
+files you need to change are `pokefacts/responder.py` and `pokefacts/config.py`.
+The rest of the code is pretty general. The `responder.py` file only needs the
+`get_response(item, is_last)` function where 'item' is a DataPulls.Item object.
 
 ### Testing
 

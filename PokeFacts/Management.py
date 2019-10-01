@@ -7,6 +7,7 @@ import psutil
 import signal
 import traceback
 
+
 class Management():
 
     def __init__(self, main):
@@ -14,13 +15,14 @@ class Management():
 
     # If a reddit user whose username is in the Config.OPERATORS list
     # sends a private message to the bot, this method will be called.
-    def processOperatorCommand(self, operator, subject, body):
-        self.main.logger.info('Got operator command from ' + str(operator) + ': ' + subject)
+    def process_operator_command(self, operator, subject, body):
+        self.main.logger.info('Got operator command from ' +
+                              str(operator) + ': ' + subject)
 
         operator_commands = {
-            "ReloadData":       self.bot_reloadData,
-            "ReloadConfig":     self.bot_reloadConfig,
-            "ClearDoneQueue":   self.bot_clearDoneQueue,
+            "ReloadData":       self.bot_reload_data,
+            "ReloadConfig":     self.bot_reload_config,
+            "ClearDoneQueue":   self.bot_clear_done_queue,
             "BotShutdown":      self.bot_shutdown,
             "BotRestart":       self.bot_restart,
         }
@@ -30,9 +32,9 @@ class Management():
             else:
                 return "Command execution failed."
         except KeyError:
-            return False            
+            return False
 
-    def bot_reloadData(self):
+    def bot_reload_data(self):
         try:
             self.main.logger.info('Reloading data...')
             self.main.data.reload()
@@ -41,22 +43,22 @@ class Management():
         except IOError:
             return False
 
-    def bot_reloadConfig(self):
+    def bot_reload_config(self):
         try:
-            self.main.reloadConfig()
+            self.main.reload_config()
             self.main.logger.info('Config reloaded.')
             return True
         except IOError:
             return False
 
-    def bot_clearDoneQueue(self):
+    def bot_clear_done_queue(self):
         self.main.done = {}
         return True
 
     def bot_shutdown(self):
         sys.exit(0)
 
-    def bot_isNohupMode(self):
+    def bot_is_nohup_mode(self):
         if hasattr(signal, 'SIGHUP'):
             if signal.getsignal(signal.SIGHUP) == signal.SIG_DFL:  # default action
                 is_nohup = False
@@ -75,8 +77,9 @@ class Management():
                 if not handler.fd == -1:
                     os.close(handler.fd)
             self.main.logger.info('All open files and connections closed')
-        except:
-            self.main.logger.info('Failed to restart - could not close resources')
+        except Exception:
+            self.main.logger.info(
+                'Failed to restart - could not close resources')
             traceback.print_exc()
             return False
 
@@ -89,15 +92,16 @@ class Management():
         # if the current script was originally run in nohup mode, that'll carry over
         try:
             self.main.logger.info('Restarting...')
-            os.execl(sys.executable, sys.executable, self.main.scriptfile, *sys.argv[1:])
+            os.execl(sys.executable, sys.executable,
+                     self.main.scriptfile, *sys.argv[1:])
             return True
         except OSError:
             self.main.logger.info('Failed to restart - OSError')
             traceback.print_exc()
             return False
-    
+
     # does the bot mod with at least 'posts' perms?
-    def bot_isModerator(self, subreddit):
+    def bot_is_moderator(self, subreddit):
         if type(subreddit) == praw.models.reddit.subreddit.Subreddit:
             subreddit = subreddit.display_name
         return subreddit.lower() in self.main.srmodnames
