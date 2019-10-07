@@ -3,7 +3,6 @@
 import os
 import subprocess
 import glob
-import sys
 
 python_files = []
 for filename in glob.iglob('PokeFacts/**/*.py', recursive=True):
@@ -12,6 +11,7 @@ for filename in glob.iglob('PokeFacts/**/*.py', recursive=True):
 script_dir = os.path.dirname(os.path.abspath(__file__))
 print("# Directory", script_dir)
 
+
 def run_command(cmd):
     print("# Running:", cmd)
     subprocess.call(
@@ -19,6 +19,7 @@ def run_command(cmd):
         shell=True,
         cwd=script_dir)
 
+
 if any(python_files):
-    run_command("pyflakes " + (" ".join(python_files)))
-run_command("pytest -v")
+    run_command("python -m pyflakes " + (" ".join(python_files)))
+run_command("python -m pytest -v")

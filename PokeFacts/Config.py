@@ -11,37 +11,38 @@ import sys
 import praw
 
 try:
-    from PokeFacts import Secrets
+    from . import Secrets
 except ImportError:
     import Secrets
 
 # APPLICATION AUTH
 # ----------------
 
-USERNAME        = "PokeFacts" # case matters!
-PASSWORD        = Secrets.PASSWORD
-APP_ID          = "9RiijpOogYO53A"
-APP_SECRET      = Secrets.APP_SECRET
+USERNAME = "PokeFacts"  # case matters!
+PASSWORD = Secrets.PASSWORD
+APP_ID = "9RiijpOogYO53A"
+APP_SECRET = Secrets.APP_SECRET
 
 # APPLICATION META INFO
 # ---------------------
 
-DEVELOPERS      = "/u/kwwxis, /u/Haruka-sama"
-VERSION         = "1.0.1"
-DESCRIPTION     = "Responds to specific text in pokemon subreddits with a response"
-USERAGENT       = USERNAME + ":" + DESCRIPTION + " v" + VERSION + " by " + DEVELOPERS
-DSN             = "https://103153c555104b6695bc06dc10252c62:ffa3fc21a9ed48aaad63b3109f329fec@sentry.io/1197206"
+DEVELOPERS = "/u/kwwxis, /u/Haruka-sama"
+VERSION = "1.0.1"
+DESCRIPTION = "Responds to specific text in pokemon subreddits with a response"
+USERAGENT = USERNAME + ":" + DESCRIPTION + " v" + VERSION + " by " + DEVELOPERS
+DSN = "https://103153c555104b6695bc06dc10252c62:ffa3fc21a9ed48aaad63b3109f329fec@sentry.io/1197206"
 
 # OPERATOR CONFIG
 # ---------------
 
-OPERATORS = ["kwwxis", "Haruka-sama", "bigslothonmyface", "technophonix1", "D0cR3d", "thirdegree"]
+OPERATORS = ["kwwxis", "Haruka-sama", "bigslothonmyface",
+             "technophonix1", "D0cR3d", "thirdegree"]
 
 # RESPONDER CONFIG
 # ----------------
 
 # list of subreddits the bot is allowed to operate on (case matters!)
-SUBREDDITS      = ["pokemon", "PokemonMods"]
+SUBREDDITS = ["pokemon", "PokemonMods"]
 
 # should check comments?
 RESPONDER_CHECK_COMMENTS = True
@@ -68,7 +69,8 @@ IDENTIFIER_SANITIZE = r"[^A-Za-z0-9 ]"
 # DATAPULLS CONFIG
 # ----------------
 
-DATA_FILES = ['/data/pokemon.json', '/data/items.json', '/data/moves.json', '/data/abilities.json'] # list of json files for responder to search with
+DATA_FILES = ['/data/pokemon.json', '/data/items.json', '/data/moves.json',
+              '/data/abilities.json']  # list of json files for responder to search with
 DATA_SYNONYM_FILES = ['/data/synonyms.json']
 DATA_CONF = {
     # defines which item property to use for the 'type' field
@@ -96,8 +98,8 @@ DATA_USE_SYMSPELL = True
 # ---------------
 
 REPLY_TEMPLATE_FILE = "/data/response.txt"
-REPLY_SHOULD_STICKY = False # should sticky comment if reply is top level?
-REPLY_SHOULD_DISTINGUISH = False # should distinguish comment?
+REPLY_SHOULD_STICKY = False  # should sticky comment if reply is top level?
+REPLY_SHOULD_DISTINGUISH = False  # should distinguish comment?
 
 # MATCH STRING
 # ------------
@@ -112,32 +114,37 @@ REPLY_SHOULD_DISTINGUISH = False # should distinguish comment?
 #   not   ['{', '<'] and ['>', '}']
 
 # you can change these
-MATCH_PAIR_PREFIXES         = ['{', '<']
-MATCH_PAIR_SUFFIXES         = ['}', '>']
-MATCH_PAIR_VALUE            = r"[A-Za-zÀ-ÿ0-9\'\-\. ]+"
-MATCH_STANDALONE_PREFIXES   = ['!']
-MATCH_STANDALONE_VALUE      = r"[A-Za-zÀ-ÿ0-9\'\-]+"
+MATCH_PAIR_PREFIXES = ['{', '<']
+MATCH_PAIR_SUFFIXES = ['}', '>']
+MATCH_PAIR_VALUE = r"[A-Za-zÀ-ÿ0-9\'\-\. ]+"
+MATCH_STANDALONE_PREFIXES = ['!']
+MATCH_STANDALONE_VALUE = r"[A-Za-zÀ-ÿ0-9\'\-]+"
 
 # DO NOT CHANGE ANYTHING BELOW THIS LINE
 # --------------------------------------
-MATCH_STRING  = ''
-MATCH_STRING += '(' + '|'.join(re.escape(item) for item in MATCH_PAIR_PREFIXES) + ')'
+MATCH_STRING = ''
+MATCH_STRING += '(' + '|'.join(re.escape(item)
+                               for item in MATCH_PAIR_PREFIXES) + ')'
 MATCH_STRING += MATCH_PAIR_VALUE
-MATCH_STRING += '(' + '|'.join(re.escape(item) for item in MATCH_PAIR_SUFFIXES) + ')'
+MATCH_STRING += '(' + '|'.join(re.escape(item)
+                               for item in MATCH_PAIR_SUFFIXES) + ')'
 MATCH_STRING += '|'
 MATCH_STRING += r"(?:^|\s+)"
-MATCH_STRING += '(' + '|'.join(re.escape(item) for item in MATCH_STANDALONE_PREFIXES) + ')'
+MATCH_STRING += '(' + '|'.join(re.escape(item)
+                               for item in MATCH_STANDALONE_PREFIXES) + ')'
 MATCH_STRING += MATCH_STANDALONE_VALUE
 if not type(SUBREDDITS) == list or len(SUBREDDITS) == 0 or "all" in SUBREDDITS:
     print("Invalid Configuration!")
     sys.exit(0)
 REDDIT = None
+
+
 def reddit():
     global REDDIT
     if REDDIT is None:
-        REDDIT = praw.Reddit(user_agent      = USERAGENT,
-                             client_id       = APP_ID,
-                             client_secret   = APP_SECRET,
-                             username        = USERNAME,
-                             password        = PASSWORD)
+        REDDIT = praw.Reddit(user_agent=USERAGENT,
+                             client_id=APP_ID,
+                             client_secret=APP_SECRET,
+                             username=USERNAME,
+                             password=PASSWORD)
     return REDDIT
